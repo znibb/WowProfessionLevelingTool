@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.server.label }}: {{ form.server() }}
+            {{ form.profession.label }}: {{ form.profession() }}
+            {{ form.startSkill.label }}: {{ form.startSkill(size=2) }}
+            {% for error in form.startSkill.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+            {{ form.targetSkill.label }}: {{ form.targetSkill(size=2) }}
+            {% for error in form.targetSkill.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+            {{ form.calculate() }}
+        </p>
+    </form>
+{% endblock %}

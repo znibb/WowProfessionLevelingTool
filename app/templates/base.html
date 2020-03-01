@@ -1,0 +1,17 @@
+<html>
+    <head>
+      <title>{{ title.short }}</title>
+    </head>
+    <body>
+        <h1>{{ title.long }} by {{ author.username }} on {{ author.server }}</h1>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                {{ message }}
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
