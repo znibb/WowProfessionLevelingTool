@@ -98,6 +98,9 @@ class UserInputForm(FlaskForm):
     server = SelectField(u'Server',
         default='EU-Noggenfogger',
         choices=[(server, server) for server in servers])
+    faction = SelectField(u'Faction',
+        default='Horde',
+        choices=[('Alliance', 'Alliance'), ('Horde', "Horde")])
     profession = SelectField(u'Profession',
         choices=[(profession, profession) for profession in professions])
     startSkill = IntegerField(u'Starting skill',

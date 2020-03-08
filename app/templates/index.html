@@ -5,6 +5,7 @@
         {{ form.hidden_tag() }}
         <p>
             {{ form.server.label }}: {{ form.server() }}
+            {{ form.faction.label }}: {{ form.faction() }}
             {{ form.profession.label }}: {{ form.profession() }}
             {{ form.startSkill.label }}: {{ form.startSkill(size=2) }}
             {% for error in form.startSkill.errors %}

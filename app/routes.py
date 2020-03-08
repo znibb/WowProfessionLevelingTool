@@ -19,10 +19,12 @@ def index():
     
     if not session.get("server") is None:
         form.server.data=session.get("server")
+        form.faction.data=session.get("faction")
         form.profession.data=session.get("profession")
         form.startSkill.data=session.get("startSkill")
         form.targetSkill.data=session.get("targetSkill")
         session.pop("server", None)
+        session.pop("faction", None)
         session.pop("profession", None)
         session.pop("startSkill", None)
         session.pop("targetSkill", None)
@@ -31,9 +33,10 @@ def index():
     if form.validate_on_submit():
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
-        flash('{}: Calculated for {} - {} - {} - {}'.format(current_time,
-            form.server.data, form.profession.data, form.startSkill.data, form.targetSkill.data))
+        flash('{}: Calculated for {} - {} - {} - {} - {}'.format(current_time,
+            form.server.data, form.faction.data, form.profession.data, form.startSkill.data, form.targetSkill.data))
         session["server"] = form.server.data
+        session["faction"] = form.faction.data
         session["profession"] = form.profession.data
         session["startSkill"] = form.startSkill.data
         session["targetSkill"] = form.targetSkill.data
