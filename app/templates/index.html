@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block userInput %}
+{% block index %}
     <form action="" method="post" novalidate>
         {{ form.hidden_tag() }}
         <p>
@@ -18,9 +18,5 @@
             {{ form.calculate() }}
         </p>
     </form>
+    {% block results%}{% endblock %}
 {% endblock %}
-
-{% block results %}
-    Hello world!
-{% endblock %}
-
