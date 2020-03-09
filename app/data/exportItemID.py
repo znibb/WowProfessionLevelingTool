@@ -56,7 +56,8 @@ items = {
     "Sharp Claw": 5635,
     "Grave Moss": 3369,
     "Stonescale Eel": 13422,
-    "Wildvine": 8153
+    "Wildvine": 8153,
+    "Arthas Tears": 8836
 }
 
 

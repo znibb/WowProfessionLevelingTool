@@ -769,7 +769,7 @@ recipes = {
         "Grey":     225,
         "Source":   "Trainer",
         "Reagents": {
-            "Fadeleaft": 1,
+            "Fadeleaf": 1,
             "Wild Steelbloom": 1,
             "Leaded Vial": 1
         }
@@ -1172,7 +1172,7 @@ recipes = {
         "Grey":     280,
         "Source":   "Drop",
         "Reagents": {
-            "Wildwine": 1,
+            "Wildvine": 1,
             "Purple Lotus": 1,
             "Crystal Vial": 1
         }
