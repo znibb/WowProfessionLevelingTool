@@ -65,11 +65,17 @@ def results():
 
         return redirect(url_for('results'))
 
+    # Main program logic
     recipes = importRecipes(form.profession.data, form.startSkill.data)
-    outputDict = getReagentPrices(recipes, form.server.data, form.faction.data)
+    reagentPrices = getReagentPrices(recipes, form.server.data, form.faction.data)
+    recipePrices = calculateRecipePrices(recipes, reagentPrices)
+
+    output = dict()
+    for recipe, price in recipePrices.items():
+        output[recipe] = prettyPrintPrice(price)
 
     return render_template('results.html',
         title=title,
         author=author,
         form=form,
-        output=outputDict)
+        output=output)

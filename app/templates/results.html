@@ -3,14 +3,14 @@
 {% block results %}
     <table class="centered thick-border">
         <tr>
-            <th>Reagent</th>
-            <th>Price (c)</th>
+            <th align="left">Reagent</th>
+            <th align="right">Price</th>
         </tr>
         {% if output.items is defined %}
             {% for key, value in output.items() %}
                 <tr>
                     <td>{{ key }}</td>
-                    <td>{{ value }}</td>
+                    <td align="right">{{ value }}</td>
                 </tr>
             {% endfor %}
         {% endif %}
