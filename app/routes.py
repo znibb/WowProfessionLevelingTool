@@ -65,17 +65,69 @@ def results():
 
         return redirect(url_for('results'))
 
-    # Main program logic
-    recipes = importRecipes(form.profession.data, form.startSkill.data)
+    ##########################
+    ### Main program logic ###
+    ##########################
+
+    # Collect required data
+    recipes = importRecipes(form.profession.data, form.startSkill.data, form.targetSkill.data)
     reagentPrices = getReagentPrices(recipes, form.server.data, form.faction.data)
     recipePrices = calculateRecipePrices(recipes, reagentPrices)
+    currentSkill = form.startSkill.data
+    targetSkill = form.targetSkill.data
 
-    output = dict()
-    for recipe, price in recipePrices.items():
-        output[recipe] = prettyPrintPrice(price)
+    # Initialize outputs
+    craftList = dict()
+    reagentsToBuy = dict()
+
+    while(True):
+        # Break the loop if we're at the target skill
+        if currentSkill == targetSkill:
+            break
+
+        # Remove recipes that we've out-levelled
+        temp = recipes.copy()
+        for name, info in temp.items():
+            if info["Yellow"] <= currentSkill:
+                recipes.pop(name)
+
+        # Determine next craft
+        bestCraft = getCheapestSkillingRecipe(recipes, recipePrices, currentSkill)
+
+        # Update craft list
+        # Check if this is the first entry
+        if not bool(craftList):
+            craftList[1] = {"Start": currentSkill, "Count": 1, "Recipe": bestCraft, "Cost": prettyPrintPrice(recipePrices[bestCraft])}
+        else:
+            # Get index of the last entry
+            lastIndex = list(craftList.keys())[-1]
+            # If this craft is the same as the last one
+            if craftList[lastIndex]["Recipe"] == bestCraft:
+                # Increment the count
+                craftList[lastIndex]["Count"] += 1
+            # If it's a new one
+            else:
+                # Create a new entry
+                craftList[lastIndex+1] = {"Start": currentSkill, "Count": 1, "Recipe": bestCraft, "Cost": prettyPrintPrice(recipePrices[bestCraft])}
+
+        # Add reagents for the chosen recipe to the purchase list
+        for reagent, amount in recipes[bestCraft]["Reagents"].items():
+            if reagent in reagentsToBuy:
+                reagentsToBuy[reagent]["Amount"] += amount
+            else:
+                reagentsToBuy[reagent] = dict()
+                reagentsToBuy[reagent]["Amount"] = amount
+                reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentPrices[reagent])
+        
+        # Increment skill
+        currentSkill += 1
+    
+    totalCost = prettyPrintPrice(calculateTotalCost(reagentsToBuy, reagentPrices))
 
     return render_template('results.html',
         title=title,
         author=author,
         form=form,
-        output=output)
+        craftList=craftList,
+        reagents=reagentsToBuy,
+        totalCost=totalCost)

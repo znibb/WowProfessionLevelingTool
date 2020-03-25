@@ -15,6 +15,25 @@ def calculateRecipePrices(recipes, prices):
     
     return recipePriceDict
 
+def calculateTotalCost(reagents, prices):
+    totalCost = 0
+    for reagent, info in reagents.items():
+        totalCost += info["Amount"]*prices[reagent]
+
+    return totalCost
+
+def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill):
+    cost = 999999 # arbitrary large number
+    candidate = ''
+
+    for name, info in recipes.items():
+        if info["Learn"] <= currentSkill:
+            if recipePrices[name] < cost:
+                candidate = name
+                cost = recipePrices[name]
+
+    return candidate
+    
 def getReagentPrices(recipes, server, faction):
     # Import translation table for item name to ID
     with open("app/data/itemID.json", 'r') as f:
@@ -33,11 +52,14 @@ def getReagentPrices(recipes, server, faction):
         requestUrl = serverUrl + str(itemID[reagent])
         response = requests.get(requestUrl)
         responseJson = response.json()
-        reagentPriceDict[reagent] = responseJson["stats"]["current"]["marketValue"]
+        if responseJson["vendorPrice"] == None:
+            reagentPriceDict[reagent] = responseJson["stats"]["current"]["marketValue"]
+        else:
+            reagentPriceDict[reagent] = responseJson["vendorPrice"]
 
     return reagentPriceDict
 
-def importRecipes(profession, skillLevel):
+def importRecipes(profession, startSkill, targetSkill):
     # Import apropriate list of recipes
     '''
     if profession is "Alchemy":
@@ -52,7 +74,7 @@ def importRecipes(profession, skillLevel):
     # Remove recipes that we've already out-levelled
     temp = recipes.copy()
     for name, info in temp.items():
-        if info["Yellow"] <= skillLevel:
+        if info["Yellow"] <= startSkill:
             recipes.pop(name)
     
     # Remove recipes from upcoming phases
@@ -60,6 +82,14 @@ def importRecipes(profession, skillLevel):
     for name, info in temp.items():
         if not "Learn" in info:
             recipes.pop(name)
+
+    # Remove recipes that are learned past our target skill
+    temp = recipes.copy()
+    for name, info in temp.items():
+        if info["Learn"] >= targetSkill:
+            recipes.pop(name)
+
+    
     
     # Return dictionary with all relevant recipes
     return recipes
@@ -72,9 +102,9 @@ def prettyPrintPrice(price):
     result = ''
     if not gold:
         if not silver:
-            result = "{:02}c".format(copper)
+            result = "{}c".format(copper)
         else:
-            result = "{:2}s{:02}c".format(silver, copper)
+            result = "{}s{:02}c".format(silver, copper)
     else:
         result = "{}g{:02}s{:02}c".format(gold, silver, copper)
     

@@ -1,19 +1,48 @@
 {% extends "index.html" %}
 
 {% block results %}
+    <h1>Craft list:</h1>
+    <table class="centered thick-border">
+        <tr>
+            <th align="right">Step</th>
+            <th align="right">From</th>
+            <th align="right">To</th>
+            <th align="left">Amount</th>
+            <th align="left">Recipe</th>
+            <th align="right">á</th>
+        </tr>
+        {% if craftList.items is defined %}
+            {% for index, data in craftList.items() %}
+                <tr>
+                    <td align=right>{{ index }}</td>
+                    <td align=right>{{ data["Start"] }}</td>
+                    <td align=right>{{ data["Start"] + data["Count"] }}</td>
+                    <td align=right>{{ data["Count"] }}</td>
+                    <td align=left>{{ data["Recipe"] }}</td>
+                    <td align=right>{{ data["Cost"] }}</td>
+                </tr>
+            {% endfor %}    
+        {% endif %}        
+    </table>
+
+    <h1>Reagents to buy:</h1>
     <table class="centered thick-border">
         <tr>
             <th align="left">Reagent</th>
-            <th align="right">Price</th>
+            <th align="right">Amount</th>
+            <th align="right">Price per unit</th>
         </tr>
-        {% if output.items is defined %}
-            {% for key, value in output.items() %}
+        {% if reagents.items is defined %}
+            {% for reagent, info in reagents.items() %}
                 <tr>
-                    <td>{{ key }}</td>
-                    <td align="right">{{ value }}</td>
+                    <td>{{ reagent }}</td>
+                    <td align="right">{{ info["Amount"] }}</td>
+                    <td align="right">{{ info["PPU"] }}</td>
                 </tr>
             {% endfor %}
         {% endif %}
     </table>
-    Hello world!
+
+    <h1>Total cost:</h1>
+    {{ totalCost }}
 {% endblock %}
