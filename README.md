@@ -9,3 +9,4 @@ WIP...
 5. Check for current AH stock
 6. Display oldest price data used
 7. Discern between armor- and weaponsmithing only recipes
+8. Check if reagent has already been crafted before buying
