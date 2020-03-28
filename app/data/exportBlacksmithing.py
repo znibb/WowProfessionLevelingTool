@@ -220,7 +220,7 @@ recipes = {
         "Reagents": {
             "Bronze Bar": 6,
             "Weak Flux": 4,
-			"Medium Flux": 1
+			"Medium Leather": 1
         }
     },
     "Bronze Shortsword": {
@@ -233,7 +233,7 @@ recipes = {
         "Reagents": {
             "Bronze Bar": 5,
             "Weak Flux": 4,
-			"Medium Bar": 2
+			"Medium Leather": 2
         }
     },
     "Bronze Warhammer": {
@@ -485,7 +485,7 @@ recipes = {
         "Source":   "Drop",
         "Reagents": {
             "Dark Iron Bar": 18,
-            "Heart of Iron": 4
+            "Heart of Fire": 4
         }
     },
     "Dark Iron Shoulders": {
