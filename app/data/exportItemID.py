@@ -57,7 +57,6 @@ items = {
     "Deadly Scope": 10546,
     "Deeprock Salt": 8150,
     "Delicate Arcanite Converter": 16006,
-    "Demonic Rune": 12662,
     "Dense Blasting Powder": 15992,
     "Dense Grinding Stone": 12644,
     "Dense Stone": 12365,

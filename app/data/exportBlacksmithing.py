@@ -422,23 +422,6 @@ recipes = {
 			"Linen Cloth": 2
         }
     },
-    "Corruption": {
-        "ID":       16985,
-        "Learn":    290,
-        "Yellow":   315,
-        "Green":    327,
-        "Grey":     340,
-        "Source":   "Drop",
-        "Reagents": {
-            "Thorium Bar": 40,
-            "Arcanite Bar": 2,
-			"Demonic Rune": 16,
-			"Essence of Undeath": 8,
-			"Blue Sapphire": 2,
-			"Dense Grinding Stone": 2,
-			"Rugged Leather": 4
-        }
-    },
     "Dark Iron Bracers": {
         "ID":       20874,
         "Learn":    295,
@@ -573,21 +556,6 @@ recipes = {
 			"Shadowgem": 2, 
 			"Coarse Grinding Stone": 2,
 			"Medium Leather": 2
-        }
-    },
-    "Demon Forged Breastplate": {
-        "ID":       16667,
-        "Learn":    285,
-        "Yellow":   305,
-        "Green":    315,
-        "Grey":     325,
-        "Source":   "Quest",
-		"Faction":  "Any",
-        "Reagents": {
-            "Thorium Bar": 40,
-            "Demonic Rune": 10,
-			"Blue Sapphire": 4,
-			"Star Ruby": 4
         }
     },
     "Dense Grinding Stone": {
