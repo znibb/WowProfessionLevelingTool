@@ -31,6 +31,7 @@
             <th align="left">Reagent</th>
             <th align="right">Amount</th>
             <th align="right">Price per unit</th>
+            <th align="right">Total</th>
         </tr>
         {% if reagents.items is defined %}
             {% for reagent, info in reagents.items() %}
@@ -38,6 +39,7 @@
                     <td>{{ reagent }}</td>
                     <td align="right">{{ info["Amount"] }}</td>
                     <td align="right">{{ info["PPU"] }}</td>
+                    <td align="right">{{ info["Total"] }}</td>
                 </tr>
             {% endfor %}
         {% endif %}

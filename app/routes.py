@@ -128,6 +128,11 @@ def results():
         # Increment skill
         currentSkill += 1
     
+    # Calculate total cost for each purchased reagent
+    for reagent in reagentsToBuy:
+        reagentsToBuy[reagent]["Total"] = prettyPrintPrice(reagentsToBuy[reagent]["Amount"] * reagentPrices[reagent])
+
+    # Calculate total levelling cost
     totalCost = prettyPrintPrice(calculateTotalCost(reagentsToBuy, reagentPrices))
 
     return render_template('results.html',
