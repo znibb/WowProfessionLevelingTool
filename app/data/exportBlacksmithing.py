@@ -1449,7 +1449,7 @@ recipes = {
 			"Solid Grinding Stone": 3
         }
     },
-    "Moonsteel Broardsword": {
+    "Moonsteel Broadsword": {
         "ID":       3496,
         "Learn":    180,
         "Yellow":   205,
