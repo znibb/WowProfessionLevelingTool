@@ -25,7 +25,7 @@ recipes = {
         "Grey":     195,
         "Source":   "Vendor",
         "Reagents": {
-			"Hevy Leather": 8,
+			"Heavy Leather": 8,
 			"Cured Heavy Hide": 2,
 			"Small Lustrous Pearl": 4,
 			"Raptor Hide": 1,
@@ -120,7 +120,7 @@ recipes = {
         "Reagents": {
 			"Thick Leather": 10,
 			"Flask of Big Mojo": 6,
-			"Heavy Silken THread": 2
+			"Heavy Silken Thread": 2
         }
     },
     "Big Voodoo Robe": {
