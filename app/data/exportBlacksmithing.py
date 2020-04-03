@@ -926,7 +926,7 @@ recipes = {
         "Reagents": {
             "Iron Bar": 4,
 			"Small Lustrous Pearl": 2,
-			"Corase Grinding Stone": 2,
+			"Coarse Grinding Stone": 2,
 			"Green Dye": 1
         }
     },
@@ -1562,7 +1562,7 @@ recipes = {
         "Source":   "Quest",
 		"Faction":  "Any",
         "Reagents": {
-            "Mithril Bar:": 12,
+            "Mithril Bar": 12,
 			"Truesilver Bar": 1,
 			"Thick Leather": 6
         }

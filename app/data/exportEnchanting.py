@@ -1133,7 +1133,7 @@ recipes = {
 			"Large Brilliant Shard": 6,
 			"Greater Eternal Essence": 6,
 			"Illusion Dust": 4,
-			"Essence or Air": 2
+			"Essence of Air": 2
         }
     },
     "Weapon - Demonslaying": {
@@ -1233,7 +1233,7 @@ recipes = {
         "Grey":     160,
         "Source":   "Drop",
         "Reagents": {
-			"Strande Dust": 4,
+			"Strange Dust": 4,
 			"Greater Magic Essence": 2
         }
     },

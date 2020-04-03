@@ -10,7 +10,7 @@ recipes = {
         "Source":   "Drop",
         "Reagents": {
 			"Heavy Leather": 6,
-			"Cured Havy Hide": 2,
+			"Cured Heavy Hide": 2,
 			"Coarse Gorilla Hair": 2,
 			"Great Rage Potion": 1,
 			"Silken Thread":  1,
@@ -119,7 +119,7 @@ recipes = {
         "Source":   "Drop",
         "Reagents": {
 			"Thick Leather": 10,
-			"Flaskof Big Mojo": 6,
+			"Flask of Big Mojo": 6,
 			"Heavy Silken THread": 2
         }
     },
@@ -650,7 +650,7 @@ recipes = {
         "Grey":     115,
         "Source":   "Trainer",
         "Reagents": {
-			"Light LEather": 3,
+			"Light Leather": 3,
 			"Coarse Thread": 2
         }
     },
@@ -888,7 +888,7 @@ recipes = {
         "Source":   "Vendor",
         "Reagents": {
 			"Rugged Leather": 20,
-			"Green Dragonscaele": 25,
+			"Green Dragonscale": 25,
 			"Rune Thread": 2
         }
     },
@@ -1024,7 +1024,7 @@ recipes = {
         "Source":   "Drop",
         "Reagents": {
 			"Heavy Leather": 14,
-			"Bold of Silk Cloth": 2,
+			"Bolt of Silk Cloth": 2,
 			"Silken Thread": 2
         }
     },
@@ -1063,7 +1063,7 @@ recipes = {
         "Source":   "Trainer",
         "Reagents": {
 			"Heavy Leather": 12,
-			"Bold of Silk Cloth": 2,
+			"Bolt of Silk Cloth": 2,
 			"Fine Thread": 2
         }
     },
@@ -1902,7 +1902,7 @@ recipes = {
         "Source":   "Drop",
         "Reagents": {
 			"Rugged Leather": 12,
-			"Essence of Waters": 3,
+			"Essence of Water": 3,
 			"Essence of Air": 3,
 			"Enchanted Leather": 2,
 			"Rune Thread": 1

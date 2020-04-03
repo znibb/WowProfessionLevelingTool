@@ -53,7 +53,7 @@ recipes = {
         "Source":   "Trainer",
         "Reagents": {
 			"Bronze Bar": 2,
-			"Nightcrawler": 1,
+			"Nightcrawlers": 1,
 			"Coarse Blasting Powder": 1
         }
     },
@@ -331,7 +331,7 @@ recipes = {
         "Reagents": {
 			"Copper Tube": 2,
 			"Handful of Copper Bolts": 4,
-			"Woodern Stock": 1,
+			"Wooden Stock": 1,
 			"Medium Leather": 2
         }
     },
@@ -603,7 +603,7 @@ recipes = {
 		"School":	"Gnomish",
         "Reagents": {
 			"Fire Goggles": 1,
-			"Nithril Tube": 1,
+			"Mithril Tube": 1,
 			"Gold Power Core": 2,
 			"Flask of Mojo": 2,
 			"Heavy Leather": 2
@@ -1315,7 +1315,7 @@ recipes = {
         "Source":   "Trainer",
         "Reagents": {
 			"Mithril Bar": 1,
-			"Mageweave CLoth": 1,
+			"Mageweave Cloth": 1,
 			"Solid Blasting Powder": 1
         }
     },
@@ -1955,7 +1955,7 @@ recipes = {
         "Source":   "Quest",
         "Reagents": {
 			"Cured Rugged Hide": 1,
-			"Thorium Widet": 4,
+			"Thorium Widget": 4,
 			"Globe of Water": 2,
 			"Truesilver Transformer": 2,
 			"Gold Power Core": 1
