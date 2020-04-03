@@ -80,6 +80,12 @@ def results():
     craftList = dict()
     reagentsToBuy = dict()
 
+    # Remove recipes that doesn't have a determinable price, i.e. one or more reagents hasn't been seen on the AH
+    temp = recipes.copy()
+    for recipe in temp.keys():
+        if recipe not in recipePrices:
+            recipes.pop(recipe)
+
     while(True):
         # Break the loop if we're at the target skill
         if currentSkill == targetSkill:

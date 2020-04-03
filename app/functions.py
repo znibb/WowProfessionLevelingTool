@@ -9,9 +9,17 @@ def calculateRecipePrices(recipes, prices):
 
     for name, info in recipes.items():
         price = 0
+        usable = True
         for reagent, amount in info["Reagents"].items():
-            price += amount*prices[reagent]
-        recipePriceDict[name] = price
+            # If a reagent doesn't have a determinable price
+            if reagent not in prices:
+                # Set flag to not add the recipe to the output dict
+                usable = False
+            else:
+                price += amount*prices[reagent]
+        
+        if usable:
+            recipePriceDict[name] = price
     
     return recipePriceDict
 
@@ -52,8 +60,16 @@ def getReagentPrices(recipes, server, faction):
         requestUrl = serverUrl + str(itemID[reagent])
         response = requests.get(requestUrl)
         responseJson = response.json()
+        
+        # If item cant be bought from vendor
         if responseJson["vendorPrice"] == None:
-            reagentPriceDict[reagent] = responseJson["stats"]["current"]["marketValue"]
+            # If no price data exists, i.e. item hasn't been seen on the AH
+            if responseJson["stats"]["current"] == None:
+                # Don't add the reagent to the output dict, i.e. noop
+                pass
+            else:
+                reagentPriceDict[reagent] = responseJson["stats"]["current"]["marketValue"]
+        # Item can be bought from vendor, use the vendor price
         else:
             reagentPriceDict[reagent] = responseJson["vendorPrice"]
 
@@ -61,15 +77,20 @@ def getReagentPrices(recipes, server, faction):
 
 def importRecipes(profession, startSkill, targetSkill):
     # Import apropriate list of recipes
-    '''
-    if profession is "Alchemy":
-        with open("data/alchemy.json", 'r') as f:
-            recipes = json.load(f)
+    if profession == "Alchemy":
+        f = open("app/data/alchemy.json", 'r')
+    elif profession == "Blacksmithing":
+        f = open("app/data/blacksmithing.json", 'r')
+    elif profession == "Enchanting":
+        f = open("app/data/enchanting.json", 'r')
+    elif profession == "Engineering":
+        f = open("app/data/engineering.json", 'r')
+    elif profession == "Leatherworking":
+        f = open("app/data/leatherworking.json", 'r')
     else:
-        return
-    '''
-    with open("app/data/alchemy.json", 'r') as f:
-        recipes = json.load(f)
+        f = open("app/data/tailoring.json", 'r')
+
+    recipes = json.load(f)
 
     # Remove recipes that we've already out-levelled
     temp = recipes.copy()
@@ -88,8 +109,6 @@ def importRecipes(profession, startSkill, targetSkill):
     for name, info in temp.items():
         if info["Learn"] >= targetSkill:
             recipes.pop(name)
-
-    
     
     # Return dictionary with all relevant recipes
     return recipes
