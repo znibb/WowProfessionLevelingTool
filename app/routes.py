@@ -32,6 +32,8 @@ def index():
         session["includeVendorLimited"] = form.includeVendorLimited.data
         session["includeDrop"] = form.includeDrop.data
         session["includeQuest"] = form.includeQuest.data
+        session["blacksmithingSchool"] = form.blacksmithingSchool.data
+        session["engineeringSchool"] = form.engineeringSchool.data
 
         return redirect(url_for('results'))
 
@@ -54,6 +56,8 @@ def results():
         form.includeVendorLimited.data=session.get("includeVendorLimited")
         form.includeDrop.data=session.get("includeDrop")
         form.includeQuest.data=session.get("includeQuest")
+        form.blacksmithingSchool.data=session.get("blacksmithingSchool")
+        form.engineeringSchool.data=session.get("engineeringSchool")
         session.pop("server", None)
         session.pop("faction", None)
         session.pop("profession", None)
@@ -63,6 +67,8 @@ def results():
         session.pop("includeVendorLimited", None)
         session.pop("includeDrop", None)
         session.pop("includeQuest", None)
+        session.pop("blacksmithingSchool", None)
+        session.pop("engineeringSchool", None)
     
     if form.validate_on_submit():
         now = datetime.now()
@@ -78,6 +84,8 @@ def results():
         session["includeVendorLimited"] = form.includeVendorLimited.data
         session["includeDrop"] = form.includeDrop.data
         session["includeQuest"] = form.includeQuest.data
+        session["blacksmithingSchool"] = form.blacksmithingSchool.data
+        session["engineeringSchool"] = form.engineeringSchool.data
 
         return redirect(url_for('results'))
 
@@ -87,11 +95,19 @@ def results():
 
     # Collect required data
     recipeSources = {"Vendor": form.includeVendor.data,
-                    "vendorLimited": form.includeVendorLimited.data,
+                    "VendorLimited": form.includeVendorLimited.data,
                     "Drop": form.includeDrop.data,
                     "Quest": form.includeQuest.data}
 
-    recipes = importRecipes(form.profession.data, form.startSkill.data, form.targetSkill.data, recipeSources, form.faction.data)
+    school = ""
+    if form.profession.data == "Blacksmithing":
+        school = form.blacksmithingSchool.data
+    elif form.profession.data == "Engineering":
+        school = form.engineeringSchool.data
+    else:
+        school = "None"
+
+    recipes = importRecipes(form.profession.data, form.startSkill.data, form.targetSkill.data, recipeSources, form.faction.data, school)
     reagentPrices = getReagentPrices(recipes, form.server.data, form.faction.data)
     recipePrices = calculateRecipePrices(recipes, reagentPrices)
     currentSkill = form.startSkill.data

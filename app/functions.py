@@ -75,7 +75,7 @@ def getReagentPrices(recipes, server, faction):
 
     return reagentPriceDict
 
-def importRecipes(profession, startSkill, targetSkill, recipeSources, faction):
+def importRecipes(profession, startSkill, targetSkill, recipeSources, faction, school):
     # Import apropriate list of recipes
     if profession == "Alchemy":
         f = open("app/data/alchemy.json", 'r')
@@ -120,6 +120,13 @@ def importRecipes(profession, startSkill, targetSkill, recipeSources, faction):
             for name, info in temp.items():
                 if info["Source"] == source:
                     recipes.pop(name)
+
+    # Remove recipes from conflicting schools
+    temp = recipes.copy()
+    for name, info in temp.items():
+        if "School" in info:
+            if info["School"] != school:
+                recipes.pop(name)
 
     # Remove recipes unobtainable for the selected faction
     temp = recipes.copy()

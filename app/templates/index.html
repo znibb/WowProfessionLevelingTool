@@ -17,13 +17,22 @@
             {% endfor %}
             {{ form.calculate() }}
         </p>
-        <p>
-            Include recipe sources:
-            {{ form.includeVendor.label }}: {{ form.includeVendor() }}
-            {{ form.includeVendorLimited.label }}: {{ form.includeVendorLimited() }}
-            {{ form.includeDrop.label }}: {{ form.includeDrop() }}
-            {{ form.includeQuest.label }}: {{ form.includeQuest() }}
-        </p>
+
+        Include recipe sources:
+        {{ form.includeVendor.label }}:{{ form.includeVendor() }} 
+        {{ form.includeVendorLimited.label }}:{{ form.includeVendorLimited() }} 
+        {{ form.includeDrop.label }}:{{ form.includeDrop() }} 
+        {{ form.includeQuest.label }}:{{ form.includeQuest() }} 
+        <br>
+        {{ form.blacksmithingSchool.label }}: 
+        {% for subfield in form.blacksmithingSchool %}
+            {{ subfield }}{{ subfield.label }} 
+        {% endfor %}
+        <br>
+        {{ form.engineeringSchool.label }}: 
+        {% for subfield in form.engineeringSchool %}
+            {{ subfield }}{{ subfield.label }}
+        {% endfor %}
     </form>
     {% block results%}{% endblock %}
 {% endblock %}

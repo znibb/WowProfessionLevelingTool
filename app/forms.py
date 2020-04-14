@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, SelectField, SubmitField, BooleanField, SelectMultipleField
+from wtforms import IntegerField, SelectField, SubmitField, BooleanField, SelectMultipleField, RadioField
 from wtforms.validators import InputRequired, NumberRange
 
 servers = [
@@ -116,3 +116,13 @@ class UserInputForm(FlaskForm):
     includeVendorLimited = BooleanField(u'VendorLimited', default="checked")
     includeDrop = BooleanField(u'Drop', default="checked")
     includeQuest = BooleanField(u'Quest', default="checked")
+    blacksmithingSchool = RadioField(u'Blacksmithing',
+        choices=[("None", "None"),
+                ("Armorsmithing", "Armorsmithing"),
+                ("Weaponsmithing", "Weaponsmithing")],
+        default="None")
+    engineeringSchool = RadioField(u'Engineering',
+        choices=[("None", "None"),
+                ("Gnomish", "Gnomish"),
+                ("Goblin", "Goblin")],
+        default="None")
