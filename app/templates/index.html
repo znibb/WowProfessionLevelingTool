@@ -17,6 +17,13 @@
             {% endfor %}
             {{ form.calculate() }}
         </p>
+        <p>
+            Include recipe sources:
+            {{ form.includeVendor.label }}: {{ form.includeVendor() }}
+            {{ form.includeVendorLimited.label }}: {{ form.includeVendorLimited() }}
+            {{ form.includeDrop.label }}: {{ form.includeDrop() }}
+            {{ form.includeQuest.label }}: {{ form.includeQuest() }}
+        </p>
     </form>
     {% block results%}{% endblock %}
 {% endblock %}

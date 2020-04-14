@@ -527,6 +527,7 @@ recipes = {
         "Green":    205,
         "Grey":     225,
         "Source":   "Quest",
+        "Faction":  "Any",
         "Reagents": {
 			"Blue Pearl": 1,
 			"Heavy Blasting Powder": 1,
@@ -1226,6 +1227,7 @@ recipes = {
         "Green":    205,
         "Grey":     205,
         "Source":   "Quest",
+        "Faction":  "Any",
 		"School":	"Gnomish",
         "Reagents": {
 			"Core of Earth": 1,
@@ -1489,6 +1491,7 @@ recipes = {
         "Green":    205,
         "Grey":     205,
         "Source":   "Quest",
+        "Faction":  "Any",
 		"School":	"Goblin",
         "Reagents": {
 			"Big Iron Bomb": 1,
@@ -1847,6 +1850,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "Quest",
+        "Faction":  "Any",
         "Reagents": {
 			"Thorium Widget": 2,
 			"Mithril Casing": 1,
@@ -1953,6 +1957,7 @@ recipes = {
         "Green":    330,
         "Grey":     340,
         "Source":   "Quest",
+        "Faction":  "Any",
         "Reagents": {
 			"Cured Rugged Hide": 1,
 			"Thorium Widget": 4,

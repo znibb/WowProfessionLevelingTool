@@ -1403,6 +1403,7 @@ recipes = {
         "Green":    210,
         "Grey":     325,
         "Source":   "Quest",
+        "Faction":  "Any",
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Mooncloth": 4,

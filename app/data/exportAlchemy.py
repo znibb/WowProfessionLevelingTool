@@ -1042,6 +1042,7 @@ recipes = {
         "Green":    245,
         "Grey":     265,
         "Source":   "Quest",
+        "Faction":  "Any",
         "Reagents": {
             "Elemental Earth": 1,
             "Goldthorn": 1,

@@ -28,6 +28,10 @@ def index():
         session["profession"] = form.profession.data
         session["startSkill"] = form.startSkill.data
         session["targetSkill"] = form.targetSkill.data
+        session["includeVendor"] = form.includeVendor.data
+        session["includeVendorLimited"] = form.includeVendorLimited.data
+        session["includeDrop"] = form.includeDrop.data
+        session["includeQuest"] = form.includeQuest.data
 
         return redirect(url_for('results'))
 
@@ -46,11 +50,19 @@ def results():
         form.profession.data=session.get("profession")
         form.startSkill.data=session.get("startSkill")
         form.targetSkill.data=session.get("targetSkill")
+        form.includeVendor.data=session.get("includeVendor")
+        form.includeVendorLimited.data=session.get("includeVendorLimited")
+        form.includeDrop.data=session.get("includeDrop")
+        form.includeQuest.data=session.get("includeQuest")
         session.pop("server", None)
         session.pop("faction", None)
         session.pop("profession", None)
         session.pop("startSkill", None)
         session.pop("targetSkill", None)
+        session.pop("includeVendor", None)
+        session.pop("includeVendorLimited", None)
+        session.pop("includeDrop", None)
+        session.pop("includeQuest", None)
     
     if form.validate_on_submit():
         now = datetime.now()
@@ -62,6 +74,10 @@ def results():
         session["profession"] = form.profession.data
         session["startSkill"] = form.startSkill.data
         session["targetSkill"] = form.targetSkill.data
+        session["includeVendor"] = form.includeVendor.data
+        session["includeVendorLimited"] = form.includeVendorLimited.data
+        session["includeDrop"] = form.includeDrop.data
+        session["includeQuest"] = form.includeQuest.data
 
         return redirect(url_for('results'))
 
@@ -70,7 +86,12 @@ def results():
     ##########################
 
     # Collect required data
-    recipes = importRecipes(form.profession.data, form.startSkill.data, form.targetSkill.data)
+    recipeSources = {"Vendor": form.includeVendor.data,
+                    "vendorLimited": form.includeVendorLimited.data,
+                    "Drop": form.includeDrop.data,
+                    "Quest": form.includeQuest.data}
+
+    recipes = importRecipes(form.profession.data, form.startSkill.data, form.targetSkill.data, recipeSources, form.faction.data)
     reagentPrices = getReagentPrices(recipes, form.server.data, form.faction.data)
     recipePrices = calculateRecipePrices(recipes, reagentPrices)
     currentSkill = form.startSkill.data
@@ -99,6 +120,10 @@ def results():
 
         # Determine next craft
         bestCraft = getCheapestSkillingRecipe(recipes, recipePrices, currentSkill)
+
+        # Break loop if no skillable craft is available
+        if bestCraft == '':
+            break
 
         # Update craft list
         # Check if this is the first entry

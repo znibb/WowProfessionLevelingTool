@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, SelectField, SubmitField
+from wtforms import IntegerField, SelectField, SubmitField, BooleanField, SelectMultipleField
 from wtforms.validators import InputRequired, NumberRange
 
 servers = [
@@ -112,3 +112,7 @@ class UserInputForm(FlaskForm):
         validators=[InputRequired(),
                     NumberRange(min=2, max=300)])
     calculate = SubmitField('Calculate')
+    includeVendor = BooleanField(u'Vendor')
+    includeVendorLimited = BooleanField(u'VendorLimited')
+    includeDrop = BooleanField(u'Drop')
+    includeQuest = BooleanField(u'Quest')
