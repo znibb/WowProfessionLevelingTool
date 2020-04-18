@@ -137,6 +137,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Drop",
+        "RecipeID": 3822,
         "Reagents": {
             "Khadgars Whisker": 1,
             "Fadeleaf": 1,
@@ -162,6 +163,7 @@ recipes = {
         "Green":    275,
         "Grey":     295,
         "Source":   "Drop",
+        "RecipeID": 9297,
         "Reagents": {
             "Purple Lotus": 3,
             "Crystal Vial": 1
@@ -200,6 +202,7 @@ recipes = {
         "Green":    230,
         "Grey":     250,
         "Source":   "Drop",
+        "RecipeID": 17709,
         "Reagents": {
             "Wintersbite": 2,
             "Khadgars Whisker": 1,
@@ -213,6 +216,7 @@ recipes = {
         "Green":    140,
         "Grey":     160,
         "Source":   "Drop",
+        "RecipeID": 6663,
         "Reagents": {
             "Deviate Fish": 1,
             "Earthroot": 1,
@@ -226,6 +230,7 @@ recipes = {
         "Green":    280,
         "Grey":     300,
         "Source":   "Drop",
+        "RecipeID": 9298,
         "Reagents": {
             "Sungrass": 1,
             "Gromsblood": 1,
@@ -265,6 +270,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 21547,
         "Reagents": {
             "Fire Oil": 3,
             "Firebloom": 3,
@@ -304,6 +310,7 @@ recipes = {
         "Green":    185,
         "Grey":     205,
         "Source":   "Drop",
+        "RecipeID": 3396,
         "Reagents": {
             "Wild Steelbloom": 1,
             "Swiftthistle": 1,
@@ -330,6 +337,7 @@ recipes = {
         "Green":    100,
         "Grey":     120,
         "Source":   "Drop",
+        "RecipeID": 2553,
         "Reagents": {
             "Swiftthistle": 1,
             "Silverleaf": 1,
@@ -368,6 +376,7 @@ recipes = {
         "Green":    195,
         "Grey":     215,
         "Source":   "Drop",
+        "RecipeID": 6211,
         "Reagents": {
             "Earthroot": 1,
             "Kingsblood": 1,
@@ -381,6 +390,7 @@ recipes = {
         "Green":    165,
         "Grey":     185,
         "Source":   "Drop",
+        "RecipeID": 3394,
         "Reagents": {
             "Large Venom Sac": 1,
             "Bruiseweed": 1,
@@ -419,6 +429,7 @@ recipes = {
         "Green":    315,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 13491,
         "Reagents": {
             "Mountain Silversage": 2,
             "Plaguebloom": 2,
@@ -432,6 +443,7 @@ recipes = {
         "Green":    305,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 13479,
         "Reagents": {
             "Dreamfoil": 1,
             "Plaguebloom": 2,
@@ -548,6 +560,7 @@ recipes = {
         "Green":    275,
         "Grey":     295,
         "Source":   "Drop",
+        "RecipeID": 9296,
         "Reagents": {
             "Arthas Tears": 1,
             "Blindweed": 1,
@@ -587,6 +600,7 @@ recipes = {
         "Green":    320,
         "Grey":     340,
         "Source":   "Drop",
+        "RecipeID": 13493,
         "Reagents": {
             "Dreamfoil": 3,
             "Mountain Silversage": 1,
@@ -600,6 +614,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Drop",
+        "RecipeID": 13497,
         "Reagents": {
             "Dream Dust": 1,
             "Dreamfoil": 1,
@@ -626,6 +641,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Drop",
+        "RecipeID": 13494,
         "Reagents": {
             "Elemental Fire": 1,
             "Dreamfoil": 1,
@@ -639,6 +655,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Drop",
+        "RecipeID": 13495,
         "Reagents": {
             "Elemental Water": 1,
             "Dreamfoil": 1,
@@ -678,6 +695,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Drop",
+        "RecipeID": 13496,
         "Reagents": {
             "Elemental Earth": 1,
             "Dreamfoil": 1,
@@ -691,6 +709,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Drop",
+        "RecipeID": 13499,
         "Reagents": {
             "Shadow Oil": 1,
             "Dreamfoil": 1,
@@ -704,6 +723,7 @@ recipes = {
         "Green":    315,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 13490,
         "Reagents": {
             "Stonescale Oil": 3,
             "Thorium Ore": 1,
@@ -743,6 +763,7 @@ recipes = {
         "Green":    270,
         "Grey":     290,
         "Source":   "Drop",
+        "RecipeID": 9295,
         "Reagents": {
             "Ghost Mushroom": 1,
             "Sungrass": 1,
@@ -808,6 +829,7 @@ recipes = {
         "Green":    295,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 3395,
         "Reagents": {
             "Blindweed": 2,
             "Ghost Mushroom": 1,
@@ -848,6 +870,7 @@ recipes = {
         "Green":    245,
         "Grey":     265,
         "Source":   "Drop",
+        "RecipeID": 9293,
         "Reagents": {
             "Khadgars Whisker": 1,
             "Purple Lotus": 1,
@@ -913,6 +936,7 @@ recipes = {
         "Green":    290,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 13476,
         "Reagents": {
             "Gromsblood": 3,
             "Crystal Vial": 1
@@ -925,6 +949,7 @@ recipes = {
         "Green":    220,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 3831,
         "Reagents": {
             "Liferoot": 1,
             "Bruiseweed": 1,
@@ -951,6 +976,7 @@ recipes = {
         "Green":    155,
         "Grey":     175,
         "Source":   "Drop",
+        "RecipeID": 3393,
         "Reagents": {
             "Mageroyal": 3,
             "Wild Steelbloom": 1,
@@ -1016,6 +1042,7 @@ recipes = {
         "Green":    320,
         "Grey":     340,
         "Source":   "Drop",
+        "RecipeID": 13492,
         "Reagents": {
             "Icecap": 2,
             "Plaguebloom": 2,
@@ -1133,6 +1160,7 @@ recipes = {
         "Green":    110,
         "Grey":     130,
         "Source":   "Drop",
+        "RecipeID": 2555,
         "Reagents": {
             "Swiftthistle": 1,
             "Briarthorn": 1,
@@ -1172,6 +1200,7 @@ recipes = {
         "Green":    260,
         "Grey":     280,
         "Source":   "Drop",
+        "RecipeID": 9294,
         "Reagents": {
             "Wildvine": 1,
             "Purple Lotus": 1,
