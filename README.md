@@ -8,6 +8,5 @@ WIP...
 4. Deduct crafted item selling price from total cost
 5. Check for current AH stock
 6. Display oldest price data used
-7. Discern between armor- and weaponsmithing only recipes
-8. Check if reagent has already been crafted before buying
-9. Check if a reagent can actually be crafted yourself instead
+7. Check if reagent has already been crafted before buying
+8. Check if a reagent can actually be crafted yourself instead
