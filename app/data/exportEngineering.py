@@ -2,7 +2,7 @@
 
 recipes = {
     "Accurate Scope": {
-        "ID":       3979,
+        "ID":       4407,
         "Learn":    180,
         "Yellow":   200,
         "Green":    210,
@@ -15,7 +15,7 @@ recipes = {
         }
     },
 	"Advanced Target Dummy": {
-        "ID":       3965,
+        "ID":       4392,
         "Learn":    185,
         "Yellow":   185,
         "Green":    205,
@@ -29,12 +29,13 @@ recipes = {
         }
     },
 	"Alarm-O-Bot": {
-        "ID":       23096,
+        "ID":       18645,
         "Learn":    265,
         "Yellow":   275,
         "Green":    280,
         "Grey":     285,
         "Source":   "Drop",
+        "RecipeID": 18654,
 		"School": "Gnomish",
         "Reagents": {
 			"Thorium Bar": 4,
@@ -45,7 +46,7 @@ recipes = {
         }
     },
 	"Aquadynamic Fish Attractor": {
-        "ID":       9271,
+        "ID":       6533,
         "Learn":    150,
         "Yellow":   150,
         "Green":    160,
@@ -58,7 +59,7 @@ recipes = {
         }
     },
 	"Arclight Spanner": {
-        "ID":       7430,
+        "ID":       6219,
         "Learn":    50,
         "Yellow":   70,
         "Green":    80,
@@ -69,7 +70,7 @@ recipes = {
         }
     },
 	"Big Bronze Bomb": {
-        "ID":       3950,
+        "ID":       4380,
         "Learn":    140,
         "Yellow":   140,
         "Green":    165,
@@ -82,7 +83,7 @@ recipes = {
         }
     },
 	"Big Iron Bomb": {
-        "ID":       3967,
+        "ID":       4394,
         "Learn":    190,
         "Yellow":   190,
         "Green":    210,
@@ -95,7 +96,7 @@ recipes = {
         }
     },
 	"Blue Firework": {
-        "ID":       23067,
+        "ID":       9312,
         "Learn":    150,
         "Yellow":   150,
         "Green":    162,
@@ -107,7 +108,7 @@ recipes = {
         }
     },
 	"Blue Rocker Cluster": {
-        "ID":       26423,
+        "ID":       21571,
         "Learn":    225,
         "Yellow":   225,
         "Green":    237,
@@ -119,19 +120,20 @@ recipes = {
         }
     },
 	"Bright-Eye Googles": {
-        "ID":       12587,
+        "ID":       10499,
         "Learn":    175,
         "Yellow":   195,
         "Green":    205,
         "Grey":     215,
         "Source":   "Drop",
+        "RecipeID": 10601,
         "Reagents": {
 			"Heavy Leather": 6,
 			"Citrine": 2
         }
     },
 	"Bronze Framework": {
-        "ID":       3953,
+        "ID":       4382,
         "Learn":    145,
         "Yellow":   145,
         "Green":    170,
@@ -144,7 +146,7 @@ recipes = {
         }
     },
 	"Bronze Tube": {
-        "ID":       3938,
+        "ID":       4371,
         "Learn":    105,
         "Yellow":   105,
         "Green":    130,
@@ -156,12 +158,13 @@ recipes = {
         }
     },
 	"Catseye Ultra Googles": {
-        "ID":       12607,
+        "ID":       10501,
         "Learn":    220,
         "Yellow":   240,
         "Green":    250,
         "Grey":     260,
         "Source":   "Drop",
+        "RecipeID": 10603,
         "Reagents": {
 			"Thick Leather": 4,
 			"Aquamarine": 2,
@@ -169,7 +172,7 @@ recipes = {
         }
     },
 	"Coarse Blasting Powder": {
-        "ID":       3929,
+        "ID":       4364,
         "Learn":    75,
         "Yellow":   85,
         "Green":    90,
@@ -180,7 +183,7 @@ recipes = {
         }
     },
 	"Coarse Dynamite": {
-        "ID":       3931,
+        "ID":       4365,
         "Learn":    75,
         "Yellow":   90,
         "Green":    97,
@@ -192,7 +195,7 @@ recipes = {
         }
     },
 	"Compact Harvest Reaper Kit": {
-        "ID":       3963,
+        "ID":       4391,
         "Learn":    175,
         "Yellow":   175,
         "Green":    195,
@@ -206,7 +209,7 @@ recipes = {
         }
     },
 	"Copper Modulator": {
-        "ID":       3926,
+        "ID":       4363,
         "Learn":    65,
         "Yellow":   95,
         "Green":    110,
@@ -219,7 +222,7 @@ recipes = {
         }
     },
 	"Copper Tube": {
-        "ID":       3924,
+        "ID":       4361,
         "Learn":    50,
         "Yellow":   80,
         "Green":    95,
@@ -231,7 +234,7 @@ recipes = {
         }
     },
 	"Crafted Heavy Shot": {
-        "ID":       3930,
+        "ID":       8068,
         "Learn":    75,
         "Yellow":   85,
         "Green":    90,
@@ -243,7 +246,7 @@ recipes = {
         }
     },
 	"Crafted Light Shot": {
-        "ID":       3920,
+        "ID":       8067,
         "Learn":    1,
         "Yellow":   30,
         "Green":    45,
@@ -255,7 +258,7 @@ recipes = {
         }
     },
 	"Crafted Solid Shot": {
-        "ID":       3947,
+        "ID":       8069,
         "Learn":    125,
         "Yellow":   125,
         "Green":    135,
@@ -267,19 +270,20 @@ recipes = {
         }
     },
 	"Craftmans Monocle": {
-        "ID":       3966,
+        "ID":       4393,
         "Learn":    185,
         "Yellow":   205,
         "Green":    215,
         "Grey":     225,
         "Source":   "Drop",
+        "RecipeID": 4415,
         "Reagents": {
 			"Heavy Leather": 6,
 			"Citrine": 2
         }
     },
 	"Crude Scope": {
-        "ID":       3977,
+        "ID":       4405,
         "Learn":    60,
         "Yellow":   90,
         "Green":    105,
@@ -292,12 +296,13 @@ recipes = {
         }
     },
 	"Dark Iron Bomb": {
-        "ID":       19799,
+        "ID":       16005,
         "Learn":    285,
         "Yellow":   305,
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 16049,
         "Reagents": {
 			"Thorium Widget": 2,
 			"Dark Iron Bar": 1,
@@ -306,12 +311,13 @@ recipes = {
         }
     },
 	"Dark Iron Rifle": {
-        "ID":       19796,
+        "ID":       16004,
         "Learn":    275,
         "Yellow":   295,
         "Green":    305,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 16048,
         "Reagents": {
 			"Thorium Tube": 2,
 			"Dark Iron Bar": 6,
@@ -322,7 +328,7 @@ recipes = {
         }
     },
 	"Deadly Blunderbuss": {
-        "ID":       3936,
+        "ID":       4369,
         "Learn":    105,
         "Yellow":   130,
         "Green":    142,
@@ -336,7 +342,7 @@ recipes = {
         }
     },
 	"Deadly Scope": {
-        "ID":       12597,
+        "ID":       10546,
         "Learn":    210,
         "Yellow":   230,
         "Green":    240,
@@ -349,7 +355,7 @@ recipes = {
         }
     },
 	"Deepdive Helmet": {
-        "ID":       12617,
+        "ID":       10506,
         "Learn":    230,
         "Yellow":   250,
         "Green":    260,
@@ -364,7 +370,7 @@ recipes = {
         }
     },
 	"Delicate Arcanite Converter": {
-        "ID":       19815,
+        "ID":       16006,
         "Learn":    285,
         "Yellow":   305,
         "Green":    315,
@@ -376,7 +382,7 @@ recipes = {
         }
     },
 	"Dense Blasting Powder": {
-        "ID":       19788,
+        "ID":       15992,
         "Learn":    250,
         "Yellow":   250,
         "Green":    255,
@@ -387,7 +393,7 @@ recipes = {
         }
     },
 	"Dense Dynamite": {
-        "ID":       23070,
+        "ID":       18641,
         "Learn":    250,
         "Yellow":   250,
         "Green":    260,
@@ -399,7 +405,7 @@ recipes = {
         }
     },
 	"Dimensoinal Ripper - Everlook": {
-        "ID":       23486,
+        "ID":       18984,
         "Learn":    260,
         "Yellow":   285,
         "Green":    295,
@@ -415,12 +421,13 @@ recipes = {
         }
     },
 	"Discombobulator Ray": {
-        "ID":       3959,
+        "ID":       4388,
         "Learn":    160,
         "Yellow":   180,
         "Green":    190,
         "Grey":     200,
         "Source":   "Drop",
+        "RecipeID": 4413,
         "Reagents": {
 			"Whirring Bronze Gizmo": 3,
 			"Silk Cloth": 2,
@@ -429,7 +436,7 @@ recipes = {
         }
     },
 	"Explosive Sheep": {
-        "ID":       3955,
+        "ID":       4384,
         "Learn":    150,
         "Yellow":   175,
         "Green":    187,
@@ -443,19 +450,20 @@ recipes = {
         }
     },
 	"EZ-Thro Dynamite": {
-        "ID":       8339,
+        "ID":       6714,
         "Learn":    100,
         "Yellow":   115,
         "Green":    122,
         "Grey":     130,
         "Source":   "Drop",
+        "RecipeID": 6716,
         "Reagents": {
 			"Coarse Blasting Powder": 4,
 			"Wool Cloth": 1
         }
     },
 	"EZ-Thro Dynamite II": {
-        "ID":       23069,
+        "ID":       18588,
         "Learn":    200,
         "Yellow":   200,
         "Green":    210,
@@ -467,7 +475,7 @@ recipes = {
         }
     },
 	"Fire Googles": {
-        "ID":       12594,
+        "ID":       10500,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -481,7 +489,7 @@ recipes = {
         }
     },
 	"Firework Cluster Launcher": {
-        "ID":       26443,
+        "ID":       21570,
         "Learn":    275,
         "Yellow":   295,
         "Green":    305,
@@ -495,7 +503,7 @@ recipes = {
         }
     },
 	"Firework Launcher": {
-        "ID":       26442,
+        "ID":       21569,
         "Learn":    225,
         "Yellow":   245,
         "Green":    255,
@@ -509,19 +517,20 @@ recipes = {
         }
     },
 	"Flame Deflector": {
-        "ID":       3944,
+        "ID":       4376,
         "Learn":    125,
         "Yellow":   125,
         "Green":    150,
         "Grey":     175,
         "Source":   "Drop",
+        "RecipeID": 4411,
         "Reagents": {
 			"Whirring Bronze Gizmo": 1,
 			"Small Flame Sac": 1 
         }
     },
 	"Flash Bomb": {
-        "ID":       8243,
+        "ID":       4852,
         "Learn":    185,
         "Yellow":   185,
         "Green":    205,
@@ -535,7 +544,7 @@ recipes = {
         }
     },
 	"Flying Tiger Googles": {
-        "ID":       3937,
+        "ID":       4368,
         "Learn":    100,
         "Yellow":   130,
         "Green":    145,
@@ -547,7 +556,7 @@ recipes = {
         }
     },
 	"Gnomish Battle Chicken": {
-        "ID":       12906,
+        "ID":       10725,
         "Learn":    230,
         "Yellow":   250,
         "Green":    260,
@@ -564,7 +573,7 @@ recipes = {
         }
     },
 	"Gnomish Cloaking Device": {
-        "ID":       3971,
+        "ID":       4397,
         "Learn":    200,
         "Yellow":   220,
         "Green":    230,
@@ -579,7 +588,7 @@ recipes = {
         }
     },
 	"Gnomish Death Ray": {
-        "ID":       12759,
+        "ID":       10645,
         "Learn":    240,
         "Yellow":   260,
         "Green":    270,
@@ -595,7 +604,7 @@ recipes = {
         }
     },
 	"Gnomish Goggles": {
-        "ID":       12897,
+        "ID":       10545,
         "Learn":    210,
         "Yellow":   230,
         "Green":    240,
@@ -611,7 +620,7 @@ recipes = {
         }
     },
 	"Gnomish Harm Prevention Belt": {
-        "ID":       12903,
+        "ID":       10721,
         "Learn":    215,
         "Yellow":   235,
         "Green":    245,
@@ -627,7 +636,7 @@ recipes = {
         }
     },
 	"Gnomish Mind Control Cap": {
-        "ID":       12907,
+        "ID":       10726,
         "Learn":    235,
         "Yellow":   255,
         "Green":    265,
@@ -643,7 +652,7 @@ recipes = {
         }
     },
 	"Gnomish Net-o-Matic Projector": {
-        "ID":       12902,
+        "ID":       10720,
         "Learn":    210,
         "Yellow":   230,
         "Green":    240,
@@ -659,7 +668,7 @@ recipes = {
         }
     },
 	"Gnomish Rocket Boots": {
-        "ID":       12905,
+        "ID":       10724,
         "Learn":    225,
         "Yellow":   245,
         "Green":    255,
@@ -675,7 +684,7 @@ recipes = {
         }
     },
 	"Gnomish Shrink Ray": {
-        "ID":       12899,
+        "ID":       10716,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -691,7 +700,7 @@ recipes = {
         }
     },
 	"Gnomish Universal Remote": {
-        "ID":       9269,
+        "ID":       7506,
         "Learn":    125,
         "Yellow":   150,
         "Green":    162,
@@ -706,7 +715,7 @@ recipes = {
         }
     },
 	"Goblin Bomb Dispenser": {
-        "ID":       12755,
+        "ID":       10587,
         "Learn":    230,
         "Yellow":   230,
         "Green":    250,
@@ -722,7 +731,7 @@ recipes = {
         }
     },
 	"Goblin Construction Helmet": {
-        "ID":       12718,
+        "ID":       10543,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -736,7 +745,7 @@ recipes = {
         }
     },
 	"Goblin Dragon Gun": {
-        "ID":       12908,
+        "ID":       10727,
         "Learn":    240,
         "Yellow":   260,
         "Green":    270,
@@ -752,7 +761,7 @@ recipes = {
         }
     },
 	"Goblin Jumper Cables": {
-        "ID":       9273,
+        "ID":       7148,
         "Learn":    165,
         "Yellow":   165,
         "Green":    180,
@@ -768,12 +777,13 @@ recipes = {
         }
     },
 	"Goblin Jumper Cables XL": {
-        "ID":       23078,
+        "ID":       18587,
         "Learn":    265,
         "Yellow":   285,
         "Green":    295,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 18653,
         "Reagents": {
 			"Thorium Widget": 2,
 			"Truesilver Transformer": 2,
@@ -783,12 +793,13 @@ recipes = {
         }
     },
 	"Goblin Land Mine": {
-        "ID":       3968,
+        "ID":       4395,
         "Learn":    195,
         "Yellow":   215,
         "Green":    225,
         "Grey":     235,
         "Source":   "Drop",
+        "RecipeID": 4416,
         "Reagents": {
 			"Heavy Blasting Powder": 3,
 			"Iron Bar": 2,
@@ -796,7 +807,7 @@ recipes = {
         }
     },
 	"Goblin Mining Helmet": {
-        "ID":       12717,
+        "ID":       10542,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -810,7 +821,7 @@ recipes = {
         }
     },
 	"Goblin Mortar": {
-        "ID":       12716,
+        "ID":       10577,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -826,7 +837,7 @@ recipes = {
         }
     },
 	"Goblin Rocket Boots": {
-        "ID":       8895,
+        "ID":       7189,
         "Learn":    225,
         "Yellow":   245,
         "Green":    255,
@@ -842,7 +853,7 @@ recipes = {
         }
     },
 	"Goblin Rocket Fuel Recipe": {
-        "ID":       12715,
+        "ID":       10644,
         "Learn":    205,
         "Yellow":   205,
         "Green":    205,
@@ -855,7 +866,7 @@ recipes = {
         }
     },
 	"Goblin Rocket Helmet": {
-        "ID":       12758,
+        "ID":       10588,
         "Learn":    245,
         "Yellow":   265,
         "Green":    275,
@@ -870,7 +881,7 @@ recipes = {
         }
     },
 	"Goblin Sapper Charge": {
-        "ID":       12760,
+        "ID":       10646,
         "Learn":    205,
         "Yellow":   205,
         "Green":    225,
@@ -884,7 +895,7 @@ recipes = {
         }
     },
 	"Gold Power Core": {
-        "ID":       12584,
+        "ID":       1210558584,
         "Learn":    150,
         "Yellow":   150,
         "Green":    170,
@@ -895,7 +906,7 @@ recipes = {
         }
     },
 	"Green Firework": {
-        "ID":       23068,
+        "ID":       9313,
         "Learn":    150,
         "Yellow":   150,
         "Green":    162,
@@ -907,7 +918,7 @@ recipes = {
         }
     },
 	"Green Lens": {
-        "ID":       12622,
+        "ID":       10504,
         "Learn":    245,
         "Yellow":   265,
         "Green":    275,
@@ -922,7 +933,7 @@ recipes = {
         }
     },
 	"Green Rocket Cluster": {
-        "ID":       26424,
+        "ID":       21574,
         "Learn":    225,
         "Yellow":   225,
         "Green":    237,
@@ -934,7 +945,7 @@ recipes = {
         }
     },
 	"Green Tinted Goggles": {
-        "ID":       3956,
+        "ID":       4385,
         "Learn":    150,
         "Yellow":   175,
         "Green":    187,
@@ -947,7 +958,7 @@ recipes = {
         }
     },
 	"Gyrochronatom": {
-        "ID":       3961,
+        "ID":       4389,
         "Learn":    170,
         "Yellow":   170,
         "Green":    190,
@@ -959,7 +970,7 @@ recipes = {
         }
     },
 	"Gyrofreeze Ice Reflector": {
-        "ID":       23077,
+        "ID":       18634,
         "Learn":    260,
         "Yellow":   280,
         "Green":    290,
@@ -975,7 +986,7 @@ recipes = {
         }
     },
 	"Gyromatic Micro-Adjustor": {
-        "ID":       12590,
+        "ID":       10498,
         "Learn":    175,
         "Yellow":   175,
         "Green":    195,
@@ -986,7 +997,7 @@ recipes = {
         }
     },
 	"Handful of Copper Bolts": {
-        "ID":       3922,
+        "ID":       4359,
         "Learn":    30,
         "Yellow":   45,
         "Green":    52,
@@ -997,7 +1008,7 @@ recipes = {
         }
     },
 	"Heavy Blasting Powder": {
-        "ID":       3945,
+        "ID":       4377,
         "Learn":    125,
         "Yellow":   125,
         "Green":    135,
@@ -1008,7 +1019,7 @@ recipes = {
         }
     },
 	"Heavy Dynamite": {
-        "ID":       3946,
+        "ID":       4378,
         "Learn":    125,
         "Yellow":   125,
         "Green":    135,
@@ -1020,7 +1031,7 @@ recipes = {
         }
     },
 	"Hi-Explosive Bomb": {
-        "ID":       12619,
+        "ID":       10562,
         "Learn":    235,
         "Yellow":   235,
         "Green":    255,
@@ -1033,7 +1044,7 @@ recipes = {
         }
     },
 	"Hi-Impact Mithril Slugs": {
-        "ID":       12596,
+        "ID":       10512,
         "Learn":    210,
         "Yellow":   210,
         "Green":    230,
@@ -1045,12 +1056,13 @@ recipes = {
         }
     },
 	"Hyper-Radiant Flame Reflector": {
-        "ID":       23081,
+        "ID":       18638,
         "Learn":    290,
         "Yellow":   210,
         "Green":    320,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 18657,
         "Reagents": {
 			"Dark Iron Bar": 4,
 			"Truesilver Transformer": 3,
@@ -1060,7 +1072,7 @@ recipes = {
         }
     },
 	"Ice Deflector": {
-        "ID":       3957,
+        "ID":       4386,
         "Learn":    155,
         "Yellow":   175,
         "Green":    185,
@@ -1072,7 +1084,7 @@ recipes = {
         }
     },
 	"Inlaid Mithril Cylinder Plans": {
-        "ID":       12895,
+        "ID":       10713,
         "Learn":    205,
         "Yellow":   205,
         "Green":    205,
@@ -1085,7 +1097,7 @@ recipes = {
         }
     },
 	"Iron Grenade": {
-        "ID":       3962,
+        "ID":       4390,
         "Learn":    175,
         "Yellow":   175,
         "Green":    195,
@@ -1098,7 +1110,7 @@ recipes = {
         }
     },
 	"Iron Strut": {
-        "ID":       3958,
+        "ID":       4387,
         "Learn":    160,
         "Yellow":   160,
         "Green":    170,
@@ -1109,7 +1121,7 @@ recipes = {
         }
     },
 	"Large Blue Rocket": {
-        "ID":       26420,
+        "ID":       21589,
         "Learn":    175,
         "Yellow":   175,
         "Green":    187,
@@ -1121,7 +1133,7 @@ recipes = {
         }
     },
 	"Large Blue Rocket Cluster": {
-        "ID":       26426,
+        "ID":       21714,
         "Learn":    275,
         "Yellow":   275,
         "Green":    280,
@@ -1133,7 +1145,7 @@ recipes = {
         }
     },
 	"Large Copper Bomb": {
-        "ID":       3937,
+        "ID":       4370,
         "Learn":    105,
         "Yellow":   105,
         "Green":    130,
@@ -1146,7 +1158,7 @@ recipes = {
         }
     },
 	"Large Green Rocket": {
-        "ID":       26421,
+        "ID":       21590,
         "Learn":    175,
         "Yellow":   175,
         "Green":    187,
@@ -1158,7 +1170,7 @@ recipes = {
         }
     },
 	"Large Green Rocket Cluster": {
-        "ID":       26427,
+        "ID":       21716,
         "Learn":    275,
         "Yellow":   275,
         "Green":    280,
@@ -1170,7 +1182,7 @@ recipes = {
         }
     },
 	"Large Red Rocket": {
-        "ID":       26422,
+        "ID":       21592,
         "Learn":    175,
         "Yellow":   175,
         "Green":    187,
@@ -1182,7 +1194,7 @@ recipes = {
         }
     },
 	"Large Red Rocket Cluster": {
-        "ID":       26428,
+        "ID":       21718,
         "Learn":    275,
         "Yellow":   275,
         "Green":    280,
@@ -1194,12 +1206,13 @@ recipes = {
         }
     },
 	"Large Seaforium Charge": {
-        "ID":       3972,
+        "ID":       4398,
         "Learn":    200,
         "Yellow":   200,
         "Green":    220,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 4417,
         "Reagents": {
 			"Solid Blasting Powder": 2,
 			"Heavy Leather": 2,
@@ -1207,12 +1220,13 @@ recipes = {
         }
     },
 	"Lifelike Mechanical Toad": {
-        "ID":       19793,
+        "ID":       15996,
         "Learn":    265,
         "Yellow":   285,
         "Green":    295,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 16044,
         "Reagents": {
 			"Living Essence": 1,
 			"Thorium Widget": 4,
@@ -1221,7 +1235,7 @@ recipes = {
         }
     },
 	"Lil Smoky": {
-        "ID":       15633,
+        "ID":       11826,
         "Learn":    205,
         "Yellow":   205,
         "Green":    205,
@@ -1238,7 +1252,7 @@ recipes = {
         }
     },
 	"Lovingly Crafted Boomstick": {
-        "ID":       3939,
+        "ID":       4372,
         "Learn":    120,
         "Yellow":   145,
         "Green":    157,
@@ -1252,12 +1266,13 @@ recipes = {
         }
     },
 	"Major Recombobulator": {
-        "ID":       23079,
+        "ID":       18637,
         "Learn":    275,
         "Yellow":   285,
         "Green":    290,
         "Grey":     295,
         "Source":   "Drop",
+        "RecipeID": 18655,
         "Reagents": {
 			"Thorium Tube": 2,
 			"Truesilver Transformer": 1,
@@ -1265,12 +1280,13 @@ recipes = {
         }
     },
 	"Master Engineers Goggles": {
-        "ID":       19825,
+        "ID":       16008,
         "Learn":    290,
         "Yellow":   310,
         "Green":    320,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 16053,
         "Reagents": {
 			"Fire Goggles": 1,
 			"Huge Emerald": 2,
@@ -1278,7 +1294,7 @@ recipes = {
         }
     },
 	"Masterwork Target Dummy": {
-        "ID":       19814,
+        "ID":       16023,
         "Learn":    275,
         "Yellow":   295,
         "Green":    305,
@@ -1294,7 +1310,7 @@ recipes = {
         }
     },
 	"Mechanical Dragonling": {
-        "ID":       3969,
+        "ID":       4396,
         "Learn":    200,
         "Yellow":   220,
         "Green":    230,
@@ -1309,7 +1325,7 @@ recipes = {
         }
     },
 	"Mechanical Repair Kit": {
-        "ID":       15255,
+        "ID":       11590,
         "Learn":    200,
         "Yellow":   200,
         "Green":    220,
@@ -1322,12 +1338,13 @@ recipes = {
         }
     },
 	"Mechanical Squirrel": {
-        "ID":       3928,
+        "ID":       4401,
         "Learn":    75,
         "Yellow":   105,
         "Green":    120,
         "Grey":     135,
         "Source":   "Drop",
+        "RecipeID": 4408,
         "Reagents": {
 			"Copper Modulator": 1,
 			"Handful of Copper Bolts": 1,
@@ -1336,7 +1353,7 @@ recipes = {
         }
     },
 	"Minor Recombobulator": {
-        "ID":       3952,
+        "ID":       4381,
         "Learn":    140,
         "Yellow":   165,
         "Green":    177,
@@ -1350,7 +1367,7 @@ recipes = {
         }
     },
 	"Mithril Blunderbuss": {
-        "ID":       12595,
+        "ID":       10508,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -1365,7 +1382,7 @@ recipes = {
         }
     },
 	"Mithril Casing": {
-        "ID":       12599,
+        "ID":       10561,
         "Learn":    215,
         "Yellow":   215,
         "Green":    235,
@@ -1376,7 +1393,7 @@ recipes = {
         }
     },
 	"Mithril Frag Bomb": {
-        "ID":       12603,
+        "ID":       10514,
         "Learn":    215,
         "Yellow":   215,
         "Green":    235,
@@ -1389,7 +1406,7 @@ recipes = {
         }
     },
 	"Mithril Gyro-Shot": {
-        "ID":       12621,
+        "ID":       10513,
         "Learn":    245,
         "Yellow":   245,
         "Green":    265,
@@ -1401,12 +1418,13 @@ recipes = {
         }
     },
 	"Mithril Heavy-bore Rifle": {
-        "ID":       12614,
+        "ID":       10510,
         "Learn":    220,
         "Yellow":   240,
         "Green":    250,
         "Grey":     260,
         "Source":   "Drop",
+        "RecipeID": 10604,
         "Reagents": {
 			"Mithril Tube": 2,
 			"Unstable Trigger": 1,
@@ -1416,7 +1434,7 @@ recipes = {
         }
     },
 	"Mithril Mechanical Dragonling": {
-        "ID":       12624,
+        "ID":       10576,
         "Learn":    250,
         "Yellow":   270,
         "Green":    280,
@@ -1432,7 +1450,7 @@ recipes = {
         }
     },
 	"Mithril Tube": {
-        "ID":       12589,
+        "ID":       10559,
         "Learn":    195,
         "Yellow":   195,
         "Green":    215,
@@ -1443,12 +1461,13 @@ recipes = {
         }
     },
 	"Moonsight Rifle": {
-        "ID":       3954,
+        "ID":       4383,
         "Learn":    145,
         "Yellow":   170,
         "Green":    182,
         "Grey":     195,
         "Source":   "Drop",
+        "RecipeID": 4412,
         "Reagents": {
 			"Bronze Tube": 3,
 			"Whirring Bronze Gizmo": 3,
@@ -1457,7 +1476,7 @@ recipes = {
         }
     },
 	"Ornate Spyglass": {
-        "ID":       6458,
+        "ID":       5507,
         "Learn":    135,
         "Yellow":   160,
         "Green":    172,
@@ -1471,12 +1490,13 @@ recipes = {
         }
     },
 	"Parachute Cloak": {
-        "ID":       12616,
+        "ID":       10518,
         "Learn":    225,
         "Yellow":   245,
         "Green":    255,
         "Grey":     265,
         "Source":   "Drop",
+        "RecipeID": 10606,
         "Reagents": {
 			"Bolt of Mageweave": 4,
 			"Shadow Silk": 2,
@@ -1485,7 +1505,7 @@ recipes = {
         }
     },
 	"Pet Bombling": {
-        "ID":       15628,
+        "ID":       11825,
         "Learn":    205,
         "Yellow":   205,
         "Green":    205,
@@ -1501,12 +1521,13 @@ recipes = {
         }
     },
 	"Portable Bronze Mortar": {
-        "ID":       3960,
+        "ID":       4403,
         "Learn":    165,
         "Yellow":   185,
         "Green":    195,
         "Grey":     205,
         "Source":   "Drop",
+        "RecipeID": 4414,
         "Reagents": {
 			"Bronze Tube": 4,
 			"Iron Strut": 1,
@@ -1515,7 +1536,7 @@ recipes = {
         }
     },
 	"Powerful Seaforium Charge": {
-        "ID":       23080,
+        "ID":       18594,
         "Learn":    275,
         "Yellow":   275,
         "Green":    285,
@@ -1529,7 +1550,7 @@ recipes = {
         }
     },
 	"Practice Lock": {
-        "ID":       8334,
+        "ID":       6712,
         "Learn":    100,
         "Yellow":   115,
         "Green":    122,
@@ -1542,7 +1563,7 @@ recipes = {
         }
     },
 	"Red Firework": {
-        "ID":       23066,
+        "ID":       9318,
         "Learn":    150,
         "Yellow":   150,
         "Green":    162,
@@ -1554,7 +1575,7 @@ recipes = {
         }
     },
 	"Red Rocket Cluster": {
-        "ID":       26425,
+        "ID":       21576,
         "Learn":    225,
         "Yellow":   225,
         "Green":    237,
@@ -1566,7 +1587,7 @@ recipes = {
         }
     },
 	"Rose Colored Goggles": {
-        "ID":       12618,
+        "ID":       10503,
         "Learn":    230,
         "Yellow":   250,
         "Green":    260,
@@ -1578,7 +1599,7 @@ recipes = {
         }
     },
 	"Rough Blasting Powder": {
-        "ID":       3918,
+        "ID":       4357,
         "Learn":    1,
         "Yellow":   20,
         "Green":    30,
@@ -1589,7 +1610,7 @@ recipes = {
         }
     },
 	"Rough Boomstick": {
-        "ID":       3925,
+        "ID":       4362,
         "Learn":    50,
         "Yellow":   80,
         "Green":    95,
@@ -1602,7 +1623,7 @@ recipes = {
         }
     },
 	"Rough Copper Bomb": {
-        "ID":       3923,
+        "ID":       4360,
         "Learn":    30,
         "Yellow":   60,
         "Green":    75,
@@ -1616,7 +1637,7 @@ recipes = {
         }
     },
 	"Rough Dynamite": {
-        "ID":       3919,
+        "ID":       4358,
         "Learn":    1,
         "Yellow":   30,
         "Green":    45,
@@ -1628,7 +1649,7 @@ recipes = {
         }
     },
 	"Salt Shaker": {
-        "ID":       19567,
+        "ID":       15846,
         "Learn":    250,
         "Yellow":   270,
         "Green":    280,
@@ -1642,19 +1663,20 @@ recipes = {
         }
     },
 	"Shadow Goggles": {
-        "ID":       3940,
+        "ID":       4373,
         "Learn":    120,
         "Yellow":   145,
         "Green":    157,
         "Grey":     170,
         "Source":   "Drop",
+        "RecipeID": 4410,
         "Reagents": {
 			"Medium Leather": 4,
 			"Shadowgem": 2
         }
     },
 	"Silver Contact": {
-        "ID":       3973,
+        "ID":       4404,
         "Learn":    90,
         "Yellow":   110,
         "Green":    125,
@@ -1665,7 +1687,7 @@ recipes = {
         }
     },
 	"Silver-plated Shotgun": {
-        "ID":       3949,
+        "ID":       4379,
         "Learn":    130,
         "Yellow":   155,
         "Green":    167,
@@ -1679,7 +1701,7 @@ recipes = {
         }
     },
 	"Small Blue Rocket": {
-        "ID":       26416,
+        "ID":       21558,
         "Learn":    125,
         "Yellow":   125,
         "Green":    137,
@@ -1691,7 +1713,7 @@ recipes = {
         }
     },
 	"Small Bronze Bomb": {
-        "ID":       3941,
+        "ID":       4374,
         "Learn":    120,
         "Yellow":   120,
         "Green":    145,
@@ -1705,7 +1727,7 @@ recipes = {
         }
     },
 	"Small Green Rocket": {
-        "ID":       26417,
+        "ID":       21559,
         "Learn":    125,
         "Yellow":   125,
         "Green":    137,
@@ -1717,7 +1739,7 @@ recipes = {
         }
     },
 	"Small Red Rocket": {
-        "ID":       26418,
+        "ID":       21557,
         "Learn":    125,
         "Yellow":   125,
         "Green":    137,
@@ -1729,12 +1751,13 @@ recipes = {
         }
     },
 	"Small Seaforium Charge": {
-        "ID":       3933,
+        "ID":       4367,
         "Learn":    100,
         "Yellow":   130,
         "Green":    145,
         "Grey":     160,
         "Source":   "Drop",
+        "RecipeID": 4409,
         "Reagents": {
 			"Coarse Blasting Powder": 2,
 			"Copper Modulator": 1,
@@ -1743,7 +1766,7 @@ recipes = {
         }
     },
 	"Snake Burst Firework": {
-        "ID":       23507,
+        "ID":       19026,
         "Learn":    250,
         "Yellow":   250,
         "Green":    260,
@@ -1756,12 +1779,13 @@ recipes = {
         }
     },
 	"Sniper Scope": {
-        "ID":       12620,
+        "ID":       10548,
         "Learn":    240,
         "Yellow":   260,
         "Green":    270,
         "Grey":     280,
         "Source":   "Drop",
+        "RecipeID": 10608,
         "Reagents": {
 			"Mithril Tube": 1,
 			"Star Ruby": 1,
@@ -1769,7 +1793,7 @@ recipes = {
         }
     },
 	"Snowmaster 9000": {
-        "ID":       21940,
+        "ID":       17716,
         "Learn":    190,
         "Yellow":   190,
         "Green":    210,
@@ -1783,7 +1807,7 @@ recipes = {
         }
     },
 	"Solid Blasting Powder": {
-        "ID":       12585,
+        "ID":       10505,
         "Learn":    175,
         "Yellow":   175,
         "Green":    185,
@@ -1794,7 +1818,7 @@ recipes = {
         }
     },
 	"Solid Dynamite": {
-        "ID":       12586,
+        "ID":       10507,
         "Learn":    175,
         "Yellow":   175,
         "Green":    185,
@@ -1806,24 +1830,26 @@ recipes = {
         }
     },
 	"Spellpower Goggles Xtreme": {
-        "ID":       12615,
+        "ID":       10502,
         "Learn":    225,
         "Yellow":   245,
         "Green":    255,
         "Grey":     265,
         "Source":   "Drop",
+        "RecipeID": 10605,
         "Reagents": {
 			"Thick Leather": 4,
 			"Star Ruby": 2
         }
     },
 	"Spellpower Goggles Xtreme Plus": {
-        "ID":       19794,
+        "ID":       15999,
         "Learn":    270,
         "Yellow":   290,
         "Green":    300,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 16045,
         "Reagents": {
 			"Spellpower Goggles Xtreme": 1,
 			"Star Ruby": 4,
@@ -1832,7 +1858,7 @@ recipes = {
         }
     },
 	"Standard Scope": {
-        "ID":       3978,
+        "ID":       4406,
         "Learn":    120,
         "Yellow":   135,
         "Green":    147,
@@ -1844,7 +1870,7 @@ recipes = {
         }
     },
 	"Steam Tonk Controller": {
-        "ID":       28327,
+        "ID":       22728,
         "Learn":    275,
         "Yellow":   295,
         "Green":    305,
@@ -1858,7 +1884,7 @@ recipes = {
         }
     },
 	"Target Dummy": {
-        "ID":       3932,
+        "ID":       4366,
         "Learn":    85,
         "Yellow":   115,
         "Green":    130,
@@ -1872,7 +1898,7 @@ recipes = {
         }
     },
 	"The Big One": {
-        "ID":       12754,
+        "ID":       10586,
         "Learn":    235,
         "Yellow":   235,
         "Green":    255,
@@ -1887,7 +1913,7 @@ recipes = {
         }
     },
 	"Thorium Grenade": {
-        "ID":       19790,
+        "ID":       15993,
         "Learn":    260,
         "Yellow":   280,
         "Green":    290,
@@ -1901,12 +1927,13 @@ recipes = {
         }
     },
 	"Thorium Rifle": {
-        "ID":       19792,
+        "ID":       15995,
         "Learn":    260,
         "Yellow":   280,
         "Green":    290,
         "Grey":     300,
         "Source":   "Drop",
+        "RecipeID": 16043,
         "Reagents": {
 			"Mithril Tube": 2,
 			"Mithril Casing": 2,
@@ -1916,19 +1943,20 @@ recipes = {
         }
     },
 	"Thorium Shells": {
-        "ID":       19800,
+        "ID":       15997,
         "Learn":    285,
         "Yellow":   305,
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 16051,
         "Reagents": {
 			"Thorium Bar": 2,
 			"Dense Blasting Powder": 1
         }
     },
 	"Thorium Tube": {
-        "ID":       19795,
+        "ID":       16000,
         "Learn":    275,
         "Yellow":   295,
         "Green":    305,
@@ -1939,7 +1967,7 @@ recipes = {
         }
     },
 	"Thorium Widget": {
-        "ID":       19791,
+        "ID":       15994,
         "Learn":    260,
         "Yellow":   280,
         "Green":    290,
@@ -1951,7 +1979,7 @@ recipes = {
         }
     },
 	"Tranquil Mechanical Yeti": {
-        "ID":       26011,
+        "ID":       21277,
         "Learn":    250,
         "Yellow":   320,
         "Green":    330,
@@ -1967,7 +1995,7 @@ recipes = {
         }
     },
 	"Truesilver Transformer": {
-        "ID":       23071,
+        "ID":       18631,
         "Learn":    260,
         "Yellow":   270,
         "Green":    275,
@@ -1980,7 +2008,7 @@ recipes = {
         }
     },
 	"Ultrasafe Transporter - Gadgetzan": {
-        "ID":       23489,
+        "ID":       18986,
         "Learn":    260,
         "Yellow":   285,
         "Green":    295,
@@ -1997,7 +2025,7 @@ recipes = {
         }
     },
 	"Unstable Trigger": {
-        "ID":       12591,
+        "ID":       10560,
         "Learn":    200,
         "Yellow":   200,
         "Green":    220,
@@ -2010,12 +2038,13 @@ recipes = {
         }
     },
 	"Voice Amplification Modulator": {
-        "ID":       19819,
+        "ID":       16009,
         "Learn":    290,
         "Yellow":   310,
         "Green":    320,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 16052,
         "Reagents": {
 			"Delicate Arcanite Converter": 2,
 			"Gold Power Core": 1,
@@ -2024,7 +2053,7 @@ recipes = {
         }
     },
 	"Whirring Bronze Gizmo": {
-        "ID":       3942,
+        "ID":       4375,
         "Learn":    125,
         "Yellow":   125,
         "Green":    150,
@@ -2036,12 +2065,13 @@ recipes = {
         }
     },
 	"World Enlarger": {
-        "ID":       23129,
+        "ID":       18660,
         "Learn":    260,
         "Yellow":   260,
         "Green":    265,
         "Grey":     270,
         "Source":   "Drop",
+        "RecipeID": 18661,
         "Reagents": {
 			"Mithril Casing": 1,
 			"Thorium Widget": 2,
