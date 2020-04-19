@@ -150,6 +150,7 @@ items = {
     "Icecap": 13467,
     "Ichor of Undeath": 7972,
     "Illusion Dust": 16204,
+    "Imbued Vial": 18256,
     "Inlaid Mithril Cylinder": 9060,
     "Iridescent Pearl": 5500,
     "Iron Bar": 3575,

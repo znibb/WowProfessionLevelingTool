@@ -488,6 +488,43 @@ recipes = {
 			"Greater Eternal Essence": 6
         }
     },
+    "Brilliant Mana Oil": {
+        "ID":       20748,
+        "Learn":    300,
+        "Yellow":   310,
+        "Green":    320,
+        "Grey":     330,
+        "Source":   "Reputation",
+        "Reagents": {
+			"Large Brilliant Shard": 2,
+            "Purple Lotus": 3,
+            "Imbued Vial": 1
+        }
+    },
+    "Brilliant Wizard Oil": {
+        "ID":       20749,
+        "Learn":    300,
+        "Yellow":   310,
+        "Green":    320,
+        "Grey":     330,
+        "Source":   "Reputation",
+        "Reagents": {
+			"Large Brilliant Shard": 2,
+            "Firebloom": 3,
+            "Imbued Vial": 1
+        }
+    },
+    "Chest - Greater Health": {
+        "ID":       13640,
+        "Learn":    160,
+        "Yellow":   180,
+        "Green":    200,
+        "Grey":     220,
+        "Source":   "Trainer",
+        "Reagents": {
+			"Soul Dust": 3
+        }
+    },
     "Chest - Greater Health": {
         "ID":       13640,
         "Learn":    160,
