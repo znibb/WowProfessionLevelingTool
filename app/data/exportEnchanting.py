@@ -2,7 +2,7 @@
 
 recipes = {
 	"2H Weapon - Agility": {
-        "ID":       27839,
+        "ID":       27837,
         "Learn":    290,
         "Yellow":   310,
         "Green":    330,
@@ -69,6 +69,7 @@ recipes = {
         "Green":    155,
         "Grey":     175,
         "Source":   "Drop",
+        "RecipeID": 11167,
         "Reagents": {
 			"Lesser Astral Essence": 1,
 			"Strange Dust": 6
@@ -93,6 +94,7 @@ recipes = {
         "Green":    335,
         "Grey":     355,
         "Source":   "Drop",
+        "RecipeID": 16247,
         "Reagents": {
 			"Large Brilliant Shard": 4,
 			"Illusion Dust": 10
@@ -116,6 +118,7 @@ recipes = {
         "Green":    335,
         "Grey":     355,
         "Source":   "Drop",
+        "RecipeID": 16245,
         "Reagents": {
 			"Greater Eternal Essence": 8
         }
@@ -127,6 +130,7 @@ recipes = {
         "Green":    300,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 16215,
         "Reagents": {
 			"Dream Dust": 10
         }
@@ -150,6 +154,7 @@ recipes = {
         "Green":    230,
         "Grey":     250,
         "Source":   "Drop",
+        "RecipeID": 11167,
         "Reagents": {
 			"Greater Mystic Essence": 1,
 			"Lesser Mystic Essence": 2
@@ -209,6 +214,7 @@ recipes = {
         "Green":    315,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 16220,
         "Reagents": {
 			"Greater Eternal Essence": 2,
 			"Lesser Eternal Essence": 1
@@ -244,6 +250,7 @@ recipes = {
         "Green":    295,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 16214,
         "Reagents": {
 			"Lesser Eternal Essence": 3
         }
@@ -255,6 +262,7 @@ recipes = {
         "Green":    260,
         "Grey":     280,
         "Source":   "Drop",
+        "RecipeID": 11204,
         "Reagents": {
 			"Lesser Nether Essence": 3,
 			"Vision Dust": 1
@@ -267,6 +275,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 11225,
         "Reagents": {
 			"Dream Dust": 5
         }
@@ -324,6 +333,7 @@ recipes = {
         "Green":    165,
         "Grey":     185,
         "Source":   "Drop",
+        "RecipeID": 6375,
         "Reagents": {
 			"Lesser Astral Essence": 2
         }
@@ -405,6 +415,7 @@ recipes = {
         "Green":    125,
         "Grey":     145,
         "Source":   "Drop",
+        "RecipeID": 6344,
         "Reagents": {
 			"Lesser Magic Essence": 2
         }
@@ -427,6 +438,7 @@ recipes = {
         "Green":    135,
         "Grey":     155,
         "Source":   "Drop",
+        "RecipeID": 6347,
         "Reagents": {
 			"Strange Dust": 5
         }
@@ -471,6 +483,7 @@ recipes = {
         "Green":    310,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 16218,
         "Reagents": {
 			"Lesser Eternal Essence": 3,
 			"Dream Dust": 10
@@ -483,6 +496,7 @@ recipes = {
         "Green":    335,
         "Grey":     355,
         "Source":   "Drop",
+        "RecipeID": 16246,
         "Reagents": {
 			"Illusion Dust":  6,
 			"Greater Eternal Essence": 6
@@ -628,6 +642,7 @@ recipes = {
         "Green":    330,
         "Grey":     350,
         "Source":   "Drop",
+        "RecipeID": 16242,
         "Reagents": {
 			"Greater Eternal Essence": 3,
 			"Small Brilliant Shard": 1
@@ -770,6 +785,7 @@ recipes = {
         "Green":    305,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 16216,
         "Reagents": {
 			"Lesser Eternal Essence": 2,
 			"Heart of Fire": 1,
@@ -786,6 +802,7 @@ recipes = {
         "Green":    265,
         "Grey":     285,
         "Source":   "Drop",
+        "RecipeID": 11206,
         "Reagents": {
 			"Lesser Nether Essence": 2
         }
@@ -821,6 +838,7 @@ recipes = {
         "Green":    180,
         "Grey":     200,
         "Source":   "Drop",
+        "RecipeID": 11098,
         "Reagents": {
 			"Greater Astral Essence": 1,
 			"Shadow Protection Potion": 1
@@ -890,6 +908,7 @@ recipes = {
         "Green":    265,
         "Grey":     285,
         "Source":   "Drop",
+        "RecipeID": 11205,
         "Reagents": {
 			"Vision Dust": 3,
 			"Sungrass": 3
@@ -902,6 +921,7 @@ recipes = {
         "Green":    255,
         "Grey":     275,
         "Source":   "Drop",
+        "RecipeID": 11203,
         "Reagents": {
 			"Vision Dust": 3,
 			"Truesilver Bar": 3
@@ -926,6 +946,7 @@ recipes = {
         "Green":    190,
         "Grey":     210,
         "Source":   "Drop",
+        "RecipeID": 11152,
         "Reagents": {
 			"Soul Dust": 1,
 			"Blackmouth Oil": 3
@@ -938,6 +959,7 @@ recipes = {
         "Green":    310,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 16219,
         "Reagents": {
 			"Lesser Eternal Essence": 3,
 			"Illusion Dust": 3
@@ -950,6 +972,7 @@ recipes = {
         "Green":    335,
         "Grey":     355,
         "Source":   "Drop",
+        "RecipeID": 16244,
         "Reagents": {
 			"Greater Eternal Essence": 4,
 			"Illusion Dust": 4
@@ -962,6 +985,7 @@ recipes = {
         "Green":    190,
         "Grey":     210,
         "Source":   "Drop",
+        "RecipeID": 11151,
         "Reagents": {
 			"Soul Dust": 1,
 			"Kingsblood": 3
@@ -974,6 +998,7 @@ recipes = {
         "Green":    190,
         "Grey":     210,
         "Source":   "Drop",
+        "RecipeID": 11150,
         "Reagents": {
 			"Soul Dust": 1,
 			"Iron Ore": 3
@@ -998,6 +1023,7 @@ recipes = {
         "Green":    290,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 11226,
         "Reagents": {
 			"Large Radiant Shard": 2,
 			"Dream Dust": 3
@@ -1010,6 +1036,7 @@ recipes = {
         "Green":    240,
         "Grey":     260,
         "Source":   "Drop",
+        "RecipeID": 11166,
         "Reagents": {
 			"Vision Dust": 1,
 			"Green Whelp Scale": 3
@@ -1034,6 +1061,7 @@ recipes = {
         "Green":    275,
         "Grey":     295,
         "Source":   "Drop",
+        "RecipeID": 11224,
         "Reagents": {
 			"Large Radiant Shard": 1,
 			"Frost Oil": 1
@@ -1069,6 +1097,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Drop",
+        "RecipeID": 11168,
         "Reagents": {
 			"Greater Mystic Essence": 2,
 			"Vision Dust": 2,
@@ -1082,6 +1111,7 @@ recipes = {
         "Green":    160,
         "Grey":     180,
         "Source":   "Drop",
+        "RecipeID": 11081,
         "Reagents": {
 			"Lesser Astral Essence": 1,
 			"Strange Dust": 1,
@@ -1154,6 +1184,7 @@ recipes = {
         "Green":    320,
         "Grey":     340,
         "Source":   "Drop",
+        "RecipeID": 16222,
         "Reagents": {
 			"Greater Eternal Essence": 2,
 			"Illusion Dust": 4
@@ -1180,6 +1211,7 @@ recipes = {
         "Green":    270,
         "Grey":     290,
         "Source":   "Drop",
+        "RecipeID": 11208,
         "Reagents": {
 			"Small Radiant Shard": 1,
 			"Dream Dust": 2,
@@ -1193,6 +1225,7 @@ recipes = {
         "Green":    305,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 11207,
         "Reagents": {
 			"Small Radiant Shard": 4,
 			"Essence of Fire": 1
@@ -1217,6 +1250,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Drop",
+        "RecipeID": 16223,
         "Reagents": {
 			"Small Brilliant Shard": 4,
 			"Essence of Water": 1,
@@ -1231,6 +1265,7 @@ recipes = {
         "Green":    215,
         "Grey":     235,
         "Source":   "Drop",
+        "RecipeID": 11164,
         "Reagents": {
 			"Lesser Mystic Essence": 1,
 			"Large Fang": 2,
@@ -1244,6 +1279,7 @@ recipes = {
         "Green":    215,
         "Grey":     235,
         "Source":   "Drop",
+        "RecipeID": 11165,
         "Reagents": {
 			"Lesser Mystic Essence": 1,
 			"Elemental Earth": 1,
@@ -1269,6 +1305,7 @@ recipes = {
         "Green":    140,
         "Grey":     160,
         "Source":   "Drop",
+        "RecipeID": 6348,
         "Reagents": {
 			"Strange Dust": 4,
 			"Greater Magic Essence": 2
@@ -1320,6 +1357,7 @@ recipes = {
         "Green":    335,
         "Grey":     355,
         "Source":   "Drop",
+        "RecipeID": 16248,
 		"Reagents": {
 			"Large Brilliant Shard": 4,
 			"Essence of Undeath": 4
@@ -1332,6 +1370,7 @@ recipes = {
         "Green":    230,
         "Grey":     250,
         "Source":   "Drop",
+        "RecipeID": 17725,
         "Reagents": {
 			"Greater Mystic Essence": 3,
 			"Vision Dust": 3,
@@ -1459,6 +1498,7 @@ recipes = {
         "Green":    305,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 11813,
         "Reagents": {
 			"Blood of the Mountain": 1,
 			"Essence of Fire": 1,
