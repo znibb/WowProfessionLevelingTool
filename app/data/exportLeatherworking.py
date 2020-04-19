@@ -8,6 +8,7 @@ recipes = {
         "Green":    230,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 4301,
         "Reagents": {
 			"Heavy Leather": 6,
 			"Cured Heavy Hide": 2,
@@ -39,6 +40,7 @@ recipes = {
         "Green":    180,
         "Grey":     190,
         "Source":   "Drop",
+        "RecipeID": 4297,
         "Reagents": {
 			"Heavy Leather": 6,
 			"Large Fang": 2,
@@ -92,6 +94,7 @@ recipes = {
         "Grey":     280,
         "Source":   "Drop",
         "Reagents": {
+        "RecipeID": 8390,
 			"Thick Leather": 14,
 			"Flask of Big Mojo": 4,
 			"Heavy Silken Thread": 2
@@ -104,6 +107,7 @@ recipes = {
         "Green":    250,
         "Grey":     260,
         "Source":   "Drop",
+        "RecipeID": 8387,
         "Reagents": {
 			"Thick Leather": 8,
 			"Flask of Mojo": 6,
@@ -117,6 +121,7 @@ recipes = {
         "Green":    270,
         "Grey":     280,
         "Source":   "Drop",
+        "RecipeID": 8389,
         "Reagents": {
 			"Thick Leather": 10,
 			"Flask of Big Mojo": 6,
@@ -130,6 +135,7 @@ recipes = {
         "Green":    245,
         "Grey":     255,
         "Source":   "Drop",
+        "RecipeID": 8386,
         "Reagents": {
 			"Thick Leather": 10,
 			"Flask of Mojo": 4,
@@ -201,6 +207,7 @@ recipes = {
         "Green":    325,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 15763,
         "Reagents": {
 			"Rugged Leather": 28,
 			"Blue Dragonscale": 30,
@@ -216,6 +223,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 15737,
         "Reagents": {
 			"Rugged Leather": 4,
 			"Chimera Leather": 8,
@@ -242,6 +250,7 @@ recipes = {
         "Green":    310,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 15746,
         "Reagents": {
 			"Rugged Leather": 8,
 			"Chimera Leather": 8,
@@ -255,6 +264,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 15755,
         "Reagents": {
 			"Rugged Leather": 10,
 			"Chimera Leather": 10,
@@ -268,6 +278,7 @@ recipes = {
         "Green":    230,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 8384,
         "Reagents": {
 			"Heavy Leather": 12,
 			"Cured Heavy Hide": 2,
@@ -395,6 +406,7 @@ recipes = {
         "Green":    167,
         "Grey":     180,
         "Source":   "Drop",
+        "RecipeID": 7369,
         "Reagents": {
 			"Fine Leather Gloves": 1,
 			"Cured Medium Hide": 1,
@@ -422,6 +434,7 @@ recipes = {
         "Green":    177,
         "Grey":     190,
         "Source":   "Drop",
+        "RecipeID": 4296,
         "Reagents": {
 			"Medium Leather": 12,
 			"Elixir of Lesser Agility": 1,
@@ -436,6 +449,7 @@ recipes = {
         "Green":    137,
         "Grey":     150,
         "Source":   "Drop",
+        "RecipeID": 2409,
         "Reagents": {
 			"Medium Leather": 6,
 			"Fine Thread": 1,
@@ -559,6 +573,7 @@ recipes = {
         "Green":    230,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 7452,
         "Reagents": {
 			"Heavy Leather": 8,
 			"Shadowcat Hide": 2,
@@ -599,6 +614,7 @@ recipes = {
         "Green":    195,
         "Grey":     205,
         "Source":   "Drop",
+        "RecipeID": 7449,
         "Reagents": {
 			"Heavy Leather": 10,
 			"Black Dye": 1,
@@ -713,6 +729,7 @@ recipes = {
         "Green":    135,
         "Grey":     150,
         "Source":   "Drop",
+        "RecipeID": 2406,
         "Reagents": {
 			"Light Leather": 7,
 			"Coarse Thread": 2
@@ -737,6 +754,7 @@ recipes = {
         "Green":    120,
         "Grey":     135,
         "Source":   "Drop",
+        "RecipeID": 2408,
         "Reagents": {
 			"Cured Light Hide": 1,
 			"Light Leather": 4,
@@ -750,6 +768,7 @@ recipes = {
         "Green":    142,
         "Grey":     155,
         "Source":   "Drop",
+        "RecipeID": 5972,
         "Reagents": {
 			"Medium Leather": 8,
 			"Bolt of Woolen Cloth": 1,
@@ -816,6 +835,7 @@ recipes = {
         "Green":    325,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 15761,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Frostsaber Leather": 10,
@@ -829,6 +849,7 @@ recipes = {
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 15747,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Frostsaber Leather": 8,
@@ -913,6 +934,7 @@ recipes = {
         "Green":    300,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 15733,
         "Reagents": {
 			"Rugged Leather": 20,
 			"Green Dragonscale": 25,
@@ -968,6 +990,7 @@ recipes = {
         "Green":    205,
         "Grey":     215,
         "Source":   "Drop",
+        "RecipeID": 7450,
         "Reagents": {
 			"Green Whelp Scale": 4,
 			"Heavy Leather": 10,
@@ -994,6 +1017,7 @@ recipes = {
         "Green":    205,
         "Grey":     215,
         "Source":   "Drop",
+        "RecipeID": 4299,
         "Reagents": {
 			"Cured Heavy Hide": 2,
 			"Heavy Leather": 12,
@@ -1008,6 +1032,7 @@ recipes = {
         "Green":    200,
         "Grey":     210,
         "Source":   "Drop",
+        "RecipeID": 4298,
         "Reagents": {
 			"Cured Heavy Hide": 2,
 			"Heavy Leather": 4,
@@ -1022,6 +1047,7 @@ recipes = {
         "Green":    215,
         "Grey":     225,
         "Source":   "Drop",
+        "RecipeID": 5974,
         "Reagents": {
 			"Heavy Leather": 14,
 			"Bolt of Silk Cloth": 2,
@@ -1048,6 +1074,7 @@ recipes = {
         "Green":    225,
         "Grey":     235,
         "Source":   "Drop",
+        "RecipeID": 4300,
         "Reagents": {
 			"Heavy Leather": 6,
 			"Cured Heavy Hide": 2,
@@ -1158,6 +1185,7 @@ recipes = {
         "Green":    182,
         "Grey":     195,
         "Source":   "Drop",
+        "RecipeID": 7364,
         "Reagents": {
 			"Medium Leather": 12,
 			"Elemental Earth": 2,
@@ -1219,6 +1247,7 @@ recipes = {
         "Green":    210,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 15743,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Heavy Scorpid Scale": 8,
@@ -1245,6 +1274,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 15738,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Heavy Scorpid Scale": 8,
@@ -1272,6 +1302,7 @@ recipes = {
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 15748,
         "Reagents": {
 			"Rugged Leather": 8,
 			"Heavy Scorpid Scale": 12,
@@ -1285,6 +1316,7 @@ recipes = {
         "Green":    295,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 15076,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Heavy Scorpid Scale": 6,
@@ -1327,6 +1359,7 @@ recipes = {
         "Green":    157,
         "Grey":     170,
         "Source":   "Drop",
+        "RecipeID": 4294,
         "Reagents": {
 			"Medium Leather": 8,
 			"Elixir of Wisdom": 1,
@@ -1364,6 +1397,7 @@ recipes = {
         "Green":    137,
         "Grey":     150,
         "Source":   "Drop",
+        "RecipeID": 4293,
         "Reagents": {
 			"Fine Leather Tunic": 1,
 			"Cured Light Hide": 2,
@@ -1390,6 +1424,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 15760,
         "Reagents": {
 			"Rugged Leather": 40,
 			"Ironfeather": 120,
@@ -1492,6 +1527,7 @@ recipes = {
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 15752,
         "Reagents": {
 			"Rugged Leather": 16,
 			"Living Essence": 6,
@@ -1687,6 +1723,7 @@ recipes = {
         "Green":    177,
         "Grey":     190,
         "Source":   "Drop",
+        "RecipeID": 7363,
         "Reagents": {
 			"Medium Leather": 10,
 			"Lucky Charm": 2,
@@ -1778,6 +1815,7 @@ recipes = {
         "Green":    80,
         "Grey":     95,
         "Source":   "Drop",
+        "RecipeID": 7288,
         "Reagents": {
 			"Light Leather": 5,
 			"Coarse Thread": 5
@@ -1790,6 +1828,7 @@ recipes = {
         "Green":    310,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 15745,
         "Reagents": {
 			"Rugged Leather": 12,
 			"Runecloth": 10,
@@ -1803,6 +1842,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 15739,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Black Pearl": 1,
@@ -1817,6 +1857,7 @@ recipes = {
         "Green":    300,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 15731,
         "Reagents": {
 			"Rugged Leather": 10,
 			"Runecloth": 6,
@@ -1871,6 +1912,7 @@ recipes = {
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 15753,
         "Reagents": {
 			"Rugged Leather": 16,
 			"Essence of Water": 3,
@@ -1900,6 +1942,7 @@ recipes = {
         "Green":    325,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 15764,
         "Reagents": {
 			"Rugged Leather": 12,
 			"Essence of Water": 3,
@@ -1915,6 +1958,7 @@ recipes = {
         "Green":    230,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 7453,
         "Reagents": {
 			"Heavy Leather": 10,
 			"Swiftness Potion": 2,
@@ -1980,6 +2024,7 @@ recipes = {
         "Green":    265,
         "Grey":     275,
         "Source":   "Drop",
+        "RecipeID": 8399,
         "Reagents": {
 			"Thick Leather": 12,
 			"Scorpid Scale": 12,
@@ -1993,6 +2038,7 @@ recipes = {
         "Green":    250,
         "Grey":     260,
         "Source":   "Drop",
+        "RecipeID": 8205,
         "Reagents": {
 			"Thick Leather": 10,
 			"Scorpid Scale": 4,
@@ -2006,6 +2052,7 @@ recipes = {
         "Green":    250,
         "Grey":     260,
         "Source":   "Drop",
+        "RecipeID": 8293,
         "Reagents": {
 			"Thick Leather": 12,
 			"Scorpid Scale": 12,
@@ -2019,6 +2066,7 @@ recipes = {
         "Green":    255,
         "Grey":     265,
         "Source":   "Drop",
+        "RecipeID": 8204,
         "Reagents": {
 			"Thick Leather": 6,
 			"Scorpid Scale": 8,
@@ -2032,6 +2080,7 @@ recipes = {
         "Green":    280,
         "Grey":     290,
         "Source":   "Drop",
+        "RecipeID": 8402,
         "Reagents": {
 			"Thick Leather": 10,
 			"Scorpid Scale": 20,
@@ -2045,6 +2094,7 @@ recipes = {
         "Green":    275,
         "Grey":     285,
         "Source":   "Drop",
+        "RecipeID": 8401,
         "Reagents": {
 			"Thick Leather": 14,
 			"Scorpid Scale": 8,
@@ -2058,6 +2108,7 @@ recipes = {
         "Green":    270,
         "Grey":     280,
         "Source":   "Drop",
+        "RecipeID": 8400,
         "Reagents": {
 			"Thick Leather": 12,
 			"Scorpid Scale": 16,
@@ -2164,6 +2215,7 @@ recipes = {
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 15749,
         "Reagents": {
 			"Rugged Leather": 8,
 			"Essence of Fire": 1,
@@ -2178,6 +2230,7 @@ recipes = {
         "Green":    300,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 15732,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Essence of Fire": 1,
@@ -2220,6 +2273,7 @@ recipes = {
         "Green":    105,
         "Grey":     120,
         "Source":   "Drop",
+        "RecipeID": 2407,
         "Reagents": {
 			"Light Leather": 8,
 			"Coarse Thread": 2,
@@ -2233,6 +2287,7 @@ recipes = {
         "Green":    295,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 15728,
         "Reagents": {
 			"Rugged Leather": 8,
 			"Black Dye": 1,
@@ -2259,6 +2314,7 @@ recipes = {
         "Green":    310,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 15744,
         "Reagents": {
 			"Rugged Leather": 12,
 			"Black Dye": 1,
@@ -2272,6 +2328,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 15757,
         "Reagents": {
 			"Rugged Leather": 16,
 			"Cured Rugged Hide": 1,
