@@ -36,6 +36,7 @@ recipes = {
         "Green":    225,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 7085,
         "Reagents": {
             "Bolt of Silk Cloth": 6,
             "Naga Scale": 2,
@@ -228,6 +229,7 @@ recipes = {
         "Green":    220,
         "Grey":     235,
         "Source":   "Drop",
+        "RecipeID": 5775,
         "Reagents": {
             "Bolt of Silk Cloth": 5,
             "Black Dye": 1,
@@ -361,6 +363,7 @@ recipes = {
         "Green":    210,
         "Grey":     225,
         "Source":   "Drop",
+        "RecipeID": 4352,
         "Reagents": {
             "Bolt of Silk Cloth": 4,
             "Silken Thread": 1,
@@ -388,6 +391,7 @@ recipes = {
         "Green":    305,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 14484,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Gold Bar": 2,
@@ -401,6 +405,7 @@ recipes = {
         "Green":    300,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 14479,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Gold Bar": 2,
@@ -414,6 +419,7 @@ recipes = {
         "Green":    320,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 14494,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Gold Bar": 4,
@@ -428,6 +434,7 @@ recipes = {
         "Green":    300,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 14100,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Gold Bar": 2,
@@ -517,6 +524,7 @@ recipes = {
         "Green":    305,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 14482,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Essence of Fire": 1,
@@ -530,6 +538,7 @@ recipes = {
         "Green":    300,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 14476,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Heart of Fire": 3,
@@ -543,6 +552,7 @@ recipes = {
         "Green":    310,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 14490,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Essence of Fire": 1,
@@ -569,6 +579,7 @@ recipes = {
         "Green":    290,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 14471,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Heart of Fire": 3,
@@ -582,6 +593,7 @@ recipes = {
         "Green":    305,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 14486,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Essence of Fire": 4,
@@ -597,6 +609,7 @@ recipes = {
         "Green":    162,
         "Grey":     180,
         "Source":   "Drop",
+        "RecipeID": 10316,
         "Reagents": {
             "Bolt of Woolen Cloth": 5,
             "Red Dye": 3,
@@ -682,6 +695,7 @@ recipes = {
         "Green":    225,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 7084,
         "Reagents": {
             "Bolt of Silk Cloth": 5,
             "Fire Oil": 2,
@@ -778,6 +792,7 @@ recipes = {
         "Green":    230,
         "Grey":     245,
         "Source":   "Drop",
+        "RecipeID": 7086,
         "Reagents": {
             "Bolt of Silk Cloth": 5,
             "Elemental Earth": 4,
@@ -845,6 +860,7 @@ recipes = {
         "Green":    315,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 21369,
         "Reagents": {
             "Felcloth": 12,
             "Enchanted Leather": 6,
@@ -859,6 +875,7 @@ recipes = {
         "Green":    315,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 14492,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Felcloth": 4,
@@ -873,6 +890,7 @@ recipes = {
         "Green":    320,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 14496,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Felcloth": 4,
@@ -940,6 +958,7 @@ recipes = {
         "Green":    295,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 14474,
         "Reagents": {
             "Bolt of Runecloth": 3,
             "Essence of Water": 1,
@@ -953,6 +972,7 @@ recipes = {
         "Green":    310,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 14489,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Essence of Water": 1,
@@ -966,6 +986,7 @@ recipes = {
         "Green":    285,
         "Grey":     300,
         "Source":   "Drop",
+        "RecipeID": 14467,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Globe of Water": 2,
@@ -979,6 +1000,7 @@ recipes = {
         "Green":    285,
         "Grey":     300,
         "Source":   "Drop",
+        "RecipeID": 14466,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Globe of Water": 2,
@@ -992,6 +1014,7 @@ recipes = {
         "Green":    295,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 14473,
         "Reagents": {
             "Bolt of Runecloth": 3,
             "Ghost Dye": 2,
@@ -1006,6 +1029,7 @@ recipes = {
         "Green":    300,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 14477,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Ghost Dye": 2,
@@ -1020,6 +1044,7 @@ recipes = {
         "Green":    320,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 14495,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Ghost Dye": 4,
@@ -1033,6 +1058,7 @@ recipes = {
         "Green":    305,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 14480,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Ghost Dye": 4,
@@ -1060,6 +1086,7 @@ recipes = {
         "Green":    147,
         "Grey":     165,
         "Source":   "Drop",
+        "RecipeID": 2601,
         "Reagents": {
             "Bolt of Woolen Cloth": 4,
             "Fine Thread": 3,
@@ -1138,6 +1165,7 @@ recipes = {
         "Green":    200,
         "Grey":     215,
         "Source":   "Drop",
+        "RecipeID": 7090,
         "Reagents": {
             "Bolt of Silk Cloth": 5,
             "Green Dye": 2,
@@ -1151,6 +1179,7 @@ recipes = {
         "Green":    210,
         "Grey":     225,
         "Source":   "Drop",
+        "RecipeID": 5774,
         "Reagents": {
             "Bolt of Silk Cloth": 4,
             "Heavy Leather": 3,
@@ -1177,6 +1206,7 @@ recipes = {
         "Green":    137,
         "Grey":     155,
         "Source":   "Drop",
+        "RecipeID": 4292,
         "Reagents": {
             "Bolt of Woolen Cloth": 4,
             "Green Dye": 1,
@@ -1203,6 +1233,7 @@ recipes = {
         "Green":    180,
         "Grey":     195,
         "Source":   "Drop",
+        "RecipeID": 7092,
         "Reagents": {
             "Bolt of Silk Cloth": 3,
             "Heavy Leather": 2,
@@ -1241,6 +1272,7 @@ recipes = {
         "Green":    142,
         "Grey":     160,
         "Source":   "Drop",
+        "RecipeID": 4346,
         "Reagents": {
             "Bolt of Woolen Cloth": 3,
             "Fine Thread": 2,
@@ -1418,6 +1450,7 @@ recipes = {
         "Green":    320,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 14497,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Mooncloth": 4,
@@ -1470,6 +1503,7 @@ recipes = {
         "Green":    167,
         "Grey":     185,
         "Source":   "Drop",
+        "RecipeID": 4348,
         "Reagents": {
             "Bolt of Woolen Cloth": 4,
             "Iridescent Pearl": 1,
@@ -1484,6 +1518,7 @@ recipes = {
         "Green":    167,
         "Grey":     185,
         "Source":   "Drop",
+        "RecipeID": 4349,
         "Reagents": {
             "Bolt of Woolen Cloth": 6,
             "Iridescent Pearl": 1,
@@ -1523,6 +1558,7 @@ recipes = {
         "Green":    82,
         "Grey":     100,
         "Source":   "Drop",
+        "RecipeID": 2598,
         "Reagents": {
             "Bolt of Linen Cloth": 3,
             "Coarse Thread": 2,
@@ -1549,6 +1585,7 @@ recipes = {
         "Green":    97,
         "Grey":     115,
         "Source":   "Drop",
+        "RecipeID": 6271,
         "Reagents": {
             "Bolt of Linen Cloth": 3,
             "Coarse Thread": 1,
@@ -1575,6 +1612,7 @@ recipes = {
         "Green":    255,
         "Grey":     270,
         "Source":   "Drop",
+        "RecipeID": 10312,
         "Reagents": {
             "Bolt of Mageweave": 3,
             "Red Dye": 2,
@@ -1588,6 +1626,7 @@ recipes = {
         "Green":    270,
         "Grey":     285,
         "Source":   "Drop",
+        "RecipeID": 10320,
         "Reagents": {
             "Bolt of Mageweave": 4,
             "Red Dye": 2,
@@ -1601,6 +1640,7 @@ recipes = {
         "Green":    245,
         "Grey":     260,
         "Source":   "Drop",
+        "RecipeID": 10302,
         "Reagents": {
             "Bolt of Mageweave": 3,
             "Red Dye": 2,
@@ -1614,6 +1654,7 @@ recipes = {
         "Green":    265,
         "Grey":     280,
         "Source":   "Drop",
+        "RecipeID": 10315,
         "Reagents": {
             "Bolt of Mageweave": 4,
             "Red Dye": 2,
@@ -1627,6 +1668,7 @@ recipes = {
         "Green":    245,
         "Grey":     260,
         "Source":   "Drop",
+        "RecipeID": 10300,
         "Reagents": {
             "Bolt of Mageweave": 3,
             "Red Dye": 2,
@@ -1666,6 +1708,7 @@ recipes = {
         "Green":    137,
         "Grey":     155,
         "Source":   "Drop",
+        "RecipeID": 4345,
         "Reagents": {
             "Bolt of Woolen Cloth": 4,
             "Light Leather": 2,
@@ -1692,6 +1735,7 @@ recipes = {
         "Green":    162,
         "Grey":     180,
         "Source":   "Drop",
+        "RecipeID": 4347,
         "Reagents": {
             "Bolt of Woolen Cloth": 6,
             "Medium Leather": 2,
@@ -1705,6 +1749,7 @@ recipes = {
         "Green":    200,
         "Grey":     205,
         "Source":   "Drop",
+        "RecipeID": 4354,
         "Reagents": {
             "Bolt of Silk Cloth": 4,
             "Purple Dye": 1,
@@ -1734,6 +1779,7 @@ recipes = {
         "Green":    315,
         "Grey":     300,
         "Source":   "Drop",
+        "RecipeID": 14493,
         "Reagents": {
             "Bolt of Runecloth": 10,
             "Felcloth": 12,
@@ -1749,6 +1795,7 @@ recipes = {
         "Green":    185,
         "Grey":     200,
         "Source":   "Drop",
+        "RecipeID": 5773,
         "Reagents": {
             "Bolt of Silk Cloth": 4,
             "Fine Thread": 2,
@@ -1827,6 +1874,7 @@ recipes = {
         "Green":    325,
         "Grey":     340,
         "Source":   "Drop",
+        "RecipeID": 14498,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Ironweb Spider Silk": 2,
@@ -1840,6 +1888,7 @@ recipes = {
         "Green":    315,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 14491,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Ironweb Spider Silk": 2,
@@ -1866,6 +1915,7 @@ recipes = {
         "Green":    290,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 14470,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Ironweb Spider Silk": 1,
@@ -1879,6 +1929,7 @@ recipes = {
         "Green":    205,
         "Grey":     220,
         "Source":   "Drop",
+        "RecipeID": 4351,
         "Reagents": {
             "Bolt of Silk Cloth": 4,
             "Silken Thread": 1,
@@ -2090,6 +2141,7 @@ recipes = {
         "Green":    215,
         "Grey":     230,
         "Source":   "Drop",
+        "RecipeID": 4353,
         "Reagents": {
             "Bolt of Silk Cloth": 4,
             "Thick Spiders Silk": 2,
@@ -2103,10 +2155,279 @@ recipes = {
         "Green":    175,
         "Grey":     190,
         "Source":   "Drop",
+        "RecipeID": 4350,
         "Reagents": {
             "Bolt of Silk Cloth": 3,
             "Spiders Silk": 1,
             "Fine Thread": 2
+        }
+    },
+    "Spidersilk Boots": {
+        "ID":       4320,
+        "Learn":    125,
+        "Yellow":   150,
+        "Green":    167,
+        "Grey":     185,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Silk Cloth": 2,
+            "Medium Leather": 4,
+            "Spiders Silk": 4,
+            "Iridescent Pearl": 2
+        }
+    },
+    "Star Belt": {
+        "ID":       4329,
+        "Learn":    200,
+        "Yellow":   220,
+        "Green":    235,
+        "Grey":     250,
+        "Source":   "Drop",
+        "RecipeID": 4356,
+        "Reagents": {
+            "Bolt of Mageweave": 4,
+            "Heavy Leather": 4,
+            "Citrine": 1,
+            "Iron Buckle": 1,
+            "Silken Thread": 1
+        }
+    },
+    "Stylish Blue Shirt": {
+        "ID":       6384,
+        "Learn":    120,
+        "Yellow":   145,
+        "Green":    162,
+        "Grey":     180,
+        "Source":   "Drop",
+        "RecipeID": 6390,
+        "Reagents": {
+            "Bolt of Woolen Cloth": 4,
+            "Blue Dye": 2,
+            "Gray Dye": 1,
+            "Fine Thread": 1
+        }
+    },
+    "Stylish Green Shirt": {
+        "ID":       6385,
+        "Learn":    120,
+        "Yellow":   145,
+        "Green":    162,
+        "Grey":     180,
+        "Source":   "Drop",
+        "RecipeID": 6391,
+        "Reagents": {
+            "Bolt of Woolen Cloth": 4,
+            "Green Dye": 2,
+            "Gray Dye": 1,
+            "Fine Thread": 1
+        }
+    },
+    "Stylish Red Shirt": {
+        "ID":       4330,
+        "Learn":    110,
+        "Yellow":   135,
+        "Green":    152,
+        "Grey":     170,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Woolen Cloth": 3,
+            "Red Dye": 2,
+            "Fine Thread": 1
+        }
+    },
+    "Truefaith Gloves": {
+        "ID":       7049,
+        "Learn":    150,
+        "Yellow":   170,
+        "Green":    185,
+        "Grey":     200,
+        "Source":   "Drop",
+        "RecipeID": 7091,
+        "Reagents": {
+            "Bolt of Silk Cloth": 3,
+            "Heavy Leather": 2,
+            "Healing Potion": 4,
+            "Fine Thread": 1
+        }
+    },
+    "Tuxedo Jacket": {
+        "ID":       10036,
+        "Learn":    250,
+        "Yellow":   265,
+        "Green":    280,
+        "Grey":     295,
+        "Source":   "Vendor",
+        "Reagents": {
+            "Bolt of Mageweave": 5,
+            "Heavy Silken Thread": 3
+        }
+    },
+    "Tuxedo Pants": {
+        "ID":       10035,
+        "Learn":    245,
+        "Yellow":   250,
+        "Green":    255,
+        "Grey":     260,
+        "Source":   "Vendor",
+        "Reagents": {
+            "Bolt of Mageweave": 4,
+            "Heavy Silken Thread": 3
+        }
+    },
+    "Tuxedo Shirt": {
+        "ID":       10034,
+        "Learn":    240,
+        "Yellow":   245,
+        "Green":    250,
+        "Grey":     255,
+        "Source":   "Vendor",
+        "Reagents": {
+            "Bolt of Mageweave": 4,
+            "Heavy Silken Thread": 2
+        }
+    },
+    "White Bandit Mask": {
+        "ID":       10008,
+        "Learn":    215,
+        "Yellow":   220,
+        "Green":    225,
+        "Grey":     230,
+        "Source":   "Drop",
+        "RecipeID": 10301,
+        "Reagents": {
+            "Bolt of Mageweave": 1,
+            "Bleach": 1,
+            "Heavy Silken Thread": 1
+        }
+    },
+    "White Linen Robe": {
+        "ID":       6241,
+        "Learn":    30,
+        "Yellow":   55,
+        "Green":    72,
+        "Grey":     90,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Linen Cloth": 3,
+            "Coarse Thread": 1,
+            "Bleach": 1
+        }
+    },
+    "White Linen Shirt": {
+        "ID":       2576,
+        "Learn":    1,
+        "Yellow":   35,
+        "Green":    47,
+        "Grey":     60,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Linen Cloth": 1,
+            "Coarse Thread": 1,
+            "Bleach": 1
+        }
+    },
+    "White Swashbucklers Shirt": {
+        "ID":       6795,
+        "Learn":    160,
+        "Yellow":   170,
+        "Green":    175,
+        "Grey":     180,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Silk Cloth": 3,
+            "Bleach": 2,
+            "Silken Thread": 1
+        }
+    },
+    "White Wedding Dress": {
+        "ID":       10040,
+        "Learn":    250,
+        "Yellow":   255,
+        "Green":    260,
+        "Grey":     265,
+        "Source":   "Vendor",
+        "Reagents": {
+            "Bolt of Mageweave": 5,
+            "Heavy Silken Thread": 3,
+            "Bleach": 1
+        }
+    },
+    "White Woolen Dress": {
+        "ID":       6787,
+        "Learn":    110,
+        "Yellow":   135,
+        "Green":    152,
+        "Grey":     170,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Woolen Cloth": 3,
+            "Bleach": 4,
+            "Fine Thread": 1
+        }
+    },
+    "Wisdom of the Timbermaw": {
+        "ID":       19047,
+        "Learn":    290,
+        "Yellow":   305,
+        "Green":    320,
+        "Grey":     335,
+        "Source":   "Reputation",
+        "Reagents": {
+            "Bolt of Runecloth": 8,
+            "Essence of Earth": 3,
+            "Living Essence": 3,
+            "Ironweb Spider Silk": 2
+        }
+    },
+    "Wizardweave Leggings": {
+        "ID":       14132,
+        "Learn":    275,
+        "Yellow":   290,
+        "Green":    305,
+        "Grey":     320,
+        "Source":   "Drop",
+        "RecipeID": 14485,
+        "Reagents": {
+            "Bolt of Runecloth": 6,
+            "Dream Dust": 1,
+            "Rune Thread": 1
+        }
+    },
+    "Woolen Bag": {
+        "ID":       4240,
+        "Learn":    80,
+        "Yellow":   105,
+        "Green":    122,
+        "Grey":     140,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Woolen Cloth": 3,
+            "Fine Thread": 1
+        }
+    },
+    "Woolen Boots": {
+        "ID":       2583,
+        "Learn":    95,
+        "Yellow":   120,
+        "Green":    137,
+        "Grey":     155,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Woolen Cloth": 4,
+            "Fine Thread": 2,
+            "Light Leather": 2
+        }
+    },
+    "Woolen Cape": {
+        "ID":       2584,
+        "Learn":    75,
+        "Yellow":   100,
+        "Green":    117,
+        "Grey":     135,
+        "Source":   "Trainer",
+        "Reagents": {
+            "Bolt of Woolen Cloth": 1,
+            "Fine Thread": 1
         }
     }
 }
