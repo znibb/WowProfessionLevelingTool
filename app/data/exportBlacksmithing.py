@@ -2,7 +2,7 @@
 
 recipes = {
     "Arcanite Rod": {
-        "ID":       20201,
+        "ID":       16206,
         "Learn":    275,
         "Yellow":   275,
         "Green":    280,
@@ -14,7 +14,7 @@ recipes = {
         }
     },
     "Arcanite Skeleton Key": {
-        "ID":       19669,
+        "ID":       15872,
         "Learn":    275,
         "Yellow":   275,
         "Green":    280,
@@ -26,7 +26,7 @@ recipes = {
         }
     },
     "Barbaric Iron Boots": {
-        "ID":       9818,
+        "ID":       7916,
         "Learn":    180,
         "Yellow":   205,
         "Green":    217,
@@ -41,7 +41,7 @@ recipes = {
         }
     },
     "Barbaric Iron Breastplate": {
-        "ID":       9813,
+        "ID":       7914,
         "Learn":    160,
         "Yellow":   185,
         "Green":    197,
@@ -54,7 +54,7 @@ recipes = {
         }
     },
     "Barbaric Iron Gloves": {
-        "ID":       9820,
+        "ID":       7917,
         "Learn":    185,
         "Yellow":   210,
         "Green":    222,
@@ -68,7 +68,7 @@ recipes = {
         }
     },
     "Barbaric Iron Helm": {
-        "ID":       9814,
+        "ID":       7915,
         "Learn":    175,
         "Yellow":   200,
         "Green":    212,
@@ -82,7 +82,7 @@ recipes = {
         }
     },
     "Barbaric Iron Shoulders": {
-        "ID":       9811,
+        "ID":       7913,
         "Learn":    160,
         "Yellow":   185,
         "Green":    197,
@@ -97,7 +97,7 @@ recipes = {
         }
     },
     "Big Black Mace": {
-        "ID":       10001,
+        "ID":       7945,
         "Learn":    230,
         "Yellow":   255,
         "Green":    267,
@@ -112,7 +112,7 @@ recipes = {
         }
     },
     "Big Bronze Knife": {
-        "ID":       3491,
+        "ID":       3848,
         "Learn":    105,
         "Yellow":   135,
         "Green":    150,
@@ -127,7 +127,7 @@ recipes = {
         }
     },
     "Blazing Rapier": {
-        "ID":       16978,
+        "ID":       12777,
         "Learn":    280,
         "Yellow":   305,
         "Green":    317,
@@ -143,7 +143,7 @@ recipes = {
         }
     },
     "Blight": {
-        "ID":       10011,
+        "ID":       7959,
         "Learn":    250,
         "Yellow":   275,
         "Green":    287,
@@ -158,12 +158,13 @@ recipes = {
         }
     },
     "Blue Glittering Axe": {
-        "ID":       9995,
+        "ID":       7942,
         "Learn":    220,
         "Yellow":   245,
         "Green":    257,
         "Grey":     270,
         "Source":   "Drop",
+        "RecipeID": 7992,
         "Reagents": {
             "Mithril Bar": 16,
             "Aquamarine": 2,
@@ -172,7 +173,7 @@ recipes = {
         }
     },
     "Bronze Axe": {
-        "ID":       2741,
+        "ID":       2849,
         "Learn":    115,
         "Yellow":   145,
         "Green":    160,
@@ -185,7 +186,7 @@ recipes = {
         }
     },
     "Bronze Battle Axe": {
-        "ID":       9987,
+        "ID":       7958,
         "Learn":    135,
         "Yellow":   165,
         "Green":    180,
@@ -198,7 +199,7 @@ recipes = {
         }
     },
     "Bronze Greatsword": {
-        "ID":       9986,
+        "ID":       7957,
         "Learn":    130,
         "Yellow":   160,
         "Green":    175,
@@ -211,7 +212,7 @@ recipes = {
         }
     },
     "Bronze Mace": {
-        "ID":       2740,
+        "ID":       2848,
         "Learn":    110,
         "Yellow":   140,
         "Green":    155,
@@ -224,7 +225,7 @@ recipes = {
         }
     },
     "Bronze Shortsword": {
-        "ID":       2742,
+        "ID":       2850,
         "Learn":    120,
         "Yellow":   150,
         "Green":    165,
@@ -237,7 +238,7 @@ recipes = {
         }
     },
     "Bronze Warhammer": {
-        "ID":       9985,
+        "ID":       7956,
         "Learn":    125,
         "Yellow":   155,
         "Green":    170,
@@ -250,7 +251,7 @@ recipes = {
         }
     },
     "Coarse Grinding Stone": {
-        "ID":       3326,
+        "ID":       3478,
         "Learn":    75,
         "Yellow":   75,
         "Green":    87,
@@ -261,7 +262,7 @@ recipes = {
         }
     },
     "Coarse Sharpening Stone": {
-        "ID":       2665,
+        "ID":       2863,
         "Learn":    65,
         "Yellow":   65,
         "Green":    72,
@@ -272,7 +273,7 @@ recipes = {
         }
     },
     "Coarse Weightstone": {
-        "ID":       3116,
+        "ID":       3240,
         "Learn":    65,
         "Yellow":   65,
         "Green":    72,
@@ -284,7 +285,7 @@ recipes = {
         }
     },
     "Copper Axe": {
-        "ID":       2738,
+        "ID":       2845,
         "Learn":    20,
         "Yellow":   60,
         "Green":    80,
@@ -297,7 +298,7 @@ recipes = {
         }
     },
     "Copper Battle Axe": {
-        "ID":       3293,
+        "ID":       3488,
         "Learn":    35,
         "Yellow":   75,
         "Green":    95,
@@ -312,7 +313,7 @@ recipes = {
         }
     },
     "Copper Bracers": {
-        "ID":       2663,
+        "ID":       2853,
         "Learn":    1,
         "Yellow":   20,
         "Green":    40,
@@ -323,7 +324,7 @@ recipes = {
         }
     },
     "Copper Chain Belt": {
-        "ID":       2661,
+        "ID":       2851,
         "Learn":    35,
         "Yellow":   75,
         "Green":    95,
@@ -334,7 +335,7 @@ recipes = {
         }
     },
     "Copper Chain Boots": {
-        "ID":       3319,
+        "ID":       3469,
         "Learn":    20,
         "Yellow":   60,
         "Green":    80,
@@ -345,7 +346,7 @@ recipes = {
         }
     },
     "Copper Chain Pants": {
-        "ID":       2662,
+        "ID":       2852,
         "Learn":    1,
         "Yellow":   50,
         "Green":    70,
@@ -356,12 +357,13 @@ recipes = {
         }
     },
     "Copper Chain Vest": {
-        "ID":       3321,
+        "ID":       3471,
         "Learn":    35,
         "Yellow":   75,
         "Green":    95,
         "Grey":     115,
         "Source":   "Drop",
+        "RecipeID": 3609,
         "Reagents": {
             "Copper Bar": 8,
             "Malachite": 1,
@@ -369,7 +371,7 @@ recipes = {
         }
     },
     "Copper Claymore": {
-        "ID":       9983,
+        "ID":       7955,
         "Learn":    30,
         "Yellow":   70,
         "Green":    90,
@@ -383,7 +385,7 @@ recipes = {
         }
     },
     "Copper Dagger": {
-        "ID":       8880,
+        "ID":       7166,
         "Learn":    30,
         "Yellow":   70,
         "Green":    90,
@@ -397,7 +399,7 @@ recipes = {
         }
     },
     "Copper Mace": {
-        "ID":       2737,
+        "ID":       2844,
         "Learn":    15,
         "Yellow":   55,
         "Green":    75,
@@ -410,7 +412,7 @@ recipes = {
         }
     },
     "Copper Shortsword": {
-        "ID":       2739,
+        "ID":       2847,
         "Learn":    25,
         "Yellow":   65,
         "Green":    85,
@@ -423,7 +425,7 @@ recipes = {
         }
     },
     "Dark Iron Bracers": {
-        "ID":       20874,
+        "ID":       17014,
         "Learn":    295,
         "Yellow":   315,
         "Green":    325,
@@ -436,67 +438,72 @@ recipes = {
         }
     },
     "Dark Iron Mail": {
-        "ID":       15293,
+        "ID":       11606,
         "Learn":    270,
         "Yellow":   290,
         "Green":    300,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 11614,
         "Reagents": {
             "Dark Iron Bar": 10,
             "Heart of Fire": 2
         }
     },
     "Dark Iron Plate": {
-        "ID":       15296,
+        "ID":       11604,
         "Learn":    285,
         "Yellow":   305,
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 11612,
         "Reagents": {
             "Dark Iron Bar": 20,
             "Heart of Fire": 8
         }
     },
     "Dark Iron Pulverizer": {
-        "ID":       15292,
+        "ID":       11608,
         "Learn":    265,
         "Yellow":   285,
         "Green":    295,
         "Grey":     305,
         "Source":   "Drop",
+        "RecipeID": 11610,
         "Reagents": {
             "Dark Iron Bar": 18,
             "Heart of Fire": 4
         }
     },
     "Dark Iron Shoulders": {
-        "ID":       15295,
+        "ID":       11605,
         "Learn":    280,
         "Yellow":   300,
         "Green":    310,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 11615,
         "Reagents": {
             "Dark Iron Bar": 6,
             "Heart of Fire": 1
         }
     },
     "Dark Iron Sunderer": {
-        "ID":       15294,
+        "ID":       11607,
         "Learn":    275,
         "Yellow":   295,
         "Green":    305,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 11611,
         "Reagents": {
             "Dark Iron Bar": 26,
             "Heart of Fire": 4
         }
     },
     "Dawns Edge": {
-        "ID":       16970,
+        "ID":       12774,
         "Learn":    275,
         "Yellow":   300,
         "Green":    312,
@@ -513,12 +520,13 @@ recipes = {
         }
     },
     "Dawnbringer Shoulders": {
-        "ID":       16660,
+        "ID":       12625,
         "Learn":    290,
         "Yellow":   310,
         "Green":    320,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 12698,
         "Reagents": {
             "Thorium Bar": 20,
             "Arcanite Bar": 4,
@@ -527,12 +535,13 @@ recipes = {
         }
     },
     "Dazzling Mithril Rapier": {
-        "ID":       10005,
+        "ID":       7944,
         "Learn":    240,
         "Yellow":   265,
         "Green":    277,
         "Grey":     290,
         "Source":   "Drop",
+        "RecipeID": 7993,
         "Reagents": {
             "Mithril Bar": 14,
             "Aquamarine": 1,
@@ -543,12 +552,13 @@ recipes = {
         }
     },
     "Deadly Bronze Poniard": {
-        "ID":       3295,
+        "ID":       3490,
         "Learn":    125,
         "Yellow":   155,
         "Green":    170,
         "Grey":     185,
         "Source":   "Drop",
+        "RecipeID": 2883,
         "Reagents": {
             "Bronze Bar": 4,
             "Strong Flux": 1,
@@ -559,7 +569,7 @@ recipes = {
         }
     },
     "Dense Grinding Stone": {
-        "ID":       16639,
+        "ID":       12644,
         "Learn":    250,
         "Yellow":   255,
         "Green":    257,
@@ -570,7 +580,7 @@ recipes = {
         }
     },
     "Dense Sharpening Stone": {
-        "ID":       16641,
+        "ID":       12404,
         "Learn":    250,
         "Yellow":   255,
         "Green":    257,
@@ -581,7 +591,7 @@ recipes = {
         }
     },
     "Dense Weightstone": {
-        "ID":       16640,
+        "ID":       12643,
         "Learn":    250,
         "Yellow":   255,
         "Green":    257,
@@ -593,7 +603,7 @@ recipes = {
         }
     },
     "Ebon Shiv": {
-        "ID":       10013,
+        "ID":       7947,
         "Learn":    255,
         "Yellow":   280,
         "Green":    292,
@@ -608,7 +618,7 @@ recipes = {
         }
     },
     "Edge of Winter": {
-        "ID":       21913,
+        "ID":       17704,
         "Learn":    190,
         "Yellow":   215,
         "Green":    227,
@@ -624,7 +634,7 @@ recipes = {
         }
     },
     "Enchanted Battlehammer": {
-        "ID":       16973,
+        "ID":       12776,
         "Learn":    280,
         "Yellow":   305,
         "Green":    317,
@@ -640,7 +650,7 @@ recipes = {
         }
     },
     "Fiery Chain Girdle": {
-        "ID":       20872,
+        "ID":       16989,
         "Learn":    295,
         "Yellow":   315,
         "Green":    325,
@@ -653,7 +663,7 @@ recipes = {
         }
     },
     "Fiery Plate Gauntlets": {
-        "ID":       16655,
+        "ID":       12631,
         "Learn":    290,
         "Yellow":   310,
         "Green":    320,
@@ -668,12 +678,13 @@ recipes = {
         }
     },
     "Frost Tiger Blade": {
-        "ID":       3497,
+        "ID":       3854,
         "Learn":    200,
         "Yellow":   225,
         "Green":    237,
         "Grey":     250,
         "Source":   "Drop",
+        "RecipeID": 3868,
         "Reagents": {
             "Steel Bar": 8,
             "Strong Flux": 2,
@@ -684,12 +695,13 @@ recipes = {
         }
     },
     "Gemmed Copper Gauntlets": {
-        "ID":       3325,
+        "ID":       3474,
         "Learn":    60,
         "Yellow":   100,
         "Green":    120,
         "Grey":     140,
         "Source":   "Drop",
+        "RecipeID": 3610,
         "Reagents": {
             "Copper Bar": 8,
             "Tigerseye": 1,
@@ -697,7 +709,7 @@ recipes = {
         }
     },
     "Girdle of the Dawn": {
-        "ID":       23632,
+        "ID":       19051,
         "Learn":    290,
         "Yellow":   310,
         "Green":    320,
@@ -710,7 +722,7 @@ recipes = {
         }
     },
     "Glinting Steel Dagger": {
-        "ID":       15972,
+        "ID":       12259,
         "Learn":    180,
         "Yellow":   205,
         "Green":    217,
@@ -725,12 +737,13 @@ recipes = {
         }
     },
     "Golder Iron Destroyer": {
-        "ID":       3495,
+        "ID":       3852,
         "Learn":    170,
         "Yellow":   195,
         "Green":    207,
         "Grey":     220,
         "Source":   "Drop",
+        "RecipeID": 3867,
         "Reagents": {
             "Iron Bar": 10,
             "Gold Bar": 4,
@@ -741,7 +754,7 @@ recipes = {
         }
     },
     "Golden Rod": {
-        "ID":       14379,
+        "ID":       11128,
         "Learn":    150,
         "Yellow":   155,
         "Green":    157,
@@ -753,12 +766,13 @@ recipes = {
         }
     },
     "Golden Scale Boots": {
-        "ID":       3515,
+        "ID":       3847,
         "Learn":    200,
         "Yellow":   225,
         "Green":    237,
         "Grey":     250,
         "Source":   "Drop",
+        "RecipeID": 3875,
         "Reagents": {
             "Steel Bar": 10,
             "Gold Bar": 4,
@@ -767,7 +781,7 @@ recipes = {
         }
     },
     "Golden Scale Bracers": {
-        "ID":       7223,
+        "ID":       6040,
         "Learn":    185,
         "Yellow":   210,
         "Green":    222,
@@ -779,7 +793,7 @@ recipes = {
         }
     },
     "Golden Scale Coif": {
-        "ID":       3503,
+        "ID":       3837,
         "Learn":    190,
         "Yellow":   215,
         "Green":    227,
@@ -792,12 +806,13 @@ recipes = {
         }
     },
     "Golden Scale Cuirass": {
-        "ID":       3511,
+        "ID":       3845,
         "Learn":    195,
         "Yellow":   220,
         "Green":    232,
         "Grey":     245,
         "Source":   "Drop",
+        "RecipeID": 3873,
         "Reagents": {
             "Steel Bar": 12,
 			"Gold Bar": 2,
@@ -806,7 +821,7 @@ recipes = {
         }
     },
     "Golden Scale Gauntlets": {
-        "ID":       11643,
+        "ID":       9366,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -821,12 +836,13 @@ recipes = {
         }
     },
     "Golden Scale Leggings": {
-        "ID":       3507,
+        "ID":       3843,
         "Learn":    170,
         "Yellow":   195,
         "Green":    207,
         "Grey":     220,
         "Source":   "Drop",
+        "RecipeID": 3872,
         "Reagents": {
             "Iron Bar": 10,
 			"Gold Bar": 2,
@@ -834,12 +850,13 @@ recipes = {
         }
     },
     "Golden Scale Shoulders": {
-        "ID":       3505,
+        "ID":       3841,
         "Learn":    175,
         "Yellow":   200,
         "Green":    212,
         "Grey":     225,
         "Source":   "Drop",
+        "RecipeID": 3871,
         "Reagents": {
             "Steel Bar": 6,
 			"Gold Bar": 2,
@@ -847,7 +864,7 @@ recipes = {
         }
     },
     "Golden Skeleton Key": {
-        "ID":       19667,
+        "ID":       15870,
         "Learn":    150,
         "Yellow":   150,
         "Green":    160,
@@ -859,12 +876,13 @@ recipes = {
         }
     },
     "Green Iron Boots": {
-        "ID":       3334,
+        "ID":       3484,
         "Learn":    145,
         "Yellow":   175,
         "Green":    190,
         "Grey":     205,
         "Source":   "Drop",
+        "RecipeID": 3611,
         "Reagents": {
             "Iron Bar": 4,
 			"Lesser Moonstone": 2,
@@ -873,7 +891,7 @@ recipes = {
         }
     },
     "Green Iron Bracers": {
-        "ID":       3501,
+        "ID":       3835,
         "Learn":    165,
         "Yellow":   190,
         "Green":    202,
@@ -885,12 +903,13 @@ recipes = {
         }
     },
     "Green Iron Gauntlets": {
-        "ID":       3336,
+        "ID":       3485,
         "Learn":    150,
         "Yellow":   180,
         "Green":    195,
         "Grey":     210,
         "Source":   "Drop",
+        "RecipeID": 3612,
         "Reagents": {
             "Iron Bar": 4,
 			"Small Lustrous Pearl": 2,
@@ -899,7 +918,7 @@ recipes = {
         }
     },
     "Green Iron Hauberk": {
-        "ID":       3508,
+        "ID":       3844,
         "Learn":    180,
         "Yellow":   205,
         "Green":    217,
@@ -914,7 +933,7 @@ recipes = {
         }
     },
     "Green Iron Helm": {
-        "ID":       3502,
+        "ID":       3836,
         "Learn":    170,
         "Yellow":   195,
         "Green":    207,
@@ -927,7 +946,7 @@ recipes = {
         }
     },
     "Green Iron Leggings": {
-        "ID":       3506,
+        "ID":       3842,
         "Learn":    155,
         "Yellow":   180,
         "Green":    192,
@@ -940,12 +959,13 @@ recipes = {
         }
     },
     "Green Iron Shoulders": {
-        "ID":       3504,
+        "ID":       3840,
         "Learn":    160,
         "Yellow":   185,
         "Green":    197,
         "Grey":     210,
         "Source":   "Drop",
+        "RecipeID": 3870,
         "Reagents": {
             "Iron Bar": 7,
 			"Heavy Grinding Stone": 1,
@@ -953,7 +973,7 @@ recipes = {
         }
     },
     "Hardened Iron Shortsword": {
-        "ID":       3492,
+        "ID":       3849,
         "Learn":    160,
         "Yellow":   185,
         "Green":    197,
@@ -968,7 +988,7 @@ recipes = {
         }
     },
     "Heavy Bronze Mace": {
-        "ID":       3296,
+        "ID":       3491,
         "Learn":    130,
         "Yellow":   160,
         "Green":    175,
@@ -984,7 +1004,7 @@ recipes = {
         }
     },
     "Heavy Copper Broadsword": {
-        "ID":       3292,
+        "ID":       3487,
         "Learn":    95,
         "Yellow":   135,
         "Green":    155,
@@ -998,7 +1018,7 @@ recipes = {
         }
     },
     "Heavy Copper Maul": {
-        "ID":       7408,
+        "ID":       6214,
         "Learn":    65,
         "Yellow":   105,
         "Green":    125,
@@ -1011,7 +1031,7 @@ recipes = {
         }
     },
     "Heavy Grinding Stone": {
-        "ID":       3337,
+        "ID":       3486,
         "Learn":    125,
         "Yellow":   125,
         "Green":    137,
@@ -1022,7 +1042,7 @@ recipes = {
         }
     },
     "Heavy Mithril Axe": {
-        "ID":       9993,
+        "ID":       7941,
         "Learn":    210,
         "Yellow":   235,
         "Green":    247,
@@ -1036,7 +1056,7 @@ recipes = {
         }
     },
     "Heavy Mithril Boots": {
-        "ID":       9968,
+        "ID":       7933,
         "Learn":    235,
         "Yellow":   255,
         "Green":    265,
@@ -1048,7 +1068,7 @@ recipes = {
         }
     },
     "Heavy Mithril Breastplate": {
-        "ID":       9959,
+        "ID":       7930,
         "Learn":    230,
         "Yellow":   250,
         "Green":    260,
@@ -1059,7 +1079,7 @@ recipes = {
         }
     },
     "Heavy Mithril Gauntlet": {
-        "ID":       9928,
+        "ID":       7919,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -1071,7 +1091,7 @@ recipes = {
         }
     },
     "Heavy Mithril Helm": {
-        "ID":       9970,
+        "ID":       7934,
         "Learn":    245,
         "Yellow":   255,
         "Green":    265,
@@ -1083,19 +1103,20 @@ recipes = {
         }
     },
     "Heavy Mithril Pants": {
-        "ID":       9933,
+        "ID":       7912,
         "Learn":    210,
         "Yellow":   230,
         "Green":    240,
         "Grey":     250,
         "Source":   "Drop",
+        "RecipeID": 7975,
         "Reagents": {
             "Mithril Bar": 10,
 			"Lesser Moonstone": 2
         }
     },
     "Heavy Mithril Shoulder": {
-        "ID":       9926,
+        "ID":       7918,
         "Learn":    205,
         "Yellow":   225,
         "Green":    235,
@@ -1107,7 +1128,7 @@ recipes = {
         }
     },
     "Heavy Sharpening Stone": {
-        "ID":       2674,
+        "ID":       2871,
         "Learn":    125,
         "Yellow":   125,
         "Green":    132,
@@ -1118,7 +1139,7 @@ recipes = {
         }
     },
     "Heavy Timbermaw Belt": {
-        "ID":       23628,
+        "ID":       19043,
         "Learn":    290,
         "Yellow":   310,
         "Green":    320,
@@ -1131,7 +1152,7 @@ recipes = {
         }
     },
     "Heavy Weightstone": {
-        "ID":       3117,
+        "ID":       3241,
         "Learn":    125,
         "Yellow":   125,
         "Green":    132,
@@ -1143,7 +1164,7 @@ recipes = {
         }
     },
     "Huge Thorium Battleaxe": {
-        "ID":       16971,
+        "ID":       12775,
         "Learn":    280,
         "Yellow":   305,
         "Green":    317,
@@ -1156,7 +1177,7 @@ recipes = {
         }
     },
     "Imperial Plate Belt": {
-        "ID":       16647,
+        "ID":       12424,
         "Learn":    265,
         "Yellow":   285,
         "Green":    295,
@@ -1170,7 +1191,7 @@ recipes = {
         }
     },
     "Imperial Plate Boots": {
-        "ID":       16657,
+        "ID":       12426,
         "Learn":    295,
         "Yellow":   315,
         "Green":    325,
@@ -1184,7 +1205,7 @@ recipes = {
         }
     },
     "Imperial Plate Bracers": {
-        "ID":       16649,
+        "ID":       12425,
         "Learn":    270,
         "Yellow":   290,
         "Green":    300,
@@ -1196,7 +1217,7 @@ recipes = {
         }
     },
     "Imperial Plate Helm": {
-        "ID":       16658,
+        "ID":       1661242758,
         "Learn":    295,
         "Yellow":   315,
         "Green":    325,
@@ -1208,7 +1229,7 @@ recipes = {
         }
     },
     "Imperial Plate Shoulders": {
-        "ID":       16646,
+        "ID":       12428,
         "Learn":    265,
         "Yellow":   285,
         "Green":    295,
@@ -1221,12 +1242,12 @@ recipes = {
         }
     },
     "Inlaid Mithril Cylinder": {
-        "ID":       11454,
+        "ID":       9060,
         "Learn":    200,
         "Yellow":   225,
         "Green":    237,
         "Grey":     250,
-        "Source":   "Crafted",
+        "Source":   "Drop",
         "Reagents": {
             "Mithril Bar": 5,
 			"Gold Bar": 1,
@@ -1234,12 +1255,13 @@ recipes = {
         }
     },
     "Iridescent Hammer": {
-        "ID":       6518,
+        "ID":       5541,
         "Learn":    140,
         "Yellow":   170,
         "Green":    185,
         "Grey":     200,
         "Source":   "Drop",
+        "RecipeID": 5543,
         "Reagents": {
             "Bronze Bar": 10,
 			"Strong Flux": 1,
@@ -1249,7 +1271,7 @@ recipes = {
         }
     },
     "Iron Buckle": {
-        "ID":       8768,
+        "ID":       7071,
         "Learn":    150,
         "Yellow":   150,
         "Green":    152,
@@ -1260,12 +1282,13 @@ recipes = {
         }
     },
     "Iron Counterweight": {
-        "ID":       7222,
+        "ID":       6043,
         "Learn":    165,
         "Yellow":   190,
         "Green":    202,
         "Grey":     215,
         "Source":   "Drop",
+        "RecipeID": 6045,
         "Reagents": {
             "Iron Bar": 4,
 			"Coarse Grinding Stone": 2,
@@ -1273,19 +1296,20 @@ recipes = {
         }
     },
     "Iron Shield Spike": {
-        "ID":       7221,
+        "ID":       6042,
         "Learn":    150,
         "Yellow":   180,
         "Green":    195,
         "Grey":     210,
         "Source":   "Drop",
+        "RecipeID": 6044,
         "Reagents": {
             "Iron Bar": 6,
 			"Coarse Grinding Stone": 4
         }
     },
     "Ironforge Breastplate": {
-        "ID":       8367,
+        "ID":       6731,
         "Learn":    100,
         "Yellow":   140,
         "Green":    160,
@@ -1299,12 +1323,13 @@ recipes = {
         }
     },
     "Jade Serpentblade": {
-        "ID":       3493,
+        "ID":       3850,
         "Learn":    175,
         "Yellow":   200,
         "Green":    212,
         "Grey":     225,
         "Source":   "Drop",
+        "RecipeID": 3866,
         "Reagents": {
             "Iron Bar": 8,
 			"Strong Flux": 2,
@@ -1314,7 +1339,7 @@ recipes = {
         }
     },
     "Massive Iron Axe": {
-        "ID":       3498,
+        "ID":       3855,
         "Learn":    185,
         "Yellow":   210,
         "Green":    222,
@@ -1329,12 +1354,13 @@ recipes = {
         }
     },
     "Mighty Iron Hammer": {
-        "ID":       3297,
+        "ID":       3492,
         "Learn":    145,
         "Yellow":   175,
         "Green":    190,
         "Grey":     205,
         "Source":   "Drop",
+        "RecipeID": 3608,
         "Reagents": {
             "Iron Bar": 6,
 			"Strong Flux": 2,
@@ -1345,7 +1371,7 @@ recipes = {
         }
     },
     "Mithril Coif": {
-        "ID":       9961,
+        "ID":       7931,
         "Learn":    230,
         "Yellow":   250,
         "Green":    260,
@@ -1357,7 +1383,7 @@ recipes = {
         }
     },
     "Mithril Scale Bracers": {
-        "ID":       9937,
+        "ID":       7924,
         "Learn":    215,
         "Yellow":   235,
         "Green":    245,
@@ -1369,7 +1395,7 @@ recipes = {
         }
     },
     "Mithril Scale Pants": {
-        "ID":       9931,
+        "ID":       7920,
         "Learn":    210,
         "Yellow":   230,
         "Green":    240,
@@ -1380,12 +1406,13 @@ recipes = {
         }
     },
     "Mithril Scale Shoulders": {
-        "ID":       9966,
+        "ID":       7932,
         "Learn":    235,
         "Yellow":   255,
         "Green":    265,
         "Grey":     275,
         "Source":   "Drop",
+        "RecipeID": 7991,
         "Reagents": {
             "Mithril Bar": 14,
 			"Thick Leather": 4,
@@ -1393,12 +1420,13 @@ recipes = {
         }
     },
     "Mithril Shield Spike": {
-        "ID":       9939,
+        "ID":       7967,
         "Learn":    215,
         "Yellow":   235,
         "Green":    245,
         "Grey":     255,
         "Source":   "Drop",
+        "RecipeID": 7976,
         "Reagents": {
             "Mithril Bar": 4,
 			"Truesilver Bar": 2,
@@ -1406,19 +1434,20 @@ recipes = {
         }
     },
     "Mithril Spurs": {
-        "ID":       9964,
+        "ID":       7969,
         "Learn":    235,
         "Yellow":   255,
         "Green":    265,
         "Grey":     275,
         "Source":   "Drop",
+        "RecipeID": 7989,
         "Reagents": {
             "Mithril Bar": 4,
 			"Solid Grinding Stone": 3
         }
     },
     "Moonsteel Broadsword": {
-        "ID":       3496,
+        "ID":       3853,
         "Learn":    180,
         "Yellow":   205,
         "Green":    217,
@@ -1433,7 +1462,7 @@ recipes = {
         }
     },
     "Orcish War Leggings": {
-        "ID":       9957,
+        "ID":       7929,
         "Learn":    230,
         "Yellow":   250,
         "Green":    260,
@@ -1446,7 +1475,7 @@ recipes = {
         }
     },
     "Ornate Mithril Boots": {
-        "ID":       9979,
+        "ID":       7936,
         "Learn":    245,
         "Yellow":   265,
         "Green":    275,
@@ -1462,7 +1491,7 @@ recipes = {
         }
     },
     "Ornate Mithril Breastplate": {
-        "ID":       9972,
+        "ID":       7935,
         "Learn":    240,
         "Yellow":   260,
         "Green":    270,
@@ -1477,7 +1506,7 @@ recipes = {
         }
     },
     "Ornate Mithril Gloves": {
-        "ID":       9950,
+        "ID":       7927,
         "Learn":    220,
         "Yellow":   240,
         "Green":    250,
@@ -1492,7 +1521,7 @@ recipes = {
         }
     },
     "Ornate Mithril Helm": {
-        "ID":       9980,
+        "ID":       7937,
         "Learn":    245,
         "Yellow":   265,
         "Green":    275,
@@ -1506,8 +1535,8 @@ recipes = {
 			"Solid Grinding Stone": 1
         }
     },
-    "Ornate  Mithril Pants": {
-        "ID":       9945,
+    "Ornate Mithril Pants": {
+        "ID":       7926,
         "Learn":    220,
         "Yellow":   240,
         "Green":    250,
@@ -1522,7 +1551,7 @@ recipes = {
         }
     },
     "Ornate Mithril Shoulders": {
-        "ID":       9952,
+        "ID":       7928,
         "Learn":    225,
         "Yellow":   245,
         "Green":    255,
@@ -1536,7 +1565,7 @@ recipes = {
         }
     },
     "Ornate Thorium Handaxe": {
-        "ID":       16969,
+        "ID":       12773,
         "Learn":    275,
         "Yellow":   300,
         "Green":    312,
@@ -1550,7 +1579,7 @@ recipes = {
         }
     },
     "Patterned Bronze Bracers": {
-        "ID":       2672,
+        "ID":       2868,
         "Learn":    120,
         "Yellow":   150,
         "Green":    165,
@@ -1562,7 +1591,7 @@ recipes = {
         }
     },
     "Pearl-handled Dagger": {
-        "ID":       6517,
+        "ID":       5540,
         "Learn":    110,
         "Yellow":   140,
         "Green":    155,
@@ -1576,7 +1605,7 @@ recipes = {
         }
     },
     "Phandom Blade": {
-        "ID":       10007,
+        "ID":       7961,
         "Learn":    245,
         "Yellow":   270,
         "Green":    282,
@@ -1593,12 +1622,13 @@ recipes = {
         }
     },
     "Polished Steel Boots": {
-        "ID":       3513,
+        "ID":       3846,
         "Learn":    185,
         "Yellow":   210,
         "Green":    222,
         "Grey":     235,
         "Source":   "Drop",
+        "RecipeID": 3874,
         "Reagents": {
             "Steel Bar": 8,
 			"Citrine": 1,
@@ -1607,36 +1637,39 @@ recipes = {
         }
     },
     "Radiant Belt": {
-        "ID":       16645,
+        "ID":       12416,
         "Learn":    260,
         "Yellow":   280,
         "Green":    290,
         "Grey":     300,
         "Source":   "Drop",
+        "RecipeID": 12685,
         "Reagents": {
             "Thorium Bar": 10,
 			"Heart of Fire": 2
         }
     },
     "Radiant Boots": {
-        "ID":       16656,
+        "ID":       12419,
         "Learn":    290,
         "Yellow":   310,
         "Green":    320,
         "Grey":     330,
         "Source":   "Drop",
+        "RecipeID": 12697,
         "Reagents": {
             "Thorium Bar": 14,
 			"Heart of Fire": 4
         }
     },
     "Radiant Breastplate": {
-        "ID":       16648,
+        "ID":       12415,
         "Learn":    270,
         "Yellow":   290,
         "Green":    300,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 12689,
         "Reagents": {
             "Thorium Bar": 18,
 			"Heart of Fire": 2,
@@ -1644,31 +1677,33 @@ recipes = {
         }
     },
     "Radiant Circlet": {
-        "ID":       16659,
+        "ID":       12417,
         "Learn":    295,
         "Yellow":   315,
         "Green":    325,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 12702,
         "Reagents": {
             "Thorium Bar": 18,
 			"Heart of Fire": 4
         }
     },
     "Radiant Gloves": {
-        "ID":       16654,
+        "ID":       12418,
         "Learn":    285,
         "Yellow":   305,
         "Green":    315,
         "Grey":     325,
         "Source":   "Drop",
+        "RecipeID": 12695,
         "Reagents": {
             "Thorium Bar": 18,
 			"Heart of Fire": 4
         }
     },
     "Rough Bronze Boots": {
-        "ID":       7817,
+        "ID":       6350,
         "Learn":    95,
         "Yellow":   125,
         "Green":    140,
@@ -1680,7 +1715,7 @@ recipes = {
         }
     },
     "Rough Bronze Cuirass": {
-        "ID":       2670,
+        "ID":       2866,
         "Learn":    105,
         "Yellow":   145,
         "Green":    160,
@@ -1691,7 +1726,7 @@ recipes = {
         }
     },
     "Rough Bronze Leggings": {
-        "ID":       2668,
+        "ID":       2865,
         "Learn":    105,
         "Yellow":   145,
         "Green":    160,
@@ -1702,7 +1737,7 @@ recipes = {
         }
     },
     "Rough Bronze Shoulders": {
-        "ID":       3328,
+        "ID":       3480,
         "Learn":    110,
         "Yellow":   140,
         "Green":    155,
@@ -1715,7 +1750,7 @@ recipes = {
         }
     },
     "Rough Copper Vest": {
-        "ID":       12260,
+        "ID":       10421,
         "Learn":    1,
         "Yellow":   15,
         "Green":    35,
@@ -1726,7 +1761,7 @@ recipes = {
         }
     },
     "Rough Grinding Stone": {
-        "ID":       3320,
+        "ID":       3470,
         "Learn":    25,
         "Yellow":   45,
         "Green":    65,
@@ -1737,7 +1772,7 @@ recipes = {
         }
     },
     "Rough Sharpening Stone": {
-        "ID":       2660,
+        "ID":       2862,
         "Learn":    1,
         "Yellow":   15,
         "Green":    35,
@@ -1748,7 +1783,7 @@ recipes = {
         }
     },
     "Rough Weightstone": {
-        "ID":       3115,
+        "ID":       3239,
         "Learn":    1,
         "Yellow":   15,
         "Green":    35,
@@ -1760,7 +1795,7 @@ recipes = {
         }
     },
     "Runed Copper Belt": {
-        "ID":       2666,
+        "ID":       2857,
         "Learn":    70,
         "Yellow":   110,
         "Green":    130,
@@ -1771,7 +1806,7 @@ recipes = {
         }
     },
     "Runed Copper Bracers": {
-        "ID":       2664,
+        "ID":       2854,
         "Learn":    90,
         "Yellow":   115,
         "Green":    127,
@@ -1783,12 +1818,13 @@ recipes = {
         }
     },
     "Runed Copper Breastplate": {
-        "ID":       2667,
+        "ID":       2864,
         "Learn":    80,
         "Yellow":   120,
         "Green":    140,
         "Grey":     160,
         "Source":   "Drop",
+        "RecipeID": 2881,
         "Reagents": {
             "Copper Bar": 12,
 			"Shadowgem": 1,
@@ -1796,7 +1832,7 @@ recipes = {
         }
     },
     "Runed Copper Gauntlets": {
-        "ID":       3323,
+        "ID":       3472,
         "Learn":    40,
         "Yellow":   80,
         "Green":    100,
@@ -1808,7 +1844,7 @@ recipes = {
         }
     },
     "Runed Copper Pants": {
-        "ID":       3324,
+        "ID":       3473,
         "Learn":    45,
         "Yellow":   85,
         "Green":    105,
@@ -1821,12 +1857,13 @@ recipes = {
         }
     },
     "Runed Mithril Hammer": {
-        "ID":       10009,
+        "ID":       7946,
         "Learn":    245,
         "Yellow":   270,
         "Green":    282,
         "Grey":     295,
         "Source":   "Drop",
+        "RecipeID": 8028,
         "Reagents": {
             "Mithril Bar": 18,
 			"Core of Earth": 2,
@@ -1835,12 +1872,13 @@ recipes = {
         }
     },
     "Searing Golden Blade": {
-        "ID":       15973,
+        "ID":       12260,
         "Learn":    190,
         "Yellow":   215,
         "Green":    227,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 12261,
         "Reagents": {
             "Steel Bar": 10,
 			"Gold Bar": 4,
@@ -1849,12 +1887,13 @@ recipes = {
         }
     },
     "Serenity": {
-        "ID":       16983,
+        "ID":       12781,
         "Learn":    285,
         "Yellow":   310,
         "Green":    322,
         "Grey":     335,
         "Source":   "Drop",
+        "RecipeID": 12827,
         "Reagents": {
             "Enchanted Thorium Bar": 6,
 			"Arcanite Bar": 2,
@@ -1865,12 +1904,13 @@ recipes = {
         }
     },
     "Shadow Crescent Axe": {
-        "ID":       3500,
+        "ID":       3856,
         "Learn":    200,
         "Yellow":   225,
         "Green":    237,
         "Grey":     250,
         "Source":   "Drop",
+        "RecipeID": 3869,
         "Reagents": {
             "Steel Bar": 10,
 			"Strong Flux": 2,
@@ -1880,7 +1920,7 @@ recipes = {
         }
     },
     "Shining Silver Breastplate": {
-        "ID":       2675,
+        "ID":       2870,
         "Learn":    145,
         "Yellow":   175,
         "Green":    190,
@@ -1895,7 +1935,7 @@ recipes = {
         }
     },
     "Silver Rod": {
-        "ID":       7818,
+        "ID":       6338,
         "Learn":    100,
         "Yellow":   105,
         "Green":    107,
@@ -1907,7 +1947,7 @@ recipes = {
         }
     },
     "Silver Skeleton Key": {
-        "ID":       19666,
+        "ID":       15869,
         "Learn":    100,
         "Yellow":   100,
         "Green":    110,
@@ -1919,7 +1959,7 @@ recipes = {
         }
     },
     "Silvered Bronze Boots": {
-        "ID":       3331,
+        "ID":       3482,
         "Learn":    130,
         "Yellow":   160,
         "Green":    175,
@@ -1932,12 +1972,13 @@ recipes = {
         }
     },
     "Silvered Bronze Breastplate": {
-        "ID":       2673,
+        "ID":       2869,
         "Learn":    130,
         "Yellow":   160,
         "Green":    175,
         "Grey":     190,
         "Source":   "Drop",
+        "RecipeID": 5578,
         "Reagents": {
             "Bronze Bar": 10,
 			"Silver Bar": 2,
@@ -1946,7 +1987,7 @@ recipes = {
         }
     },
     "Silvered Bronze Gauntlets": {
-        "ID":       3333,
+        "ID":       3483,
         "Learn":    135,
         "Yellow":   165,
         "Green":    180,
@@ -1959,12 +2000,13 @@ recipes = {
         }
     },
     "Silvered Bronze Leggings": {
-        "ID":       12259,
+        "ID":       10423,
         "Learn":    155,
         "Yellow":   180,
         "Green":    192,
         "Grey":     205,
         "Source":   "Drop",
+        "RecipeID": 10424,
         "Reagents": {
             "Bronze Bar": 12,
 			"Silver Bar": 4,
@@ -1972,12 +2014,13 @@ recipes = {
         }
     },
     "Silvered Bronze Shoulders": {
-        "ID":       3330,
+        "ID":       3481,
         "Learn":    125,
         "Yellow":   155,
         "Green":    170,
         "Grey":     185,
         "Source":   "Drop",
+        "RecipeID": 2882,
         "Reagents": {
             "Bronze Bar": 8,
 			"Silver Bar": 2,
@@ -1985,7 +2028,7 @@ recipes = {
         }
     },
     "Solid Grinding Stone": {
-        "ID":       9920,
+        "ID":       7966,
         "Learn":    200,
         "Yellow":   200,
         "Green":    200,
@@ -1996,7 +2039,7 @@ recipes = {
         }
     },
     "Solid Iron Maul": {
-        "ID":       3494,
+        "ID":       3851,
         "Learn":    155,
         "Yellow":   180,
         "Green":    192,
@@ -2011,7 +2054,7 @@ recipes = {
         }
     },
     "Solid Sharpening Stone": {
-        "ID":       9918,
+        "ID":       7964,
         "Learn":    200,
         "Yellow":   200,
         "Green":    205,
@@ -2022,7 +2065,7 @@ recipes = {
         }
     },
     "Solid Weightstone": {
-        "ID":       9921,
+        "ID":       7965,
         "Learn":    200,
         "Yellow":   200,
         "Green":    205,
@@ -2034,7 +2077,7 @@ recipes = {
         }
     },
     "Steel Breastplate": {
-        "ID":       9916,
+        "ID":       7963,
         "Learn":    200,
         "Yellow":   225,
         "Green":    237,
@@ -2046,7 +2089,7 @@ recipes = {
         }
     },
     "Steel Plate Helm": {
-        "ID":       9935,
+        "ID":       7922,
         "Learn":    215,
         "Yellow":   235,
         "Green":    245,
@@ -2058,12 +2101,13 @@ recipes = {
         }
     },
     "Steel Weapon Chain": {
-        "ID":       7224,
+        "ID":       6041,
         "Learn":    190,
         "Yellow":   215,
         "Green":    227,
         "Grey":     240,
         "Source":   "Drop",
+        "RecipeID": 6046,
         "Reagents": {
             "Steel Bar": 8,
 			"Heavy Grinding Stone": 2,
@@ -2071,7 +2115,7 @@ recipes = {
         }
     },
     "Storm Gauntlets": {
-        "ID":       16661,
+        "ID":       12632,
         "Learn":    295,
         "Yellow":   315,
         "Green":    325,
@@ -2085,7 +2129,7 @@ recipes = {
         }
     },
     "The Shatterer": {
-        "ID":       10003,
+        "ID":       7954,
         "Learn":    235,
         "Yellow":   260,
         "Green":    272,
@@ -2102,7 +2146,7 @@ recipes = {
         }
     },
     "Thick War Axe": {
-        "ID":       3294,
+        "ID":       3489,
         "Learn":    70,
         "Yellow":   110,
         "Green":    130,
@@ -2117,12 +2161,13 @@ recipes = {
         }
     },
     "Thorium Armor": {
-        "ID":       16642,
+        "ID":       12405,
         "Learn":    250,
         "Yellow":   270,
         "Green":    280,
         "Grey":     290,
         "Source":   "Drop",
+        "RecipeID": 12682,
         "Reagents": {
             "Thorium Bar": 16,
 			"Blue Sapphire": 1,
@@ -2130,24 +2175,26 @@ recipes = {
         }
     },
     "Thorium Belt": {
-        "ID":       16643,
+        "ID":       12406,
         "Learn":    250,
         "Yellow":   270,
         "Green":    280,
         "Grey":     290,
         "Source":   "Drop",
+        "RecipeID": 12683,
         "Reagents": {
             "Thorium Bar": 12,
 			"Red Power Crystal": 4
         }
     },
     "Thorium Boots": {
-        "ID":       16652,
+        "ID":       12409,
         "Learn":    280,
         "Yellow":   300,
         "Green":    310,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 12693,
         "Reagents": {
             "Thorium Bar": 20,
 			"Rugged Leather": 8,
@@ -2155,24 +2202,26 @@ recipes = {
         }
     },
     "Thorium Bracers": {
-        "ID":       16644,
+        "ID":       12408,
         "Learn":    255,
         "Yellow":   275,
         "Green":    285,
         "Grey":     295,
         "Source":   "Drop",
+        "RecipeID": 12684,
         "Reagents": {
             "Thorium Bar": 12,
 			"Blue Power Crystal": 4
         }
     },
     "Thorium Helm": {
-        "ID":       16653,
+        "ID":       12410,
         "Learn":    280,
         "Yellow":   300,
         "Green":    310,
         "Grey":     320,
         "Source":   "Drop",
+        "RecipeID": 12694,
         "Reagents": {
             "Thorium Bar": 24,
 			"Star Ruby": 1,
@@ -2180,12 +2229,13 @@ recipes = {
         }
     },
     "Thorium Shield Spike": {
-        "ID":       16651,
+        "ID":       12645,
         "Learn":    275,
         "Yellow":   295,
         "Green":    305,
         "Grey":     315,
         "Source":   "Drop",
+        "RecipeID": 12692,
         "Reagents": {
             "Thorium Bar": 4,
 			"Dense Grinding Stone": 4,
@@ -2193,7 +2243,7 @@ recipes = {
         }
     },
     "Truesilver Breastplate": {
-        "ID":       9974,
+        "ID":       7939,
         "Learn":    245,
         "Yellow":   265,
         "Green":    275,
@@ -2208,7 +2258,7 @@ recipes = {
         }
     },
     "Truesilver Champion": {
-        "ID":       10015,
+        "ID":       7960,
         "Learn":    260,
         "Yellow":   285,
         "Green":    297,
@@ -2224,7 +2274,7 @@ recipes = {
         }
     },
     "Truesilver Gauntlets": {
-        "ID":       9954,
+        "ID":       7938,
         "Learn":    225,
         "Yellow":   245,
         "Green":    255,
@@ -2240,7 +2290,7 @@ recipes = {
         }
     },
     "Truesilver Rod": {
-        "ID":       14380,
+        "ID":       11144,
         "Learn":    200,
         "Yellow":   205,
         "Green":    207,
@@ -2252,7 +2302,7 @@ recipes = {
         }
     },
     "Truesilver Skeleton Key": {
-        "ID":       19668,
+        "ID":       15871,
         "Learn":    200,
         "Yellow":   200,
         "Green":    210,
@@ -2264,12 +2314,13 @@ recipes = {
         }
     },
     "Volcanic Hammer": {
-        "ID":       16984,
+        "ID":       12792,
         "Learn":    290,
         "Yellow":   315,
         "Green":    327,
         "Grey":     340,
         "Source":   "Drop",
+        "RecipeID": 12828,
         "Reagents": {
             "Thorium Bar": 30,
 			"Heart of Fire": 4,
@@ -2278,12 +2329,13 @@ recipes = {
         }
     },
     "Wicked Mithril Blade": {
-        "ID":       9997,
+        "ID":       7943,
         "Learn":    225,
         "Yellow":   250,
         "Green":    262,
         "Grey":     275,
         "Source":   "Drop",
+        "RecipeID": 8029,
         "Reagents": {
             "Mithril Bar": 14,
 			"Truesilver Bar": 4,
@@ -2292,12 +2344,13 @@ recipes = {
         }
     },
     "Wildthorn Mail": {
-        "ID":       16650,
+        "ID":       12624,
         "Learn":    270,
         "Yellow":   290,
         "Green":    300,
         "Grey":     310,
         "Source":   "Drop",
+        "RecipeID": 12691,
         "Reagents": {
             "Thorium Bar": 40,
 			"Enchanted Thorium Bar": 2,
