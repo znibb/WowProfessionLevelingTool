@@ -23,12 +23,12 @@ def calculateRecipePrices(recipes, prices):
     
     return recipePriceDict
 
-def calculateTotalCost(reagents, prices):
-    totalCost = 0
+def calculateReagentCost(reagents, prices):
+    reagentCost = 0
     for reagent, info in reagents.items():
-        totalCost += info["Amount"]*prices[reagent]
+        reagentCost += info["Amount"]*prices[reagent]
 
-    return totalCost
+    return reagentCost
 
 def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill):
     cost = 999999 # arbitrary large number
@@ -74,6 +74,17 @@ def getReagentPrices(recipes, server, faction):
             reagentPriceDict[reagent] = responseJson["vendorPrice"]
 
     return reagentPriceDict
+
+def getRecipePrice(recipeID, server, faction):
+    serverUrl = baseUrl + server[3:].lower() + '-' + faction.lower() + '/'
+    requestUrl = serverUrl + str(recipeID)
+    response = requests.get(requestUrl)
+    responseJson = response.json()
+
+    if responseJson["stats"]["current"] == None:
+        return 0
+    else:
+        return responseJson["stats"]["current"]["marketValue"]
 
 def importRecipes(profession, startSkill, targetSkill, recipeSources, faction, school):
     # Import apropriate list of recipes
@@ -154,3 +165,11 @@ def prettyPrintPrice(price):
         result = "{}g{:02}s{:02}c".format(gold, silver, copper)
     
     return result
+
+def sumPretty(prices):
+    sum = 0
+    for item in prices:
+        item = item.translate({ord(i): None for i in 'gsc'})
+        sum += int(item)
+
+    return prettyPrintPrice(sum)

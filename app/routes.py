@@ -116,6 +116,7 @@ def results():
     # Initialize outputs
     craftList = dict()
     reagentsToBuy = dict()
+    recipesToBuy = dict()
 
     # Remove recipes that doesn't have a determinable price, i.e. one or more reagents hasn't been seen on the AH
     temp = recipes.copy()
@@ -165,16 +166,36 @@ def results():
                 reagentsToBuy[reagent] = dict()
                 reagentsToBuy[reagent]["Amount"] = amount
                 reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentPrices[reagent])
-        
+
+        # Add recipe to shopping list if it's source is 'drop'
+        if recipes[bestCraft]["Source"] == "Drop":
+            if bestCraft not in recipesToBuy.keys():
+                recipesToBuy[bestCraft] = dict()
+                recipesToBuy[bestCraft]["ID"] = recipes[bestCraft]["RecipeID"]
+                recipesToBuy[bestCraft]["Price"] = 0
+
         # Increment skill
         currentSkill += 1
     
-    # Calculate total cost for each purchased reagent
+    # Calculate cost for each reagent purchased
     for reagent in reagentsToBuy:
         reagentsToBuy[reagent]["Total"] = prettyPrintPrice(reagentsToBuy[reagent]["Amount"] * reagentPrices[reagent])
 
-    # Calculate total levelling cost
-    totalCost = prettyPrintPrice(calculateTotalCost(reagentsToBuy, reagentPrices))
+    # Calculate total reagent purchasing cost
+    reagentCost = prettyPrintPrice(calculateReagentCost(reagentsToBuy, reagentPrices))
+
+    # Calculate cost for each recipe purchase and aggregate total recipe cost
+    recipeCost = 0
+    for name in recipesToBuy.keys():
+        price = getRecipePrice(recipesToBuy[name]["ID"], form.server.data, form.faction.data)
+        recipeCost += price
+        recipesToBuy[name]["Price"] = prettyPrintPrice(price)
+    recipeCost = prettyPrintPrice(recipeCost)
+
+    # Calculate total cost
+    costs = [reagentCost,
+             recipeCost]
+    totalCost = sumPretty(costs)
 
     return render_template('results.html',
         title=title,
@@ -182,4 +203,7 @@ def results():
         form=form,
         craftList=craftList,
         reagents=reagentsToBuy,
+        reagentCost=reagentCost,
+        recipesToBuy=recipesToBuy,
+        recipeCost=recipeCost,
         totalCost=totalCost)

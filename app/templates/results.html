@@ -45,6 +45,37 @@
         {% endif %}
     </table>
 
-    <h1>Total cost:</h1>
-    {{ totalCost }}
+    {% if recipesToBuy|length > 0 %}
+    <h1>Recipes to buy:</h1>
+    <table class="centered thick-border">
+        <tr>
+            <th align="left">Recipe</th>
+            <th align="right">Price</th>
+        </tr>
+        {% for recipe, info in recipesToBuy.items() %}
+            <tr>
+                <td>{{ recipe }}</td>
+                <td align="right">{{ info["Price"] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    <h1>Cost:</h1>
+    <table class="centered thick-border">
+        <tr>
+            <td align="left">Reagent cost: </td>
+            <td align="right">{{ reagentCost }}</td>
+        </tr>
+        {% if recipesToBuy|length > 0 %}
+        <tr>
+            <td align="left">Recipe cost: </td>
+            <td align="right">{{ recipeCost }}</td>
+        </tr>
+        {% endif %}
+        <tr>
+            <td align="left">Total cost: </td>
+            <td align="right">{{ totalCost }}</td>
+        </tr>
+    </table>
 {% endblock %}
