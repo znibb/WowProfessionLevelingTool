@@ -623,7 +623,7 @@ recipes = {
     },
     "Greater Dreamless Sleep Potion": {
         "ID":       20002,
-        "Learn-PHASE-5":    275,
+        "Learn":    275,
         "Yellow":   290,
         "Green":    310,
         "Grey":     330,
@@ -838,7 +838,7 @@ recipes = {
     },
     "Living Action Potion": {
         "ID":       20008,
-        "Learn-PHASE-5":    285,
+        "Learn":    285,
         "Yellow":   300,
         "Green":    320,
         "Grey":     340,
@@ -852,7 +852,7 @@ recipes = {
     },
     "Mageblood Potion": {
         "ID":       20007,
-        "Learn-PHASE-5":    275,
+        "Learn":    275,
         "Yellow":   290,
         "Green":    310,
         "Grey":     330,
@@ -905,7 +905,7 @@ recipes = {
     },
     "Major Trolls Blood Potion": {
         "ID":       20004,
-        "Learn-PHASE-5":    290,
+        "Learn":    290,
         "Yellow":   305,
         "Green":    325,
         "Grey":     345,
