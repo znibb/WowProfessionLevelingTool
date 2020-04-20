@@ -7,7 +7,7 @@ recipes = {
         "Yellow":   200,
         "Green":    210,
         "Grey":     220,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Bronze Tube": 1,
 			"Jade": 1,
@@ -101,7 +101,7 @@ recipes = {
         "Yellow":   150,
         "Green":    162,
         "Grey":     175,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -347,7 +347,7 @@ recipes = {
         "Yellow":   230,
         "Green":    240,
         "Grey":     250,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Mithril Tube": 1,
 			"Aquamarine": 2,
@@ -360,7 +360,7 @@ recipes = {
         "Yellow":   250,
         "Green":    260,
         "Grey":     270,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Mithril Bar": 8,
 			"Mithril Casing": 1,
@@ -375,7 +375,7 @@ recipes = {
         "Yellow":   305,
         "Green":    315,
         "Grey":     325,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Arcanite Bar": 1,
 			"Ironweb Spider Silk": 1
@@ -468,7 +468,7 @@ recipes = {
         "Yellow":   200,
         "Green":    210,
         "Grey":     220,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Solid Blasting Powder": 1,
 			"Mageweave Cloth": 2
@@ -578,7 +578,7 @@ recipes = {
         "Yellow":   220,
         "Green":    230,
         "Grey":     240,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Gyrochronatom": 4,
 			"Jade": 2,
@@ -705,7 +705,7 @@ recipes = {
         "Yellow":   150,
         "Green":    162,
         "Grey":     175,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Bronze Bar": 6,
 			"Whirring Bronze Gizmo": 1,
@@ -766,7 +766,7 @@ recipes = {
         "Yellow":   165,
         "Green":    180,
         "Grey":     200,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Iron Bar": 6,
 			"Whirring Bronze Gizmo": 2,
@@ -911,7 +911,7 @@ recipes = {
         "Yellow":   150,
         "Green":    162,
         "Grey":     175,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -975,7 +975,7 @@ recipes = {
         "Yellow":   280,
         "Green":    290,
         "Grey":     300,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Thorium Widget": 6,
 			"Truesilver Transformer": 2,
@@ -1077,7 +1077,7 @@ recipes = {
         "Yellow":   175,
         "Green":    185,
         "Grey":     195,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
 		"Reagents": {
 			"Whirring Bronze Gizmo": 1,
 			"Frost Oil": 1
@@ -1257,7 +1257,7 @@ recipes = {
         "Yellow":   145,
         "Green":    157,
         "Grey":     170,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Bronze Tube": 2,
 			"Handful of Copper Bolts": 2,
@@ -1315,7 +1315,7 @@ recipes = {
         "Yellow":   220,
         "Green":    230,
         "Grey":     240,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Bronze Framework": 1,
 			"Iron Strut": 4,
@@ -1358,7 +1358,7 @@ recipes = {
         "Yellow":   165,
         "Green":    177,
         "Grey":     190,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Bronze Tube": 1,
 			"Whirring Bronze Gizmo": 2,
@@ -1439,7 +1439,7 @@ recipes = {
         "Yellow":   270,
         "Green":    280,
         "Grey":     290,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Mithril Bar": 14,
 			"Heart of Fire": 4,
@@ -1568,7 +1568,7 @@ recipes = {
         "Yellow":   150,
         "Green":    162,
         "Grey":     175,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -1961,7 +1961,7 @@ recipes = {
         "Yellow":   295,
         "Green":    305,
         "Grey":     315,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Thorium Bar": 6
         }
@@ -1972,7 +1972,7 @@ recipes = {
         "Yellow":   280,
         "Green":    290,
         "Grey":     300,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Thorium Bar": 3,
 			"Runecloth": 1

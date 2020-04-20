@@ -57,7 +57,7 @@ recipes = {
         "Yellow":   130,
         "Green":    150,
         "Grey":     170,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Greater Magic Essence": 3
         }
@@ -629,7 +629,7 @@ recipes = {
         "Yellow":   295,
         "Green":    315,
         "Grey":     335,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Illusion Dust": 6,
 			"Small Brilliant Shard": 1

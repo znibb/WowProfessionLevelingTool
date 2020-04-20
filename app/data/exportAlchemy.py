@@ -494,7 +494,7 @@ recipes = {
         "Yellow":   210,
         "Green":    230,
         "Grey":     250,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Small Flame Sac": 1,
             "Fire Oil": 1,
@@ -507,7 +507,7 @@ recipes = {
         "Yellow":   175,
         "Green":    195,
         "Grey":     215,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Blackmouth Oil": 2,
             "Stranglekelp": 1,
@@ -520,7 +520,7 @@ recipes = {
         "Yellow":   220,
         "Green":    240,
         "Grey":     260,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Khadgars Whisker": 4,
             "Wintersbite": 2,
@@ -546,7 +546,7 @@ recipes = {
         "Yellow":   260,
         "Green":    280,
         "Grey":     300,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Ghost Mushroom": 2,
             "Purple Dye": 1,
@@ -749,7 +749,7 @@ recipes = {
         "Yellow":   130,
         "Green":    150,
         "Grey":     170,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bruiseweed": 1,
             "Swiftthistle": 1,
@@ -1015,7 +1015,7 @@ recipes = {
         "Yellow":   210,
         "Green":    230,
         "Grey":     250,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Liferoot": 1,
             "Stranglekelp": 1,
@@ -1055,7 +1055,7 @@ recipes = {
         "Yellow":   90,
         "Green":    110,
         "Grey":     130,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Sharp Claw": 1,
             "Briarthorn": 1,
@@ -1095,7 +1095,7 @@ recipes = {
         "Yellow":   160,
         "Green":    180,
         "Grey":     200,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Grave Moss": 1,
             "Kingsblood": 1,

@@ -798,7 +798,7 @@ recipes = {
         "Yellow":   215,
         "Green":    227,
         "Grey":     240,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Steel Bar": 8,
 			"Gold Bar": 2,
@@ -978,7 +978,7 @@ recipes = {
         "Yellow":   185,
         "Green":    197,
         "Grey":     210,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Iron Bar": 6,
 			"Strong Flux": 2,
@@ -1344,7 +1344,7 @@ recipes = {
         "Yellow":   210,
         "Green":    222,
         "Grey":     235,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Iron Bar": 14,
 			"Strong Flux": 2,
@@ -1388,7 +1388,7 @@ recipes = {
         "Yellow":   235,
         "Green":    245,
         "Grey":     255,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Mithril Bar": 8,
 			"Citrine": 2
@@ -1452,7 +1452,7 @@ recipes = {
         "Yellow":   205,
         "Green":    217,
         "Grey":     230,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Steel Bar": 8,
 			"Strong Flux": 2,
@@ -2044,7 +2044,7 @@ recipes = {
         "Yellow":   180,
         "Green":    192,
         "Grey":     205,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Iron Bar": 8,
 			"Strong Flux": 2,

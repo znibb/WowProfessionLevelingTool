@@ -66,7 +66,7 @@ recipes = {
         "Yellow":   190,
         "Green":    200,
         "Grey":     210,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Heavy Leather": 10,
 			"Fine Thread": 2,
@@ -177,7 +177,7 @@ recipes = {
         "Yellow":   125,
         "Green":    137,
         "Grey":     150,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
 		"Faction":	"Alliance",
         "Reagents": {
 			"Medium Leather": 8,
@@ -878,7 +878,7 @@ recipes = {
         "Yellow":   205,
         "Green":    215,
         "Grey":     225,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Cured Heavy Hide": 4,
 			"Iridescent Pearl": 2,
@@ -947,7 +947,7 @@ recipes = {
         "Yellow":   175,
         "Green":    185,
         "Grey":     195,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Heavy Leather": 9,
 			"Green Dye": 2,
@@ -1222,7 +1222,7 @@ recipes = {
         "Yellow":   150,
         "Green":    155,
         "Grey":     160,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Heavy Leather": 2,
 			"Fine Thread": 1
@@ -1344,7 +1344,7 @@ recipes = {
         "Yellow":   160,
         "Green":    172,
         "Grey":     185,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
 		"Faction":	"Alliance",
         "Reagents": {
 			"Medium Leather": 8,
@@ -1607,7 +1607,7 @@ recipes = {
         "Yellow":   120,
         "Green":    135,
         "Grey":     150,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Slimy Murloc Scale": 8,
 			"Light Leather": 6,
@@ -1634,7 +1634,7 @@ recipes = {
         "Yellow":   125,
         "Green":    140,
         "Grey":     155,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Slimy Murloc Scale": 12,
 			"Cured Light Hide": 1,
@@ -1778,7 +1778,7 @@ recipes = {
         "Yellow":   145,
         "Green":    157,
         "Grey":     170,
-        "Source":   "Trainer",
+        "Source":   "TrainerLimited",
 		"Faction":	"Alliance",
         "Reagents": {
 			"Red Whelp Scale": 6,
@@ -1883,7 +1883,7 @@ recipes = {
         "Yellow":   210,
         "Green":    220,
         "Grey":     230,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Thick Leather": 6,
 			"Shadowcat Hide": 8,
@@ -1927,7 +1927,7 @@ recipes = {
         "Yellow":   295,
         "Green":    305,
         "Grey":     315,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Rugged Leather": 16,
 			"Essence of Water": 2,
@@ -2009,7 +2009,7 @@ recipes = {
         "Yellow":   190,
         "Green":    200,
         "Grey":     210,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
 			"Thick Murloc Scale": 12,
 			"Cured Heavy Hide": 1,

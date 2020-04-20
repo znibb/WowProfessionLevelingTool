@@ -65,7 +65,7 @@ recipes = {
         "Yellow":   195,
         "Green":    210,
         "Grey":     225,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Silk Cloth": 3,
             "Blue Dye": 2,
@@ -294,7 +294,7 @@ recipes = {
         "Yellow":   125,
         "Green":    142,
         "Grey":     160,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Woolen Cloth": 4,
             "Fine Thread": 2,
@@ -679,7 +679,7 @@ recipes = {
         "Yellow":   220,
         "Green":    235,
         "Grey":     250,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Silk Cloth": 8,
             "Elemental Fire": 4,
@@ -1112,7 +1112,7 @@ recipes = {
         "Yellow":   140,
         "Green":    157,
         "Grey":     175,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Woolen Cloth": 5,
             "Fine Thread": 3,
@@ -1309,7 +1309,7 @@ recipes = {
         "Yellow":   220,
         "Green":    235,
         "Grey":     250,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Mageweave": 3,
             "Silken Thread": 2,
@@ -1323,7 +1323,7 @@ recipes = {
         "Yellow":   235,
         "Green":    240,
         "Grey":     245,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Mageweave": 2,
             "Purple Dye": 2,
@@ -1531,7 +1531,7 @@ recipes = {
         "Yellow":   240,
         "Green":    245,
         "Grey":     250,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Mageweave": 3,
             "Pink Dye": 1,
@@ -1544,7 +1544,7 @@ recipes = {
         "Yellow":   95,
         "Green":    112,
         "Grey":     130,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Linen Cloth": 4,
             "Fine Thread": 1,
@@ -1694,7 +1694,7 @@ recipes = {
         "Yellow":   140,
         "Green":    157,
         "Grey":     175,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Woolen Cloth": 4,
             "Red Dye": 1,
@@ -2256,7 +2256,7 @@ recipes = {
         "Yellow":   265,
         "Green":    280,
         "Grey":     295,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Mageweave": 5,
             "Heavy Silken Thread": 3
@@ -2268,7 +2268,7 @@ recipes = {
         "Yellow":   250,
         "Green":    255,
         "Grey":     260,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Mageweave": 4,
             "Heavy Silken Thread": 3
@@ -2280,7 +2280,7 @@ recipes = {
         "Yellow":   245,
         "Green":    250,
         "Grey":     255,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Mageweave": 4,
             "Heavy Silken Thread": 2
@@ -2345,7 +2345,7 @@ recipes = {
         "Yellow":   255,
         "Green":    260,
         "Grey":     265,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
         "Reagents": {
             "Bolt of Mageweave": 5,
             "Heavy Silken Thread": 3,
