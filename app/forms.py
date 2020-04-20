@@ -114,8 +114,10 @@ class UserInputForm(FlaskForm):
     calculate = SubmitField('Calculate')
     includeVendor = BooleanField(u'Vendor', default="checked")
     includeVendorLimited = BooleanField(u'VendorLimited', default="checked")
-    includeDrop = BooleanField(u'Drop', default="checked")
-    includeQuest = BooleanField(u'Quest', default="checked")
+    includeDrop = BooleanField(u'Drop')
+    includeQuest = BooleanField(u'Quest')
+    includeReputation = BooleanField(u'Reputation')
+    includeSeasonal = BooleanField(u'Seasonal')
     blacksmithingSchool = RadioField(u'Blacksmithing',
         choices=[("None", "None"),
                 ("Armorsmithing", "Armorsmithing"),

@@ -32,6 +32,8 @@ def index():
         session["includeVendorLimited"] = form.includeVendorLimited.data
         session["includeDrop"] = form.includeDrop.data
         session["includeQuest"] = form.includeQuest.data
+        session["includeReputation"] = form.includeReputation.data
+        session["includeSeasonal"] = form.includeSeasonal.data
         session["blacksmithingSchool"] = form.blacksmithingSchool.data
         session["engineeringSchool"] = form.engineeringSchool.data
 
@@ -56,6 +58,8 @@ def results():
         form.includeVendorLimited.data=session.get("includeVendorLimited")
         form.includeDrop.data=session.get("includeDrop")
         form.includeQuest.data=session.get("includeQuest")
+        form.includeReputation.data=session.get("includeReputation")
+        form.includeSeasonal.data=session.get("includeSeasonal")
         form.blacksmithingSchool.data=session.get("blacksmithingSchool")
         form.engineeringSchool.data=session.get("engineeringSchool")
         session.pop("server", None)
@@ -67,6 +71,8 @@ def results():
         session.pop("includeVendorLimited", None)
         session.pop("includeDrop", None)
         session.pop("includeQuest", None)
+        session.pop("includeReputation", None)
+        session.pop("includeSeasonal", None)
         session.pop("blacksmithingSchool", None)
         session.pop("engineeringSchool", None)
     
@@ -84,6 +90,8 @@ def results():
         session["includeVendorLimited"] = form.includeVendorLimited.data
         session["includeDrop"] = form.includeDrop.data
         session["includeQuest"] = form.includeQuest.data
+        session["includeReputation"] = form.includeReputation.data
+        session["includeSeasonal"] = form.includeSeasonal.data
         session["blacksmithingSchool"] = form.blacksmithingSchool.data
         session["engineeringSchool"] = form.engineeringSchool.data
 
@@ -97,7 +105,9 @@ def results():
     recipeSources = {"Vendor": form.includeVendor.data,
                     "VendorLimited": form.includeVendorLimited.data,
                     "Drop": form.includeDrop.data,
-                    "Quest": form.includeQuest.data}
+                    "Quest": form.includeQuest.data,
+                    "Reputation": form.includeReputation.data,
+                    "Seasonal": form.includeSeasonal.data}
 
     school = ""
     if form.profession.data == "Blacksmithing":
