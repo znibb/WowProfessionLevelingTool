@@ -7,14 +7,11 @@ from app.functions import *
 author = {
     'username': 'Znibb',
     'server':   'Noggenfogger',
-    'discord':  "https://discordapp.com/channels/@me/192987995006173184"
-}
+    'discord':  "https://discordapp.com/channels/@me/192987995006173184"}
 title = {
     'short':    'WPLT',
     'long':     'WowProfessionLevelingTool',
-    'source':   'https://github.com/znibb/WowProfessionLevelingTool'
-
-}
+    'source':   'https://github.com/znibb/WowProfessionLevelingTool'}
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -130,6 +127,7 @@ def results():
     craftList = dict()
     reagentsToBuy = dict()
     recipesToBuy = dict()
+    oldestDataUsedObj = datetime.now()
 
     # Remove recipes that doesn't have a determinable price, i.e. one or more reagents hasn't been seen on the AH
     temp = recipes.copy()
@@ -178,7 +176,7 @@ def results():
             else:
                 reagentsToBuy[reagent] = dict()
                 reagentsToBuy[reagent]["Amount"] = amount
-                reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentPrices[reagent])
+                reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentPrices[reagent]["Price"])
 
         # Add recipe to shopping list if it's source is 'drop'
         if recipes[bestCraft]["Source"] == "Drop":
@@ -192,7 +190,11 @@ def results():
     
     # Calculate cost for each reagent purchased
     for reagent in reagentsToBuy:
-        reagentsToBuy[reagent]["Total"] = prettyPrintPrice(reagentsToBuy[reagent]["Amount"] * reagentPrices[reagent])
+        reagentsToBuy[reagent]["Total"] = prettyPrintPrice(reagentsToBuy[reagent]["Amount"] * reagentPrices[reagent]["Price"])
+        if reagentPrices[reagent]["LastSeen"] < oldestDataUsedObj:
+            oldestDataUsedObj = reagentPrices[reagent]["LastSeen"]
+
+    oldestDataUsed = oldestDataUsedObj.strftime("%Y-%m-%d %X")
 
     # Calculate total reagent purchasing cost
     reagentCost = prettyPrintPrice(calculateReagentCost(reagentsToBuy, reagentPrices))
@@ -215,6 +217,7 @@ def results():
         author=author,
         form=form,
         craftList=craftList,
+        oldestDataUsed=oldestDataUsed,
         reagents=reagentsToBuy,
         reagentCost=reagentCost,
         recipesToBuy=recipesToBuy,

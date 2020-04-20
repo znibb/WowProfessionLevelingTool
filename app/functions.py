@@ -1,8 +1,10 @@
 import json
 import math
 import requests
+from datetime import datetime
 
 baseUrl = "https://api.nexushub.co/wow-classic/v1/items/"
+datetimeFormat = '%Y-%m-%dT%X.000Z'
 
 def calculateRecipePrices(recipes, prices):
     recipePriceDict = dict()
@@ -16,7 +18,7 @@ def calculateRecipePrices(recipes, prices):
                 # Set flag to not add the recipe to the output dict
                 usable = False
             else:
-                price += amount*prices[reagent]
+                price += amount*prices[reagent]["Price"]
         
         if usable:
             recipePriceDict[name] = price
@@ -26,7 +28,7 @@ def calculateRecipePrices(recipes, prices):
 def calculateReagentCost(reagents, prices):
     reagentCost = 0
     for reagent, info in reagents.items():
-        reagentCost += info["Amount"]*prices[reagent]
+        reagentCost += info["Amount"]*prices[reagent]["Price"]
 
     return reagentCost
 
@@ -68,10 +70,18 @@ def getReagentPrices(recipes, server, faction):
                 # Don't add the reagent to the output dict, i.e. noop
                 pass
             else:
-                reagentPriceDict[reagent] = responseJson["stats"]["current"]["marketValue"]
+                reagentPriceDict[reagent] = dict()
+                reagentPriceDict[reagent]["Price"]      = responseJson["stats"]["current"]["marketValue"]
+                reagentPriceDict[reagent]["Quantity"]   = responseJson["stats"]["current"]["quantity"]
+                datetimeStr = responseJson["stats"]["lastUpdated"]
+                datetimeObj = datetime.strptime(datetimeStr, datetimeFormat)
+                reagentPriceDict[reagent]["LastSeen"] = datetimeObj
         # Item can be bought from vendor, use the vendor price
         else:
-            reagentPriceDict[reagent] = responseJson["vendorPrice"]
+            reagentPriceDict[reagent] = dict()
+            reagentPriceDict[reagent]["Price"] = responseJson["vendorPrice"]
+            reagentPriceDict[reagent]["Quantity"] = None
+            reagentPriceDict[reagent]["LastSeen"] = datetime.now()
 
     return reagentPriceDict
 
