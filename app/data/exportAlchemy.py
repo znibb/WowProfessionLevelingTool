@@ -627,7 +627,7 @@ recipes = {
         "Yellow":   290,
         "Green":    310,
         "Grey":     330,
-        "Source":   "Vendor",
+        "Source":   "Reputation",
         "Reagents": {
             "Dreamfoil": 2,
             "Golden Sansam": 1,
@@ -842,7 +842,7 @@ recipes = {
         "Yellow":   300,
         "Green":    320,
         "Grey":     340,
-        "Source":   "Vendor",
+        "Source":   "Reputation",
         "Reagents": {
             "Icecap": 2,
             "Mountain Silversage": 2,
@@ -856,7 +856,7 @@ recipes = {
         "Yellow":   290,
         "Green":    310,
         "Grey":     330,
-        "Source":   "Vendor",
+        "Source":   "Reputation",
         "Reagents": {
             "Dreamfoil": 1,
             "Plaguebloom": 2,
@@ -909,7 +909,7 @@ recipes = {
         "Yellow":   305,
         "Green":    325,
         "Grey":     345,
-        "Source":   "Vendor",
+        "Source":   "Reputation",
         "Reagents": {
             "Gromsblood": 1,
             "Plaguebloom": 2,
