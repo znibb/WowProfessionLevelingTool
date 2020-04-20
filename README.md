@@ -2,7 +2,6 @@
 WIP...
 
 ## TODO
-1. Double check what recipes are "vendor-limited"
 1. Deduct crafted item selling price from total cost
 1. Check for current AH stock
 1. Display oldest price data used
