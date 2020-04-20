@@ -207,9 +207,13 @@ def results():
         recipesToBuy[name]["Price"] = prettyPrintPrice(price)
     recipeCost = prettyPrintPrice(recipeCost)
 
+    # Calculate money recouperated from selling all crafted items to vendor
+    moneyFromVendoring = prettyPrintPrice(calculateSellToVendor(craftList, form.profession.data, form.server.data, form.faction.data))
+
     # Calculate total cost
     costs = [reagentCost,
-             recipeCost]
+             recipeCost,
+            "-" + moneyFromVendoring]
     totalCost = sumPretty(costs)
 
     return render_template('results.html',
@@ -222,4 +226,5 @@ def results():
         reagentCost=reagentCost,
         recipesToBuy=recipesToBuy,
         recipeCost=recipeCost,
+        moneyFromVendoring=moneyFromVendoring,
         totalCost=totalCost)

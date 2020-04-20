@@ -6,6 +6,38 @@ from datetime import datetime
 baseUrl = "https://api.nexushub.co/wow-classic/v1/items/"
 datetimeFormat = '%Y-%m-%dT%X.000Z'
 
+def calculateSellToVendor(craftList, profession, server, faction):
+    # Import apropriate list of recipes
+    if profession == "Alchemy":
+        f = open("app/data/alchemy.json", 'r')
+    elif profession == "Blacksmithing":
+        f = open("app/data/blacksmithing.json", 'r')
+    elif profession == "Enchanting":
+        f = open("app/data/enchanting.json", 'r')
+    elif profession == "Engineering":
+        f = open("app/data/engineering.json", 'r')
+    elif profession == "Leatherworking":
+        f = open("app/data/leatherworking.json", 'r')
+    else:
+        f = open("app/data/tailoring.json", 'r')
+
+    recipes = json.load(f)
+
+    totalMoneyGained = 0
+    serverUrl = baseUrl + server[3:].lower() + '-' + faction.lower() + '/'
+    for index, info in craftList.items():
+        requestUrl = serverUrl + str(recipes[info["Recipe"]]["ID"])
+        response = requests.get(requestUrl)
+        responseJson = response.json()
+
+        if "sellPrice" in responseJson:
+            sellPrice = int(responseJson["sellPrice"])
+        else:
+            sellPrice = 0
+        totalMoneyGained += sellPrice*info["Count"]
+
+    return totalMoneyGained
+
 def calculateRecipePrices(recipes, prices):
     recipePriceDict = dict()
 
