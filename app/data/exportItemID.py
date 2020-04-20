@@ -136,6 +136,7 @@ items = {
     "Guardian Stone": 12809,
     "Gyrochronatom": 4389,
     "Handful of Copper Bolts": 4359,
+    "Healing Potion": 929,
     "Heart of Fire": 7077,
     "Heart of the Wild": 10286,
     "Heavy Blasting Powder": 4377,
