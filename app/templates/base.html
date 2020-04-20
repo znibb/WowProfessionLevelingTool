@@ -3,7 +3,51 @@
       <title>{{ title.short }}</title>
     </head>
     <body>
-        <h1>{{ title.long }} by {{ author.username }} on {{ author.server }}</h1>
+        <h1>{{ title.long }}</h1>
+        <p>
+        Author: {{ author.username }}@{{ author.server }}<br>
+        Contact: PM me on <a href={{ author.discord }}>Discord</a><br>
+        Source: <a href={{ title.source }}>GitHub</a>
+        </p>
+
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+
+            {{ form.server.label }}: {{ form.server() }}
+            {{ form.faction.label }}: {{ form.faction() }}
+            {{ form.profession.label }}: {{ form.profession() }}
+            {{ form.startSkill.label }}: {{ form.startSkill(size=2) }}
+            {% for error in form.startSkill.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+            {{ form.targetSkill.label }}: {{ form.targetSkill(size=2) }}
+            {% for error in form.targetSkill.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+            {{ form.calculate() }}
+            <br>
+    
+            Include recipe sources:
+            {{ form.includeVendor.label }}:{{ form.includeVendor() }} 
+            {{ form.includeVendorLimited.label }}:{{ form.includeVendorLimited() }} 
+            {{ form.includeDrop.label }}:{{ form.includeDrop() }} 
+            {{ form.includeQuest.label }}:{{ form.includeQuest() }} 
+            {{ form.includeReputation.label }}:{{ form.includeReputation() }}
+            {{ form.includeSeasonal.label }}:{{ form.includeSeasonal() }}
+            <br>
+            {{ form.blacksmithingSchool.label }}: 
+            {% for subfield in form.blacksmithingSchool %}
+                {{ subfield }}{{ subfield.label }} 
+            {% endfor %}
+            <br>
+            {{ form.engineeringSchool.label }}: 
+            {% for subfield in form.engineeringSchool %}
+                {{ subfield }}{{ subfield.label }}
+            {% endfor %}
+        </form>
+
+        <hr>
+
         {% with messages = get_flashed_messages() %}
         {% if messages %}
             {% for message in messages %}
@@ -11,7 +55,8 @@
             {% endfor %}
         {% endif %}
         {% endwith %}
-        <hr>
+
         {% block index %}{% endblock %}
+        {% block results %}{% endblock %}
     </body>
 </html>

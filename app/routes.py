@@ -5,12 +5,15 @@ from datetime import datetime
 from app.functions import *
 
 author = {
-    'username': 'znibb',
-    'server':   'Noggenfogger'
+    'username': 'Znibb',
+    'server':   'Noggenfogger',
+    'discord':  "https://discordapp.com/channels/@me/192987995006173184"
 }
 title = {
-    'short':    'skillCalc',
-    'long':     'WowProfessionLevelingTool'
+    'short':    'WPLT',
+    'long':     'WowProfessionLevelingTool',
+    'source':   'https://github.com/znibb/WowProfessionLevelingTool'
+
 }
 
 @app.route('/', methods=['GET', 'POST'])
