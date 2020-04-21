@@ -86,8 +86,8 @@ def getReagentPrices(recipes, server, faction):
 
     # Make a set of all potential reagents
     reagents = set()
-    for name, info in recipes.items():
-        for reagent, amount in info["Reagents"].items():
+    for info in recipes.values():
+        for reagent in info["Reagents"].keys():
             reagents.add(reagent)
     
     # Iterate over the reagent set and create a dictionary containing reagent-price pairs
@@ -106,8 +106,8 @@ def getReagentPrices(recipes, server, faction):
                 pass
             else:
                 reagentPriceDict[reagent] = dict()
-                reagentPriceDict[reagent]["Price"]      = responseJson["stats"]["current"]["marketValue"]
-                reagentPriceDict[reagent]["Quantity"]   = responseJson["stats"]["current"]["quantity"]
+                reagentPriceDict[reagent]["Price"] = responseJson["stats"]["current"]["marketValue"]
+                reagentPriceDict[reagent]["Quantity"] = responseJson["stats"]["current"]["quantity"]
                 datetimeStr = responseJson["stats"]["lastUpdated"]
                 datetimeObj = datetime.strptime(datetimeStr, datetimeFormat)
                 reagentPriceDict[reagent]["LastSeen"] = datetimeObj
@@ -131,7 +131,7 @@ def getRecipePrice(recipeID, server, faction):
     else:
         return responseJson["stats"]["current"]["marketValue"]
 
-def importRecipes(profession, startSkill, targetSkill, recipeSources, faction, school):
+def importRecipes(profession, targetSkill, recipeSources, faction, school):
     # Import apropriate list of recipes
     if profession == "Alchemy":
         f = open("app/data/alchemy.json", 'r')
@@ -147,12 +147,6 @@ def importRecipes(profession, startSkill, targetSkill, recipeSources, faction, s
         f = open("app/data/tailoring.json", 'r')
 
     recipes = json.load(f)
-
-    # Remove recipes that we've already out-levelled
-    temp = recipes.copy()
-    for name, info in temp.items():
-        if info["Yellow"] <= startSkill:
-            recipes.pop(name)
     
     # Remove recipes from upcoming phases
     temp = recipes.copy()

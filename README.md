@@ -1,5 +1,3 @@
 # WowProfessionLevelingTool
-WIP...
 
-## TODO
-1. Check if a reagent can actually be crafted yourself instead
+Want to know how to level a profession as cheap as possible? Then this is the tool for you!

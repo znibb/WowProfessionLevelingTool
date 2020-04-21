@@ -117,9 +117,9 @@ def results():
     else:
         school = "None"
 
-    recipes = importRecipes(form.profession.data, form.startSkill.data, form.targetSkill.data, recipeSources, form.faction.data, school)
-    reagentPrices = getReagentPrices(recipes, form.server.data, form.faction.data)
-    recipePrices = calculateRecipePrices(recipes, reagentPrices)
+    allRecipes = importRecipes(form.profession.data, form.targetSkill.data, recipeSources, form.faction.data, school)
+    reagentPrices = getReagentPrices(allRecipes, form.server.data, form.faction.data)
+    recipePrices = calculateRecipePrices(allRecipes, reagentPrices)
     currentSkill = form.startSkill.data
     targetSkill = form.targetSkill.data
 
@@ -128,6 +128,9 @@ def results():
     reagentsToBuy = dict()
     recipesToBuy = dict()
     oldestDataUsedObj = datetime.now()
+
+    # Create prunable copy
+    recipes = allRecipes.copy()
 
     # Remove recipes that doesn't have a determinable price, i.e. one or more reagents hasn't been seen on the AH
     temp = recipes.copy()
@@ -176,7 +179,7 @@ def results():
             else:
                 reagentsToBuy[reagent] = dict()
                 reagentsToBuy[reagent]["Amount"] = amount
-                reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentPrices[reagent]["Price"])           
+                reagentsToBuy[reagent]["PPU"] = reagentPrices[reagent]["Price"]
 
         # Add recipe to shopping list if it's source is 'drop'
         if recipes[bestCraft]["Source"] == "Drop":
@@ -204,12 +207,34 @@ def results():
             else:
                 reagentsToBuy[reagent]["Amount"] = amountNeeded - amountCrafted
 
+    # If we're able to craft a reagent, check if that's cheaper than purchasing the 'reagent' from the AH
+    temp = reagentsToBuy.copy()
+    for reagent, data in temp.items():
+        # If we are able to craft a 'reagent'
+        if reagent in recipePrices:
+            # If crafting cost is lower than purchasing price
+            if recipePrices[reagent] < reagentsToBuy[reagent]["PPU"]:
+                # Add "sub-reagents" to shopping list
+                for subReagent, amount in allRecipes[reagent]["Reagents"].items():
+                    if subReagent in reagentsToBuy.keys():
+                        reagentsToBuy[subReagent]["Amount"] += amount*data["Amount"]
+                    else:
+                        reagentsToBuy[subReagent] = dict()
+                        reagentsToBuy[subReagent]["Amount"] = amount*data["Amount"]
+                        reagentsToBuy[subReagent]["PPU"] = reagentPrices[reagent]["Price"]
+
+                # Remove the reagent itself from the shopping list
+                reagentsToBuy.pop(reagent)
 
     # Calculate cost for each reagent purchase
     for reagent in reagentsToBuy:
         reagentsToBuy[reagent]["Total"] = prettyPrintPrice(reagentsToBuy[reagent]["Amount"] * reagentPrices[reagent]["Price"])
         if reagentPrices[reagent]["LastSeen"] < oldestDataUsedObj:
             oldestDataUsedObj = reagentPrices[reagent]["LastSeen"]
+    
+    # Pretty print PPU for reagents
+    for reagent in reagentsToBuy:
+        reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentsToBuy[reagent]["PPU"])
 
     # Determine time string for the age of the oldest data used
     oldestDataUsed = oldestDataUsedObj.strftime("%Y-%m-%d %X")
