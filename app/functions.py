@@ -64,6 +64,9 @@ def calculateReagentCost(reagents, prices):
 
     return reagentCost
 
+def searchCraftList(craftList, target):
+    return [index for index, data in craftList.items() if data["Recipe"] == target]
+
 def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill):
     cost = 999999 # arbitrary large number
     candidate = ''

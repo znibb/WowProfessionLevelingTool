@@ -170,13 +170,13 @@ def results():
                 craftList[lastIndex+1] = {"Start": currentSkill, "Count": 1, "Recipe": bestCraft, "Cost": prettyPrintPrice(recipePrices[bestCraft])}
 
         # Add reagents for the chosen recipe to the purchase list
-        for reagent, amount in recipes[bestCraft]["Reagents"].items():
+        for reagent, amount in recipes[bestCraft]["Reagents"].items():  
             if reagent in reagentsToBuy:
                 reagentsToBuy[reagent]["Amount"] += amount
             else:
                 reagentsToBuy[reagent] = dict()
                 reagentsToBuy[reagent]["Amount"] = amount
-                reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentPrices[reagent]["Price"])
+                reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentPrices[reagent]["Price"])           
 
         # Add recipe to shopping list if it's source is 'drop'
         if recipes[bestCraft]["Source"] == "Drop":
@@ -187,13 +187,31 @@ def results():
 
         # Increment skill
         currentSkill += 1
-    
-    # Calculate cost for each reagent purchased
+
+    # Check if any reagents on the shopping list will be crafted
+    temp = reagentsToBuy.copy()
+    for reagent in temp.keys():
+        val = searchCraftList(craftList, reagent)
+
+        # If the reagent has been crafted previously
+        if len(val) > 0:    
+            index = val[0]
+            amountCrafted = craftList[index]["Count"]
+            amountNeeded = reagentsToBuy[reagent]["Amount"]
+
+            if amountCrafted >= amountNeeded:
+                reagentsToBuy.pop(reagent)
+            else:
+                reagentsToBuy[reagent]["Amount"] = amountNeeded - amountCrafted
+
+
+    # Calculate cost for each reagent purchase
     for reagent in reagentsToBuy:
         reagentsToBuy[reagent]["Total"] = prettyPrintPrice(reagentsToBuy[reagent]["Amount"] * reagentPrices[reagent]["Price"])
         if reagentPrices[reagent]["LastSeen"] < oldestDataUsedObj:
             oldestDataUsedObj = reagentPrices[reagent]["LastSeen"]
 
+    # Determine time string for the age of the oldest data used
     oldestDataUsed = oldestDataUsedObj.strftime("%Y-%m-%d %X")
 
     # Calculate total reagent purchasing cost
