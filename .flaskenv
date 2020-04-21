@@ -1,3 +1,3 @@
-FLASK_APP=WowProfessionLevelingTool.py
-FLASK_ENV=development
+FLASK_APP=WPLT.py
+FLASK_ENV=production
 SECRET_KEY=nitalarbralatin
