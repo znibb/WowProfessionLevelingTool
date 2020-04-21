@@ -1097,6 +1097,7 @@ recipes = {
         "Green":    265,
         "Grey":     275,
         "Source":   "Drop",
+        "RecipeID": 7990,
         "Reagents": {
             "Mithril Bar": 14,
 			"Aquamarine": 1
@@ -1248,6 +1249,7 @@ recipes = {
         "Green":    237,
         "Grey":     250,
         "Source":   "Drop",
+        "RecipeID": 10713,
         "Reagents": {
             "Mithril Bar": 5,
 			"Gold Bar": 1,
