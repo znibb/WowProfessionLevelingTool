@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   wplt:
-    image: wplt
+    image: znibb/wplt:latest
     container_name: wplt
     environment:
       - SECRET_KEY=CHANGETHIS
