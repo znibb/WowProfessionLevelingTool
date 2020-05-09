@@ -20,7 +20,6 @@ servers = [
     'EU-Gandling',
     'EU-Gehennas',
     'EU-Golemagg',
-    'EU-Harbinger of Doom',
     'EU-Heartstriker',
     'EU-Hydraxian Waterlords',
     'EU-Judgement',
