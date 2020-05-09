@@ -422,7 +422,7 @@ recipes = {
     },
 	"Discombobulator Ray": {
         "ID":       4388,
-        "Learn":    160,
+        "Learn-DISABLED":    160,
         "Yellow":   180,
         "Green":    190,
         "Grey":     200,
