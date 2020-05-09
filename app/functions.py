@@ -13,7 +13,7 @@ def calculateSellToVendor(craftList, profession, server, faction):
     elif profession == "Blacksmithing":
         f = open("app/data/blacksmithing.json", 'r')
     elif profession == "Enchanting":
-        f = open("app/data/enchanting.json", 'r')
+        return 0
     elif profession == "Engineering":
         f = open("app/data/engineering.json", 'r')
     elif profession == "Leatherworking":
