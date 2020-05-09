@@ -93,8 +93,8 @@ recipes = {
         "Green":    270,
         "Grey":     280,
         "Source":   "Drop",
-        "Reagents": {
         "RecipeID": 8390,
+        "Reagents": {
 			"Thick Leather": 14,
 			"Flask of Big Mojo": 4,
 			"Heavy Silken Thread": 2
