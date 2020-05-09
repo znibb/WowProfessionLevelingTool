@@ -102,7 +102,7 @@ recipes = {
         "Grey":     180,
         "Source":   "Vendor",
         "Reagents": {
-            "Raw Bristle Whiske Catfish": 1
+            "Raw Bristle Whisker Catfish": 1
         },
         "AmountCrafted": 1
     },

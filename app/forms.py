@@ -50,6 +50,7 @@ servers = [
     'US-Arugal',
     'US-Ashkandi',
     'US-Atiesh',
+    'US-Azshara',
     'US-Azuresong',
     'US-Benediction',
     'US-Bigglesworth',
@@ -89,6 +90,7 @@ servers = [
 professions = [
     'Alchemy',
     'Blacksmithing',
+    'Cooking',
     'Enchanting',
     'Engineering',
     'Leatherworking',

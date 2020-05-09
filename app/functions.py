@@ -12,6 +12,8 @@ def calculateSellToVendor(craftList, profession, server, faction):
         f = open("app/data/alchemy.json", 'r')
     elif profession == "Blacksmithing":
         f = open("app/data/blacksmithing.json", 'r')
+    elif profession == "Cooking":
+        f = open("app/data/cooking.json", 'r')
     elif profession == "Enchanting":
         return 0
     elif profession == "Engineering":
@@ -24,7 +26,7 @@ def calculateSellToVendor(craftList, profession, server, faction):
     recipes = json.load(f)
 
     totalMoneyGained = 0
-    serverUrl = baseUrl + server[3:].lower() + '-' + faction.lower() + '/'
+    serverUrl = baseUrl + server[3:].replace(' ', '-').lower() + '-' + faction.lower() + '/'
     for index, info in craftList.items():
         requestUrl = serverUrl + str(recipes[info["Recipe"]]["ID"])
         response = requests.get(requestUrl)
@@ -92,7 +94,7 @@ def getReagentPrices(recipes, server, faction):
     
     # Iterate over the reagent set and create a dictionary containing reagent-price pairs
     reagentPriceDict = dict()
-    serverUrl = baseUrl + server[3:].lower() + '-' + faction.lower() + '/'
+    serverUrl = baseUrl + server[3:].replace(' ', '-').lower() + '-' + faction.lower() + '/'
     for reagent in reagents:
         requestUrl = serverUrl + str(itemID[reagent])
         response = requests.get(requestUrl)
@@ -121,7 +123,7 @@ def getReagentPrices(recipes, server, faction):
     return reagentPriceDict
 
 def getRecipePrice(recipeID, server, faction):
-    serverUrl = baseUrl + server[3:].lower() + '-' + faction.lower() + '/'
+    serverUrl = baseUrl + server[3:].replace(' ', '-').lower() + '-' + faction.lower() + '/'
     requestUrl = serverUrl + str(recipeID)
     response = requests.get(requestUrl)
     responseJson = response.json()
@@ -137,6 +139,8 @@ def importRecipes(profession, targetSkill, recipeSources, faction, school):
         f = open("app/data/alchemy.json", 'r')
     elif profession == "Blacksmithing":
         f = open("app/data/blacksmithing.json", 'r')
+    elif profession == "Cooking":
+        f = open("app/data/cooking.json", 'r')
     elif profession == "Enchanting":
         f = open("app/data/enchanting.json", 'r')
     elif profession == "Engineering":
