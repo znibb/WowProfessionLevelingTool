@@ -150,6 +150,7 @@ recipes = {
         "Green":    287,
         "Grey":     300,
         "Source":   "Trainer",
+        "School":   "Weapon",
         "Reagents": {
             "Mithril Bar": 28,
             "Ichor of Undeath": 10,
@@ -432,6 +433,7 @@ recipes = {
         "Green":    325,
         "Grey":     335,
         "Source":   "Reputation",
+        "School":   "Armor",
         "Reagents": {
             "Dark Iron Bar": 4,
             "Fiery Core": 2,
@@ -459,6 +461,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Drop",
         "RecipeID": 11612,
+        "School":   "Armor",
         "Reagents": {
             "Dark Iron Bar": 20,
             "Heart of Fire": 8
@@ -472,6 +475,7 @@ recipes = {
         "Grey":     305,
         "Source":   "Drop",
         "RecipeID": 11610,
+        "School":   "Weapon",
         "Reagents": {
             "Dark Iron Bar": 18,
             "Heart of Fire": 4
@@ -498,6 +502,7 @@ recipes = {
         "Grey":     315,
         "Source":   "Drop",
         "RecipeID": 11611,
+        "School":   "Weapon",
         "Reagents": {
             "Dark Iron Bar": 26,
             "Heart of Fire": 4
@@ -528,6 +533,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Drop",
         "RecipeID": 12698,
+        "School":   "Armor",
         "Reagents": {
             "Thorium Bar": 20,
             "Arcanite Bar": 4,
@@ -657,6 +663,7 @@ recipes = {
         "Green":    325,
         "Grey":     335,
         "Source":   "Reputation",
+        "School":   "Armor",
         "Reagents": {
             "Dark Iron Bar": 6,
             "Fiery Core": 3,
@@ -1616,6 +1623,7 @@ recipes = {
         "Green":    282,
         "Grey":     295,
         "Source":   "Trainer",
+        "School":   "Weapon",
         "Reagents": {
             "Mithril Bar": 28,
 			"Breath of Wind": 6,
@@ -2127,6 +2135,7 @@ recipes = {
         "Green":    325,
         "Grey":     335,
         "Source":   "Vendor",
+        "School":   "Armor",
         "Reagents": {
             "Thorium Bar": 20,
 			"Enchanted Thorium Bar": 4,
@@ -2141,6 +2150,7 @@ recipes = {
         "Green":    272,
         "Grey":     285,
         "Source":   "Trainer",
+        "School":   "Weapon",
         "Reagents": {
             "Mithril Bar": 24,
 			"Core of Earth": 4,
@@ -2255,6 +2265,7 @@ recipes = {
         "Green":    275,
         "Grey":     285,
         "Source":   "Trainer",
+        "School":   "Armor",
         "Reagents": {
             "Mithril Bar": 12,
 			"Truesilver Bar": 24,
@@ -2270,6 +2281,7 @@ recipes = {
         "Green":    297,
         "Grey":     310,
         "Source":   "Trainer",
+        "School":   "Weapon",
         "Reagents": {
             "Mithril Bar": 30,
 			"Truesilver Bar": 16,
@@ -2286,6 +2298,7 @@ recipes = {
         "Green":    255,
         "Grey":     265,
         "Source":   "Trainer",
+        "School":   "Armor",
         "Reagents": {
             "Mithril Bar": 10,
 			"Truesilver Bar": 8,
@@ -2358,6 +2371,7 @@ recipes = {
         "Grey":     310,
         "Source":   "Drop",
         "RecipeID": 12691,
+        "School":   "Armor",
         "Reagents": {
             "Thorium Bar": 40,
 			"Enchanted Thorium Bar": 2,
