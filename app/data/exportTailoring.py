@@ -1417,17 +1417,6 @@ recipes = {
             "Silken Thread": 2
         }
     },
-    "Mooncloth": {
-        "ID":       14342,
-        "Learn":    250,
-        "Yellow":   290,
-        "Green":    305,
-        "Grey":     320,
-        "Source":   "Vendor",
-        "Reagents": {
-            "Felcloth": 2
-        }
-    },
     "Mooncloth Boots": {
         "ID":       15802,
         "Learn":    290,
