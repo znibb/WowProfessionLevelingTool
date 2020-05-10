@@ -23,7 +23,8 @@ recipes = {
         "Reagents": {
             "Arcanite Bar": 1,
             "Dense Grinding Stone": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
     "Barbaric Iron Boots": {
         "ID":       7916,
@@ -873,7 +874,8 @@ recipes = {
         "Reagents": {
             "Gold Bar": 1,
 			"Heavy Grinding Stone": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
     "Green Iron Boots": {
         "ID":       3484,
@@ -1281,7 +1283,8 @@ recipes = {
         "Source":   "Trainer",
         "Reagents": {
             "Iron Bar": 1
-        }
+        },
+        "AmountCrafted": 2
     },
     "Iron Counterweight": {
         "ID":       6043,
@@ -1958,7 +1961,8 @@ recipes = {
         "Reagents": {
             "Silver Bar": 1,
 			"Rough Grinding Stone": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
     "Silvered Bronze Boots": {
         "ID":       3482,
@@ -2313,7 +2317,8 @@ recipes = {
         "Reagents": {
             "Truesilver Bar": 1,
 			"Solid Grinding Stone": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
     "Volcanic Hammer": {
         "ID":       12792,

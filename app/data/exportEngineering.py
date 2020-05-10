@@ -56,7 +56,8 @@ recipes = {
 			"Bronze Bar": 2,
 			"Nightcrawlers": 1,
 			"Coarse Blasting Powder": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Arclight Spanner": {
         "ID":       6219,
@@ -80,7 +81,8 @@ recipes = {
 			"Heavy Blasting Powder": 2,
 			"Bronze Bar": 3,
 			"Silver Contact": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Big Iron Bomb": {
         "ID":       4394,
@@ -93,7 +95,8 @@ recipes = {
 			"Iron Bar": 3,
 			"Heavy Blasting Powder": 3,
 			"Silver Contact": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"Blue Firework": {
         "ID":       9312,
@@ -105,7 +108,8 @@ recipes = {
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Blue Rocker Cluster": {
         "ID":       21571,
@@ -192,7 +196,8 @@ recipes = {
         "Reagents": {
 			"Coarse Blasting Powder": 3,
 			"Linen Cloth": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"Compact Harvest Reaper Kit": {
         "ID":       4391,
@@ -243,7 +248,8 @@ recipes = {
         "Reagents": {
 			"Coarse Blasting Powder": 1,
 			"Copper Bar": 1
-        }
+        },
+        "AmuntCrafted": 200
     },
 	"Crafted Light Shot": {
         "ID":       8067,
@@ -255,7 +261,8 @@ recipes = {
         "Reagents": {
 			"Rough Blasting Powder": 1,
 			"Copper Bar": 1
-        }
+        },
+        "AmuntCrafted": 200
     },
 	"Crafted Solid Shot": {
         "ID":       8069,
@@ -267,7 +274,8 @@ recipes = {
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Bronze Bar": 1
-        }
+        },
+        "AmuntCrafted": 200
     },
 	"Craftmans Monocle": {
         "ID":       4393,
@@ -402,7 +410,8 @@ recipes = {
         "Reagents": {
 			"Dense Blasting Powder": 2,
 			"Runecloth": 3
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"Dimensoinal Ripper - Everlook": {
         "ID":       18984,
@@ -460,7 +469,8 @@ recipes = {
         "Reagents": {
 			"Coarse Blasting Powder": 4,
 			"Wool Cloth": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"EZ-Thro Dynamite II": {
         "ID":       18588,
@@ -895,7 +905,7 @@ recipes = {
         }
     },
 	"Gold Power Core": {
-        "ID":       1210558584,
+        "ID":       10558,
         "Learn":    150,
         "Yellow":   150,
         "Green":    170,
@@ -903,7 +913,8 @@ recipes = {
         "Source":   "Trainer",
         "Reagents": {
 			"Gold Bar": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Green Firework": {
         "ID":       9313,
@@ -915,7 +926,8 @@ recipes = {
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Green Lens": {
         "ID":       10504,
@@ -1028,7 +1040,8 @@ recipes = {
         "Reagents": {
 			"Heavy Blasting Powder": 2,
 			"Wool Cloth": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Hi-Explosive Bomb": {
         "ID":       10562,
@@ -1041,7 +1054,8 @@ recipes = {
 			"Mithril Casing": 2,
 			"Unstable Trigger": 1,
 			"Solid Blasting Powder": 2
-        }
+        },
+        "AmuntCrafted": 4
     },
 	"Hi-Impact Mithril Slugs": {
         "ID":       10512,
@@ -1053,7 +1067,8 @@ recipes = {
         "Reagents": {
 			"Mithril Bar": 1,
 			"Solid Blasting Powder": 1
-        }
+        },
+        "AmuntCrafted": 200
     },
 	"Hyper-Radiant Flame Reflector": {
         "ID":       18638,
@@ -1107,7 +1122,8 @@ recipes = {
 			"Iron Bar": 1,
 			"Heavy Blasting Powder": 1,
 			"Silk Cloth": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Iron Strut": {
         "ID":       4387,
@@ -1130,7 +1146,8 @@ recipes = {
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Large Blue Rocket Cluster": {
         "ID":       21714,
@@ -1142,7 +1159,8 @@ recipes = {
         "Reagents": {
 			"Dense Blasting Powder": 1,
 			"Rugged Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Large Copper Bomb": {
         "ID":       4370,
@@ -1155,7 +1173,8 @@ recipes = {
 			"Copper Bar": 3,
 			"Coarse Blasting Powder": 4,
 			"Silver Contact": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Large Green Rocket": {
         "ID":       21590,
@@ -1167,7 +1186,8 @@ recipes = {
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Large Green Rocket Cluster": {
         "ID":       21716,
@@ -1179,7 +1199,8 @@ recipes = {
         "Reagents": {
 			"Dense Blasting Powder": 1,
 			"Rugged Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Large Red Rocket": {
         "ID":       21592,
@@ -1191,7 +1212,8 @@ recipes = {
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Large Red Rocket Cluster": {
         "ID":       21718,
@@ -1203,7 +1225,8 @@ recipes = {
         "Reagents": {
 			"Dense Blasting Powder": 1,
 			"Rugged Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Large Seaforium Charge": {
         "ID":       4398,
@@ -1403,7 +1426,8 @@ recipes = {
 			"Mithril Casing": 1,
 			"Unstable Trigger": 1,
 			"Solid Blasting Powder": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Mithril Gyro-Shot": {
         "ID":       10513,
@@ -1415,7 +1439,8 @@ recipes = {
         "Reagents": {
 			"Mithril Bar": 2,
 			"Solid Blasting Powder": 2
-        }
+        },
+        "AmuntCrafted": 200
     },
 	"Mithril Heavy-bore Rifle": {
         "ID":       10510,
@@ -1572,7 +1597,8 @@ recipes = {
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Red Rocket Cluster": {
         "ID":       21576,
@@ -1634,7 +1660,8 @@ recipes = {
 			"Handful of Copper Bolts": 1,
 			"Rough Blasting Powder": 2,
 			"Linen Cloth": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"Rough Dynamite": {
         "ID":       4358,
@@ -1646,7 +1673,8 @@ recipes = {
         "Reagents": {
 			"Rough Blasting Powder": 2,
 			"Linen Cloth": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"Salt Shaker": {
         "ID":       15846,
@@ -1684,7 +1712,8 @@ recipes = {
         "Source":   "Trainer",
         "Reagents": {
 			"Silver Bar": 1
-        }
+        },
+        "AmuntCrafted": 5
     },
 	"Silver-plated Shotgun": {
         "ID":       4379,
@@ -1710,7 +1739,8 @@ recipes = {
         "Reagents": {
 			"Coarse Blasting Powder": 1,
 			"Medium Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Small Bronze Bomb": {
         "ID":       4374,
@@ -1724,7 +1754,8 @@ recipes = {
 			"Bronze Bar": 2,
 			"Silver Contact": 1,
 			"Wool Cloth": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"Small Green Rocket": {
         "ID":       21559,
@@ -1736,7 +1767,8 @@ recipes = {
         "Reagents": {
 			"Coarse Blasting Powder": 1,
 			"Medium Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Small Red Rocket": {
         "ID":       21557,
@@ -1748,7 +1780,8 @@ recipes = {
         "Reagents": {
 			"Coarse Blasting Powder": 1,
 			"Medium Leather": 1
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Small Seaforium Charge": {
         "ID":       4367,
@@ -1776,7 +1809,8 @@ recipes = {
 			"Dense Blasting Powder": 2,
 			"Runecloth": 2,
 			"Deeprock Salt": 1
-        }
+        },
+        "AmuntCrafted": 4
     },
 	"Sniper Scope": {
         "ID":       10548,
@@ -1827,7 +1861,8 @@ recipes = {
         "Reagents": {
 			"Solid Blasting Powder": 1,
 			"Silk Cloth": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"Spellpower Goggles Xtreme": {
         "ID":       10502,
@@ -1910,7 +1945,8 @@ recipes = {
 			"Goblin Rocket Fuel": 1,
 			"Solid Dynamite": 6,
 			"Unstable Trigger": 1
-        }
+        },
+        "AmuntCrafted": 2
     },
 	"Thorium Grenade": {
         "ID":       15993,
@@ -1924,7 +1960,8 @@ recipes = {
 			"Thorium Bar": 3,
 			"Dense Blasting Powder": 3,
 			"Runecloth": 3
-        }
+        },
+        "AmuntCrafted": 3
     },
 	"Thorium Rifle": {
         "ID":       15995,
@@ -1953,7 +1990,8 @@ recipes = {
         "Reagents": {
 			"Thorium Bar": 2,
 			"Dense Blasting Powder": 1
-        }
+        },
+        "AmuntCrafted": 200
     },
 	"Thorium Tube": {
         "ID":       16000,
