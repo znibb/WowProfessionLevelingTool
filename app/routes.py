@@ -133,6 +133,7 @@ def results():
     craftList = dict()
     reagentsToBuy = dict()
     recipesToBuy = dict()
+    recipesFromVendor = set()
     oldestDataUsedObj = datetime.now()
 
     # Create prunable copy
@@ -193,6 +194,9 @@ def results():
                 recipesToBuy[bestCraft] = dict()
                 recipesToBuy[bestCraft]["ID"] = recipes[bestCraft]["RecipeID"]
                 recipesToBuy[bestCraft]["Price"] = 0
+        
+        if recipes[bestCraft]["Source"] in {"Vendor", "VendorLimited"}:
+            recipesFromVendor.add(bestCraft)
 
         # Increment skill
         currentSkill += 1
@@ -281,5 +285,6 @@ def results():
         reagentCost=reagentCost,
         recipesToBuy=recipesToBuy,
         recipeCost=recipeCost,
+        recipesFromVendor=recipesFromVendor,
         moneyFromVendoring=moneyFromVendoring,
         totalCost=totalCost)

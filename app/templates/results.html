@@ -45,8 +45,9 @@
         {% endif %}
     </table>
 
-    {% if recipesToBuy|length > 0 %}
     <h1>Recipes to buy:</h1>
+    {% if recipesToBuy|length > 0 %}
+    <h2>Dropped</h2>
     <table class="centered thick-border">
         <tr>
             <th align="left">Recipe</th>
@@ -60,6 +61,22 @@
         {% endfor %}
     </table>
     {% endif %}
+
+    {% if recipesFromVendor|length > 0 %}
+    <h2>Vendor</h2>
+    <table class="centered thick-border">
+        <tr>
+            <th align="left">Recipe</th>
+        </tr>
+        {% for recipe in recipesFromVendor %}
+            <tr>
+                <td>{{ recipe }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+
 
     <h1>Cost:</h1>
     <table class="centered thick-border">
