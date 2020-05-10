@@ -1,8 +1,11 @@
 <html>
     <head>
       <title>{{ title.short }}</title>
+
+      <!-- Bootstrap code -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
-    <body>
+    <body class="container-fluid">
         <h1>{{ title.long }}</h1>
         <p>
         Author: {{ author.username }}@{{ author.server }}<br>
@@ -17,31 +20,31 @@
             {{ form.server.label }}: {{ form.server() }}
             {{ form.faction.label }}: {{ form.faction() }}
             {{ form.profession.label }}: {{ form.profession() }}
-            {{ form.startSkill.label }}: {{ form.startSkill(size=2) }}
+            {{ form.startSkill.label }}: {{ form.startSkill(size=5) }}
             {% for error in form.startSkill.errors %}
                 <span style="color: red;">[{{ error }}]</span>
             {% endfor %}
-            {{ form.targetSkill.label }}: {{ form.targetSkill(size=2) }}
+            {{ form.targetSkill.label }}: {{ form.targetSkill(size=5) }}
             {% for error in form.targetSkill.errors %}
                 <span style="color: red;">[{{ error }}]</span>
             {% endfor %}
             {{ form.calculate() }}
             <br>
-    
+
             Include recipe sources:
-            {{ form.includeVendor.label }}:{{ form.includeVendor() }} 
-            {{ form.includeVendorLimited.label }}:{{ form.includeVendorLimited() }} 
-            {{ form.includeDrop.label }}:{{ form.includeDrop() }} 
-            {{ form.includeQuest.label }}:{{ form.includeQuest() }} 
-            {{ form.includeReputation.label }}:{{ form.includeReputation() }}
-            {{ form.includeSeasonal.label }}:{{ form.includeSeasonal() }}
+            {{ form.includeVendor.label }}: {{ form.includeVendor() }} |
+            {{ form.includeVendorLimited.label }}: {{ form.includeVendorLimited() }} |
+            {{ form.includeDrop.label }}: {{ form.includeDrop() }} |
+            {{ form.includeQuest.label }}: {{ form.includeQuest() }} |
+            {{ form.includeReputation.label }}: {{ form.includeReputation() }} |
+            {{ form.includeSeasonal.label }}: {{ form.includeSeasonal() }}
             <br>
-            {{ form.blacksmithingSchool.label }}: 
+            {{ form.blacksmithingSchool.label }}:
             {% for subfield in form.blacksmithingSchool %}
-                {{ subfield }}{{ subfield.label }} 
+                {{ subfield }}{{ subfield.label }}
             {% endfor %}
             <br>
-            {{ form.engineeringSchool.label }}: 
+            {{ form.engineeringSchool.label }}:
             {% for subfield in form.engineeringSchool %}
                 {{ subfield }}{{ subfield.label }}
             {% endfor %}
