@@ -205,7 +205,13 @@ def results():
         # If the reagent has been crafted previously
         if len(val) > 0:    
             index = val[0]
-            amountCrafted = craftList[index]["Count"]
+
+            if "AmountCrafted" in allRecipes[craftList[index]["Recipe"]]:
+                amountPerCraft = allRecipes[craftList[index]["Recipe"]]["AmountCrafted"]
+            else:
+                amountPerCraft = 1
+
+            amountCrafted = craftList[index]["Count"]*amountPerCraft
             amountNeeded = reagentsToBuy[reagent]["Amount"]
 
             if amountCrafted >= amountNeeded:

@@ -36,7 +36,14 @@ def calculateSellToVendor(craftList, profession, server, faction):
             sellPrice = int(responseJson["sellPrice"])
         else:
             sellPrice = 0
-        totalMoneyGained += sellPrice*info["Count"]
+
+        if "AmountCrafted" in recipes[info["Recipe"]]:
+            amountPerCraft = recipes[info["Recipe"]]["AmountCrafted"]
+        else:
+            amountPerCraft = 1
+
+
+        totalMoneyGained += sellPrice*amountPerCraft*info["Count"]
 
     return totalMoneyGained
 
