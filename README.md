@@ -16,9 +16,17 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
+### 1.2.0
+#### Features added
+- Now takes Leatherworking schools into consideration
+- Now takes into account that some crafts create multiples of an item (e.g. grenades)
+
+#### Bug fixes
+- Removed Mooncloth recipe due to having long cooldown
+
 ### 1.1.0
 #### Features added
-- Added cooking
+- Added Cooking profession
 
 #### Bug fixes
 - Added missing server US-Azshara
