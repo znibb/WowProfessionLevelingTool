@@ -45,6 +45,11 @@
             {% for subfield in form.engineeringSchool %}
                 {{ subfield }}{{ subfield.label }}
             {% endfor %}
+            <br>
+            {{ form.leatherworkingSchool.label }}: 
+            {% for subfield in form.leatherworkingSchool %}
+                {{ subfield }}{{ subfield.label }}
+            {% endfor %}
         </form>
 
         <hr>

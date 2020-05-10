@@ -193,6 +193,7 @@ recipes = {
         "Green":    315,
         "Grey":     325,
         "Source":   "Vendor",
+        "School":   "Dragonscale",
         "Reagents": {
 			"Rugged Leather": 28,
 			"Blue Dragonscale": 30,
@@ -208,6 +209,7 @@ recipes = {
         "Grey":     335,
         "Source":   "Drop",
         "RecipeID": 15763,
+        "School":   "Dragonscale",
         "Reagents": {
 			"Rugged Leather": 28,
 			"Blue Dragonscale": 30,
@@ -224,6 +226,7 @@ recipes = {
         "Grey":     315,
         "Source":   "Drop",
         "RecipeID": 15737,
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 4,
 			"Chimera Leather": 8,
@@ -237,6 +240,7 @@ recipes = {
         "Green":    295,
         "Grey":     305,
         "Source":   "Vendor",
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 6,
 			"Chimera Leather": 6,
@@ -251,6 +255,7 @@ recipes = {
         "Grey":     320,
         "Source":   "Drop",
         "RecipeID": 15746,
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 8,
 			"Chimera Leather": 8,
@@ -265,6 +270,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Drop",
         "RecipeID": 15755,
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 10,
 			"Chimera Leather": 10,
@@ -292,6 +298,7 @@ recipes = {
         "Green":    325,
         "Grey":     335,
         "Source":   "Reputation",
+        "School":   "Tribal",
         "Reagents": {
 			"Core Leather": 20,
 			"Fiery Core": 6,
@@ -518,6 +525,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Vendor",
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 30,
 			"Devilsaur Leather": 8,
@@ -531,6 +539,7 @@ recipes = {
         "Green":    285,
         "Grey":     295,
         "Source":   "Trainer",
+        "School":   "Dragonscale",
         "Reagents": {
 			"Thick Leather": 40,
 			"Worn Dragonscale": 30,
@@ -545,6 +554,7 @@ recipes = {
         "Green":    255,
         "Grey":     265,
         "Source":   "Trainer",
+        "School":   "Dragonscale",
         "Reagents": {
 			"Thick Leather": 24,
 			"Worn Dragonscale": 12,
@@ -702,6 +712,7 @@ recipes = {
         "Green":    280,
         "Grey":     290,
         "Source":   "Trainer",
+        "School":   "Tribal",
         "Reagents": {
 			"Thick Leather": 40,
 			"Jet Black Feather": 40,
@@ -822,6 +833,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "Vendor",
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 4,
 			"Frostsaber Leather": 6,
@@ -836,6 +848,7 @@ recipes = {
         "Grey":     335,
         "Source":   "Drop",
         "RecipeID": 15761,
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 6,
 			"Frostsaber Leather": 10,
@@ -850,6 +863,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Drop",
         "RecipeID": 15747,
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 6,
 			"Frostsaber Leather": 8,
@@ -864,6 +878,7 @@ recipes = {
         "Grey":     270,
         "Source":   "Trainer",
 		"Faction":	"Alliance",
+        "School":   "Elemental",
         "Reagents": {
 			"Thick Leather": 20,
 			"Globe of Water": 8,
@@ -907,6 +922,7 @@ recipes = {
         "Green":    290,
         "Grey":     300,
         "Source":   "Vendor",
+        "School":   "Dragonscale",
         "Reagents": {
 			"Rugged Leather": 20,
 			"Green Dragonscale": 25,
@@ -920,6 +936,7 @@ recipes = {
         "Green":    310,
         "Grey":     320,
         "Source":   "Trainer",
+        "School":   "Dragonscale",
         "Reagents": {
 			"Rugged Leather": 20,
 			"Green Dragonscale": 30,
@@ -935,6 +952,7 @@ recipes = {
         "Grey":     310,
         "Source":   "Drop",
         "RecipeID": 15733,
+        "School":   "Dragonscale",
         "Reagents": {
 			"Rugged Leather": 20,
 			"Green Dragonscale": 25,
@@ -1330,6 +1348,7 @@ recipes = {
         "Green":    280,
         "Grey":     290,
         "Source":   "Trainer",
+        "School":   "Elemental",
         "Reagents": {
 			"Thick Leather": 40,
 			"Heart of Fire": 8,
@@ -1425,6 +1444,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Drop",
         "RecipeID": 15760,
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 40,
 			"Ironfeather": 120,
@@ -1440,6 +1460,7 @@ recipes = {
         "Green":    300,
         "Grey":     310,
         "Source":   "Vendor",
+        "School":   "Tribal",
         "Reagents": {
 			"Rugged Leather": 24,
 			"Ironfeather": 80,
@@ -1528,6 +1549,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Drop",
         "RecipeID": 15752,
+        "School":   "Elemental",
         "Reagents": {
 			"Rugged Leather": 16,
 			"Living Essence": 6,
@@ -1541,7 +1563,8 @@ recipes = {
         "Yellow":   290,
         "Green":    300,
         "Grey":     310,
-        "Source":   "Vendor",
+        "Source":   "VendorLimited",
+        "School":   "Elemental",
         "Reagents": {
 			"Rugged Leather": 12,
 			"Living Essence": 4,
@@ -1913,6 +1936,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Drop",
         "RecipeID": 15753,
+        "School":   "Elemental",
         "Reagents": {
 			"Rugged Leather": 16,
 			"Essence of Water": 3,
@@ -1928,6 +1952,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "VendorLimited",
+        "School":   "Elemental",
         "Reagents": {
 			"Rugged Leather": 16,
 			"Essence of Water": 2,
@@ -1943,6 +1968,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Drop",
         "RecipeID": 15764,
+        "School":   "Elemental",
         "Reagents": {
 			"Rugged Leather": 12,
 			"Essence of Water": 3,
@@ -2216,6 +2242,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Drop",
         "RecipeID": 15749,
+        "School":   "Elemental",
         "Reagents": {
 			"Rugged Leather": 8,
 			"Essence of Fire": 1,
@@ -2231,6 +2258,7 @@ recipes = {
         "Grey":     310,
         "Source":   "Drop",
         "RecipeID": 15732,
+        "School":   "Elemental",
         "Reagents": {
 			"Rugged Leather": 6,
 			"Essence of Fire": 1,
@@ -2427,6 +2455,7 @@ recipes = {
         "Green":    255,
         "Grey":     265,
         "Source":   "Trainer",
+        "School":   "Tribal",
         "Reagents": {
 			"Thick Leather": 18,
 			"Thick Wolfhide": 2,

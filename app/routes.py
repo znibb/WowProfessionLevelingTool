@@ -36,6 +36,7 @@ def index():
         session["includeSeasonal"] = form.includeSeasonal.data
         session["blacksmithingSchool"] = form.blacksmithingSchool.data
         session["engineeringSchool"] = form.engineeringSchool.data
+        session["leatherworkingSchool"] = form.leatherworkingSchool.data
 
         return redirect(url_for('results'))
 
@@ -62,6 +63,7 @@ def results():
         form.includeSeasonal.data=session.get("includeSeasonal")
         form.blacksmithingSchool.data=session.get("blacksmithingSchool")
         form.engineeringSchool.data=session.get("engineeringSchool")
+        form.leatherworkingSchool.data=session.get("leatherworkingSchool")
         session.pop("server", None)
         session.pop("faction", None)
         session.pop("profession", None)
@@ -75,6 +77,7 @@ def results():
         session.pop("includeSeasonal", None)
         session.pop("blacksmithingSchool", None)
         session.pop("engineeringSchool", None)
+        session.pop("leatherworkingSchool", None)
     
     if form.validate_on_submit():
         now = datetime.now()
@@ -94,6 +97,7 @@ def results():
         session["includeSeasonal"] = form.includeSeasonal.data
         session["blacksmithingSchool"] = form.blacksmithingSchool.data
         session["engineeringSchool"] = form.engineeringSchool.data
+        session["leatherworkingSchool"] = form.leatherworkingSchool.data
 
         return redirect(url_for('results'))
 
@@ -114,6 +118,8 @@ def results():
         school = form.blacksmithingSchool.data
     elif form.profession.data == "Engineering":
         school = form.engineeringSchool.data
+    elif form.profession.data == "Leatherworking":
+        school = form.leatherworkingSchool.data
     else:
         school = "None"
 

@@ -129,3 +129,9 @@ class UserInputForm(FlaskForm):
                 ("Gnomish", "Gnomish"),
                 ("Goblin", "Goblin")],
         default="None")
+    leatherworkingSchool = RadioField(u'Leatherworking',
+        choices=[("None", "None"),
+                 ("Dragonscale", "Dragonscale"),
+                 ("Elemental", "Elemental"),
+                 ("Tribal", "Tribal")],
+        default="None")
