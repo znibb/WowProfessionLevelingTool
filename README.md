@@ -16,6 +16,14 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
+### 1.3.0
+#### Features added
+- Now also lists what recipes will need to be purchased from vendor
+- Added some simple bootstrap styling (kudos to miotke)
+
+#### Bug fixes
+- Fixed some errors with schools for blacksmithing recipes
+
 ### 1.2.0
 #### Features added
 - Now takes Leatherworking schools into consideration
