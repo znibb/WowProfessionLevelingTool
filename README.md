@@ -20,6 +20,8 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 #### Features added
 - Now also lists what recipes will need to be purchased from vendor
 - Added some simple bootstrap styling (kudos to miotke)
+- Added graphical makeover (kudos to TheDonUK)
+- Added wowhead tooltips to reagents and crafted items.
 
 #### Bug fixes
 - Fixed some errors with schools for blacksmithing recipes
