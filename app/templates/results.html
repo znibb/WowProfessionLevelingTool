@@ -1,105 +1,111 @@
 {% extends "base.html" %}
 
 {% block results %}
-    <h1>Craft list:</h1>
-    <table class="centered thick-border">
-        <tr>
-            <th align="right">Step</th>
-            <th align="right">From</th>
-            <th align="right">To</th>
-            <th align="left">Amount</th>
-            <th align="left">Recipe</th>
-            <th align="right">á</th>
-        </tr>
-        {% if craftList.items is defined %}
+<div class="d-flex flex-wrap">
+    <div class="p-2">
+        <h2>Craft list</h2>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <th align="right">Step</th>
+                <th align="right">From</th>
+                <th align="right">To</th>
+                <th align="left">Amount</th>
+                <th align="left">Recipe</th>
+                <th align="right">á</th>
+            </tr>
+            {% if craftList.items is defined %}
             {% for index, data in craftList.items() %}
-                <tr>
-                    <td align=right>{{ index }}</td>
-                    <td align=right>{{ data["Start"] }}</td>
-                    <td align=right>{{ data["Start"] + data["Count"] }}</td>
-                    <td align=right>{{ data["Count"] }}</td>
-                    <td align=left>{{ data["Recipe"] }}</td>
-                    <td align=right>{{ data["Cost"] }}</td>
-                </tr>
-            {% endfor %}    
-        {% endif %}        
-    </table>
-
-    <h1>Reagents to buy:</h1>
-    <table class="centered thick-border">
-        <tr>
-            <th align="left">Reagent</th>
-            <th align="right">Amount</th>
-            <th align="right">Price per unit</th>
-            <th align="right">Total</th>
-        </tr>
-        {% if reagents.items is defined %}
-            {% for reagent, info in reagents.items() %}
-                <tr>
-                    <td>{{ reagent }}</td>
-                    <td align="right">{{ info["Amount"] }}</td>
-                    <td align="right">{{ info["PPU"] }}</td>
-                    <td align="right">{{ info["Total"] }}</td>
-                </tr>
+            <tr>
+                <td align=right>{{ index }}</td>
+                <td align=right>{{ data["Start"] }}</td>
+                <td align=right>{{ data["Start"] + data["Count"] }}</td>
+                <td align=right>{{ data["Count"] }}</td>
+                <td align=left>{{ data["Recipe"] }}</td>
+                <td align=right>{{ data["Cost"] }}</td>
+            </tr>
             {% endfor %}
-        {% endif %}
-    </table>
-
-    <h1>Recipes to buy:</h1>
-    {% if recipesToBuy|length > 0 %}
-    <h2>Dropped</h2>
-    <table class="centered thick-border">
-        <tr>
-            <th align="left">Recipe</th>
-            <th align="right">Price</th>
-        </tr>
-        {% for recipe, info in recipesToBuy.items() %}
+            {% endif %}
+        </table>
+    </div>
+    <div class="p-2">
+        <h2>Reagents to buy</h2>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <th align="left">Reagent</th>
+                <th align="right">Amount</th>
+                <th align="right">Price per unit</th>
+                <th align="right">Total</th>
+            </tr>
+            {% if reagents.items is defined %}
+            {% for reagent, info in reagents.items() %}
+            <tr>
+                <td>{{ reagent }}</td>
+                <td align="right">{{ info["Amount"] }}</td>
+                <td align="right">{{ info["PPU"] }}</td>
+                <td align="right">{{ info["Total"] }}</td>
+            </tr>
+            {% endfor %}
+            {% endif %}
+        </table>
+    </div>
+    <div class="p-2">
+        <h2>Recipes to buy</h2>
+        {% if recipesToBuy|length > 0 %}
+        <h3>Dropped</h3>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <th align="left">Recipe</th>
+                <th align="right">Price</th>
+            </tr>
+            {% for recipe, info in recipesToBuy.items() %}
             <tr>
                 <td>{{ recipe }}</td>
                 <td align="right">{{ info["Price"] }}</td>
             </tr>
-        {% endfor %}
-    </table>
-    {% endif %}
+            {% endfor %}
+        </table>
+        {% endif %}
 
-    {% if recipesFromVendor|length > 0 %}
-    <h2>Vendor</h2>
-    <table class="centered thick-border">
-        <tr>
-            <th align="left">Recipe</th>
-        </tr>
-        {% for recipe in recipesFromVendor %}
+        {% if recipesFromVendor|length > 0 %}
+        <h3>Vendor</h3>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <th align="left">Recipe</th>
+            </tr>
+            {% for recipe in recipesFromVendor %}
             <tr>
                 <td>{{ recipe }}</td>
             </tr>
-        {% endfor %}
-    </table>
-    {% endif %}
-
-
-
-    <h1>Cost:</h1>
-    <table class="centered thick-border">
-        <tr>
-            <td align="left">Reagent cost: </td>
-            <td align="right">{{ reagentCost }}</td>
-        </tr>
-        {% if recipesToBuy|length > 0 %}
-        <tr>
-            <td align="left">Recipe cost: </td>
-            <td align="right">{{ recipeCost }}</td>
-        </tr>
+            {% endfor %}
+        </table>
         {% endif %}
-        <tr>
-            <td align="left">Vendoring crafts: </td>
-            <td align="right">{{ moneyFromVendoring }}</td>
-        </tr>
-        <tr>
-            <td align="left">Total cost: </td>
-            <td align="right">{{ totalCost }}</td>
-        </tr>
-    </table>
-    <p>
-        Oldest data used: {{ oldestDataUsed }}
-    </p>
+
+    </div>
+    <div class="p-2">
+        <h2>Cost</h2>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <td align="left">Reagent cost: </td>
+                <td align="right">{{ reagentCost }}</td>
+            </tr>
+            {% if recipesToBuy|length > 0 %}
+            <tr>
+                <td align="left">Recipe cost: </td>
+                <td align="right">{{ recipeCost }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <td align="left">Vendoring crafts: </td>
+                <td align="right">{{ moneyFromVendoring }}</td>
+            </tr>
+            <tr>
+                <td align="left">Total cost: </td>
+                <td align="right">{{ totalCost }}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<p>
+    Oldest data used: {{ oldestDataUsed }}
+</p>
 {% endblock %}

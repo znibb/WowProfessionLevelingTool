@@ -1,71 +1,160 @@
 <html>
-    <head>
-      <title>{{ title.short }}</title>
 
-      <!-- Bootstrap code -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    </head>
-    <body class="container-fluid">
-        <h1>{{ title.long }}</h1>
+<head>
+    <title>{{ title.short }}</title>
+
+    <!-- Bootstrap code -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>const whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: true };</script>
+    <script src="https://wow.zamimg.com/widgets/power.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="/static/site.js"></script>
+    <link rel="stylesheet" href="/static/site.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark header">
+        <span class="navbar-brand" href="#"><img src="/static/wowclassiclogo.png" height="30">
+            {{ title.long }}
+        </span>
+        <a class="navbar-brand " href="https://grimsoul.net"><img src="/static/grimsoullogo.png" height="30"></a>
+    </nav>
+    <div class="container-fluid">
         <p>
-        Author: {{ author.username }}@{{ author.server }}<br>
-        Guild: <a href="https://grimsoul.net">GrimSoul Legion</a><br>
-        Contact: DM me on <a href={{ author.discord }}>Discord</a><br>
-        Source: <a href={{ title.source }}>GitHub</a>
+            Author: {{ author.username }}@{{ author.server }}<br>
+            Contact: DM me on <a href={{ author.discord }}>Discord</a><br>
+            Source: <a href={{ title.source }}>GitHub</a>
         </p>
+        <div class="card">
+            <div class="card-body">
+                <form action="" method="post" novalidate>
+                    {{ form.hidden_tag() }}
+                    <div class="form-row">
+                        <div class="form-group col-sm-4 col-md-3">
+                            {{ form.server.label }}
+                            {{ form.server(class_="form-control")  }}
+                        </div>
+                        <div class="form-group col-sm-4  col-md-3">
+                            {{ form.faction.label }}
+                            {{ form.faction(class_="form-control") }}
+                        </div>
+                        <div class="form-group col-sm-4  col-md-3">
+                            {{ form.profession.label }}
+                            {{ form.profession(class_="form-control") }}
+                        </div>
 
-        <form action="" method="post" novalidate>
-            {{ form.hidden_tag() }}
+                        <div class="form-row col-sm-12 col-md-3">
+                            <div class="form-group col-sm-6 col-md-6">
+                                {{ form.startSkill.label }}
+                                {{ form.startSkill(class_="js-input-from form-control", size=5) }}
+                                {% for error in form.startSkill.errors %}
+                                <span style="color: red;">[{{ error }}]</span>
+                                {% endfor %}
+                            </div>
 
-            {{ form.server.label }}: {{ form.server() }}
-            {{ form.faction.label }}: {{ form.faction() }}
-            {{ form.profession.label }}: {{ form.profession() }}
-            {{ form.startSkill.label }}: {{ form.startSkill(size=5) }}
-            {% for error in form.startSkill.errors %}
-                <span style="color: red;">[{{ error }}]</span>
-            {% endfor %}
-            {{ form.targetSkill.label }}: {{ form.targetSkill(size=5) }}
-            {% for error in form.targetSkill.errors %}
-                <span style="color: red;">[{{ error }}]</span>
-            {% endfor %}
-            {{ form.calculate() }}
-            <br>
+                            <div class="form-group col-sm-6 col-md-6 text-right">
+                                {{ form.targetSkill.label }}
+                                {{ form.targetSkill(class_="js-input-to form-control", size=5) }}
+                                {% for error in form.targetSkill.errors %}
+                                <span style="color: red;">[{{ error }}]</span>
+                                {% endfor %}
+                            </div>
+                        </div>
 
-            Include recipe sources:
-            {{ form.includeVendor.label }}: {{ form.includeVendor() }} |
-            {{ form.includeVendorLimited.label }}: {{ form.includeVendorLimited() }} |
-            {{ form.includeDrop.label }}: {{ form.includeDrop() }} |
-            {{ form.includeQuest.label }}: {{ form.includeQuest() }} |
-            {{ form.includeReputation.label }}: {{ form.includeReputation() }} |
-            {{ form.includeSeasonal.label }}: {{ form.includeSeasonal() }}
-            <br>
-            {{ form.blacksmithingSchool.label }}:
-            {% for subfield in form.blacksmithingSchool %}
-                {{ subfield }}{{ subfield.label }}
-            {% endfor %}
-            <br>
-            {{ form.engineeringSchool.label }}:
-            {% for subfield in form.engineeringSchool %}
-                {{ subfield }}{{ subfield.label }}
-            {% endfor %}
-            <br>
-            {{ form.leatherworkingSchool.label }}: 
-            {% for subfield in form.leatherworkingSchool %}
-                {{ subfield }}{{ subfield.label }}
-            {% endfor %}
-        </form>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-3 col-sm-12 order-md-last order-sm-first">
+                            <div class="range-slider">
+                                <input type="text" class="js-range-slider" value="" />
+                            </div>
+                        </div>
+                        <div class="form-group col-md-9">
+                            Include recipe sources
+                            <div class="form-check form-check-inline">
+                                {{ form.includeVendor(class_="form-check-input") }}
+                                {{ form.includeVendor.label(class_="form-check-label") }}
+                            </div>
+                            <div class="form-check form-check-inline">
+                                {{ form.includeVendorLimited(class_="form-check-input") }}
+                                {{ form.includeVendorLimited.label(class_="form-check-label") }}
+                            </div>
+                            <div class="form-check form-check-inline">
+                                {{ form.includeDrop(class_="form-check-input") }}
+                                {{ form.includeDrop.label(class_="form-check-label") }}
+                            </div>
+                            <div class="form-check form-check-inline">
+                                {{ form.includeQuest(class_="form-check-input") }}
+                                {{ form.includeQuest.label(class_="form-check-label") }}
+                            </div>
+                            <div class="form-check form-check-inline">
+                                {{ form.includeReputation(class_="form-check-input") }}
+                                {{ form.includeReputation.label(class_="form-check-label") }}
+                            </div>
+                            <div class="form-check form-check-inline">
+                                {{ form.includeSeasonal(class_="form-check-input") }}
+                                {{ form.includeSeasonal.label(class_="form-check-label") }}
+                            </div>
+                        </div>
+                    </div>
 
-        <hr>
+                    <div class="form-row">
+                        <div class="form-group schoolOptions BlacksmithingSchool col-md-8">
+                            {{ form.blacksmithingSchool.label }}
+                            {% for subfield in form.blacksmithingSchool %}
+                            <div class="form-check form-check-inline">
+                                {{ subfield(class_="form-check-input") }}
+                                {{ subfield.label(class_="form-check-label") }}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <div class="form-group schoolOptions EngineeringSchool col-md-8">
+                            {{ form.engineeringSchool.label }}
+                            {% for subfield in form.engineeringSchool %}
+                            <div class="form-check form-check-inline">
+                                {{ subfield(class_="form-check-input")  }}
+                                {{ subfield.label(class_="form-check-label") }}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <div class="form-group schoolOptions LeatherworkingSchool col-md-8">
+                            {{ form.leatherworkingSchool.label }}
+                            {% for subfield in form.leatherworkingSchool %}
+                            <div class="form-check form-check-inline">
+                                {{ subfield(class_="form-check-input")  }}
+                                {{ subfield.label(class_="form-check-label") }}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <div class="col-md-4 ml-auto text-right">
+                            {{ form.calculate(class_="btn btn-light") }}
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
 
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-            {% for message in messages %}
+
+        <div class="card">
+            <div class="card-body">
+
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                {% for message in messages %}
                 {{ message }}
-            {% endfor %}
-        {% endif %}
-        {% endwith %}
+                {% endfor %}
+                {% endif %}
+                {% endwith %}
 
-        {% block index %}{% endblock %}
-        {% block results %}{% endblock %}
-    </body>
+                {% block index %}{% endblock %}
+                {% block results %}{% endblock %}
+
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
