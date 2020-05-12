@@ -1,0 +1,135 @@
+body {
+    background-color: #121212 !important;
+    color: #eee;
+  }
+  
+.bg-light {
+    background-color: #333 !important;
+  }
+  
+.bg-white {
+    background-color: #000 !important;
+  }
+  
+.bg-black {
+    background-color: #eee !important;
+  }
+
+  .header {
+      height: 50px;
+      display: flex;
+      background-color: #151515 !important;
+      border-bottom: 1px solid #111;
+      box-shadow: 0 3px 3px rgba(0,0,0,.2); 
+  }
+
+  .header > div {
+      height: 100%;
+  }
+
+  .header img {
+      height: 100%;
+  }
+
+.card {    
+    background-color: #202020 !important;
+    margin-bottom: 20px;
+}
+
+
+.recipesources {
+    max-width: 100px;
+}
+
+.recipesources > div {
+    flex-grow: 1;
+}
+
+  .professionoptions > div {
+flex-grow: 1;
+  }
+
+  section.range-slider {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    float: left;
+    text-align: center;
+  }
+  section.range-slider input[type="range"] {
+    pointer-events: none;
+    position: absolute;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 14px;
+    background: #F1EFEF;
+    box-shadow: inset 0 1px 0 0 #cdc6c6, inset 0 -1px 0 0 #d9d4d4;
+    -webkit-box-shadow: inset 0 1px 0 0 #cdc6c6, inset 0 -1px 0 0 #d9d4d4;
+    overflow: hidden;
+    left: 0;
+    top: 50px;
+    width: 300px;
+    outline: none;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  section.range-slider input[type="range"]::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 14px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dad8da), color-stop(100%, #413F41));
+    /* android <= 2.2 */
+    background-image: -webkit-linear-gradient(top, #dad8da 0, #413F41 100%);
+    /* older mobile safari and android > 2.2 */
+    background-image: linear-gradient(to bottom, #dad8da 0, #413F41 100%);
+    /* W3C */
+  }
+  section.range-slider input[type="range"]::-moz-range-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 10;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 14px;
+    background-image: linear-gradient(to bottom, #dad8da 0, #413F41 100%);
+    /* W3C */
+  }
+  section.range-slider input[type="range"]::-ms-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 10;
+    -ms-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 14px;
+    border: 0;
+    background-image: linear-gradient(to bottom, #dad8da 0, #413F41 100%);
+    /* W3C */
+  }
+  section.range-slider input[type=range]::-moz-range-track {
+    position: relative;
+    z-index: -1;
+    background-color: black;
+    border: 0;
+  }
+  section.range-slider input[type=range]:last-of-type::-moz-range-track {
+    -moz-appearance: none;
+    background: none transparent;
+    border: 0;
+  }
+  section.range-slider input[type=range]::-moz-focus-outer {
+    border: 0;
+  }
+  .range-slider > .irs {
+      top: -25px;
+  }
