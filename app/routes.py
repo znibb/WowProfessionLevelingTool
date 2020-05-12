@@ -275,6 +275,10 @@ def results():
             "-" + moneyFromVendoring]
     totalCost = sumPretty(costs)
 
+    # Pass along itemID dictionary to be able to fetch tooltips
+    with open("app/data/itemID.json", 'r') as f:
+            itemID = json.load(f)
+
     return render_template('results.html',
         title=title,
         author=author,
@@ -287,4 +291,6 @@ def results():
         recipeCost=recipeCost,
         recipesFromVendor=recipesFromVendor,
         moneyFromVendoring=moneyFromVendoring,
-        totalCost=totalCost)
+        totalCost=totalCost,
+        itemID=itemID,
+        allRecipes=allRecipes)
