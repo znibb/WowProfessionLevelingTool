@@ -59,7 +59,7 @@
             </tr>
             {% for recipe, info in recipesToBuy.items() %}
             <tr>
-                <td><a href="https://classic.wowhead.com/item={{ allRecipes[recipe].ID }}" class="q4">{{ recipe }}</a></td>
+                <td>{{ recipe }}</td>
                 <td align="right">{{ info["Price"] }}</td>
             </tr>
             {% endfor %}
@@ -74,7 +74,7 @@
             </tr>
             {% for recipe in recipesFromVendor %}
             <tr>
-                <td><a href="https://classic.wowhead.com/item={{ allRecipes[recipe].ID }}" class="q4">{{ recipe }}</a></td>
+                <td>{{ recipe }}</td>
             </tr>
             {% endfor %}
         </table>
