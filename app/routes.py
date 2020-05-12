@@ -7,7 +7,7 @@ from app.functions import *
 author = {
     'username': 'Znibb',
     'server':   'Noggenfogger',
-    'discord':  "https://discordapp.com/channels/@me/192987995006173184"}
+    'email':  "znibb@zkylark.se"}
 title = {
     'short':    'WPLT',
     'long':     'WowProfessionLevelingTool',
