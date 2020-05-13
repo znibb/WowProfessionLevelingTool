@@ -16,6 +16,11 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
+### 1.3.1
+#### Bug fixes
+- Added conditional treatment of tooltips for enchanting crafts (use 'spell' instead of 'item' in wowhead url)
+- Fixed minor typos in database
+
 ### 1.3.0
 #### Features added
 - Now also lists what recipes will need to be purchased from vendor
