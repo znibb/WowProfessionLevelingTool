@@ -1227,7 +1227,7 @@ recipes = {
         }
     },
     "Imperial Plate Helm": {
-        "ID":       1661242758,
+        "ID":       12427,
         "Learn":    295,
         "Yellow":   315,
         "Green":    325,
