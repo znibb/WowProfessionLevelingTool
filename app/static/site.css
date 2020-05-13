@@ -27,10 +27,6 @@ body {
       height: 100%;
   }
 
-  .header img {
-      height: 100%;
-  }
-
 .card {    
     background-color: #202020 !important;
     margin-bottom: 20px;
