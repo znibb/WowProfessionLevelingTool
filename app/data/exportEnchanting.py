@@ -136,7 +136,7 @@ recipes = {
         }
     },
     "Boots - Lesser Agility": {
-        "ID":       13639,
+        "ID":       13637,
         "Learn":    160,
         "Yellow":   180,
         "Green":    200,
@@ -526,17 +526,6 @@ recipes = {
 			"Large Brilliant Shard": 2,
             "Firebloom": 3,
             "Imbued Vial": 1
-        }
-    },
-    "Chest - Greater Health": {
-        "ID":       13640,
-        "Learn":    160,
-        "Yellow":   180,
-        "Green":    200,
-        "Grey":     220,
-        "Source":   "Trainer",
-        "Reagents": {
-			"Soul Dust": 3
         }
     },
     "Chest - Greater Health": {
