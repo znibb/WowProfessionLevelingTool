@@ -21,7 +21,7 @@
                 <td align=right>{{ data["Start"] + data["Count"] }}</td>
                 <td align=right>{{ data["Count"] }}</td>
                 {% if form.profession.data == "Enchanting" %}
-                <td align=left><a href="https://classic.wowhead.com/spell={{ allRecipes[data["Recipe"]].ID }}">{{ data["Recipe"] }}</a></td>
+                <td align=left><a href="https://classic.wowhead.com/spell={{ allRecipes[data["Recipe"]].ID }}" class="q1">{{ data["Recipe"] }}</a></td>
                 {% else %}
                 <td align=left><a href="https://classic.wowhead.com/item={{ allRecipes[data["Recipe"]].ID }}">{{ data["Recipe"] }}</a></td>
                 {% endif %}
