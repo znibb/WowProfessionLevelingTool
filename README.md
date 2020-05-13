@@ -24,8 +24,8 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 ### 1.3.0
 #### Features added
 - Now also lists what recipes will need to be purchased from vendor
-- Added some simple bootstrap styling (kudos to miotke)
-- Added graphical makeover (kudos to TheDonUK)
+- Added some simple bootstrap styling (kudos to [miotke](https://github.com/miotke))
+- Added graphical makeover (kudos to [TheDonUK](https://github.com/TheDonUK))
 - Added wowhead tooltips to reagents and crafted items.
 
 #### Bug fixes
@@ -50,3 +50,8 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 ### 1.0.1
 - Removed vendor-back-gold from being calculated from enchanting
 - Fixed formatting error in leatherworking recipe list
+
+### ToDo
+- Implement "slug fetch" of reagent price data" (https://api.nexushub.co/wow-classic/v1/items/noggenfogger-horde/)
+- Add tooltips for recipes (requires database updates)
+- Fetch list of available servers from nexushub
