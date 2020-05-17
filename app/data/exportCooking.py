@@ -8,6 +8,7 @@ recipes = {
         "Green":    335,
         "Grey":     355,
         "Source":   "Vendor",
+        "RecipeID": 13949,
         "Reagents": {
             "Raw Whitescale Salmon": 1,
             "Soothing Spices": 1
@@ -21,6 +22,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 4609,
         "Reagents": {
             "Buzzard Wing": 1,
             "Hot Spices": 1
@@ -35,6 +37,7 @@ recipes = {
         "Grey":     100,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 2889,
         "Reagents": {
             "Crag Boar Rib": 1,
             "Rhapsody Malt": 1
@@ -48,6 +51,7 @@ recipes = {
         "Green":    170,
         "Grey":     190,
         "Source":   "Vendor",
+        "RecipeID": 3734,
         "Reagents": {
             "Big Bear Meat": 1,
             "Hot Spices": 1
@@ -62,6 +66,7 @@ recipes = {
         "Grey":     140,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 3679,
         "Reagents": {
             "Bear Meat": 1,
             "Boar Intestines": 1,
@@ -89,6 +94,7 @@ recipes = {
         "Green":    65,
         "Grey":     85,
         "Source":   "Vendor",
+        "RecipeID": 6325,
         "Reagents": {
             "Raw Brilliant Smallfish": 1
         },
@@ -101,6 +107,7 @@ recipes = {
         "Green":    160,
         "Grey":     180,
         "Source":   "Vendor",
+        "RecipeID": 6330,
         "Reagents": {
             "Raw Bristle Whisker Catfish": 1
         },
@@ -113,6 +120,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 12232,
         "Reagents": {
             "Mystery Meat": 1,
             "Hot Spices": 1
@@ -139,6 +147,7 @@ recipes = {
         "Grey":     170,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 5528,
         "Reagents": {
             "Clam Meat": 1,
             "Ice Cold Milk": 1,
@@ -167,6 +176,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 13940,
         "Reagents": {
             "Raw Glossy Mightfish": 1,
             "Soothing Spices": 1
@@ -206,6 +216,7 @@ recipes = {
         "Grey":     85,
         "Source":   "Vendor",
         "Faction":  "Horde",
+        "RecipeID": 12226,
         "Reagents": {
             "Meaty Bat Wing": 1,
             "Mild Spices": 1
@@ -220,6 +231,7 @@ recipes = {
         "Grey":     180,
         "Source":   "Vendor",
         "Faction":  "Horde",
+        "RecipeID": 5488,
         "Reagents": {
             "Thunder Lizard Tail": 1,
             "Hot Spices": 1
@@ -234,6 +246,7 @@ recipes = {
         "Grey":     200,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 3681,
         "Reagents": {
             "Tender Crocolisk Meat": 1,
             "Hot Spices": 1
@@ -248,6 +261,7 @@ recipes = {
         "Grey":     160,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 3678,
         "Reagents": {
             "Crocolisk Meat": 1,
             "Mild Spices": 1
@@ -261,6 +275,7 @@ recipes = {
         "Green":    190,
         "Grey":     210,
         "Source":   "Vendor",
+        "RecipeID": 3682,
         "Reagents": {
             "Raptor Egg": 1,
             "Hot Spices": 1
@@ -275,6 +290,7 @@ recipes = {
         "Grey":     170,
         "Source":   "Quest",
         "Faction":  "Horde",
+        "RecipeID": 5487,
         "Reagents": {
             "Dig Rat": 1
         },
@@ -287,6 +303,7 @@ recipes = {
         "Green":    260,
         "Grey":     280,
         "Source":   "Vendor",
+        "RecipeID": 12239,
         "Reagents": {
             "Mystery Meat": 1,
             "Small Flame Sac": 1,
@@ -330,6 +347,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 13941,
         "Reagents": {
             "Raw Redgill": 1
         },
@@ -343,6 +361,7 @@ recipes = {
         "Grey":     130,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 5485,
         "Reagents": {
             "Soft Frenzy Fish": 1,
             "Mild Spices": 1
@@ -356,6 +375,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 6039,
         "Reagents": {
             "Giant Clam Meat": 1,
             "Hot Spices": 1
@@ -397,6 +417,7 @@ recipes = {
         "Grey":     255,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 10841,
         "Reagents": {
             "Goldthorn": 1,
             "Refreshing Spring Water": 1
@@ -411,6 +432,7 @@ recipes = {
         "Grey":     190,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 3683,
         "Reagents": {
             "Gooey Spider Leg": 2,
             "Hot Spices": 1
@@ -425,6 +447,7 @@ recipes = {
         "Grey":     130,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 2697,
         "Reagents": {
             "Goretusk Liver": 1,
             "Mild Spices": 1
@@ -438,6 +461,7 @@ recipes = {
         "Green":    300,
         "Grey":     320,
         "Source":   "Vendor",
+        "RecipeID": 13942,
         "Reagents": {
             "Winter Squid": 1,
             "Soothing Spices": 1
@@ -452,6 +476,7 @@ recipes = {
         "Grey":     200,
         "Source":   "Vendor",
         "Faction":  "Horde",
+        "RecipeID": 20075,
         "Reagents": {
             "Tender Crocolisk Meat": 2,
             "Soothing Spices": 1
@@ -465,6 +490,7 @@ recipes = {
         "Green":    260,
         "Grey":     280,
         "Source":   "Vendor",
+        "RecipeID": 12240,
         "Reagents": {
             "Heavy Kodo Meat": 2,
             "Soothing Spices": 1,
@@ -492,6 +518,7 @@ recipes = {
         "Green":    195,
         "Grey":     215,
         "Source":   "Vendor",
+        "RecipeID": 3735,
         "Reagents": {
             "Lion Meat": 1,
             "Hot Spices": 1
@@ -505,6 +532,7 @@ recipes = {
         "Green":    300,
         "Grey":     320,
         "Source":   "Vendor",
+        "RecipeID": 13943,
         "Reagents": {
             "Raw Summer Bass": 1,
             "Hot Spices": 2
@@ -518,6 +546,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 12229,
         "Reagents": {
             "Red Wolf Meat": 1,
             "Hot Spices": 1
@@ -531,6 +560,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 12231,
         "Reagents": {
             "Tiger Meat": 1,
             "Refreshing Spring Water": 1,
@@ -546,6 +576,7 @@ recipes = {
         "Grey":     90,
         "Source":   "Quest",
         "Faction":  "Alliance",
+        "RecipeID": 5482,
         "Reagents": {
             "Small Spider Leg": 1
         },
@@ -558,6 +589,7 @@ recipes = {
         "Green":    170,
         "Grey":     190,
         "Source":   "Vendor",
+        "RecipeID": 5489,
         "Reagents": {
             "Stag Meat": 1,
             "Mild Spices": 4
@@ -571,6 +603,7 @@ recipes = {
         "Green":    185,
         "Grey":     205,
         "Source":   "Vendor",
+        "RecipeID": 12227,
         "Reagents": {
             "Lean Wolf Flank": 1,
             "Mild Spices": 1
@@ -584,6 +617,7 @@ recipes = {
         "Green":    335,
         "Grey":     355,
         "Source":   "Vendor",
+        "RecipeID": 13947,
         "Reagents": {
             "Darkclaw Lobster": 1,
             "Refreshing Spring Water": 1
@@ -598,6 +632,7 @@ recipes = {
         "Grey":     130,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 6329,
         "Reagents": {
             "Raw Loch Frenzy": 1,
             "Mild Spices": 1
@@ -611,6 +646,7 @@ recipes = {
         "Green":    110,
         "Grey":     130,
         "Source":   "Vendor",
+        "RecipeID": 6328,
         "Reagents": {
             "Raw Longjaw Mud Snapper": 1
         },
@@ -623,6 +659,7 @@ recipes = {
         "Green":    335,
         "Grey":     355,
         "Source":   "Vendor",
+        "RecipeID": 13948,
         "Reagents": {
             "Large Raw Mightfish": 1,
             "Hot Spices": 1,
@@ -637,6 +674,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 17062,
         "Reagents": {
             "Raw Mithril Head Trout": 1
         },
@@ -649,6 +687,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 16110,
         "Reagents": {
             "Giant Egg": 1,
             "Soothing Spices": 2
@@ -663,6 +702,7 @@ recipes = {
         "Grey":     170,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 3680,
         "Reagents": {
             "Murloc Fin": 2,
             "Hot Spices": 1
@@ -676,6 +716,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 12233,
         "Reagents": {
             "Mystery Meat": 1,
             "Skin of Dwarven Stout": 1
@@ -689,6 +730,7 @@ recipes = {
         "Green":    310,
         "Grey":     30,
         "Source":   "Vendor",
+        "RecipeID": 13945,
         "Reagents": {
             "Raw Nightfin Snapper": 1,
             "Refreshing Spring Water": 1
@@ -702,6 +744,7 @@ recipes = {
         "Green":    310,
         "Grey":     330,
         "Source":   "Vendor",
+        "RecipeID": 13946,
         "Reagents": {
             "Raw Sunscale Salmon": 1
         },
@@ -714,6 +757,7 @@ recipes = {
         "Green":    110,
         "Grey":     130,
         "Source":   "Vendor",
+        "RecipeID": 6368,
         "Reagents": {
             "Raw Rainbow Fin Albacore": 1
         },
@@ -727,6 +771,7 @@ recipes = {
         "Grey":     175,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 2699,
         "Reagents": {
             "Crisp Spider Meat": 1,
             "Tough Condor Meat": 1
@@ -740,6 +785,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 12228,
         "Reagents": {
             "Raptor Flesh": 1,
             "Hot Spices": 1
@@ -753,6 +799,7 @@ recipes = {
         "Green":    65,
         "Grey":     85,
         "Source":   "Trainer",
+        "RecipeID": 5484,
         "Reagents": {
             "Chunk of Boar Meat": 1
         },
@@ -766,6 +813,7 @@ recipes = {
         "Grey":     115,
         "Source":   "Vendor",
         "Faction":  "Horde",
+        "RecipeID": 5484,
         "Reagents": {
             "Kodo Meat": 1,
             "Mild Spices": 1
@@ -779,6 +827,7 @@ recipes = {
         "Green":    210,
         "Grey":     230,
         "Source":   "Vendor",
+        "RecipeID": 6369,
         "Reagents": {
             "Raw Rockscale Cod": 1
         },
@@ -792,6 +841,7 @@ recipes = {
         "Grey":     355,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 18267,
         "Reagents": {
             "Runn Tum Tuber": 1,
             "Soothing Spices": 1
@@ -805,6 +855,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Vendor",
+        "RecipeID": 21219,
         "Reagents": {
             "Raw Greater Sagefish": 1,
             "Hot Spices": 1
@@ -833,6 +884,7 @@ recipes = {
         "Grey":     100,
         "Source":   "Vendor",
         "Faction":  "Horde",
+        "RecipeID": 5483,
         "Reagents": {
             "Scorpid Stinger": 1
         },
@@ -846,6 +898,7 @@ recipes = {
         "Grey":     180,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 2701,
         "Reagents": {
             "Lean Wolf Flank": 2,
             "Stormwind Seasoning Herbs": 1
@@ -859,6 +912,7 @@ recipes = {
         "Green":    65,
         "Grey":     85,
         "Source":   "Vendor",
+        "RecipeID": 6326,
         "Reagents": {
             "Raw Slitherskin Mackerel": 1
         },
@@ -871,6 +925,7 @@ recipes = {
         "Green":    100,
         "Grey":     120,
         "Source":   "Vendor",
+        "RecipeID": 6892,
         "Reagents": {
             "Bear Meat": 1
         },
@@ -884,6 +939,7 @@ recipes = {
         "Grey":     365,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 20452,
         "Reagents": {
             "Sandworm Meat": 1,
             "Soothing Spices": 1
@@ -897,6 +953,7 @@ recipes = {
         "Green":    140,
         "Grey":     160,
         "Source":   "Vendor",
+        "RecipeID": 21099,
         "Reagents": {
             "Raw Sagefish": 1,
             "Mild Spices": 1
@@ -911,6 +968,7 @@ recipes = {
         "Grey":     255,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 3737,
         "Reagents": {
             "Turtle Meat": 1,
             "Soothing Spices": 1
@@ -924,6 +982,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 16111,
         "Reagents": {
             "Tender Crab Meat": 1,
             "Hot Spices": 2
@@ -962,6 +1021,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 13939,
         "Reagents": {
             "Raw Spotted Yellowtail": 1
         },
@@ -975,6 +1035,7 @@ recipes = {
         "Grey":     130,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 5486,
         "Reagents": {
             "Strider Meat": 1,
             "Shiny Red Apple": 1
@@ -1003,6 +1064,7 @@ recipes = {
         "Grey":     230,
         "Source":   "Quest",
         "Faction":  "Alliance",
+        "RecipeID": 3736,
         "Reagents": {
             "Lion Meat": 2,
             "Soothing Spices": 1
@@ -1016,6 +1078,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 18046,
         "Reagents": {
             "Tender Wolf Meat": 1,
             "Soothing Spices": 1
@@ -1029,6 +1092,7 @@ recipes = {
         "Green":    120,
         "Grey":     140,
         "Source":   "Vendor",
+        "RecipeID": 18160,
         "Reagents": {
             "Swiftthistle": 1,
             "Refreshing Spring Water": 1
@@ -1042,6 +1106,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 16767,
         "Reagents": {
             "Zesty Clam Meat": 2,
             "Hot Spices": 1,
@@ -1057,6 +1122,7 @@ recipes = {
         "Grey":     155,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 728,
         "Reagents": {
             "Stringy Vulture Meat": 1,
             "Murloc Eye": 1,
