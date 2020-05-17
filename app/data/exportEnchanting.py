@@ -8,6 +8,7 @@ recipes = {
         "Green":    330,
         "Grey":     350,
         "Source":   "Reputation",
+        "RecipeID": 22392,
         "Reagents": {
             "Large Brilliant Shard": 10,
             "Greater Eternal Essence": 6,
@@ -58,6 +59,7 @@ recipes = {
         "Green":    150,
         "Grey":     170,
         "Source":   "VendorLimited",
+        "RecipeID": 6349,
         "Reagents": {
 			"Greater Magic Essence": 3
         }
@@ -69,7 +71,7 @@ recipes = {
         "Green":    155,
         "Grey":     175,
         "Source":   "Drop",
-        "RecipeID": 11167,
+        "RecipeID": 11038,
         "Reagents": {
 			"Lesser Astral Essence": 1,
 			"Strange Dust": 6
@@ -178,6 +180,7 @@ recipes = {
         "Green":    170,
         "Grey":     190,
         "Source":   "Vendor",
+        "RecipeID": 6377,
         "Reagents": {
 			"Strange Dust": 6,
 			"Lesser Astral Essence": 2
@@ -238,6 +241,7 @@ recipes = {
         "Green":    275,
         "Grey":     295,
         "Source":   "Vendor",
+        "RecipeID": 11223,
         "Reagents": {
 			"Greater Nether Essence": 1,
 			"Dream Dust": 2
@@ -310,6 +314,7 @@ recipes = {
         "Green":    210,
         "Grey":     230,
         "Source":   "Vendor",
+        "RecipeID": 11163,
         "Reagents": {
 			"Lesser Mystic Essence": 1,
 			"Soul Dust": 2
@@ -356,6 +361,7 @@ recipes = {
         "Green":    185,
         "Grey":     205,
         "Source":   "Vendor",
+        "RecipeID": 11101,
         "Reagents": {
 			"Soul Dust": 2
         }
@@ -367,6 +373,7 @@ recipes = {
         "Green":    330,
         "Grey":     350,
         "Source":   "Reputation",
+        "RecipeID": 19446,
         "Reagents": {
 			"Illusion Dust": 16,
 			"Greater Eternal Essence": 4,
@@ -503,12 +510,13 @@ recipes = {
         }
     },
     "Brilliant Mana Oil": {
-        "ID":       20748,
-        "Learn":    300,
+        "ID":       25130,
+        "Learn-PHASE5":    300,
         "Yellow":   310,
         "Green":    320,
         "Grey":     330,
         "Source":   "Reputation",
+        "RecipeID": 20757,
         "Reagents": {
 			"Large Brilliant Shard": 2,
             "Purple Lotus": 3,
@@ -516,12 +524,13 @@ recipes = {
         }
     },
     "Brilliant Wizard Oil": {
-        "ID":       20749,
-        "Learn":    300,
+        "ID":       25129,
+        "Learn-PHASE5":    300,
         "Yellow":   310,
         "Green":    320,
         "Grey":     330,
         "Source":   "Reputation",
+        "RecipeID": 20756,
         "Reagents": {
 			"Large Brilliant Shard": 2,
             "Firebloom": 3,
@@ -594,6 +603,7 @@ recipes = {
         "Green":    135,
         "Grey":     155,
         "Source":   "Vendor",
+        "RecipeID": 6346,
         "Reagents": {
 			"Greater Magic Essence": 1,
 			"Lesser Magic Essence": 1
@@ -619,6 +629,7 @@ recipes = {
         "Green":    315,
         "Grey":     335,
         "Source":   "VendorLimited",
+        "RecipeID": 16221,
         "Reagents": {
 			"Illusion Dust": 6,
 			"Small Brilliant Shard": 1
@@ -679,6 +690,7 @@ recipes = {
         "Green":    100,
         "Grey":     120,
         "Source":   "Vendor",
+        "RecipeID": 6342,
         "Reagents": {
 			"Lesser Magic Essence": 1
         }
@@ -840,6 +852,7 @@ recipes = {
         "Green":    155,
         "Grey":     175,
         "Source":   "Vendor",
+        "RecipeID": 11039,
         "Reagents": {
 			"Lesser Astral Essence": 1
         }
@@ -886,6 +899,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Vendor",
+        "RecipeID": 16224,
         "Reagents": {
 			"Illusion Dust": 8
         }
@@ -916,7 +930,7 @@ recipes = {
 			"Truesilver Bar": 3
         }
     },
-    "Glvoes - Agility": {
+    "Gloves - Agility": {
         "ID":       13815,
         "Learn":    210,
         "Yellow":   230,
@@ -1075,6 +1089,7 @@ recipes = {
         "Green":    305,
         "Grey":     325,
         "Source":   "Vendor",
+        "RecipeID": 16217,
         "Reagents": {
 			"Dream Dust": 10
         }
@@ -1162,6 +1177,7 @@ recipes = {
         "Green":    250,
         "Grey":     270,
         "Source":   "Drop",
+        "RecipeID": 11202,
         "Reagents": {
 			"Vision Dust": 5
         }
@@ -1186,6 +1202,7 @@ recipes = {
         "Green":    330,
         "Grey":     350,
         "Source":   "Reputation",
+        "RecipeID": 19445,
         "Reagents": {
 			"Large Brilliant Shard": 6,
 			"Greater Eternal Essence": 6,
@@ -1320,6 +1337,7 @@ recipes = {
         "Green":    330,
         "Grey":     350,
         "Source":   "Reputation",
+        "RecipeID": 19444,
         "Reagents": {
 			"Large Brilliant Shard": 6,
 			"Greater Eternal Essence": 6,
@@ -1435,6 +1453,7 @@ recipes = {
         "Green":    270,
         "Grey":     280,
         "Source":   "Vendor",
+        "RecipeID": 20754,
         "Reagents": {
 			"Dream Dust": 3,
 			"Purple Lotus": 2,
@@ -1461,6 +1480,7 @@ recipes = {
         "Green":    220,
         "Grey":     230,
         "Source":   "Vendor",
+        "RecipeID": 20753,
         "Reagents": {
 			"Vision Dust": 3,
 			"Stranglethorn Seed": 2,
@@ -1474,10 +1494,111 @@ recipes = {
         "Green":    170,
         "Grey":     180,
         "Source":   "Vendor",
+        "RecipeID": 20752,
         "Reagents": {
 			"Soul Dust": 3,
 			"Maple Seed": 2,
 			"Leaded Vial": 1
+        }
+    },
+    "Minor Mana Oil": {
+        "ID":       25125,
+        "Learn-PHASE-5":    150,
+        "Yellow":   160,
+        "Green":    170,
+        "Grey":     180,
+        "Source":   "Vendor",
+        "RecipeID":  20752,
+        "Reagents": {
+			"Soul Dust": 3,
+			"Maple Seed": 2,
+			"Leaded Vial": 1
+        }
+    },
+    "Minor Wizard Oil": {
+        "ID":       25124,
+        "Learn-PHASE-5":    45,
+        "Yellow":   55,
+        "Green":    65,
+        "Grey":     75,
+        "Source":   "Vendor",
+        "RecipeID": 20758,
+        "Reagents": {
+			"Strange Dust": 2,
+			"Maple Seed": 1,
+			"Empty Vial": 1
+        }
+    },
+    "Runed Arcanite Rod": {
+        "ID":       16207,
+        "Learn":    290,
+        "Yellow":   310,
+        "Green":    330,
+        "Grey":     350,
+        "Source":   "VendorLimited",
+        "RecipeID": 16243,
+        "Reagents": {
+			"Arcanite Rod": 1,
+            "Golden Pearl": 1,
+            "Illusion Dust": 10,
+            "Greater Eternal Essence": 4,
+            "Small Brilliant Shard": 4,
+            "Large Brilliant Shard": 2
+        }
+    },
+    "Runed Copper Rod": {
+        "ID":       6218,
+        "Learn":    1,
+        "Yellow":   5,
+        "Green":    7,
+        "Grey":     10,
+        "Source":   "Trainer",
+        "Reagents": {
+			"Copper Rod": 1,
+            "Strange Dust": 1,
+            "Lesser Magic Essence": 1
+        }
+    },
+    "Runed Truesilver Rod": {
+        "ID":       11145,
+        "Learn":    200,
+        "Yellow":   220,
+        "Green":    240,
+        "Grey":     260,
+        "Source":   "Trainer",
+        "Reagents": {
+			"Truesilver Rod": 1,
+            "Black Pearl": 1,
+            "Greater Mystic Essence": 2,
+            "Vison Dust": 2
+        }
+    },
+    "Runed Silver Rod": {
+        "ID":       6339,
+        "Learn":    100,
+        "Yellow":   130,
+        "Green":    150,
+        "Grey":     170,
+        "Source":   "Trainer",
+        "Reagents": {
+			"Silver Rod": 1,
+            "Strange Dust": 6,
+            "Greater Magic Essence": 3,
+            "Shadowgem": 1
+        }
+    },
+    "Runed Golden Rod": {
+        "ID":       11130,
+        "Learn":    150,
+        "Yellow":   175,
+        "Green":    195,
+        "Grey":     215,
+        "Source":   "Trainer",
+        "Reagents": {
+			"Golden Rod": 1,
+            "Iridescent Pearl": 1,
+            "Greater Astral Essence": 2,
+            "Soul Dust": 2
         }
     },
     "Smoking Heart of the Mountain": {
@@ -1501,6 +1622,7 @@ recipes = {
         "Green":    295,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 20755,
         "Reagents": {
 			"Illusion Dust": 3,
 			"Firebloom": 2,
