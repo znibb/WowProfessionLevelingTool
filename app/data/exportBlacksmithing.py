@@ -34,6 +34,7 @@ recipes = {
         "Grey":     230,
         "Source":   "Quest",
 		"Faction":  "Horde",
+        "RecipeID": 7981,
         "Reagents": {
             "Iron Bar": 12,
             "Large Fang": 4,
@@ -49,6 +50,7 @@ recipes = {
         "Grey":     210,
         "Source":   "Quest",
 		"Faction":  "Horde",
+        "RecipeID": 7979,
         "Reagents": {
             "Iron Bar": 20,
             "Heavy Grinding Stone": 4
@@ -62,6 +64,7 @@ recipes = {
         "Grey":     235,
         "Source":   "Quest",
 		"Faction":  "Horde",
+        "RecipeID": 7982,
         "Reagents": {
             "Iron Bar": 14,
             "Heavy Grinding Stone": 3,
@@ -76,6 +79,7 @@ recipes = {
         "Grey":     225,
         "Source":   "Quest",
 		"Faction":  "Horde",
+        "RecipeID": 7980,
         "Reagents": {
             "Iron Bar": 10,
             "Large Fang": 2,
@@ -90,6 +94,7 @@ recipes = {
         "Grey":     210,
         "Source":   "Quest",
 		"Faction":  "Horde",
+        "RecipeID": 7978,
         "Reagents": {
             "Iron Bar": 8,
             "Sharp Claw": 4,
@@ -135,6 +140,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 12825,
         "Reagents": {
             "Enchanted Thorium Bar": 10,
             "Essence of Fire": 4,
@@ -434,6 +440,7 @@ recipes = {
         "Grey":     335,
         "Source":   "Reputation",
         "School":   "Armor",
+        "RecipeID": 17051,
         "Reagents": {
             "Dark Iron Bar": 4,
             "Fiery Core": 2,
@@ -516,6 +523,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 12821,
         "Reagents": {
             "Thorium Bar": 30,
             "Enchanted Thorium Bar": 4,
@@ -616,6 +624,7 @@ recipes = {
         "Green":    292,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 8030,
         "Reagents": {
             "Mithril Bar": 12,
             "Truesilver Bar": 6,
@@ -632,6 +641,7 @@ recipes = {
         "Grey":     240,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 17706,
         "Reagents": {
             "Steel Bar": 10,
             "Frost Oil": 1,
@@ -648,6 +658,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Quest",
 		"Faction":  "Alliance",
+        "RecipeID": 12824,
         "Reagents": {
             "Thorium Bar": 20,
             "Enchanted Thorium Bar": 6,
@@ -664,6 +675,7 @@ recipes = {
         "Grey":     335,
         "Source":   "Reputation",
         "School":   "Armor",
+        "RecipeID": 17049,
         "Reagents": {
             "Dark Iron Bar": 6,
             "Fiery Core": 3,
@@ -678,6 +690,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 12699,
         "Reagents": {
             "Thorium Bar": 20,
             "Enchanted Thorium Bar": 6,
@@ -723,6 +736,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Reputation",
+        "RecipeID": 19203,
         "Reagents": {
             "Thorium Bar": 8,
             "Truesilver Bar": 6,
@@ -807,6 +821,7 @@ recipes = {
         "Green":    227,
         "Grey":     240,
         "Source":   "VendorLimited",
+        "RecipeID": 6047,
         "Reagents": {
             "Steel Bar": 8,
 			"Gold Bar": 2,
@@ -836,6 +851,7 @@ recipes = {
         "Grey":     245,
         "Source":   "Quest",
 		"Faction":  "Alliance",
+        "RecipeID": 9367,
         "Reagents": {
             "Steel Bar": 10,
 			"Gold Bar": 4,
@@ -988,6 +1004,7 @@ recipes = {
         "Green":    197,
         "Grey":     210,
         "Source":   "VendorLimited",
+        "RecipeID": 12162,
         "Reagents": {
             "Iron Bar": 6,
 			"Strong Flux": 2,
@@ -1155,6 +1172,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Reputation",
+        "RecipeID": 19202,
         "Reagents": {
             "Thorium Bar": 12,
 			"Essence of Earth": 3,
@@ -1180,6 +1198,7 @@ recipes = {
         "Green":    317,
         "Grey":     330,
         "Source":   "Vendor",
+        "RecipeID": 12823,
         "Reagents": {
             "Thorium Bar": 40,
 			"Dense Grinding Stone": 6,
@@ -1194,6 +1213,7 @@ recipes = {
         "Grey":     305,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 12688,
         "Reagents": {
             "Thorium Bar": 22,
 			"Rugged Leather": 6,
@@ -1208,6 +1228,7 @@ recipes = {
         "Grey":     335,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 12700,
         "Reagents": {
             "Thorium Bar": 34,
 			"Star Ruby": 1,
@@ -1220,7 +1241,8 @@ recipes = {
         "Yellow":   290,
         "Green":    300,
         "Grey":     310,
-        "Source":   "Trainer",
+        "Source":   "Quest",
+        "RecipeID": 12690,
         "Reagents": {
             "Thorium Bar": 20,
 			"Star Ruby": 1
@@ -1232,7 +1254,8 @@ recipes = {
         "Yellow":   315,
         "Green":    325,
         "Grey":     335,
-        "Source":   "Trainer",
+        "Source":   "Quest",
+        "RecipeID": 12701,
         "Reagents": {
             "Thorium Bar": 34,
 			"Star Ruby": 2
@@ -1244,7 +1267,8 @@ recipes = {
         "Yellow":   285,
         "Green":    295,
         "Grey":     305,
-        "Source":   "Trainer",
+        "Source":   "Quest",
+        "RecipeID": 12687,
         "Reagents": {
             "Thorium Bar": 24,
 			"Rugged Leather": 6,
@@ -1328,6 +1352,7 @@ recipes = {
         "Grey":     180,
         "Source":   "Quest",
 		"Faction":  "Alliance",
+        "RecipeID": 6735,
         "Reagents": {
             "Copper Bar": 16,
 			"Tigerseye": 2,
@@ -1357,6 +1382,7 @@ recipes = {
         "Green":    222,
         "Grey":     235,
         "Source":   "VendorLimited",
+        "RecipeID": 12164,
         "Reagents": {
             "Iron Bar": 14,
 			"Strong Flux": 2,
@@ -1401,6 +1427,7 @@ recipes = {
         "Green":    245,
         "Grey":     255,
         "Source":   "VendorLimited",
+        "RecipeID": 7995,
         "Reagents": {
             "Mithril Bar": 8,
 			"Citrine": 2
@@ -1465,6 +1492,7 @@ recipes = {
         "Green":    217,
         "Grey":     230,
         "Source":   "VendorLimited",
+        "RecipeID": 12163,
         "Reagents": {
             "Steel Bar": 8,
 			"Strong Flux": 2,
@@ -1481,6 +1509,7 @@ recipes = {
         "Grey":     270,
         "Source":   "Quest",
 		"Faction":  "Horde",
+        "RecipeID": 7994,
         "Reagents": {
             "Mithril Bar": 12,
 			"Elemental Earth": 1
@@ -1494,6 +1523,7 @@ recipes = {
         "Grey":     285,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 7988,
         "Reagents": {
             "Mithril Bar": 14,
 			"Truesilver Bar": 2,
@@ -1510,6 +1540,7 @@ recipes = {
         "Grey":     280,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 7986,
         "Reagents": {
             "Mithril Bar": 16,
 			"Truesilver Bar": 6,
@@ -1525,6 +1556,7 @@ recipes = {
         "Grey":     260,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 7984,
         "Reagents": {
             "Mithril Bar": 10,
 			"Mageweave Cloth": 6,
@@ -1540,6 +1572,7 @@ recipes = {
         "Grey":     285,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 7987,
         "Reagents": {
             "Mithril Bar": 16,
 			"Truesilver Bar": 2,
@@ -1555,6 +1588,7 @@ recipes = {
         "Grey":     260,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 7983,
         "Reagents": {
             "Mithril Bar": 12,
 			"Truesilver Bar": 1,
@@ -1570,6 +1604,7 @@ recipes = {
         "Grey":     265,
         "Source":   "Quest",
 		"Faction":  "Any",
+        "RecipeID": 7985,
         "Reagents": {
             "Mithril Bar": 12,
 			"Truesilver Bar": 1,
@@ -1583,6 +1618,7 @@ recipes = {
         "Green":    312,
         "Grey":     325,
         "Source":   "Vendor",
+        "RecipeID": 12819,
         "Reagents": {
             "Thorium Bar": 20,
 			"Large Opal": 2,
@@ -2059,6 +2095,7 @@ recipes = {
         "Green":    192,
         "Grey":     205,
         "Source":   "VendorLimited",
+        "RecipeID": 10858,
         "Reagents": {
             "Iron Bar": 8,
 			"Strong Flux": 2,
@@ -2136,6 +2173,7 @@ recipes = {
         "Grey":     335,
         "Source":   "Vendor",
         "School":   "Armor",
+        "RecipeID": 12703,
         "Reagents": {
             "Thorium Bar": 20,
 			"Enchanted Thorium Bar": 4,
