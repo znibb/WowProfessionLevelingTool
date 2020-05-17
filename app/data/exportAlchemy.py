@@ -47,6 +47,7 @@ recipes = {
         "Grey":     120,
         "Source":   "Quest",
         "Faction":  "Horde",
+        "RecipeID": 4597,
         "Reagents": {
             "Discolored Worg Heart": 1,
             "Peacebloom": 1,
@@ -86,6 +87,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 13481,
         "Reagents": {
             "Gromsblood": 2,
             "Plaguebloom": 2,
@@ -112,6 +114,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 9300,
         "Reagents": {
             "Gromsblood": 1,
             "Ghost Mushroom": 1,
@@ -137,7 +140,7 @@ recipes = {
         "Green":    235,
         "Grey":     255,
         "Source":   "Drop",
-        "RecipeID": 3822,
+        "RecipeID": 3832,
         "Reagents": {
             "Khadgars Whisker": 1,
             "Fadeleaf": 1,
@@ -404,6 +407,7 @@ recipes = {
         "Green":    285,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 9301,
         "Reagents": {
             "Ghost Mushroom": 3,
             "Crystal Vial": 1
@@ -416,6 +420,7 @@ recipes = {
         "Green":    300,
         "Grey":     320,
         "Source":   "Vendor",
+        "RecipeID": 13478,
         "Reagents": {
             "Stonescale Oil": 2,
             "Sungrass": 1,
@@ -495,6 +500,7 @@ recipes = {
         "Green":    230,
         "Grey":     250,
         "Source":   "VendorLimited",
+        "RecipeID": 6055,
         "Reagents": {
             "Small Flame Sac": 1,
             "Fire Oil": 1,
@@ -508,6 +514,7 @@ recipes = {
         "Green":    195,
         "Grey":     215,
         "Source":   "VendorLimited",
+        "RecipeID": 5642,
         "Reagents": {
             "Blackmouth Oil": 2,
             "Stranglekelp": 1,
@@ -521,6 +528,7 @@ recipes = {
         "Green":    240,
         "Grey":     260,
         "Source":   "VendorLimited",
+        "RecipeID": 14634,
         "Reagents": {
             "Khadgars Whisker": 4,
             "Wintersbite": 2,
@@ -534,6 +542,7 @@ recipes = {
         "Green":    225,
         "Grey":     245,
         "Source":   "Vendor",
+        "RecipeID": 6056,
         "Reagents": {
             "Wintersbite": 1,
             "Goldthorn": 1,
@@ -547,6 +556,7 @@ recipes = {
         "Green":    280,
         "Grey":     300,
         "Source":   "VendorLimited",
+        "RecipeID": 9302,
         "Reagents": {
             "Ghost Mushroom": 2,
             "Purple Dye": 1,
@@ -573,7 +583,8 @@ recipes = {
         "Yellow":   225,
         "Green":    245,
         "Grey":     265,
-        "Source":   "Crafted",
+        "Source":   "Drop",
+        "RecipeID": 10644,
         "Reagents": {
             "Firebloom": 1,
             "Volatile Rum": 1,
@@ -587,6 +598,7 @@ recipes = {
         "Green":    215,
         "Grey":     235,
         "Source":   "Vendor",
+        "RecipeID": 5643,
         "Reagents": {
             "Large Fang": 1,
             "Kingsblood": 1,
@@ -628,6 +640,7 @@ recipes = {
         "Green":    310,
         "Grey":     330,
         "Source":   "Reputation",
+        "RecipeID": 20012,
         "Reagents": {
             "Dreamfoil": 2,
             "Golden Sansam": 1,
@@ -750,6 +763,7 @@ recipes = {
         "Green":    150,
         "Grey":     170,
         "Source":   "VendorLimited",
+        "RecipeID": 6053,
         "Reagents": {
             "Bruiseweed": 1,
             "Swiftthistle": 1,
@@ -816,6 +830,7 @@ recipes = {
         "Grey":     270,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 4624,
         "Reagents": {
             "Mithril Ore": 1,
             "Goldthorn": 1,
@@ -843,6 +858,7 @@ recipes = {
         "Green":    320,
         "Grey":     340,
         "Source":   "Reputation",
+        "RecipeID": 20013,
         "Reagents": {
             "Icecap": 2,
             "Mountain Silversage": 2,
@@ -857,6 +873,7 @@ recipes = {
         "Green":    310,
         "Grey":     330,
         "Source":   "Reputation",
+        "RecipeID": 20011,
         "Reagents": {
             "Dreamfoil": 1,
             "Plaguebloom": 2,
@@ -884,6 +901,7 @@ recipes = {
         "Green":    310,
         "Grey":     330,
         "Source":   "Vendor",
+        "RecipeID": 13480,
         "Reagents": {
             "Golden Sansam": 2,
             "Mountain Silversage": 1,
@@ -897,6 +915,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Vendor",
+        "RecipeID": 13501,
         "Reagents": {
             "Dreamfoil": 3,
             "Icecap": 2,
@@ -910,6 +929,7 @@ recipes = {
         "Green":    325,
         "Grey":     345,
         "Source":   "Reputation",
+        "RecipeID": 20014,
         "Reagents": {
             "Gromsblood": 1,
             "Plaguebloom": 2,
@@ -1016,6 +1036,7 @@ recipes = {
         "Green":    230,
         "Grey":     250,
         "Source":   "VendorLimited",
+        "RecipeID": 6057,
         "Reagents": {
             "Liferoot": 1,
             "Stranglekelp": 1,
@@ -1056,6 +1077,7 @@ recipes = {
         "Green":    110,
         "Grey":     130,
         "Source":   "VendorLimited",
+        "RecipeID": 5640,
         "Reagents": {
             "Sharp Claw": 1,
             "Briarthorn": 1,
@@ -1070,6 +1092,7 @@ recipes = {
         "Grey":     265,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 9030,
         "Reagents": {
             "Elemental Earth": 1,
             "Goldthorn": 1,
@@ -1083,6 +1106,7 @@ recipes = {
         "Green":    210,
         "Grey":     230,
         "Source":   "Vendor",
+        "RecipeID": 6068,
         "Reagents": {
             "Fadeleaf": 4,
             "Grave Moss": 4,
@@ -1096,6 +1120,7 @@ recipes = {
         "Green":    180,
         "Grey":     200,
         "Source":   "VendorLimited",
+        "RecipeID": 6054,
         "Reagents": {
             "Grave Moss": 1,
             "Kingsblood": 1,
@@ -1147,6 +1172,7 @@ recipes = {
         "Green":    295,
         "Grey":     315,
         "Source":   "Vendor",
+        "RecipeID": 13477,
         "Reagents": {
             "Sungrass": 2,
             "Blindweed": 2,
