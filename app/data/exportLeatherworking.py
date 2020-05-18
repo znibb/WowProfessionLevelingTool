@@ -25,6 +25,7 @@ recipes = {
         "Green":    185,
         "Grey":     195,
         "Source":   "Vendor",
+        "RecipeID": 18949,
         "Reagents": {
 			"Heavy Leather": 8,
 			"Cured Heavy Hide": 2,
@@ -67,6 +68,7 @@ recipes = {
         "Green":    200,
         "Grey":     210,
         "Source":   "VendorLimited",
+        "RecipeID": 5973,
         "Reagents": {
 			"Heavy Leather": 10,
 			"Fine Thread": 2,
@@ -150,6 +152,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Vendor",
 		"School":	"Dragonscale",
+        "RecipeID": 15759,
         "Reagents": {
 			"Rugged Leather": 40,
 			"Black Dragonscale": 60,
@@ -165,6 +168,7 @@ recipes = {
         "Grey":     150,
         "Source":   "Vendor",
 		"Faction":	"Alliance",
+        "RecipeID": 7289,
         "Reagents": {
 			"Black Whelp Scale": 12,
 			"Medium Leather": 4,
@@ -179,6 +183,7 @@ recipes = {
         "Grey":     150,
         "Source":   "VendorLimited",
 		"Faction":	"Alliance",
+        "RecipeID": 20576,
         "Reagents": {
 			"Medium Leather": 8,
 			"Black Whelp Scale": 8,
@@ -194,6 +199,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Vendor",
         "School":   "Dragonscale",
+        "RecipeID": 15751,
         "Reagents": {
 			"Rugged Leather": 28,
 			"Blue Dragonscale": 30,
@@ -241,6 +247,7 @@ recipes = {
         "Grey":     305,
         "Source":   "Vendor",
         "School":   "Tribal",
+        "RecipeID": 15729,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Chimera Leather": 6,
@@ -299,6 +306,7 @@ recipes = {
         "Grey":     335,
         "Source":   "Reputation",
         "School":   "Tribal",
+        "RecipeID": 17022,
         "Reagents": {
 			"Core Leather": 20,
 			"Fiery Core": 6,
@@ -413,7 +421,7 @@ recipes = {
         "Green":    167,
         "Grey":     180,
         "Source":   "Drop",
-        "RecipeID": 7369,
+        "RecipeID": 7360,
         "Reagents": {
 			"Fine Leather Gloves": 1,
 			"Cured Medium Hide": 1,
@@ -470,6 +478,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Reputation",
+        "RecipeID": 19328,
         "Reagents": {
 			"Rugged Leather": 30,
 			"Guardian Stone": 2,
@@ -486,6 +495,7 @@ recipes = {
         "Grey":     165,
         "Source":   "Quest",
 		"Faction":	"Any",
+        "RecipeID": 6476,
         "Reagents": {
 			"Perfect Deviate Scale": 10,
 			"Deviate Scale": 10,
@@ -499,6 +509,7 @@ recipes = {
         "Green":    135,
         "Grey":     150,
         "Source":   "Vendor",
+        "RecipeID": 6474,
         "Reagents": {
 			"Deviate Scale": 8,
 			"Cured Light Hide": 1,
@@ -512,6 +523,7 @@ recipes = {
         "Green":    142,
         "Grey":     155,
         "Source":   "Vendor",
+        "RecipeID": 6475,
         "Reagents": {
 			"Perfect Deviate Scale": 2,
 			"Deviate Scale": 6,
@@ -526,6 +538,7 @@ recipes = {
         "Grey":     330,
         "Source":   "Vendor",
         "School":   "Tribal",
+        "RecipeID": 15758,
         "Reagents": {
 			"Rugged Leather": 30,
 			"Devilsaur Leather": 8,
@@ -638,6 +651,7 @@ recipes = {
         "Green":    172,
         "Grey":     185,
         "Source":   "Vendor",
+        "RecipeID": 7362,
         "Reagents": {
 			"Medium Leather": 6,
 			"Elemental Earth": 1,
@@ -834,6 +848,7 @@ recipes = {
         "Grey":     315,
         "Source":   "Vendor",
         "School":   "Tribal",
+        "RecipeID": 15740,
         "Reagents": {
 			"Rugged Leather": 4,
 			"Frostsaber Leather": 6,
@@ -894,6 +909,7 @@ recipes = {
         "Green":    215,
         "Grey":     225,
         "Source":   "VendorLimited",
+        "RecipeID": 14635,
         "Reagents": {
 			"Cured Heavy Hide": 4,
 			"Iridescent Pearl": 2,
@@ -909,6 +925,7 @@ recipes = {
         "Green":    220,
         "Grey":     230,
         "Source":   "Seasonal",
+        "RecipeID": 17722,
         "Reagents": {
 			"Heavy Leather": 8,
 			"Elemental Earth": 4,
@@ -923,6 +940,7 @@ recipes = {
         "Grey":     300,
         "Source":   "Vendor",
         "School":   "Dragonscale",
+        "RecipeID": 15726,
         "Reagents": {
 			"Rugged Leather": 20,
 			"Green Dragonscale": 25,
@@ -966,6 +984,7 @@ recipes = {
         "Green":    185,
         "Grey":     195,
         "Source":   "VendorLimited",
+        "RecipeID": 7613,
         "Reagents": {
 			"Heavy Leather": 9,
 			"Green Dye": 2,
@@ -1022,6 +1041,7 @@ recipes = {
         "Green":    220,
         "Grey":     230,
         "Source":   "Vendor",
+        "RecipeID": 7451,
         "Reagents": {
 			"Green Whelp Scale": 6,
 			"Heavy Leather": 8,
@@ -1241,6 +1261,7 @@ recipes = {
         "Green":    155,
         "Grey":     160,
         "Source":   "VendorLimited",
+        "RecipeID": 18731,
         "Reagents": {
 			"Heavy Leather": 2,
 			"Fine Thread": 1
@@ -1279,6 +1300,7 @@ recipes = {
         "Green":    285,
         "Grey":     295,
         "Source":   "Vendor",
+        "RecipeID": 15724,
         "Reagents": {
 			"Rugged Leather": 4,
 			"Heavy Scorpid Scale": 4,
@@ -1306,6 +1328,7 @@ recipes = {
         "Green":    325,
         "Grey":     335,
         "Source":   "Vendor",
+        "RecipeID": 15762,
         "Reagents": {
 			"Rugged Leather": 8,
 			"Heavy Scorpid Scale": 12,
@@ -1334,7 +1357,7 @@ recipes = {
         "Green":    295,
         "Grey":     305,
         "Source":   "Drop",
-        "RecipeID": 15076,
+        "RecipeID": 15727,
         "Reagents": {
 			"Rugged Leather": 6,
 			"Heavy Scorpid Scale": 6,
@@ -1365,6 +1388,7 @@ recipes = {
         "Grey":     185,
         "Source":   "VendorLimited",
 		"Faction":	"Alliance",
+        "RecipeID": 7361,
         "Reagents": {
 			"Medium Leather": 8,
 			"Kingsblood": 4,
@@ -1461,6 +1485,7 @@ recipes = {
         "Grey":     310,
         "Source":   "Vendor",
         "School":   "Tribal",
+        "RecipeID": 15735,
         "Reagents": {
 			"Rugged Leather": 24,
 			"Ironfeather": 80,
@@ -1476,6 +1501,7 @@ recipes = {
         "Grey":     100,
         "Source":   "Quest",
 		"Faction":	"Horde",
+        "RecipeID": 5083,
         "Reagents": {
 			"Thin Kodo Leather": 3,
 			"Light Leather": 4,
@@ -1565,6 +1591,7 @@ recipes = {
         "Grey":     310,
         "Source":   "VendorLimited",
         "School":   "Elemental",
+        "RecipeID": 15734,
         "Reagents": {
 			"Rugged Leather": 12,
 			"Living Essence": 4,
@@ -1601,6 +1628,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Reputation",
+        "RecipeID": 19326,
         "Reagents": {
 			"Rugged Leather": 30,
 			"Powerful Mojo": 2,
@@ -1617,6 +1645,7 @@ recipes = {
         "Grey":     145,
         "Source":   "Quest",
 		"Faction":	"Alliance",
+        "RecipeID": 6710,
         "Reagents": {
 			"Light Leather": 6,
 			"Cured Light Hide": 1,
@@ -1631,6 +1660,7 @@ recipes = {
         "Green":    135,
         "Grey":     150,
         "Source":   "VendorLimited",
+        "RecipeID": 5786,
         "Reagents": {
 			"Slimy Murloc Scale": 8,
 			"Light Leather": 6,
@@ -1644,6 +1674,7 @@ recipes = {
         "Green":    220,
         "Grey":     230,
         "Source":   "Vendor",
+        "RecipeID": 5789,
         "Reagents": {
 			"Thick Murloc Scale": 16,
 			"Cured Heavy Hide": 1,
@@ -1658,6 +1689,7 @@ recipes = {
         "Green":    140,
         "Grey":     155,
         "Source":   "VendorLimited",
+        "RecipeID": 5787,
         "Reagents": {
 			"Slimy Murloc Scale": 12,
 			"Cured Light Hide": 1,
@@ -1708,6 +1740,7 @@ recipes = {
         "Green":    240,
         "Grey":     250,
         "Source":   "Vendor",
+        "RecipeID": 8409,
         "Reagents": {
 			"Thick Leather": 8,
 			"Mageweave Cloth": 6,
@@ -1775,6 +1808,7 @@ recipes = {
         "Grey":     205,
         "Source":   "Vendor",
 		"Faction":	"Alliance",
+        "RecipeID": 13288,
         "Reagents": {
 			"Raptor Hide": 4,
 			"Heavy Leather": 4,
@@ -1789,6 +1823,7 @@ recipes = {
         "Grey":     205,
         "Source":   "Vendor",
 		"Faction":	"Horde",
+        "RecipeID": 13287,
         "Reagents": {
 			"Raptor Hide": 6,
 			"Heavy Leather": 4,
@@ -1801,8 +1836,9 @@ recipes = {
         "Yellow":   145,
         "Green":    157,
         "Grey":     170,
-        "Source":   "TrainerLimited",
+        "Source":   "VendorLimited",
 		"Faction":	"Alliance",
+        "RecipeID": 7290,
         "Reagents": {
 			"Red Whelp Scale": 6,
 			"Medium Leather": 4,
@@ -1894,6 +1930,7 @@ recipes = {
         "Green":    320,
         "Grey":     330,
         "Source":   "Vendor",
+        "RecipeID": 15756,
         "Reagents": {
 			"Rugged Leather": 14,
 			"Runecloth": 10,
@@ -1907,6 +1944,7 @@ recipes = {
         "Green":    220,
         "Grey":     230,
         "Source":   "VendorLimited",
+        "RecipeID": 18239,
         "Reagents": {
 			"Thick Leather": 6,
 			"Shadowcat Hide": 8,
@@ -1953,6 +1991,7 @@ recipes = {
         "Grey":     315,
         "Source":   "VendorLimited",
         "School":   "Elemental",
+        "RecipeID": 15741,
         "Reagents": {
 			"Rugged Leather": 16,
 			"Essence of Water": 2,
@@ -2036,6 +2075,7 @@ recipes = {
         "Green":    200,
         "Grey":     210,
         "Source":   "VendorLimited",
+        "RecipeID": 5788,
         "Reagents": {
 			"Thick Murloc Scale": 12,
 			"Cured Heavy Hide": 1,
@@ -2064,7 +2104,7 @@ recipes = {
         "Green":    250,
         "Grey":     260,
         "Source":   "Drop",
-        "RecipeID": 8205,
+        "RecipeID": 8397,
         "Reagents": {
 			"Thick Leather": 10,
 			"Scorpid Scale": 4,
@@ -2078,7 +2118,7 @@ recipes = {
         "Green":    250,
         "Grey":     260,
         "Source":   "Drop",
-        "RecipeID": 8293,
+        "RecipeID": 8395,
         "Reagents": {
 			"Thick Leather": 12,
 			"Scorpid Scale": 12,
@@ -2092,7 +2132,7 @@ recipes = {
         "Green":    255,
         "Grey":     265,
         "Source":   "Drop",
-        "RecipeID": 8204,
+        "RecipeID": 8398,
         "Reagents": {
 			"Thick Leather": 6,
 			"Scorpid Scale": 8,
@@ -2202,6 +2242,7 @@ recipes = {
         "Green":    235,
         "Grey":     245,
         "Source":   "Vendor",
+        "RecipeID": 8385,
         "Reagents": {
 			"Thick Leather": 6,
 			"Turtle Scale": 8,
@@ -2274,6 +2315,7 @@ recipes = {
         "Grey":     315,
         "Source":   "Reputation",
 		"School":	"Tribal",
+        "RecipeID": 20253,
         "Reagents": {
 			"Rugged Leather": 28,
 			"Warbear Leather": 12,
@@ -2288,6 +2330,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Reputation",
 		"School":	"Tribal",
+        "RecipeID": 20254,
         "Reagents": {
 			"Rugged Leather": 24,
 			"Warbear Leather": 14,
@@ -2329,6 +2372,7 @@ recipes = {
         "Green":    290,
         "Grey":     300,
         "Source":   "Vendor",
+        "RecipeID": 15725,
         "Reagents": {
 			"Rugged Leather": 8,
 			"Black Dye": 1,
@@ -2372,6 +2416,7 @@ recipes = {
         "Grey":     285,
         "Source":   "Quest",
 		"Faction":	"Any",
+        "RecipeID": 8406,
         "Reagents": {
 			"Thick Leather": 14,
 			"Wildvine": 4,
@@ -2386,6 +2431,7 @@ recipes = {
         "Grey":     290,
         "Source":   "Quest",
 		"Faction":	"Any",
+        "RecipeID": 8408,
         "Reagents": {
 			"Thick Leather": 16,
 			"Wildvine": 6,
@@ -2400,6 +2446,7 @@ recipes = {
         "Grey":     265,
         "Source":   "Quest",
 		"Faction":	"Any",
+        "RecipeID": 8405,
         "Reagents": {
 			"Thick Leather": 10,
 			"Wildvine": 2,
@@ -2414,6 +2461,7 @@ recipes = {
         "Grey":     290,
         "Source":   "Quest",
 		"Faction":	"Any",
+        "RecipeID": 8407,
         "Reagents": {
 			"Thick Leather": 16,
 			"Wildvine": 6,
@@ -2428,6 +2476,7 @@ recipes = {
         "Grey":     260,
         "Source":   "Quest",
 		"Faction":	"Any",
+        "RecipeID": 8403,
         "Reagents": {
 			"Thick Leather": 10,
 			"Wildvine": 1,
@@ -2442,6 +2491,7 @@ recipes = {
         "Grey":     265,
         "Source":   "Quest",
 		"Faction":	"Any",
+        "RecipeID": 8404,
         "Reagents": {
 			"Thick Leather": 12,
 			"Wildvine": 2,
