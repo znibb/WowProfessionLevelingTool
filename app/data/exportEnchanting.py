@@ -1570,7 +1570,7 @@ recipes = {
 			"Truesilver Rod": 1,
             "Black Pearl": 1,
             "Greater Mystic Essence": 2,
-            "Vison Dust": 2
+            "Vision Dust": 2
         }
     },
     "Runed Silver Rod": {
