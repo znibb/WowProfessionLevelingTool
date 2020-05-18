@@ -138,7 +138,6 @@ def results():
     recipesFromQuest = dict()
     recipesFromReputation = dict()
     recipesFromSeasonal = dict()
-    oldestDataUsedObj = datetime.now()
 
     # Create prunable copy
     recipes = allRecipes.copy()
@@ -258,15 +257,10 @@ def results():
     # Calculate cost for each reagent purchase
     for reagent in reagentsToBuy:
         reagentsToBuy[reagent]["Total"] = prettyPrintPrice(reagentsToBuy[reagent]["Amount"] * reagentPrices[reagent]["Price"])
-        if reagentPrices[reagent]["LastSeen"] < oldestDataUsedObj:
-            oldestDataUsedObj = reagentPrices[reagent]["LastSeen"]
     
     # Pretty print PPU for reagents
     for reagent in reagentsToBuy:
         reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentsToBuy[reagent]["PPU"])
-
-    # Determine time string for the age of the oldest data used
-    oldestDataUsed = oldestDataUsedObj.strftime("%Y-%m-%d %X")
 
     # Calculate total reagent purchasing cost
     reagentCost = prettyPrintPrice(calculateReagentCost(reagentsToBuy, reagentPrices))
@@ -297,7 +291,6 @@ def results():
         author=author,
         form=form,
         craftList=craftList,
-        oldestDataUsed=oldestDataUsed,
         reagents=reagentsToBuy,
         reagentCost=reagentCost,
         recipesFromAH=recipesFromAH,

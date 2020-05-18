@@ -91,7 +91,17 @@ def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill):
 def getReagentPrices(recipes, server, faction):
     # Import translation table for item name to ID
     with open("app/data/itemID.json", 'r') as f:
-            itemID = json.load(f)
+        itemID = json.load(f)
+
+    # Import list of reagents available from vendor
+    with open("app/data/vendorReagents.json", 'r') as f:
+        vendorReagents = json.load(f)
+
+    # Retrieve price info of all items on the server
+    requestUrl = baseUrl + server + '-' + faction + '/'
+    response = requests.get(requestUrl)
+    responseJson = response.json()
+    priceList = responseJson["data"]
 
     # Make a set of all potential reagents
     reagents = set()
@@ -101,31 +111,26 @@ def getReagentPrices(recipes, server, faction):
     
     # Iterate over the reagent set and create a dictionary containing reagent-price pairs
     reagentPriceDict = dict()
-    serverUrl = baseUrl + server + '-' + faction + '/'
     for reagent in reagents:
-        requestUrl = serverUrl + str(itemID[reagent])
-        response = requests.get(requestUrl)
-        responseJson = response.json()
-        
-        # If item cant be bought from vendor
-        if responseJson["vendorPrice"] == None:
+        # If reagent is available from vendor
+        if reagent in vendorReagents:
+            # Add vendor price
+            reagentPriceDict[reagent] = dict()
+            reagentPriceDict[reagent]["Price"] = vendorReagents[reagent]
+            reagentPriceDict[reagent]["Quantity"] = None
+        # Item can't be bought from vendor
+        else:
+            # Get relevant dict from the list of price dicts
+            priceDict = next((item for item in priceList if item["itemId"] == itemID[reagent]), False)
             # If no price data exists, i.e. item hasn't been seen on the AH
-            if responseJson["stats"]["current"] == None:
+            if priceDict == False:
                 # Don't add the reagent to the output dict, i.e. noop
                 pass
+            # Add market value as reagent price
             else:
                 reagentPriceDict[reagent] = dict()
-                reagentPriceDict[reagent]["Price"] = responseJson["stats"]["current"]["marketValue"]
-                reagentPriceDict[reagent]["Quantity"] = responseJson["stats"]["current"]["quantity"]
-                datetimeStr = responseJson["stats"]["lastUpdated"]
-                datetimeObj = datetime.strptime(datetimeStr, datetimeFormat)
-                reagentPriceDict[reagent]["LastSeen"] = datetimeObj
-        # Item can be bought from vendor, use the vendor price
-        else:
-            reagentPriceDict[reagent] = dict()
-            reagentPriceDict[reagent]["Price"] = responseJson["vendorPrice"]
-            reagentPriceDict[reagent]["Quantity"] = None
-            reagentPriceDict[reagent]["LastSeen"] = datetime.now()
+                reagentPriceDict[reagent]["Price"] = priceDict["marketValue"]
+                reagentPriceDict[reagent]["Quantity"] = priceDict["quantity"]
 
     return reagentPriceDict
 
