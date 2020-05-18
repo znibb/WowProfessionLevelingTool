@@ -26,8 +26,8 @@ def calculateSellToVendor(craftList, profession, server, faction):
     recipes = json.load(f)
 
     totalMoneyGained = 0
-    serverUrl = baseUrl + server[3:].replace(' ', '-').lower() + '-' + faction.lower() + '/'
-    for index, info in craftList.items():
+    serverUrl = baseUrl + server + '-' + faction + '/'
+    for info in craftList.values():
         requestUrl = serverUrl + str(recipes[info["Recipe"]]["ID"])
         response = requests.get(requestUrl)
         responseJson = response.json()
@@ -101,7 +101,7 @@ def getReagentPrices(recipes, server, faction):
     
     # Iterate over the reagent set and create a dictionary containing reagent-price pairs
     reagentPriceDict = dict()
-    serverUrl = baseUrl + server[3:].replace(' ', '-').lower() + '-' + faction.lower() + '/'
+    serverUrl = baseUrl + server + '-' + faction + '/'
     for reagent in reagents:
         requestUrl = serverUrl + str(itemID[reagent])
         response = requests.get(requestUrl)
@@ -130,7 +130,7 @@ def getReagentPrices(recipes, server, faction):
     return reagentPriceDict
 
 def getRecipePrice(recipeID, server, faction):
-    serverUrl = baseUrl + server[3:].replace(' ', '-').lower() + '-' + faction.lower() + '/'
+    serverUrl = baseUrl + server + '-' + faction + '/'
     requestUrl = serverUrl + str(recipeID)
     response = requests.get(requestUrl)
     responseJson = response.json()

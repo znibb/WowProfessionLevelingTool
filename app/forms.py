@@ -1,91 +1,8 @@
 from flask_wtf import FlaskForm
 from wtforms import IntegerField, SelectField, SubmitField, BooleanField, SelectMultipleField, RadioField
 from wtforms.validators import InputRequired, NumberRange
+import requests
 
-servers = [
-    'EU-Amnennar',
-    'EU-Ashbringer',
-    'EU-Auberdine',
-    'EU-Bloodfang',
-    'EU-Celebras',
-    'EU-Chromie',
-    'EU-Dragons Call',
-    'EU-Dragonfang',
-    'EU-Dreadmist',
-    'EU-Earthshaker',
-    'EU-Everlook',
-    'EU-Finkle',
-    'EU-Firemaw',
-    'EU-Flamegor',
-    'EU-Gandling',
-    'EU-Gehennas',
-    'EU-Golemagg',
-    'EU-Heartstriker',
-    'EU-Hydraxian Waterlords',
-    'EU-Judgement',
-    'EU-Lakeshire',
-    'EU-Lucifron',
-    'EU-Mandokir',
-    'EU-Mirage Raceway',
-    'EU-Mograine',
-    'EU-Nethergarde Keep',
-    'EU-Noggenfogger',
-    'EU-Patchwerk',
-    'EU-Pyrewood Village',
-    'EU-Razorfen',
-    'EU-Razorgore',
-    'EU-Rhokdelar',
-    'EU-Shazzrah',
-    'EU-Skullflame',
-    'EU-Stonespine',
-    'EU-Sulfuron',
-    'EU-Ten Storms',
-    'EU-Transcendence',
-    'EU-Venoxis',
-    'EU-Wyrkthalak',
-    'EU-Zandalar Tribe',
-    'US-Anathema',
-    'US-Arcanite Reaper',
-    'US-Arugal',
-    'US-Ashkandi',
-    'US-Atiesh',
-    'US-Azshara',
-    'US-Azuresong',
-    'US-Benediction',
-    'US-Bigglesworth',
-    'US-Blaumeux',
-    'US-Bloodsail Buccaneers',
-    'US-Deviate Delight',
-    'US-Earthfury',
-    'US-Faerlina',
-    'US-Fairbanks',
-    'US-Felstriker',
-    'US-Grobbulus',
-    'US-Heartseeker',
-    'US-Herod',
-    'US-Incendius',
-    'US-Kirtonos',
-    'US-Kromcrush',
-    'US-Kurinnaxx',
-    'US-Loatheb',
-    'US-Mankrik',
-    'US-Myzrael',
-    'US-Netherwind',
-    'US-Old Blanchy',
-    'US-Pagle',
-    'US-Rattlegore',
-    'US-Remulos',
-    'US-Skeram',
-    'US-Smolderweb',
-    'US-Stalagg',
-    'US-Sulthraze',
-    'US-Sulfuras',
-    'US-Thalnos',
-    'US-Thunderfury',
-    'US-Westfall',
-    'US-Whitemane',
-    'US-Windseeker',
-    'US-Yojamba']
 professions = [
     'Alchemy',
     'Blacksmithing',
@@ -95,13 +12,21 @@ professions = [
     'Leatherworking',
     'Tailoring']
 
+# Fetch server list
+response = requests.get("https://api.nexushub.co/wow-classic/v1/servers/full/")
+responseJson = response.json()
+
+servers = dict()
+for line in responseJson:
+    servers[line["slug"]] = line["name"]
+
 class UserInputForm(FlaskForm):
     server = SelectField(u'Server',
-        default='EU-Noggenfogger',
-        choices=[(server, server) for server in servers])
+        default='noggenfogger',
+        choices=[(slug, name) for slug, name in servers.items()])
     faction = SelectField(u'Faction',
-        default='Horde',
-        choices=[('Alliance', 'Alliance'), ('Horde', "Horde")])
+        default='horde',
+        choices=[('alliance', 'Alliance'), ('horde', "Horde")])
     profession = SelectField(u'Profession',
         choices=[(profession, profession) for profession in professions])
     startSkill = IntegerField(u'Starting skill',
