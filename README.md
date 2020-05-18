@@ -22,10 +22,12 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 - Added tooltips for recipes
 - Added message to the user if it's not possible to reach the desired skill level
 - Now retrieves server list from Nexushub instead of being hardcoded
+- Price data is now retrieved in one big chunk instead of through one request per item! This speeds up handling the user request by a factor of 2 but comes at the cost of the information about the oldest data used (due to limitations in what data Nexushub returns)
+- Added option to use the skillup from crafting Enchanting rods into the calculation
 
 #### Bug fixes
 - Grammar updates in user instructions
-- Fixed an issue with image sizes for Firefox (kudos to [TheDonUK](https://github.com/TheDonUK))
+- Fixed an issue with image sizes for Firefox
 
 ### 1.3.1
 #### Bug fixes
@@ -35,8 +37,8 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 ### 1.3.0
 #### Features added
 - Now also lists what recipes will need to be purchased from vendor
-- Added some simple bootstrap styling (kudos to [miotke](https://github.com/miotke))
-- Added graphical makeover (kudos to [TheDonUK](https://github.com/TheDonUK))
+- Added some simple bootstrap styling
+- Added graphical makeover
 - Added wowhead tooltips to reagents and crafted items.
 
 #### Bug fixes
@@ -61,9 +63,3 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 ### 1.0.1
 - Removed vendor-back-gold from being calculated from enchanting
 - Fixed formatting error in leatherworking recipe list
-
-### ToDo
-- Implement "slug fetch" of reagent price data" (https://api.nexushub.co/wow-classic/v1/items/noggenfogger-horde/)
-- Enchanting note about disenchanting to lvl 40
-- Enchanting, check lesser vs greater essences
-- Enchanting rods
