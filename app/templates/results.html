@@ -13,7 +13,7 @@
                 <th align="left">Recipe</th>
                 <th align="right">á</th>
             </tr>
-            {% if form.startSkill.data < 60 %}
+            {% if (form.profession.data == "Enchanting") and (form.startSkill.data < 60) %}
                 <tr>
                     <td align="center" colspan="7">You are able to reach 60 Enchanting through disenchanting</td>
                 </tr>
