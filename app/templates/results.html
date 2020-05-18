@@ -31,6 +31,7 @@
             {% endif %}
         </table>
     </div>
+
     <div class="p-2">
         <h2>Reagents to buy</h2>
         <table class="table table-sm  table-striped table-dark">
@@ -52,18 +53,19 @@
             {% endif %}
         </table>
     </div>
+
     <div class="p-2">
         <h2>Recipes to buy</h2>
-        {% if recipesToBuy|length > 0 %}
-        <h4>Dropped</h3>
+        {% if recipesFromAH|length > 0 %}
+        <h4>Dropped</h4>
         <table class="table table-sm  table-striped table-dark">
             <tr>
                 <th align="left">Recipe</th>
                 <th align="right">Price</th>
             </tr>
-            {% for recipe, info in recipesToBuy.items() %}
+            {% for recipe, info in recipesFromAH.items() %}
             <tr>
-                <td><a href="https://classic.wowhead.com/item={{ recipesToBuy[recipe]["ID"] }}">{{ recipe }}</a></td>
+                <td><a href="https://classic.wowhead.com/item={{ recipesFromAH[recipe]["ID"] }}">{{ recipe }}</a></td>
                 <td align="right">{{ info["Price"] }}</td>
             </tr>
             {% endfor %}
@@ -71,20 +73,76 @@
         {% endif %}
 
         {% if recipesFromVendor|length > 0 %}
-        <h4>Vendor</h3>
+        <h4>Vendor</h4>
         <table class="table table-sm  table-striped table-dark">
             <tr>
                 <th align="left">Recipe</th>
             </tr>
             {% for recipe in recipesFromVendor %}
             <tr>
-                <td><a href="https://classic.wowhead.com/item={{ recipesToBuy[recipe]["ID"] }}">{{ recipe }}</a></td>
+                <td><a href="https://classic.wowhead.com/item={{ recipesFromVendor[recipe] }}">{{ recipe }}</a></td>
             </tr>
             {% endfor %}
         </table>
         {% endif %}
 
+        {% if recipesFromVendorLimited|length > 0 %}
+        <h4>VendorLimited</h4>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <th align="left">Recipe</th>
+            </tr>
+            {% for recipe in recipesFromVendorLimited %}
+            <tr>
+                <td><a href="https://classic.wowhead.com/item={{ recipesFromVendorLimited[recipe] }}">{{ recipe }}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+
+        {% if recipesFromQuest|length > 0 %}
+        <h4>Quest</h4>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <th align="left">Recipe</th>
+            </tr>
+            {% for recipe in recipesFromQuest %}
+            <tr>
+                <td><a href="https://classic.wowhead.com/item={{ recipesFromQuest[recipe] }}">{{ recipe }}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+
+        {% if recipesFromReputation|length > 0 %}
+        <h4>Reputation</h4>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <th align="left">Recipe</th>
+            </tr>
+            {% for recipe in recipesFromReputation %}
+            <tr>
+                <td><a href="https://classic.wowhead.com/item={{ recipesFromReputation[recipe] }}">{{ recipe }}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+
+        {% if recipesFromSeasonal|length > 0 %}
+        <h4>Seasonal</h4>
+        <table class="table table-sm  table-striped table-dark">
+            <tr>
+                <th align="left">Recipe</th>
+            </tr>
+            {% for recipe in recipesFromSeasonal %}
+            <tr>
+                <td><a href="https://classic.wowhead.com/item={{ recipesFromSeasonal[recipe] }}">{{ recipe }}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
     </div>
+
     <div class="p-2">
         <h2>Cost</h2>
         <table class="table table-sm  table-striped table-dark">
@@ -92,7 +150,7 @@
                 <td align="left">Reagent cost: </td>
                 <td align="right">{{ reagentCost }}</td>
             </tr>
-            {% if recipesToBuy|length > 0 %}
+            {% if recipesFromAH|length > 0 %}
             <tr>
                 <td align="left">Recipe cost: </td>
                 <td align="right">{{ recipeCost }}</td>
@@ -100,7 +158,7 @@
             {% endif %}
             <tr>
                 <td align="left">Vendoring crafts: </td>
-                <td align="right">{{ moneyFromVendoring }}</td>
+                <td align="right">-{{ moneyFromVendoring }}</td>
             </tr>
             <tr>
                 <td align="left">Total cost: </td>

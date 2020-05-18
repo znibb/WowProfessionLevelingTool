@@ -132,8 +132,12 @@ def results():
     # Initialize outputs
     craftList = dict()
     reagentsToBuy = dict()
-    recipesToBuy = dict()
-    recipesFromVendor = set()
+    recipesFromAH = dict()
+    recipesFromVendor = dict()
+    recipesFromVendorLimited = dict()
+    recipesFromQuest = dict()
+    recipesFromReputation = dict()
+    recipesFromSeasonal = dict()
     oldestDataUsedObj = datetime.now()
 
     # Create prunable copy
@@ -188,15 +192,24 @@ def results():
                 reagentsToBuy[reagent]["Amount"] = amount
                 reagentsToBuy[reagent]["PPU"] = reagentPrices[reagent]["Price"]
 
-        # Add recipe to shopping list if it's source is 'drop'
-        if recipes[bestCraft]["Source"] != "Trainer":
-            if bestCraft not in recipesToBuy.keys():
-                recipesToBuy[bestCraft] = dict()
-                recipesToBuy[bestCraft]["ID"] = recipes[bestCraft]["RecipeID"]
-                recipesToBuy[bestCraft]["Price"] = 0
-        
-        if recipes[bestCraft]["Source"] in {"Vendor", "VendorLimited"}:
-            recipesFromVendor.add(bestCraft)
+        # Add recipe to appropriate shopping list
+        if recipes[bestCraft]["Source"] == "Vendor":
+            recipesFromVendor[bestCraft] = recipes[bestCraft]["RecipeID"]
+        elif recipes[bestCraft]["Source"] == "VendorLimited":
+            recipesFromVendorLimited[bestCraft] = recipes[bestCraft]["RecipeID"]
+        elif recipes[bestCraft]["Source"] == "Drop":
+            if bestCraft not in recipesFromAH.keys():
+                recipesFromAH[bestCraft] = dict()
+                recipesFromAH[bestCraft]["ID"] = recipes[bestCraft]["RecipeID"]
+                recipesFromAH[bestCraft]["Price"] = 0
+        elif recipes[bestCraft]["Source"] == "Quest":
+            recipesFromQuest[bestCraft] = recipes[bestCraft]["RecipeID"]
+        elif recipes[bestCraft]["Source"] == "Reputation":
+            recipesFromReputation[bestCraft] = recipes[bestCraft]["RecipeID"]
+        elif recipes[bestCraft]["Source"] == "Seasonal":
+            recipesFromSeasonal[bestCraft] = recipes[bestCraft]["RecipeID"]
+        else:
+            pass
 
         # Increment skill
         currentSkill += 1
@@ -260,10 +273,10 @@ def results():
 
     # Calculate cost for each recipe purchase and aggregate total recipe cost
     recipeCost = 0
-    for name in recipesToBuy.keys():
-        price = getRecipePrice(recipesToBuy[name]["ID"], form.server.data, form.faction.data)
+    for name in recipesFromAH.keys():
+        price = getRecipePrice(recipesFromAH[name]["ID"], form.server.data, form.faction.data)
         recipeCost += price
-        recipesToBuy[name]["Price"] = prettyPrintPrice(price)
+        recipesFromAH[name]["Price"] = prettyPrintPrice(price)
     recipeCost = prettyPrintPrice(recipeCost)
 
     # Calculate money recouperated from selling all crafted items to vendor
@@ -287,9 +300,13 @@ def results():
         oldestDataUsed=oldestDataUsed,
         reagents=reagentsToBuy,
         reagentCost=reagentCost,
-        recipesToBuy=recipesToBuy,
+        recipesFromAH=recipesFromAH,
         recipeCost=recipeCost,
         recipesFromVendor=recipesFromVendor,
+        recipesFromVendorLimited=recipesFromVendorLimited,
+        recipesFromQuest=recipesFromQuest,
+        recipesFromReputation=recipesFromReputation,
+        recipesFromSeasonal=recipesFromSeasonal,
         moneyFromVendoring=moneyFromVendoring,
         totalCost=totalCost,
         itemID=itemID,
