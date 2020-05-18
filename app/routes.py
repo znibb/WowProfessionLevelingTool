@@ -310,4 +310,5 @@ def results():
         moneyFromVendoring=moneyFromVendoring,
         totalCost=totalCost,
         itemID=itemID,
-        allRecipes=allRecipes)
+        allRecipes=allRecipes,
+        targetReached = currentSkill == targetSkill)
