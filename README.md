@@ -16,6 +16,17 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
+### 1.4.0
+#### Features added
+- Added separate listing of recipes from different sources
+- Added tooltips for recipes
+- Added message to the user if it's not possible to reach the desired skill level
+- Now retrieves server list from Nexushub instead of being hardcoded
+
+#### Bug fixes
+- Grammar updates in user instructions
+- Fixed an issue with image sizes for Firefox (kudos to [TheDonUK](https://github.com/TheDonUK))
+
 ### 1.3.1
 #### Bug fixes
 - Added conditional treatment of tooltips for enchanting crafts (use 'spell' instead of 'item' in wowhead url)
@@ -53,5 +64,6 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 
 ### ToDo
 - Implement "slug fetch" of reagent price data" (https://api.nexushub.co/wow-classic/v1/items/noggenfogger-horde/)
-- Add tooltips for recipes (requires database updates)
-- Fetch list of available servers from nexushub
+- Enchanting note about disenchanting to lvl 40
+- Enchanting, check lesser vs greater essences
+- Enchanting rods
