@@ -76,7 +76,7 @@ def calculateReagentCost(reagents, prices):
 def searchCraftList(craftList, target):
     return [index for index, data in craftList.items() if data["Recipe"] == target]
 
-def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill):
+def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill, enchantingRodsOverride):
     cost = 999999 # arbitrary large number
     candidate = ''
 
@@ -85,6 +85,19 @@ def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill):
             if recipePrices[name] < cost:
                 candidate = name
                 cost = recipePrices[name]
+
+    # Manual override for enchanting rods
+    if enchantingRodsOverride:
+        if currentSkill == 1:
+            candidate = "Runed Copper Rod"
+        elif currentSkill == 100:
+            candidate = "Runed Silver Rod"
+        elif currentSkill == 150:
+            candidate = "Runed Golden Rod"
+        elif currentSkill == 200:
+            candidate = "Runed Truesilver Rod"
+        elif currentSkill == 290:
+            candidate = "Runed Arcanite Rod"
 
     return candidate
     

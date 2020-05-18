@@ -1530,7 +1530,7 @@ recipes = {
         }
     },
     "Runed Arcanite Rod": {
-        "ID":       16207,
+        "ID":       20051,
         "Learn":    290,
         "Yellow":   310,
         "Green":    330,
@@ -1547,7 +1547,7 @@ recipes = {
         }
     },
     "Runed Copper Rod": {
-        "ID":       6218,
+        "ID":       7421,
         "Learn":    1,
         "Yellow":   5,
         "Green":    7,
@@ -1559,22 +1559,22 @@ recipes = {
             "Lesser Magic Essence": 1
         }
     },
-    "Runed Truesilver Rod": {
-        "ID":       11145,
-        "Learn":    200,
-        "Yellow":   220,
-        "Green":    240,
-        "Grey":     260,
+    "Runed Golden Rod": {
+        "ID":       13628,
+        "Learn":    150,
+        "Yellow":   175,
+        "Green":    195,
+        "Grey":     215,
         "Source":   "Trainer",
         "Reagents": {
-			"Truesilver Rod": 1,
-            "Black Pearl": 1,
-            "Greater Mystic Essence": 2,
-            "Vision Dust": 2
+			"Golden Rod": 1,
+            "Iridescent Pearl": 1,
+            "Greater Astral Essence": 2,
+            "Soul Dust": 2
         }
     },
     "Runed Silver Rod": {
-        "ID":       6339,
+        "ID":       7795,
         "Learn":    100,
         "Yellow":   130,
         "Green":    150,
@@ -1587,18 +1587,18 @@ recipes = {
             "Shadowgem": 1
         }
     },
-    "Runed Golden Rod": {
-        "ID":       11130,
-        "Learn":    150,
-        "Yellow":   175,
-        "Green":    195,
-        "Grey":     215,
+    "Runed Truesilver Rod": {
+        "ID":       13702,
+        "Learn":    200,
+        "Yellow":   220,
+        "Green":    240,
+        "Grey":     260,
         "Source":   "Trainer",
         "Reagents": {
-			"Golden Rod": 1,
-            "Iridescent Pearl": 1,
-            "Greater Astral Essence": 2,
-            "Soul Dust": 2
+			"Truesilver Rod": 1,
+            "Black Pearl": 1,
+            "Greater Mystic Essence": 2,
+            "Vision Dust": 2
         }
     },
     "Smoking Heart of the Mountain": {

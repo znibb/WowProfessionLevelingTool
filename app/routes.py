@@ -37,6 +37,7 @@ def index():
         session["blacksmithingSchool"] = form.blacksmithingSchool.data
         session["engineeringSchool"] = form.engineeringSchool.data
         session["leatherworkingSchool"] = form.leatherworkingSchool.data
+        session["enchantingRods"] = form.enchantingRods.data
 
         return redirect(url_for('results'))
 
@@ -64,6 +65,7 @@ def results():
         form.blacksmithingSchool.data=session.get("blacksmithingSchool")
         form.engineeringSchool.data=session.get("engineeringSchool")
         form.leatherworkingSchool.data=session.get("leatherworkingSchool")
+        form.enchantingRods.data=session.get("enchantingRods")
         session.pop("server", None)
         session.pop("faction", None)
         session.pop("profession", None)
@@ -78,6 +80,7 @@ def results():
         session.pop("blacksmithingSchool", None)
         session.pop("engineeringSchool", None)
         session.pop("leatherworkingSchool", None)
+        session.pop("enchantingRods", None)
     
     if form.validate_on_submit():
         now = datetime.now()
@@ -98,6 +101,7 @@ def results():
         session["blacksmithingSchool"] = form.blacksmithingSchool.data
         session["engineeringSchool"] = form.engineeringSchool.data
         session["leatherworkingSchool"] = form.leatherworkingSchool.data
+        session["enchantingRods"] = form.enchantingRods.data
 
         return redirect(url_for('results'))
 
@@ -128,6 +132,7 @@ def results():
     recipePrices = calculateRecipePrices(allRecipes, reagentPrices)
     currentSkill = form.startSkill.data
     targetSkill = form.targetSkill.data
+    enchantingRodsOverride = form.enchantingRods.data and form.profession.data == "Enchanting"
 
     # Initialize outputs
     craftList = dict()
@@ -160,7 +165,7 @@ def results():
                 recipes.pop(name)
 
         # Determine next craft
-        bestCraft = getCheapestSkillingRecipe(recipes, recipePrices, currentSkill)
+        bestCraft = getCheapestSkillingRecipe(recipes, recipePrices, currentSkill, enchantingRodsOverride)
 
         # Break loop if no skillable craft is available
         if bestCraft == '':

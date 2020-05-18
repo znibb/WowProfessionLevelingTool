@@ -44,19 +44,20 @@ class UserInputForm(FlaskForm):
     includeQuest = BooleanField(u'Quest')
     includeReputation = BooleanField(u'Reputation')
     includeSeasonal = BooleanField(u'Seasonal')
-    blacksmithingSchool = RadioField(u'Blacksmithing',
+    blacksmithingSchool = RadioField(u'School:',
         choices=[("None", "None"),
                 ("Armorsmithing", "Armorsmithing"),
                 ("Weaponsmithing", "Weaponsmithing")],
         default="None")
-    engineeringSchool = RadioField(u'Engineering',
+    engineeringSchool = RadioField(u'School:',
         choices=[("None", "None"),
                 ("Gnomish", "Gnomish"),
                 ("Goblin", "Goblin")],
         default="None")
-    leatherworkingSchool = RadioField(u'Leatherworking',
+    leatherworkingSchool = RadioField(u'School:',
         choices=[("None", "None"),
                  ("Dragonscale", "Dragonscale"),
                  ("Elemental", "Elemental"),
                  ("Tribal", "Tribal")],
         default="None")
+    enchantingRods = BooleanField(u'Include enchanting rods', default="checked")

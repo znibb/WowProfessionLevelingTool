@@ -129,6 +129,10 @@
                             </div>
                             {% endfor %}
                         </div>
+                        <div class="form-group schoolOptions EnchantingSchool col-md-8">
+                            {{ form.enchantingRods(class_="form-check-input") }}
+                            {{ form.enchantingRods.label(class_="form-check-label") }}
+                        </div>
                         <div class="col-md-4 ml-auto text-right">
                             {{ form.calculate(class_="btn btn-light") }}
                         </div>
