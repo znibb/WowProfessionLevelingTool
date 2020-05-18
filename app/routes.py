@@ -189,7 +189,7 @@ def results():
                 reagentsToBuy[reagent]["PPU"] = reagentPrices[reagent]["Price"]
 
         # Add recipe to shopping list if it's source is 'drop'
-        if recipes[bestCraft]["Source"] == "Drop":
+        if recipes[bestCraft]["Source"] != "Trainer":
             if bestCraft not in recipesToBuy.keys():
                 recipesToBuy[bestCraft] = dict()
                 recipesToBuy[bestCraft]["ID"] = recipes[bestCraft]["RecipeID"]

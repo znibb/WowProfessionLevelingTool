@@ -55,7 +55,7 @@
     <div class="p-2">
         <h2>Recipes to buy</h2>
         {% if recipesToBuy|length > 0 %}
-        <h3>Dropped</h3>
+        <h4>Dropped</h3>
         <table class="table table-sm  table-striped table-dark">
             <tr>
                 <th align="left">Recipe</th>
@@ -63,7 +63,7 @@
             </tr>
             {% for recipe, info in recipesToBuy.items() %}
             <tr>
-                <td>{{ recipe }}</td>
+                <td><a href="https://classic.wowhead.com/item={{ recipesToBuy[recipe]["ID"] }}">{{ recipe }}</a></td>
                 <td align="right">{{ info["Price"] }}</td>
             </tr>
             {% endfor %}
@@ -71,14 +71,14 @@
         {% endif %}
 
         {% if recipesFromVendor|length > 0 %}
-        <h3>Vendor</h3>
+        <h4>Vendor</h3>
         <table class="table table-sm  table-striped table-dark">
             <tr>
                 <th align="left">Recipe</th>
             </tr>
             {% for recipe in recipesFromVendor %}
             <tr>
-                <td>{{ recipe }}</td>
+                <td><a href="https://classic.wowhead.com/item={{ recipesToBuy[recipe]["ID"] }}">{{ recipe }}</a></td>
             </tr>
             {% endfor %}
         </table>
