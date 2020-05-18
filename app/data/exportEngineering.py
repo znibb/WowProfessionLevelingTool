@@ -8,6 +8,7 @@ recipes = {
         "Green":    210,
         "Grey":     220,
         "Source":   "VendorLimited",
+        "RecipeID": 13310,
         "Reagents": {
 			"Bronze Tube": 1,
 			"Jade": 1,
@@ -105,6 +106,7 @@ recipes = {
         "Green":    162,
         "Grey":     175,
         "Source":   "VendorLimited",
+        "RecipeID": 18649,
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -118,6 +120,7 @@ recipes = {
         "Green":    237,
         "Grey":     250,
         "Source":   "Seasonal",
+        "RecipeID": 21730,
         "Reagents": {
 			"Solid Blasting Powder": 1,
 			"Thick Leather": 1
@@ -356,6 +359,7 @@ recipes = {
         "Green":    240,
         "Grey":     250,
         "Source":   "VendorLimited",
+        "RecipeID": 10602,
         "Reagents": {
 			"Mithril Tube": 1,
 			"Aquamarine": 2,
@@ -369,6 +373,7 @@ recipes = {
         "Green":    260,
         "Grey":     270,
         "Source":   "VendorLimited",
+        "RecipeID": 10607,
         "Reagents": {
 			"Mithril Bar": 8,
 			"Mithril Casing": 1,
@@ -384,6 +389,7 @@ recipes = {
         "Green":    315,
         "Grey":     325,
         "Source":   "VendorLimited",
+        "RecipeID": 16050,
         "Reagents": {
 			"Arcanite Bar": 1,
 			"Ironweb Spider Silk": 1
@@ -479,6 +485,7 @@ recipes = {
         "Green":    210,
         "Grey":     220,
         "Source":   "VendorLimited",
+        "RecipeID": 18650,
         "Reagents": {
 			"Solid Blasting Powder": 1,
 			"Mageweave Cloth": 2
@@ -505,6 +512,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "Seasonal",
+        "RecipeID": 21737,
         "Reagents": {
 			"Inlaid Mithril Cylinder": 4,
 			"Goblin Rocket Fuel": 4,
@@ -519,6 +527,7 @@ recipes = {
         "Green":    255,
         "Grey":     265,
         "Source":   "Seasonal",
+        "RecipeID": 21738,
         "Reagents": {
 			"Inlaid Mithril Cylinder": 1,
 			"Goblin Rocket Fuel": 1,
@@ -547,6 +556,7 @@ recipes = {
         "Grey":     225,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 6672,
         "Reagents": {
 			"Blue Pearl": 1,
 			"Heavy Blasting Powder": 1,
@@ -589,6 +599,7 @@ recipes = {
         "Green":    230,
         "Grey":     240,
         "Source":   "VendorLimited",
+        "RecipeID": 7742,
         "Reagents": {
 			"Gyrochronatom": 4,
 			"Jade": 2,
@@ -716,6 +727,7 @@ recipes = {
         "Green":    162,
         "Grey":     175,
         "Source":   "VendorLimited",
+        "RecipeID": 7560,
         "Reagents": {
 			"Bronze Bar": 6,
 			"Whirring Bronze Gizmo": 1,
@@ -777,6 +789,7 @@ recipes = {
         "Green":    180,
         "Grey":     200,
         "Source":   "VendorLimited",
+        "RecipeID": 7561,
         "Reagents": {
 			"Iron Bar": 6,
 			"Whirring Bronze Gizmo": 2,
@@ -923,6 +936,7 @@ recipes = {
         "Green":    162,
         "Grey":     175,
         "Source":   "VendorLimited",
+        "RecipeID": 18648,
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -951,6 +965,7 @@ recipes = {
         "Green":    237,
         "Grey":     250,
         "Source":   "Seasonal",
+        "RecipeID": 21731,
         "Reagents": {
 			"Solid Blasting Powder": 1,
 			"Thick Leather": 1
@@ -988,6 +1003,7 @@ recipes = {
         "Green":    290,
         "Grey":     300,
         "Source":   "VendorLimited",
+        "RecipeID": 18652,
         "Reagents": {
 			"Thorium Widget": 6,
 			"Truesilver Transformer": 2,
@@ -1093,6 +1109,7 @@ recipes = {
         "Green":    185,
         "Grey":     195,
         "Source":   "VendorLimited",
+        "RecipeID": 13308,
 		"Reagents": {
 			"Whirring Bronze Gizmo": 1,
 			"Frost Oil": 1
@@ -1143,6 +1160,7 @@ recipes = {
         "Green":    187,
         "Grey":     200,
         "Source":   "Seasonal",
+        "RecipeID": 21727,
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -1156,6 +1174,7 @@ recipes = {
         "Green":    280,
         "Grey":     285,
         "Source":   "Seasonal",
+        "RecipeID": 21733,
         "Reagents": {
 			"Dense Blasting Powder": 1,
 			"Rugged Leather": 1
@@ -1183,6 +1202,7 @@ recipes = {
         "Green":    187,
         "Grey":     200,
         "Source":   "Seasonal",
+        "RecipeID": 21728,
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -1196,6 +1216,7 @@ recipes = {
         "Green":    280,
         "Grey":     285,
         "Source":   "Seasonal",
+        "RecipeID": 21734,
         "Reagents": {
 			"Dense Blasting Powder": 1,
 			"Rugged Leather": 1
@@ -1209,6 +1230,7 @@ recipes = {
         "Green":    187,
         "Grey":     200,
         "Source":   "Seasonal",
+        "RecipeID": 21729,
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -1222,6 +1244,7 @@ recipes = {
         "Green":    280,
         "Grey":     285,
         "Source":   "Seasonal",
+        "RecipeID": 21735,
         "Reagents": {
 			"Dense Blasting Powder": 1,
 			"Rugged Leather": 1
@@ -1266,6 +1289,7 @@ recipes = {
         "Source":   "Quest",
         "Faction":  "Any",
 		"School":	"Gnomish",
+        "RecipeID": 11827,
         "Reagents": {
 			"Core of Earth": 1,
 			"Gyrochronatom": 2,
@@ -1281,6 +1305,7 @@ recipes = {
         "Green":    157,
         "Grey":     170,
         "Source":   "VendorLimited",
+        "RecipeID": 13309,
         "Reagents": {
 			"Bronze Tube": 2,
 			"Handful of Copper Bolts": 2,
@@ -1323,6 +1348,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "Vendor",
+        "RecipeID": 16046,
         "Reagents": {
 			"Mithril Casing": 1,
 			"Thorium Tube": 1,
@@ -1339,6 +1365,7 @@ recipes = {
         "Green":    230,
         "Grey":     240,
         "Source":   "VendorLimited",
+        "RecipeID": 13311,
         "Reagents": {
 			"Bronze Framework": 1,
 			"Iron Strut": 4,
@@ -1382,6 +1409,7 @@ recipes = {
         "Green":    177,
         "Grey":     190,
         "Source":   "VendorLimited",
+        "RecipeID": 14639,
         "Reagents": {
 			"Bronze Tube": 1,
 			"Whirring Bronze Gizmo": 2,
@@ -1465,6 +1493,7 @@ recipes = {
         "Green":    280,
         "Grey":     290,
         "Source":   "VendorLimited",
+        "RecipeID": 10609,
         "Reagents": {
 			"Mithril Bar": 14,
 			"Heart of Fire": 4,
@@ -1538,6 +1567,7 @@ recipes = {
         "Source":   "Quest",
         "Faction":  "Any",
 		"School":	"Goblin",
+        "RecipeID": 11828,
         "Reagents": {
 			"Big Iron Bomb": 1,
 			"Heart of Fire": 1,
@@ -1567,6 +1597,7 @@ recipes = {
         "Green":    285,
         "Grey":     295,
         "Source":   "Vendor",
+        "RecipeID": 18656,
         "Reagents": {
 			"Thorium Widget": 2,
 			"Dense Blasting Powder": 3,
@@ -1594,6 +1625,7 @@ recipes = {
         "Green":    162,
         "Grey":     175,
         "Source":   "VendorLimited",
+        "RecipeID": 18647,
         "Reagents": {
 			"Heavy Blasting Powder": 1,
 			"Heavy Leather": 1
@@ -1607,6 +1639,7 @@ recipes = {
         "Green":    237,
         "Grey":     250,
         "Source":   "Seasonal",
+        "RecipeID": 21732,
         "Reagents": {
 			"Solid Blasting Powder": 1,
 			"Thick Leather": 1
@@ -1736,6 +1769,7 @@ recipes = {
         "Green":    137,
         "Grey":     150,
         "Source":   "Seasonal",
+        "RecipeID": 21724,
         "Reagents": {
 			"Coarse Blasting Powder": 1,
 			"Medium Leather": 1
@@ -1764,6 +1798,7 @@ recipes = {
         "Green":    137,
         "Grey":     150,
         "Source":   "Seasonal",
+        "RecipeID": 21725,
         "Reagents": {
 			"Coarse Blasting Powder": 1,
 			"Medium Leather": 1
@@ -1777,6 +1812,7 @@ recipes = {
         "Green":    137,
         "Grey":     150,
         "Source":   "Seasonal",
+        "RecipeID": 21726,
         "Reagents": {
 			"Coarse Blasting Powder": 1,
 			"Medium Leather": 1
@@ -1805,6 +1841,7 @@ recipes = {
         "Green":    260,
         "Grey":     270,
         "Source":   "Vendor",
+        "RecipeID": 19027,
         "Reagents": {
 			"Dense Blasting Powder": 2,
 			"Runecloth": 2,
@@ -1833,6 +1870,7 @@ recipes = {
         "Green":    210,
         "Grey":     230,
         "Source":   "Seasonal",
+        "RecipeID": 17720,
         "Reagents": {
 			"Mithril Bar": 8,
 			"Gyrochronatom": 4,
@@ -1912,6 +1950,7 @@ recipes = {
         "Grey":     315,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 22729,
         "Reagents": {
 			"Thorium Widget": 2,
 			"Mithril Casing": 1,
@@ -1955,6 +1994,7 @@ recipes = {
         "Green":    290,
         "Grey":     300,
         "Source":   "Vendor",
+        "RecipeID": 16041,
         "Reagents": {
 			"Thorium Widget": 1,
 			"Thorium Bar": 3,
@@ -2000,6 +2040,7 @@ recipes = {
         "Green":    305,
         "Grey":     315,
         "Source":   "VendorLimited",
+        "RecipeID": 16047,
         "Reagents": {
 			"Thorium Bar": 6
         }
@@ -2011,6 +2052,7 @@ recipes = {
         "Green":    290,
         "Grey":     300,
         "Source":   "VendorLimited",
+        "RecipeID": 16042,
         "Reagents": {
 			"Thorium Bar": 3,
 			"Runecloth": 1
@@ -2024,6 +2066,7 @@ recipes = {
         "Grey":     340,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 21277,
         "Reagents": {
 			"Cured Rugged Hide": 1,
 			"Thorium Widget": 4,
@@ -2039,6 +2082,7 @@ recipes = {
         "Green":    275,
         "Grey":     280,
         "Source":   "Vendor",
+        "RecipeID": 18651,
         "Reagents": {
 			"Truesilver Bar": 2,
 			"Elemental Earth": 2,
