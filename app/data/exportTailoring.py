@@ -8,6 +8,7 @@ recipes = {
         "Green":    270,
         "Grey":     285,
         "Source":   "Vendor",
+        "RecipeID": 10318,
         "Reagents": {
             "Bolt of Mageweave": 3,
             "Long Elegant Feather": 6,
@@ -21,6 +22,7 @@ recipes = {
         "Green":    320,
         "Grey":     335,
         "Source":   "Reputation",
+        "RecipeID": 19216,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Enchanted Leather": 4,
@@ -66,6 +68,7 @@ recipes = {
         "Green":    210,
         "Grey":     225,
         "Source":   "VendorLimited",
+        "RecipeID": 7089,
         "Reagents": {
             "Bolt of Silk Cloth": 3,
             "Blue Dye": 2,
@@ -79,6 +82,7 @@ recipes = {
         "Green":    180,
         "Grey":     195,
         "Source":   "Vendor",
+        "RecipeID": 7114,
         "Reagents": {
             "Bolt of Silk Cloth": 3,
             "Heavy Leather": 2,
@@ -243,6 +247,7 @@ recipes = {
         "Green":    215,
         "Grey":     220,
         "Source":   "Vendor",
+        "RecipeID": 10728,
         "Reagents": {
             "Bolt of Silk Cloth": 5,
             "Black Dye": 1,
@@ -256,6 +261,7 @@ recipes = {
         "Green":    112,
         "Grey":     130,
         "Source":   "Vendor",
+        "RecipeID": 6272,
         "Reagents": {
             "Bolt of Linen Cloth": 4,
             "Coarse Thread": 2,
@@ -282,6 +288,7 @@ recipes = {
         "Green":    97,
         "Grey":     115,
         "Source":   "Vendor",
+        "RecipeID": 6270,
         "Reagents": {
             "Bolt of Linen Cloth": 3,
             "Coarse Thread": 1,
@@ -295,6 +302,7 @@ recipes = {
         "Green":    142,
         "Grey":     160,
         "Source":   "VendorLimited",
+        "RecipeID": 6274,
         "Reagents": {
             "Bolt of Woolen Cloth": 4,
             "Fine Thread": 2,
@@ -378,6 +386,7 @@ recipes = {
         "Grey":     155,
         "Source":   "Vendor",
         "Faction":  "Alliance",
+        "RecipeID": 14627,
         "Reagents": {
             "Bolt of Silk Cloth": 1,
             "Yellow Dye": 1,
@@ -434,7 +443,7 @@ recipes = {
         "Green":    300,
         "Grey":     315,
         "Source":   "Drop",
-        "RecipeID": 14100,
+        "RecipeID": 14478,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Gold Bar": 2,
@@ -496,6 +505,7 @@ recipes = {
         "Green":    305,
         "Grey":     320,
         "Source":   "Reputation",
+        "RecipeID": 22310,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Purple Lotus": 10,
@@ -637,6 +647,7 @@ recipes = {
         "Green":    215,
         "Grey":     230,
         "Source":   "Vendor",
+        "RecipeID": 7087,
         "Reagents": {
             "Bolt of Silk Cloth": 5,
             "Red Dye": 2,
@@ -680,6 +691,7 @@ recipes = {
         "Green":    235,
         "Grey":     250,
         "Source":   "VendorLimited",
+        "RecipeID": 7088,
         "Reagents": {
             "Bolt of Silk Cloth": 8,
             "Elemental Fire": 4,
@@ -723,6 +735,7 @@ recipes = {
         "Green":    170,
         "Grey":     175,
         "Source":   "Vendor",
+        "RecipeID": 6401,
         "Reagents": {
             "Bolt of Silk Cloth": 2,
             "Gray Dye": 2,
@@ -821,6 +834,7 @@ recipes = {
         "Green":    255,
         "Grey":     270,
         "Source":   "Vendor",
+        "RecipeID": 22307,
         "Reagents": {
             "Bolt of Mageweave": 4,
             "Vision Dust": 4,
@@ -834,6 +848,7 @@ recipes = {
         "Green":    305,
         "Grey":     320,
         "Source":   "Vendor",
+        "RecipeID": 22308,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Greater Eternal Essence": 2,
@@ -847,6 +862,7 @@ recipes = {
         "Green":    200,
         "Grey":     215,
         "Source":   "Vendor",
+        "RecipeID": 14630,
         "Reagents": {
             "Bolt of Silk Cloth": 3,
             "Fine Thread": 2,
@@ -904,6 +920,7 @@ recipes = {
         "Green":    305,
         "Grey":     320,
         "Source":   "Vendor",
+        "RecipeID": 14483,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Felcloth": 4,
@@ -917,6 +934,7 @@ recipes = {
         "Green":    280,
         "Grey":     295,
         "Source":   "Seasonal",
+        "RecipeID": 21722,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Firebloom": 2,
@@ -931,6 +949,7 @@ recipes = {
         "Green":    280,
         "Grey":     295,
         "Source":   "Seasonal",
+        "RecipeID": 21723,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Firebloom": 2,
@@ -1113,6 +1132,7 @@ recipes = {
         "Green":    157,
         "Grey":     175,
         "Source":   "VendorLimited",
+        "RecipeID": 6275,
         "Reagents": {
             "Bolt of Woolen Cloth": 5,
             "Fine Thread": 3,
@@ -1126,6 +1146,7 @@ recipes = {
         "Green":    205,
         "Grey":     210,
         "Source":   "Seasonal",
+        "RecipeID": 17724,
         "Reagents": {
             "Bolt of Silk Cloth": 5,
             "Green Dye": 4,
@@ -1310,6 +1331,7 @@ recipes = {
         "Green":    235,
         "Grey":     250,
         "Source":   "VendorLimited",
+        "RecipeID": 4355,
         "Reagents": {
             "Bolt of Mageweave": 3,
             "Silken Thread": 2,
@@ -1324,6 +1346,7 @@ recipes = {
         "Green":    240,
         "Grey":     245,
         "Source":   "VendorLimited",
+        "RecipeID": 10314,
         "Reagents": {
             "Bolt of Mageweave": 2,
             "Purple Dye": 2,
@@ -1425,6 +1448,7 @@ recipes = {
         "Grey":     325,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 15802,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Mooncloth": 4,
@@ -1466,6 +1490,7 @@ recipes = {
         "Green":    230,
         "Grey":     235,
         "Source":   "Vendor",
+        "RecipeID": 10311,
         "Reagents": {
             "Bolt of Mageweave": 2,
             "Orange Dye": 2,
@@ -1521,6 +1546,7 @@ recipes = {
         "Green":    245,
         "Grey":     250,
         "Source":   "VendorLimited",
+        "RecipeID": 10317,
         "Reagents": {
             "Bolt of Mageweave": 3,
             "Pink Dye": 1,
@@ -1534,6 +1560,7 @@ recipes = {
         "Green":    112,
         "Grey":     130,
         "Source":   "VendorLimited",
+        "RecipeID": 5771,
         "Reagents": {
             "Bolt of Linen Cloth": 4,
             "Fine Thread": 1,
@@ -1684,6 +1711,7 @@ recipes = {
         "Green":    157,
         "Grey":     175,
         "Source":   "VendorLimited",
+        "RecipeID": 5772,
         "Reagents": {
             "Bolt of Woolen Cloth": 4,
             "Red Dye": 1,
@@ -1761,22 +1789,6 @@ recipes = {
             "Silken Thread": 2
         }
     },
-    "Robe of Winter Night": {
-        "ID":       14136,
-        "Learn":    285,
-        "Yellow":   300,
-        "Green":    315,
-        "Grey":     300,
-        "Source":   "Drop",
-        "RecipeID": 14493,
-        "Reagents": {
-            "Bolt of Runecloth": 10,
-            "Felcloth": 12,
-            "Essence of Undeath": 4,
-            "Essence of Water": 4,
-            "Rune Thread": 1
-        }
-    },
     "Robes of Arcana": {
         "ID":       5770,
         "Learn":    150,
@@ -1798,6 +1810,7 @@ recipes = {
         "Green":    290,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 14468,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Rugged Leather": 2,
@@ -1823,6 +1836,7 @@ recipes = {
         "Green":    310,
         "Grey":     325,
         "Source":   "Vendor",
+        "RecipeID": 14488,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Ironweb Spider Silk": 2,
@@ -1837,6 +1851,7 @@ recipes = {
         "Green":    295,
         "Grey":     310,
         "Source":   "Vendor",
+        "RecipeID": 14472,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Ironweb Spider Silk": 1,
@@ -1850,6 +1865,7 @@ recipes = {
         "Green":    305,
         "Grey":     320,
         "Source":   "Vendor",
+        "RecipeID": 14481,
         "Reagents": {
             "Bolt of Runecloth": 4,
             "Rugged Leather": 4,
@@ -1891,6 +1907,7 @@ recipes = {
         "Green":    290,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 14469,
         "Reagents": {
             "Bolt of Runecloth": 5,
             "Ironweb Spider Silk": 1,
@@ -1960,6 +1977,7 @@ recipes = {
         "Grey":     290,
         "Source":   "Quest",
         "Faction":  "Any",
+        "RecipeID": 10463,
         "Reagents": {
             "Bolt of Mageweave": 2,
             "Shadow Silk": 8,
@@ -2116,6 +2134,7 @@ recipes = {
         "Green":    290,
         "Grey":     305,
         "Source":   "Vendor",
+        "RecipeID": 21358,
         "Reagents": {
             "Bolt of Runecloth": 6,
             "Rugged Leather": 4,
@@ -2246,6 +2265,7 @@ recipes = {
         "Green":    280,
         "Grey":     295,
         "Source":   "VendorLimited",
+        "RecipeID": 10326,
         "Reagents": {
             "Bolt of Mageweave": 5,
             "Heavy Silken Thread": 3
@@ -2258,6 +2278,7 @@ recipes = {
         "Green":    255,
         "Grey":     260,
         "Source":   "VendorLimited",
+        "RecipeID": 10323,
         "Reagents": {
             "Bolt of Mageweave": 4,
             "Heavy Silken Thread": 3
@@ -2270,6 +2291,7 @@ recipes = {
         "Green":    250,
         "Grey":     255,
         "Source":   "VendorLimited",
+        "RecipeID": 10321,
         "Reagents": {
             "Bolt of Mageweave": 4,
             "Heavy Silken Thread": 2
@@ -2335,6 +2357,7 @@ recipes = {
         "Green":    260,
         "Grey":     265,
         "Source":   "VendorLimited",
+        "RecipeID": 10325,
         "Reagents": {
             "Bolt of Mageweave": 5,
             "Heavy Silken Thread": 3,
@@ -2361,6 +2384,7 @@ recipes = {
         "Green":    320,
         "Grey":     335,
         "Source":   "Reputation",
+        "RecipeID": 19215,
         "Reagents": {
             "Bolt of Runecloth": 8,
             "Essence of Earth": 3,
