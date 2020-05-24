@@ -5,7 +5,7 @@ if [[ -z $1 ]]; then
   exit 1
 fi
 
-version = $1
+version=$1
 
 git push origin develop
 git checkout master
