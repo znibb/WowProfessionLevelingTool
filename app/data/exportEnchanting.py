@@ -275,7 +275,7 @@ recipes = {
     "Bracer - Greater Stamina": {
         "ID":       13945,
         "Learn":    245,
-        "Yellow":   165,
+        "Yellow":   265,
         "Green":    285,
         "Grey":     305,
         "Source":   "Drop",
