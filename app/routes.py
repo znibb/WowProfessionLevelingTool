@@ -10,14 +10,14 @@ author = {
     'email':  "znibb@zkylark.se"}
 title = {
     'short':    'WPLT',
-    'long':     'WowProfessionLevelingTool',
+    'long':     'WowProfessionLevelingTool v1.4.1',
     'source':   'https://github.com/znibb/WowProfessionLevelingTool'}
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
 def index():
     form = UserInputForm()
-    
+
     if form.validate_on_submit():
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
@@ -81,7 +81,7 @@ def results():
         session.pop("engineeringSchool", None)
         session.pop("leatherworkingSchool", None)
         session.pop("enchantingRods", None)
-    
+
     if form.validate_on_submit():
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
@@ -188,7 +188,7 @@ def results():
                 craftList[lastIndex+1] = {"Start": currentSkill, "Count": 1, "Recipe": bestCraft, "Cost": prettyPrintPrice(recipePrices[bestCraft])}
 
         # Add reagents for the chosen recipe to the purchase list
-        for reagent, amount in recipes[bestCraft]["Reagents"].items():  
+        for reagent, amount in recipes[bestCraft]["Reagents"].items():
             if reagent in reagentsToBuy:
                 reagentsToBuy[reagent]["Amount"] += amount
             else:
@@ -224,7 +224,7 @@ def results():
         val = searchCraftList(craftList, reagent)
 
         # If the reagent has been crafted previously
-        if len(val) > 0:    
+        if len(val) > 0:
             index = val[0]
 
             if "AmountCrafted" in allRecipes[craftList[index]["Recipe"]]:
@@ -262,7 +262,7 @@ def results():
     # Calculate cost for each reagent purchase
     for reagent in reagentsToBuy:
         reagentsToBuy[reagent]["Total"] = prettyPrintPrice(reagentsToBuy[reagent]["Amount"] * reagentPrices[reagent]["Price"])
-    
+
     # Pretty print PPU for reagents
     for reagent in reagentsToBuy:
         reagentsToBuy[reagent]["PPU"] = prettyPrintPrice(reagentsToBuy[reagent]["PPU"])
