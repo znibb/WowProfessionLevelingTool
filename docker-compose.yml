@@ -6,6 +6,8 @@ services:
     container_name: wplt
     environment:
       - SECRET_KEY=CHANGETHIS
+    labels:
+      - "com.centurylabs.watchtower.enable=true"
     logging:
       driver: "json-file"
       options:
@@ -16,6 +18,16 @@ services:
     ports:
       - "5000:5000"
     restart: unless-stopped
+
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower_wplt
+    networks:
+      - wplt
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    command: --label-enable
 
 networks:
   wplt:
