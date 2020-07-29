@@ -16,6 +16,14 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
+### 1.5.0
+#### Features added
+- Updated available recipes for phase 5
+- Moved profession database to separate repository and included as git submodule instead
+
+#### Bug fixes
+- Fixed typo in Enchant Bracer - Greater Stamina
+
 ### 1.4.0
 #### Features added
 - Added separate listing of recipes from different sources
