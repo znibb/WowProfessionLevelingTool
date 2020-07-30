@@ -4,13 +4,15 @@ from app.forms import UserInputForm
 from datetime import datetime
 from app.functions import *
 
+VERSION="1.4.1"
+
 author = {
     'username': 'Znibb',
     'server':   'Noggenfogger',
-    'email':  "znibb@zkylark.se"}
+    'email':    "znibb@zkylark.se"}
 title = {
     'short':    'WPLT',
-    'long':     'WowProfessionLevelingTool v1.4.1',
+    'long':     'WowProfessionLevelingTool v' + VERSION,
     'source':   'https://github.com/znibb/WowProfessionLevelingTool'}
 
 @app.route('/', methods=['GET', 'POST'])
