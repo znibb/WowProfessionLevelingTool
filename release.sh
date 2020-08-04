@@ -2,6 +2,8 @@
 
 version=$1
 current_branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
+user=znibb
+name=wplt
 
 # Check that script was run with argument
 if [[ -z $1 ]]; then
@@ -16,7 +18,7 @@ fi
 # Update displayed version number on web page
 sed -i "s/VERSION=\".*\"/VERSION=\"$version\"/" app/routes.py
 git add app/routes.py
-git commit -m "Updated displayed version number"
+git commit -m "Updated displayed version number to $version"
 
 # Push updates and merge with master
 git push origin develop
@@ -30,9 +32,9 @@ git push origin $version
 
 # Build and push new docker images
 ./build.sh
-docker tag znibb/wplt:latest znibb/wplt:$version
-docker push znibb/wplt:$version
-docker push znibb/wplt:latest
+docker tag $user/$name:latest $user/$name:$version
+docker push $user/$name:$version
+docker push $user/$name:latest
 
 # Exit gracefully
 exit 0
