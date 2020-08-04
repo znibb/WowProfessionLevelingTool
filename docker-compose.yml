@@ -7,7 +7,7 @@ services:
     environment:
       - SECRET_KEY=CHANGETHIS
     labels:
-      - "com.centurylabs.watchtower.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
     logging:
       driver: "json-file"
       options:
@@ -22,9 +22,13 @@ services:
   watchtower:
     image: containrrr/watchtower
     container_name: watchtower_wplt
+    environment:
+      - "WATCHTOWER_LABEL_ENABLE=true"
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
     networks:
       - wplt
-    restart: always
+    restart: unless-stopped
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     command: --label-enable
