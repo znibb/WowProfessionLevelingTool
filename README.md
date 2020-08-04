@@ -16,8 +16,13 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
+### 1.5.2
+#### Bug fixes
+- Actually fixed watchtower settings
+- Style updates to release.sh
+
 ### 1.5.1
-### Bug fixes
+#### Bug fixes
 - Removed docker socket read-only flag for watchtower in docker-compose.yml
 - Fetched minor cleanup updates from database submodule
 
