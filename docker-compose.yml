@@ -31,7 +31,7 @@ services:
     restart: unless-stopped
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    command: --label-enable
+    command: --interval 300
 
 networks:
   wplt:
