@@ -125,10 +125,11 @@ def getReagentPrices(recipes, server, faction):
     # Iterate over the reagent set and create a dictionary containing reagent-price pairs
     reagentPriceDict = dict()
     for reagent in reagents:
+        reagentPriceDict[reagent] = dict()
+
         # If reagent is available from vendor
         if reagent in vendorReagents:
             # Add vendor price
-            reagentPriceDict[reagent] = dict()
             reagentPriceDict[reagent]["Price"] = vendorReagents[reagent]
             reagentPriceDict[reagent]["Quantity"] = None
         # Item can't be bought from vendor
@@ -137,11 +138,11 @@ def getReagentPrices(recipes, server, faction):
             priceDict = next((item for item in priceList if item["itemId"] == itemID[reagent]), False)
             # If no price data exists, i.e. item hasn't been seen on the AH
             if priceDict == False:
-                # Don't add the reagent to the output dict, i.e. noop
-                pass
+                # Set price to zero
+                reagentPriceDict[reagent]["Price"] = 0
+                reagentPriceDict[reagent]["Quantity"] = None
             # Add market value as reagent price
             else:
-                reagentPriceDict[reagent] = dict()
                 reagentPriceDict[reagent]["Price"] = priceDict["marketValue"]
                 reagentPriceDict[reagent]["Quantity"] = priceDict["quantity"]
 

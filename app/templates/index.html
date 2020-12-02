@@ -11,6 +11,7 @@
         (uses undiscounted vendor price for items available from vendors)</li>
         <li>The algorithm terminates if there aren't any available crafts for the current skill level. This means if the listed guide doesn't reach to the target level you entered you probably need to include another source for there to be a solution</li>
         <li>If you need e.g. Bolt of Runecloth for a craft it'll check the price for both Runecloth and Bolt of Runecloth and add the option that's cheaper to the shopping list</li>
+        <li>If an item's cost is unavailable because it hasn't been seen on the Auction House it will be listed as having zero cost.</li>
     </ol>
 
 {% endblock %}
