@@ -23,7 +23,7 @@
             <tr>
                 <td align=right>{{ index }}</td>
                 <td align=right>{{ data["Start"] }}</td>
-                <td align=right>{{ data["Start"] + data["Count"] }}</td>
+                <td align=right>{{ data["Start"] + data["End"] }}</td>
                 <td align=right>{{ data["Count"] }}</td>
                 {% if form.profession.data == "Enchanting" %}
                 <td align=left><a href="https://tbc.wowhead.com/spell={{ allRecipes[data["Recipe"]].ID }}" class="q1">{{ data["Recipe"] }}</a></td>
