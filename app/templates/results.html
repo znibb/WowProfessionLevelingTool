@@ -14,16 +14,16 @@
                 <th align="right">á</th>
             </tr>
             {% if (form.profession.data == "Enchanting") and (form.startSkill.data < 60) %}
-                <tr>
-                    <td align="center" colspan="7">You are able to reach 60 Enchanting through disenchanting</td>
-                </tr>
+            <tr>
+                <td align="center" colspan="7">You are able to reach 60 Enchanting through disenchanting</td>
+            </tr>
             {% endif %}
             {% if craftList.items is defined %}
             {% for index, data in craftList.items() %}
             <tr>
                 <td align=right>{{ index }}</td>
                 <td align=right>{{ data["Start"] }}</td>
-                <td align=right>{{ data["Start"] + data["Count"] }}</td>
+                <td align=right>{{ data["Start"] + data["End"] }}</td>
                 <td align=right>{{ data["Count"] }}</td>
                 {% if form.profession.data == "Enchanting" %}
                 <td align=left><a href="https://classic.wowhead.com/spell={{ allRecipes[data["Recipe"]].ID }}" class="q1">{{ data["Recipe"] }}</a></td>
@@ -168,10 +168,10 @@
             </tr>
             {% endif %}
             {% if form.profession.data != "Enchanting" %}
-                <tr>
-                    <td align="left">Vendoring crafts: </td>
-                    <td align="right">-{{ moneyFromVendoring }}</td>
-                </tr>
+            <tr>
+                <td align="left">Vendoring crafts: </td>
+                <td align="right">-{{ moneyFromVendoring }}</td>
+            </tr>
             {% endif %}
             <tr>
                 <td align="left">Total cost: </td>

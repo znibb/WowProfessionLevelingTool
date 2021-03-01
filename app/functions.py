@@ -79,12 +79,17 @@ def searchCraftList(craftList, target):
 def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill, enchantingRodsOverride):
     cost = 999999 # arbitrary large number
     candidate = ''
+    candidateMultiplier = 0
 
     for name, info in recipes.items():
         if info["Learn"] <= currentSkill:
-            if recipePrices[name] < cost:
+            chance = getCraftPercentage(currentSkill, info["Grey"], info["Yellow"])
+            multiplier = max(1, (1 / chance))
+            thisCost = recipePrices[name] * multiplier
+            if thisCost < cost:
                 candidate = name
-                cost = recipePrices[name]
+                candidateMultiplier = multiplier
+                cost = thisCost
 
     # Manual override for enchanting rods
     if enchantingRodsOverride:
@@ -99,8 +104,15 @@ def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill, enchantingRod
         elif currentSkill == 290:
             candidate = "Runed Arcanite Rod"
 
-    return candidate
-    
+    return (candidate, max(1, (candidateMultiplier)))
+
+def getCraftPercentage(currentSkill, recipeGrey, recipeYellow):
+    # The formula is simply: (G-X)/(G-Y)
+    # G = Number where the skill up turns gray (from green)
+    # Y = Number where the skill up turns yellow (from orange)
+    # X = current skill level
+    return ((recipeGrey - currentSkill) / (recipeGrey - recipeYellow))
+
 def getReagentPrices(recipes, server, faction):
     # Import translation table for item name to ID
     with open("app/data/itemID.json", 'r') as f:
@@ -239,6 +251,6 @@ def sumPretty(prices):
     sum = 0
     for item in prices:
         item = item.translate({ord(i): None for i in 'gsc'})
-        sum += int(item)
+        sum += int(math.ceil(float(item)))
 
     return prettyPrintPrice(sum)

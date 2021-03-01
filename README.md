@@ -18,6 +18,10 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 ## ToDo
 - Add engineering tools in the same way as enchanting rods
 
+### 1.6.0
+#### Features added
+- Added ability to select desired difficulty limiter
+
 ## Changelog
 ### 1.5.4
 #### Bug fixes

@@ -44,6 +44,13 @@ class UserInputForm(FlaskForm):
     includeQuest = BooleanField(u'Quest')
     includeReputation = BooleanField(u'Reputation')
     includeSeasonal = BooleanField(u'Seasonal')
+
+    difficulty = RadioField(u'Difficulty:',
+        choices=[("Green", "Green"), 
+            ("Yellow", "Yellow"), 
+            ("Orange", "Orange")],
+        default="Orange")
+
     blacksmithingSchool = RadioField(u'School:',
         choices=[("None", "None"),
                 ("Armorsmithing", "Armorsmithing"),

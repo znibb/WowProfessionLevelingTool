@@ -5,11 +5,11 @@
 
     <!-- Bootstrap code -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script>const whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: true };</script>
     <script src="https://wow.zamimg.com/widgets/power.js"></script>
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+          href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
     <script src="/static/site.js"></script>
@@ -18,16 +18,17 @@
 
 <body>
     <nav class="navbar navbar-dark bg-dark header">
-        <span class="navbar-brand" href="#"><img src="/static/wowclassiclogo.png" height="30px">
+        <span class="navbar-brand" href="#">
+            <img src="/static/wowclassiclogo.png" height="30px">
             {{ title.long }}
         </span>
         <a class="navbar-brand " href="https://grimsoul.net"><img src="/static/grimsoullogo.png" height="30px"></a>
     </nav>
     <div class="container-fluid">
         <p>
-        Author: {{ author.username }}@{{ author.server }}<br>
-        Contact: <a href="mailto:{{ author.email }}?subject=WPLT">Email</a><br>
-        Source: <a href={{ title.source }}>GitHub</a>
+            Author: {{ author.username }}@{{ author.server }}<br>
+            Contact: <a href="mailto:{{ author.email }}?subject=WPLT">Email</a><br>
+            Source: <a href={{ title.source }}>GitHub</a>
         </p>
         <div class="card">
             <div class="card-body">
@@ -98,6 +99,19 @@
                                 {{ form.includeSeasonal(class_="form-check-input") }}
                                 {{ form.includeSeasonal.label(class_="form-check-label") }}
                             </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group difficultyOptions Difficulty col-md-8">
+                            {{ form.difficulty.label }}
+                            {% for subfield in form.difficulty %}
+                            <div class="form-check form-check-inline">
+                                {{ subfield(class_="form-check-input") }}
+                                {{ subfield.label(class_="form-check-label") }}
+                            </div>
+                            {% endfor %}
                         </div>
                     </div>
 
