@@ -9,14 +9,14 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Enter repo directory: `cd WowProfessionLevelingTool`
 1. Run startup script: `./runDevelopment.sh`
 
+## Pull profession database updates
+1. git submodule update --remote
+
 ## Deployment
 1. Install docker
 1. Install docker-compose
 1. Download docker-compose.yml: `wget https://raw.githubusercontent.com/znibb/WowProfessionLevelingTool/master/docker-compose.yml`
 1. Deploy: `docker-compose up -d`
-
-## ToDo
-- Add engineering tools in the same way as enchanting rods
 
 ## Changelog
 ### 1.5.5
