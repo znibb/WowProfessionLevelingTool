@@ -19,6 +19,10 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 - Add engineering tools in the same way as enchanting rods
 
 ## Changelog
+### 1.5.5
+#### Bug fixes
+- Fixed the source for Ebon Shiv, Ornate Thorium Handaxe, Huge Thorium Battleaxe and Major Mana Potion to 'Quest'.
+
 ### 1.5.4
 #### Bug fixes
 - Fixed a potential error when a reagent hasn't been seen on the AH and thus have no determinable price.
