@@ -19,6 +19,10 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
+### 1.5.7
+#### Bug fixes
+- Pulled updated item database with error fixes.
+
 ### 1.5.6
 #### Bug fixes
 - Pulled updated item database with error fixes.
