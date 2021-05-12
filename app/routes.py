@@ -4,7 +4,7 @@ from app.forms import UserInputForm
 from datetime import datetime
 from app.functions import *
 
-VERSION="1.5.6"
+VERSION="1.5.7"
 
 author = {
     'username': 'Znibb',
@@ -30,6 +30,7 @@ def index():
         session["profession"] = form.profession.data
         session["startSkill"] = form.startSkill.data
         session["targetSkill"] = form.targetSkill.data
+        session["phase"] = form.phase.data
         session["includeVendor"] = form.includeVendor.data
         session["includeVendorLimited"] = form.includeVendorLimited.data
         session["includeDrop"] = form.includeDrop.data
@@ -58,6 +59,7 @@ def results():
         form.profession.data=session.get("profession")
         form.startSkill.data=session.get("startSkill")
         form.targetSkill.data=session.get("targetSkill")
+        form.phase.data=session.get("phase")
         form.includeVendor.data=session.get("includeVendor")
         form.includeVendorLimited.data=session.get("includeVendorLimited")
         form.includeDrop.data=session.get("includeDrop")
@@ -73,6 +75,7 @@ def results():
         session.pop("profession", None)
         session.pop("startSkill", None)
         session.pop("targetSkill", None)
+        session.pop("phase", None)
         session.pop("includeVendor", None)
         session.pop("includeVendorLimited", None)
         session.pop("includeDrop", None)
@@ -94,6 +97,7 @@ def results():
         session["profession"] = form.profession.data
         session["startSkill"] = form.startSkill.data
         session["targetSkill"] = form.targetSkill.data
+        session["phase"] = form.phase.data
         session["includeVendor"] = form.includeVendor.data
         session["includeVendorLimited"] = form.includeVendorLimited.data
         session["includeDrop"] = form.includeDrop.data
@@ -129,7 +133,7 @@ def results():
     else:
         school = "None"
 
-    allRecipes = importRecipes(form.profession.data, form.targetSkill.data, recipeSources, form.faction.data, school)
+    allRecipes = importRecipes(form.profession.data, form.phase.data, form.targetSkill.data, recipeSources, form.faction.data, school)
     reagentPrices = getReagentPrices(allRecipes, form.server.data, form.faction.data)
     recipePrices = calculateRecipePrices(allRecipes, reagentPrices)
     currentSkill = form.startSkill.data
