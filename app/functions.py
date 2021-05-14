@@ -18,6 +18,8 @@ def calculateSellToVendor(craftList, profession, server, faction):
         return 0
     elif profession == "Engineering":
         f = open("app/data/engineering.json", 'r')
+    elif profession == "Jewelcrafting":
+        f = open("app/data/jewelcrafting.json", 'r')
     elif profession == "Leatherworking":
         f = open("app/data/leatherworking.json", 'r')
     else:
@@ -154,12 +156,16 @@ def getRecipePrice(recipeID, server, faction):
     response = requests.get(requestUrl)
     responseJson = response.json()
 
-    if responseJson["stats"]["current"] == None:
-        return 0
+    # "if stats" required for prepatch since new recipes aren't available in game and thus has no info on NexusHub
+    if "stats" in responseJson:
+        if responseJson["stats"]["current"] == None:
+            return 0
+        else:
+            return responseJson["stats"]["current"]["marketValue"]
     else:
-        return responseJson["stats"]["current"]["marketValue"]
+        return 0
 
-def importRecipes(profession, targetSkill, recipeSources, faction, school):
+def importRecipes(profession, phase, targetSkill, recipeSources, faction, school):
     # Import apropriate list of recipes
     if profession == "Alchemy":
         f = open("app/data/alchemy.json", 'r')
@@ -171,17 +177,18 @@ def importRecipes(profession, targetSkill, recipeSources, faction, school):
         f = open("app/data/enchanting.json", 'r')
     elif profession == "Engineering":
         f = open("app/data/engineering.json", 'r')
+    elif profession == "Jewelcrafting":
+        f = open("app/data/jewelcrafting.json", 'r')
     elif profession == "Leatherworking":
         f = open("app/data/leatherworking.json", 'r')
     else:
         f = open("app/data/tailoring.json", 'r')
 
     recipes = json.load(f)
-    
     # Remove recipes from upcoming phases
     temp = recipes.copy()
     for name, info in temp.items():
-        if not "Learn" in info:
+        if info["Phase"] > int(phase):
             recipes.pop(name)
 
     # Remove recipes that are learned past our target skill

@@ -9,6 +9,7 @@ professions = [
     'Cooking',
     'Enchanting',
     'Engineering',
+    'Jewelcrafting',
     'Leatherworking',
     'Tailoring']
 
@@ -37,6 +38,9 @@ class UserInputForm(FlaskForm):
         default=300,
         validators=[InputRequired(),
                     NumberRange(min=2, max=300)])
+    phase = SelectField(u'Phase',
+        default='6',
+        choices=[('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'), ('6', '6'), ('7', 'Prepatch')])
     calculate = SubmitField('Calculate')
     includeVendor = BooleanField(u'Vendor', default="checked")
     includeVendorLimited = BooleanField(u'VendorLimited', default="checked")

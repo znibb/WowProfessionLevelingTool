@@ -28,9 +28,9 @@ def index():
         session["server"] = form.server.data
         session["faction"] = form.faction.data
         session["profession"] = form.profession.data
+        session["phase"] = form.phase.data
         session["startSkill"] = form.startSkill.data
         session["targetSkill"] = form.targetSkill.data
-        session["phase"] = form.phase.data
         session["includeVendor"] = form.includeVendor.data
         session["includeVendorLimited"] = form.includeVendorLimited.data
         session["includeDrop"] = form.includeDrop.data
@@ -57,9 +57,9 @@ def results():
         form.server.data=session.get("server")
         form.faction.data=session.get("faction")
         form.profession.data=session.get("profession")
+        form.phase.data=session.get("phase")
         form.startSkill.data=session.get("startSkill")
         form.targetSkill.data=session.get("targetSkill")
-        form.phase.data=session.get("phase")
         form.includeVendor.data=session.get("includeVendor")
         form.includeVendorLimited.data=session.get("includeVendorLimited")
         form.includeDrop.data=session.get("includeDrop")
@@ -73,9 +73,9 @@ def results():
         session.pop("server", None)
         session.pop("faction", None)
         session.pop("profession", None)
+        session.pop("phase", None)
         session.pop("startSkill", None)
         session.pop("targetSkill", None)
-        session.pop("phase", None)
         session.pop("includeVendor", None)
         session.pop("includeVendorLimited", None)
         session.pop("includeDrop", None)
@@ -95,9 +95,9 @@ def results():
         session["server"] = form.server.data
         session["faction"] = form.faction.data
         session["profession"] = form.profession.data
+        session["phase"] = form.phase.data
         session["startSkill"] = form.startSkill.data
         session["targetSkill"] = form.targetSkill.data
-        session["phase"] = form.phase.data
         session["includeVendor"] = form.includeVendor.data
         session["includeVendorLimited"] = form.includeVendorLimited.data
         session["includeDrop"] = form.includeDrop.data
