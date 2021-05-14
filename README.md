@@ -19,21 +19,29 @@ Want to know how to level a profession as cheap as possible? Then this is the to
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
+### 1.6.0
+#### Features added
+- Added Jewelcrafting 1-300
+- Added option to filter phase-locked content
+
+#### Bug fixes
+- Fixed several typos and mistakes in profession database
+
 ### 1.5.7
 #### Bug fixes
-- Pulled updated item database with error fixes.
+- Pulled updated item database with error fixes
 
 ### 1.5.6
 #### Bug fixes
-- Pulled updated item database with error fixes.
+- Pulled updated item database with error fixes
 
 ### 1.5.5
 #### Bug fixes
-- Fixed the source for Ebon Shiv, Ornate Thorium Handaxe, Huge Thorium Battleaxe and Major Mana Potion to 'Quest'.
+- Fixed the source for Ebon Shiv, Ornate Thorium Handaxe, Huge Thorium Battleaxe and Major Mana Potion to 'Quest'
 
 ### 1.5.4
 #### Bug fixes
-- Fixed a potential error when a reagent hasn't been seen on the AH and thus have no determinable price.
+- Fixed a potential error when a reagent hasn't been seen on the AH and thus have no determinable price
 
 ### 1.5.3
 #### Bug fixes
