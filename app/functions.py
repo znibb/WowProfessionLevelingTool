@@ -233,5 +233,3 @@ def sumPretty(prices):
     for item in prices:
         item = item.translate({ord(i): None for i in 'gsc'})
         sum += int(math.ceil(float(item)))
-
-    return prettyPrintPrice(sum)

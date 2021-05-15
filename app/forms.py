@@ -68,4 +68,3 @@ class UserInputForm(FlaskForm):
                  ("Elemental", "Elemental"),
                  ("Tribal", "Tribal")],
         default="None")
-    enchantingRods = BooleanField(u'Include enchanting rods', default="checked")
