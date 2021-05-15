@@ -143,7 +143,7 @@ def results():
 
     allRecipes = importRecipes(form.profession.data, form.targetSkill.data, recipeSources, form.faction.data, school)
     reagentPrices = getReagentPrices(allRecipes, form.server.data, form.faction.data)
-    recipePrices = calculateRecipePrices(allRecipes, reagentPrices)
+    recipePrices = calculateRecipePrices(allRecipes, reagentPrices, form.profession.data, form.server.data, form.faction.data)
     currentSkill = form.startSkill.data
     targetSkill = form.targetSkill.data
     enchantingRodsOverride = form.enchantingRods.data and form.profession.data == "Enchanting"

@@ -9,6 +9,7 @@ professions = [
     'Cooking',
     'Enchanting',
     'Engineering',
+	'Jewelcrafting',
     'Leatherworking',
     'Tailoring']
 

@@ -7,47 +7,14 @@ baseUrl = "https://api.nexushub.co/wow-classic/v1/items/"
 datetimeFormat = '%Y-%m-%dT%X.000Z'
 
 def calculateSellToVendor(craftList, profession, server, faction):
-    # Import apropriate list of recipes
-    if profession == "Alchemy":
-        f = open("app/data/alchemy.json", 'r')
-    elif profession == "Blacksmithing":
-        f = open("app/data/blacksmithing.json", 'r')
-    elif profession == "Cooking":
-        f = open("app/data/cooking.json", 'r')
-    elif profession == "Enchanting":
-        return 0
-    elif profession == "Engineering":
-        f = open("app/data/engineering.json", 'r')
-    elif profession == "Leatherworking":
-        f = open("app/data/leatherworking.json", 'r')
-    else:
-        f = open("app/data/tailoring.json", 'r')
+    return 0
 
-    recipes = json.load(f)
+def calculateRecipePrices(recipes, prices, profession, server, faction):
+        # Import apropriate list of recipes
 
     totalMoneyGained = 0
-    serverUrl = baseUrl + server + '-' + faction + '/'
-    for info in craftList.values():
-        requestUrl = serverUrl + str(recipes[info["Recipe"]]["ID"])
-        response = requests.get(requestUrl)
-        responseJson = response.json()
-
-        if "sellPrice" in responseJson:
-            sellPrice = int(responseJson["sellPrice"])
-        else:
-            sellPrice = 0
-
-        if "AmountCrafted" in recipes[info["Recipe"]]:
-            amountPerCraft = recipes[info["Recipe"]]["AmountCrafted"]
-        else:
-            amountPerCraft = 1
-
-
-        totalMoneyGained += sellPrice*amountPerCraft*info["Count"]
-
-    return totalMoneyGained
-
-def calculateRecipePrices(recipes, prices):
+    serverUrl = baseUrl + '/'
+    
     recipePriceDict = dict()
 
     for name, info in recipes.items():
@@ -61,8 +28,19 @@ def calculateRecipePrices(recipes, prices):
             else:
                 price += amount*prices[reagent]["Price"]
         
+        requestUrl = serverUrl + str(info["ID"])
+        response = requests.get(requestUrl)
+        responseJson = response.json()
+		
+        if "historicalValue" in responseJson and "sellPrice" in responseJson:
+            sellPrice = max(int(responseJson["stats"]["current"]["historicalValue"]), int(responseJson["sellPrice"]))
+        elif "sellPrice" in responseJson:
+            sellPrice = int(responseJson["sellPrice"])
+        else:
+            sellPrice = 0
+	    	
         if usable:
-            recipePriceDict[name] = price
+            recipePriceDict[name] = max(0, price - sellPrice)
     
     return recipePriceDict
 
@@ -92,17 +70,18 @@ def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill, enchantingRod
                 cost = thisCost
 
     # Manual override for enchanting rods
+
     if enchantingRodsOverride:
         if currentSkill == 1:
-            candidate = "Runed Copper Rod"
+            return ("Runed Copper Rod", 1)
         elif currentSkill == 100:
-            candidate = "Runed Silver Rod"
+            return  ("Runed Silver Rod", 1)
         elif currentSkill == 150:
-            candidate = "Runed Golden Rod"
+            return ("Runed Golden Rod", 1)
         elif currentSkill == 200:
-            candidate = "Runed Truesilver Rod"
+            return ( "Runed Truesilver Rod", 1)
         elif currentSkill == 290:
-            candidate = "Runed Arcanite Rod"
+            return ( "Runed Arcanite Rod", 1)
 
     return (candidate, max(1, (candidateMultiplier)))
 
@@ -183,6 +162,8 @@ def importRecipes(profession, targetSkill, recipeSources, faction, school):
         f = open("app/data/enchanting.json", 'r')
     elif profession == "Engineering":
         f = open("app/data/engineering.json", 'r')
+    elif profession == "Jewelcrafting":
+        f = open("app/data/jewelcrafting.json", 'r')
     elif profession == "Leatherworking":
         f = open("app/data/leatherworking.json", 'r')
     else:
