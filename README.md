@@ -1,6 +1,8 @@
 # WowProfessionLevelingTool
 
-Want to know how to level a profession as cheap as possible? Then this is the tool for you!
+Do yu dislike the randomness of Wowhead profession guides? Then this is the tool for you!
+
+This version is for World of Warcraft Classic and is no longer being actively developed.
 
 ## Local development
 1. Install python3
