@@ -1,4 +1,4 @@
 [submodule "app/data"]
 	path = app/data
 	url = https://github.com/znibb/WowProfessionDatabase.git
-  branch = classic
+  branch = master

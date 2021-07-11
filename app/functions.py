@@ -100,6 +100,10 @@ def getCheapestSkillingRecipe(recipes, recipePrices, currentSkill, enchantingRod
             candidate = "Runed Truesilver Rod"
         elif currentSkill == 290:
             candidate = "Runed Arcanite Rod"
+        elif currentSkill == 300:
+            candidate = "Runed Fel Iron Rod"
+        elif currentSkill == 350:
+            candidate = "Runed Adamantite Rod"
 
     return candidate
     

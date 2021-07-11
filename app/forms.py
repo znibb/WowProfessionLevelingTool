@@ -33,14 +33,14 @@ class UserInputForm(FlaskForm):
     startSkill = IntegerField(u'Starting skill',
         default=1,
         validators=[InputRequired(),
-                    NumberRange(min=1, max=299)])
+                    NumberRange(min=1, max=374)])
     targetSkill = IntegerField(u'Target skill',
-        default=300,
+        default=375,
         validators=[InputRequired(),
-                    NumberRange(min=2, max=300)])
+                    NumberRange(min=2, max=375)])
     phase = SelectField(u'Phase',
-        default='6',
-        choices=[('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'), ('6', '6'), ('7', 'Prepatch')])
+        default='1',
+        choices=[('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5')])
     calculate = SubmitField('Calculate')
     includeVendor = BooleanField(u'Vendor', default="checked")
     includeVendorLimited = BooleanField(u'VendorLimited', default="checked")
