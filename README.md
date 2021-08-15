@@ -25,6 +25,10 @@ This version is for World of Warcraft The Burning Crusade Classic.
 #### Features added
 - Initial version for BCC!
 
+### 2.0.1
+#### Bug fixes
+- Fixed itemID for Ring of Silver Might
+
 [//]: # (#### Features added)
 [//]: # ()
 [//]: # (#### Bug fixes)
