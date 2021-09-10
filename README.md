@@ -21,13 +21,18 @@ This version is for World of Warcraft The Burning Crusade Classic.
 1. Deploy: `docker-compose up -d`
 
 ## Changelog
-### 2.0.0
-#### Features added
-- Initial version for BCC!
+### 2.0.2
+#### Bug fixes
+- Added some missing Alchemy recipes
+- Added missing reagent to Citrine Ring of Rapid Healing
 
 ### 2.0.1
 #### Bug fixes
 - Fixed itemID for Ring of Silver Might
+
+### 2.0.0
+#### Features added
+- Initial version for BCC!
 
 [//]: # (#### Features added)
 [//]: # ()
