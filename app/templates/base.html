@@ -104,6 +104,18 @@
                     </div>
 
                     <div class="form-row">
+                        <div class="form-group difficultyOptions Difficulty col-md-8">
+                            {{ form.difficulty.label }}
+                            {% for subfield in form.difficulty %}
+                            <div class="form-check form-check-inline">
+                                {{ subfield(class_="form-check-input") }}
+                                {{ subfield.label(class_="form-check-label") }}
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="form-row">
                         <div class="form-group schoolOptions BlacksmithingSchool col-md-8">
                             {{ form.blacksmithingSchool.label }}
                             {% for subfield in form.blacksmithingSchool %}
